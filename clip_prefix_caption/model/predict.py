@@ -55,7 +55,7 @@ D = torch.device
 CPU = torch.device("cpu")
 
 class Predictor:
-    def __init__(self, model_weights_path, mapping_type, clip_length, num_layers, is_eng=True, training_model=None, prefix_length=40, prefix_size=640):
+    def __init__(self, model_weights_path, mapping_type, clip_length, num_layers, is_eng=True, training_model=None, prefix_length=40, prefix_size=640, clip_model="RN50x4"):
         """Load the model into memory to make running multiple predictions efficient"""
         # self.device = torch.device("cuda")
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -63,7 +63,7 @@ class Predictor:
         self.is_eng = is_eng
         if is_eng:
             self.clip_model, self.preprocess = clip.load(
-                "ViT-B/32", device=self.device, jit=False
+                clip_model, device=self.device, jit=False
             )
             self.tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
         else:
@@ -210,21 +210,32 @@ class ClipCaptionModel(nn.Module):
         else:
             self.gpt = GPT2LMHeadModel.from_pretrained('bolbolzaban/gpt2-persian')
         self.gpt_embedding_size = self.gpt.transformer.wte.weight.shape[1]
-        if prefix_length > 10:  # not enough memory
-            self.clip_project = nn.Linear(
-                prefix_size, self.gpt_embedding_size * prefix_length
+        # if prefix_length > 10:  # not enough memory
+        #     self.clip_project = nn.Linear(
+        #         prefix_size, self.gpt_embedding_size * prefix_length
+        #     )
+        # else:
+            # if mapping_type == MappingType.MLP:
+            #     self.clip_project = MLP(
+            #         (
+            #             prefix_size,
+            #             (self.gpt_embedding_size * prefix_length) // 2,
+            #             self.gpt_embedding_size * prefix_length,
+            #         )
+            #     )
+            # else:
+            #     self.clip_project = TransformerMapper(prefix_size, self.gpt_embedding_size, prefix_length,
+                                                                    #  clip_length, num_layers)
+        if mapping_type == MappingType.MLP:
+            self.clip_project = MLP(
+                (
+                    prefix_size,
+                    (self.gpt_embedding_size * prefix_length) // 2,
+                    self.gpt_embedding_size * prefix_length,
+                )
             )
         else:
-            if mapping_type == MappingType.MLP:
-                self.clip_project = MLP(
-                    (
-                        prefix_size,
-                        (self.gpt_embedding_size * prefix_length) // 2,
-                        self.gpt_embedding_size * prefix_length,
-                    )
-                )
-            else:
-                self.clip_project = TransformerMapper(prefix_size, self.gpt_embedding_size, prefix_length,
+            self.clip_project = TransformerMapper(prefix_size, self.gpt_embedding_size, prefix_length,
                                                                      clip_length, num_layers)
 
 
@@ -514,8 +525,9 @@ if __name__ == '__main__':
     parser.add_argument('--prefix_length', type=int, default=40)
     parser.add_argument('--prefix_size', type=int, default=640)
     parser.add_argument('--language', default="english", choices=('english', 'persian'))
+    parser.add_argument('--clip_model_type', default="RN50x4", choices=('RN50', 'RN101', 'RN50x4', 'ViT-B/32'))
     args = parser.parse_args()
     args.mapping_type = {'mlp': MappingType.MLP, 'transformer': MappingType.Transformer}[args.mapping_type]
-    predictor = Predictor(args.model_weights_path, mapping_type=args.mapping_type,clip_length=args.prefix_length_clip, num_layers=args.num_layers, is_eng= (args.language == "english"),prefix_length=args.prefix_length, prefix_size=args.prefix_size)
+    predictor = Predictor(args.model_weights_path, mapping_type=args.mapping_type,clip_length=args.prefix_length_clip, num_layers=args.num_layers, is_eng= (args.language == "english"),prefix_length=args.prefix_length, prefix_size=args.prefix_size, clip_model=args.clip_model_type)
     print(predictor.predict(args.image_path, use_beam_search=True))
     # exit(main(args.clip_model_type))

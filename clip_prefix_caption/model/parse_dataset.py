@@ -11,9 +11,10 @@ import json
 import os
 from tqdm import tqdm
 import argparse
+import numpy as np
 
 
-def get_persian_model():
+def get_persian_model(device):
     # config = {'num_hidden_layers': 0,
     #           'max_position_embeddings': 0,
     #           'vocab_size': 0,
@@ -26,8 +27,8 @@ def get_persian_model():
     # # convert projectors to Identity
     # clip.text_projection = nn.Identity()
     # clip.visual_projection = nn.Identity()
-    vision_encoder = CLIPVisionModel.from_pretrained('SajjadAyoubi/clip-fa-vision')
-    # preprocessor = CLIPFeatureExtractor.from_pretrained('SajjadAyoubi/clip-fa-vision')
+    vision_encoder = CLIPVisionModel.from_pretrained('SajjadAyoubi/clip-fa-vision').to(device)
+    preprocess = CLIPFeatureExtractor.from_pretrained('SajjadAyoubi/clip-fa-vision')
     # text_encoder = RobertaModel.from_pretrained('SajjadAyoubi/clip-fa-text')
     # # tokenizer = AutoTokenizer.from_pretrained('SajjadAyoubi/clip-fa-text')
     # assert text_encoder.config.hidden_size == vision_encoder.config.hidden_size
@@ -35,7 +36,7 @@ def get_persian_model():
     # clip.text_model = text_encoder
     # clip.vision_model = vision_encoder
 
-    preprocess = CLIPFeatureExtractor.from_pretrained("openai/clip-vit-base-patch32")
+    # preprocess = CLIPFeatureExtractor.from_pretrained("openai/clip-vit-base-patch32")
     return vision_encoder, preprocess
 
 def main(clip_model_type: str, language: str, dataset_json_path, image_path, out_path):
@@ -47,7 +48,7 @@ def main(clip_model_type: str, language: str, dataset_json_path, image_path, out
     if language == "english":
         clip_model, preprocess = clip.load(clip_model_type, device=device, jit=False)
     else:
-        clip_model, preprocess = get_persian_model()
+        clip_model, preprocess = get_persian_model(device)
         # preprocess = CLIPFeatureExtractor.from_pretrained("openai/clip-vit-base-patch32")
         # clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
         # clip_model, preprocess = clipfa.load(clip_model_type, device=device, jit=False)
@@ -63,6 +64,8 @@ def main(clip_model_type: str, language: str, dataset_json_path, image_path, out
         # if not os.path.isfile(filename):
         #     filename = f"./data/dataset/val2014/COCO_val2014_{int(img_id):012d}.jpg"
         image = io.imread(filename)
+        if len(image.shape) == 2:
+            image = np.stack((image,)*3, axis=-1)
         if language == "english":
             image = preprocess(Image.fromarray(image)).unsqueeze(0).to(device)
             with torch.no_grad():
@@ -71,7 +74,7 @@ def main(clip_model_type: str, language: str, dataset_json_path, image_path, out
             inputs = preprocess(images=image, return_tensors="pt").to(device)
             with torch.no_grad():
                 outputs = clip_model(**inputs)
-                prefix = outputs.last_hidden_state.cpu()
+                prefix = outputs.pooler_output.cpu()
         d["clip_embedding"] = i
         all_embeddings.append(prefix)
         all_captions.append(d)
@@ -97,5 +100,6 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     exit(main(args.clip_model_type, args.language, args.dataset_json, args.image_path, args.out_path))
-    # with open(f"./data/dataset/ViT-B_32_train_tokens.pkl","rb") as f:
-    #     print(pickle.load(f))
+    # with open(f"ViT-B_32_train.pkl","rb") as f:
+    #     p = pickle.load(f)
+    #     print(p['clip_embedding'].shape)

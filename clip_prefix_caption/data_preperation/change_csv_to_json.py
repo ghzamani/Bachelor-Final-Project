@@ -19,9 +19,10 @@ if __name__ == '__main__':
     print(obj[0])
     for idx in range(len(obj)):
         obj[idx]["id"] = idx
+        obj[idx]['image'] = "/".join(obj[idx]['image'].split("/")[1:])
 
     json_object = json.dumps(obj, ensure_ascii=False)
 
-    with open('cc3mfav2_dataset.json', 'w', encoding='utf-8-sig') as f:
+    with open('cc3mfav2_dataset.json', 'w', encoding='utf-8') as f:
         # data = json.load(f)
         f.write(json_object)

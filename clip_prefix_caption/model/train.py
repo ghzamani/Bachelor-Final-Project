@@ -68,8 +68,8 @@ class ClipCocoDataset(Dataset):
             
         self.prefixes = all_data["clip_embedding"]
 
-        print(self.prefixes)
-        print(captions_raw)
+        # print(self.prefixes)
+        # print(captions_raw)
         print("Data size is %0d" % len(captions_raw))
         sys.stdout.flush()
 
@@ -79,11 +79,11 @@ class ClipCocoDataset(Dataset):
             with open(f"{data_path[:-4]}_tokens.pkl", 'rb') as f:
                 self.captions_tokens, self.caption2embedding, self.max_seq_len = pickle.load(f)
                 if shots_count:
-                    print(random_indexes)
-                    print(self.max_seq_len)
+                    # print(random_indexes)
+                    # print(self.max_seq_len)
                     self.captions_tokens = [self.captions_tokens[i] for i in random_indexes]
                     self.caption2embedding = [self.caption2embedding[i] for i in random_indexes]
-                    print(self.captions_tokens)
+                    # print(self.captions_tokens)
         else:
             self.captions_tokens = []
             self.caption2embedding = []
@@ -327,8 +327,8 @@ def train(dataset: ClipCocoDataset, model: ClipCaptionModel, args,
     model.train()
     optimizer = torch.optim.AdamW(model.parameters(), lr=lr)
     train_dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)#, drop_last=True)
-    print(dataset.__len__())
-    print(len(train_dataloader.dataset))
+    # print(dataset.__len__())
+    # print(len(train_dataloader.dataset))
     scheduler = get_linear_schedule_with_warmup(
         optimizer, num_warmup_steps=warmup_steps, num_training_steps=epochs * len(train_dataloader)
     )
@@ -375,6 +375,7 @@ def main():
     parser.add_argument('--epochs', type=int, default=10)
     parser.add_argument('--save_every', type=int, default=2)
     parser.add_argument('--prefix_length', type=int, default=10)
+    parser.add_argument('--prefix_size', type=int, default=640)
     parser.add_argument('--prefix_length_clip', type=int, default=10)
     parser.add_argument('--bs', type=int, default=40)
     parser.add_argument('--only_prefix', dest='only_prefix', action='store_true')
@@ -388,7 +389,8 @@ def main():
     prefix_length = args.prefix_length
     dataset = ClipCocoDataset(args.data, prefix_length, normalize_prefix=args.normalize_prefix, is_eng=(args.language == "english"))
     print(dataset.__len__())
-    prefix_dim = 640 if args.is_rn else 512
+    # prefix_dim = 640 if args.is_rn else 512
+    prefix_dim = args.prefix_size
     args.mapping_type = {'mlp': MappingType.MLP, 'transformer': MappingType.Transformer}[args.mapping_type]
     if args.only_prefix:
         model = ClipCaptionPrefix(prefix_length, clip_length=args.prefix_length_clip, prefix_size=prefix_dim,
