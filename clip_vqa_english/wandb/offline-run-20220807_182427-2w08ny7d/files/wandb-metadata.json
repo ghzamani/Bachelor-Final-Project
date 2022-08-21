@@ -1,0 +1,16 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-08-07T13:54:27.301768",
+    "startedAt": "2022-08-07T13:54:27.101201",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:\\uni\\VQA\\final project\\clipenglish\\cliptrain.py",
+    "codePath": "cliptrain.py",
+    "host": "DESKTOP-DEUKP9T",
+    "username": "ASUS",
+    "executable": "C:\\Python310\\python.exe"
+}

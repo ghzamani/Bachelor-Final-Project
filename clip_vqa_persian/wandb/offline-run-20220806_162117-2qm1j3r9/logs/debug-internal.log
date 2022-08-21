@@ -1,0 +1,12 @@
+2022-08-06 16:21:17,683 INFO    StreamThr :13760 [internal.py:wandb_internal():90] W&B internal server running at pid: 13760, started at: 2022-08-06 16:21:17.682797
+2022-08-06 16:21:17,685 DEBUG   HandlerThread:13760 [handler.py:handle_request():141] handle_request: status
+2022-08-06 16:21:17,686 DEBUG   SenderThread:13760 [sender.py:send_request():316] send_request: status
+2022-08-06 16:21:17,687 INFO    WriterThread:13760 [datastore.py:open_for_write():75] open: D:\Ahmadi roshan\proje payani\farsi\wandb\offline-run-20220806_162117-2qm1j3r9\run-2qm1j3r9.wandb
+2022-08-06 16:21:17,713 DEBUG   HandlerThread:13760 [handler.py:handle_request():141] handle_request: run_start
+2022-08-06 16:21:17,721 DEBUG   HandlerThread:13760 [meta.py:__init__():35] meta init
+2022-08-06 16:21:17,721 DEBUG   HandlerThread:13760 [meta.py:__init__():50] meta init done
+2022-08-06 16:21:17,721 DEBUG   HandlerThread:13760 [meta.py:probe():216] probe
+2022-08-06 16:21:17,858 DEBUG   HandlerThread:13760 [git.py:repo():40] git repository is invalid
+2022-08-06 16:21:17,858 DEBUG   HandlerThread:13760 [meta.py:_save_pip():54] save pip
+2022-08-06 16:21:17,859 DEBUG   HandlerThread:13760 [meta.py:_save_pip():68] save pip done
+2022-08-06 16:21:17,859 DEBUG   HandlerThread:13760 [meta.py:probe():254] probe done

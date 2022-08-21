@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+Pillow
+scikit_learn
+torch
+torchvision
+tqdm
+transformers
+wandb
