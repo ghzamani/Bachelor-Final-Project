@@ -353,17 +353,17 @@ def train(dataset: ClipCocoDataset, model: ClipCaptionModel, args,
             optimizer.zero_grad()
             progress.set_postfix({"loss": loss.item()})
             progress.update()
-            if (idx + 1) % 10000 == 0:
+            if (idx + 1) % args.save_every == 0:
                 torch.save(
                     model.state_dict(),
                     os.path.join(output_dir, f"{output_prefix}_latest.pt"),
                 )
         progress.close()
-        if epoch % args.save_every == 0 or epoch == epochs - 1:
-            torch.save(
-                model.state_dict(),
-                os.path.join(output_dir, f"{output_prefix}-{epoch:03d}.pt"),
-            )
+        # if epoch % args.save_every == 0 or epoch == epochs - 1:
+        torch.save(
+            model.state_dict(),
+            os.path.join(output_dir, f"{output_prefix}-{epoch:03d}.pt"),
+        )
     return model
 
 
@@ -373,7 +373,7 @@ def main():
     parser.add_argument('--out_dir', default='./checkpoints')
     parser.add_argument('--prefix', default='coco_prefix', help='prefix for saved filenames')
     parser.add_argument('--epochs', type=int, default=10)
-    parser.add_argument('--save_every', type=int, default=2)
+    parser.add_argument('--save_every', type=int, default=500)
     parser.add_argument('--prefix_length', type=int, default=10)
     parser.add_argument('--prefix_size', type=int, default=640)
     parser.add_argument('--prefix_length_clip', type=int, default=10)
