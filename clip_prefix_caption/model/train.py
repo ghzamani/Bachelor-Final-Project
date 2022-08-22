@@ -314,7 +314,7 @@ def load_model(config_path: str, epoch_or_latest: Union[str, int] = '_latest'):
 
 
 def train(dataset: ClipCocoDataset, model: ClipCaptionModel, args,
-          lr: float = 2e-5, warmup_steps: int = 5000, output_dir: str = ".", output_prefix: str = ""):
+          lr: float = 2e-5, warmup_steps: int = 5000, output_dir: str = ".", output_prefix: str = "", start_epoch=0):
 
     # device = torch.device('cuda:0')
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -333,7 +333,7 @@ def train(dataset: ClipCocoDataset, model: ClipCaptionModel, args,
         optimizer, num_warmup_steps=warmup_steps, num_training_steps=epochs * len(train_dataloader)
     )
     # save_config(args)
-    for epoch in range(epochs):
+    for epoch in range(start_epoch, epochs):
         print(f">>> Training epoch {epoch}")
         # sys.stdout.flush()
         progress = tqdm(total=len(train_dataloader), desc=output_prefix)
@@ -385,6 +385,8 @@ def main():
     parser.add_argument('--normalize_prefix', dest='normalize_prefix', action='store_true')
     parser.add_argument('--model_weights', default='')
     parser.add_argument('--language', default="english", choices=('english', 'persian'))
+    parser.add_argument('--start_epoch', type=int, default=0)
+    
     args = parser.parse_args()
     prefix_length = args.prefix_length
     dataset = ClipCocoDataset(args.data, prefix_length, normalize_prefix=args.normalize_prefix, is_eng=(args.language == "english"))
@@ -404,7 +406,7 @@ def main():
     if args.model_weights != "":
         print("Using pretrained weights in file: ", args.model_weights)
         model.load_state_dict(torch.load(args.model_weights, map_location= torch.device("cpu")))
-    train(dataset, model, args, output_dir=args.out_dir, output_prefix=args.prefix)
+    train(dataset, model, args, output_dir=args.out_dir, output_prefix=args.prefix, start_epoch=args.start_epoch)
 
 
 if __name__ == '__main__':
