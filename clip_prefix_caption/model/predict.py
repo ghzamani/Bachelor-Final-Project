@@ -67,7 +67,7 @@ class Predictor:
             )
             self.tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
         else:
-            self.clip_model = CLIPVisionModel.from_pretrained('SajjadAyoubi/clip-fa-vision')
+            self.clip_model = CLIPVisionModel.from_pretrained('SajjadAyoubi/clip-fa-vision').to(self.device)
             self.preprocess = CLIPFeatureExtractor.from_pretrained("openai/clip-vit-base-patch32")
             self.tokenizer = AutoTokenizer.from_pretrained('bolbolzaban/gpt2-persian')
 
@@ -98,7 +98,7 @@ class Predictor:
             inputs = self.preprocess(images=image, return_tensors="pt").to(self.device)
             with torch.no_grad():
                 outputs = self.clip_model(**inputs)
-                prefix = outputs.last_hidden_state.to(
+                prefix = outputs.pooler_output.to(
                     self.device, dtype=torch.float32
                 )
                 prefix_embed = model.clip_project(prefix).reshape(1, self.prefix_length, -1)
