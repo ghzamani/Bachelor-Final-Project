@@ -3,7 +3,7 @@ import json
 
 
 if __name__ == '__main__':
-    data = pd.read_csv('cc3mfav2_data.csv', encoding='utf-8-sig')
+    data = pd.read_csv('cc3mfa_data.csv', encoding='utf-8-sig')
 
     # obj = []
     # for index, row in data.iterrows():
@@ -23,6 +23,6 @@ if __name__ == '__main__':
 
     json_object = json.dumps(obj, ensure_ascii=False)
 
-    with open('cc3mfav2_dataset.json', 'w', encoding='utf-8') as f:
+    with open('cc3mfa_dataset.json', 'w', encoding='utf-8') as f:
         # data = json.load(f)
         f.write(json_object)

@@ -330,8 +330,10 @@ def train(dataset: ClipCocoDataset, model: ClipCaptionModel, args,
     # print(dataset.__len__())
     # print(len(train_dataloader.dataset))
     scheduler = get_linear_schedule_with_warmup(
-        optimizer, num_warmup_steps=warmup_steps, num_training_steps=epochs * len(train_dataloader), last_epoch=start_epoch-1
+        optimizer, num_warmup_steps=warmup_steps, num_training_steps=epochs * len(train_dataloader)
     )
+    for i in range(start_epoch * len(train_dataloader)):
+        scheduler.step()
     # save_config(args)
     for epoch in range(start_epoch, epochs):
         print(f">>> Training epoch {epoch}")
