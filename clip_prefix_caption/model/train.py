@@ -60,6 +60,7 @@ class ClipCocoDataset(Dataset):
         # added for few shot learning
         if shots_count:
             random_indexes = random.sample(range(len(all_data["clip_embedding"])), k=shots_count)
+            self.shots_indexes = random_indexes
             # self.prefixes = [all_data["clip_embedding"][i] for i in random_indexes]
             captions_raw = [all_data["captions"][i] for i in random_indexes]
 

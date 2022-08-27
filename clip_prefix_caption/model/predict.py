@@ -111,9 +111,11 @@ class Predictor:
         with open(test_path, 'r') as f:
             test_dataset = json.load(f)
         results = []
+        targets = []
         for data in test_dataset:
             results.append(self.predict(data['image'], use_beam_search=use_beam_search))
-        return results
+            targets.append(data['caption'])
+        return results, targets
 
 # class Predictor(cog.Predictor):
 #     def setup(self):

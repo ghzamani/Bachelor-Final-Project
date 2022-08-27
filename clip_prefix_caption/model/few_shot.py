@@ -4,11 +4,14 @@ from train import ClipCocoDataset, ClipCaptionPrefix, ClipCaptionModel, MappingT
 import torch
 import sys
 from predict import Predictor
+from metrics import evaluate_metrics
+import json
+import pickle
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--train_data', default='./data/coco/oscar_split_train.pkl')
-    parser.add_argument('--test_data', default='./data/coco/oscar_split_test.pkl')
+    parser.add_argument('--test_data', default='./data/coco/oscar_split_train.pkl')
     parser.add_argument('--image_path', default='./data/coco/oscar_split_test.pkl')
     parser.add_argument('--out_dir', default='./checkpoints')
     parser.add_argument('--prefix', default='few_shot', help='prefix for saved filenames')
@@ -28,6 +31,16 @@ def main():
     args = parser.parse_args()
     prefix_length = args.prefix_length
     dataset = ClipCocoDataset(args.train_data, prefix_length, normalize_prefix=args.normalize_prefix, is_eng=(args.language == "english"), shots_count=args.shots)
+    # if args.test_data is None:
+    #     with open(args.train_data, 'rb') as f:
+    #         all_data = pickle.load(f)
+    #         print(all_data)
+    #         # test_dataset = [all_data[d] for d in range(len(dataset.prefixes)) if not d in dataset.shots_indexes]
+    #         print(dataset.shots_indexes)
+    #         print([d for d in range(len(dataset.prefixes)) if not d in dataset.shots_indexes])
+    # else:
+    #     with open(args.test_data, 'rb') as f:
+    #         test_dataset = json.load(f)
     print(dataset.__len__())
     prefix_dim = 640 if args.is_rn else 512
     args.mapping_type = {'mlp': MappingType.MLP, 'transformer': MappingType.Transformer}[args.mapping_type]
@@ -48,7 +61,9 @@ def main():
     model = train(dataset, model, args, output_dir=args.out_dir, output_prefix=args.prefix)
 
     predictor = Predictor(args.model_weights, mapping_type=args.mapping_type,clip_length=args.prefix_length_clip, num_layers=args.num_layers, is_eng= (args.language == "english"), training_model=model)
-    print(predictor.test(args.test_data, use_beam_search=True))
+    predictions, targets = predictor.test(test_dataset, use_beam_search=True)
+    print(evaluate_metrics(predictions, targets, is_eng=(args.language == "english")))
+
 
 if __name__ == '__main__':
     main()
