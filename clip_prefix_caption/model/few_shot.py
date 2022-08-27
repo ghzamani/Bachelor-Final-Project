@@ -57,11 +57,11 @@ def main():
         print("Using pretrained weights in file: ", args.model_weights)
         model.load_state_dict(torch.load(args.model_weights, map_location= torch.device("cpu")))
     
-    args.prefix += f'_{args.shots}'
+    args.prefix += f'_{args.shots}_{args.language}'
     model = train(dataset, model, args, output_dir=args.out_dir, output_prefix=args.prefix)
 
     predictor = Predictor(args.model_weights, mapping_type=args.mapping_type,clip_length=args.prefix_length_clip, num_layers=args.num_layers, is_eng= (args.language == "english"), training_model=model)
-    predictions, targets = predictor.test(test_dataset, use_beam_search=True)
+    predictions, targets = predictor.test(args.test_data, use_beam_search=True)
     print(evaluate_metrics(predictions, targets, is_eng=(args.language == "english")))
 
 
