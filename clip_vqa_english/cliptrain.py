@@ -1,48 +1,21 @@
 from cProfile import label
 import torch
 from transformers import TrainingArguments
-from clipmodel import get_model
+# from clipmodel import get_model
 from transformers import Trainer, trainer_utils
 from torch.cuda.amp import autocast
 import multiprocessing
 import gc
 import os
-from clipdataset import training_set
+# from clipdataset import training_set
 from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score
 import numpy as np
 
 DATA_FILE = 'dataset.csv'
 TEST_SIZE = 0.05
-BATCH_SIZE = 128
+# BATCH_SIZE = 128
 IMAGE_SIZE = 224
 MAX_LEN = 64  
-
-args = TrainingArguments(
-        "clip-eng",
-        # evaluation_strategy="steps",
-        evaluation_strategy=trainer_utils.IntervalStrategy.STEPS,
-        eval_steps=500,
-        logging_steps=500,
-        learning_rate=3e-5,
-        # prediction_loss_only=True,
-        weight_decay=0.003,
-        warmup_steps=500,
-        # fp16=True,
-        # save_strategy='steps',
-        save_strategy=trainer_utils.IntervalStrategy.STEPS,
-        save_steps=500,
-        save_total_limit=2,
-        load_best_model_at_end=True,
-        # metric_for_best_model='eval_loss',
-        greater_is_better=False,
-        gradient_checkpointing=False,
-        gradient_accumulation_steps=1,
-        per_device_train_batch_size=BATCH_SIZE,
-        per_device_eval_batch_size=BATCH_SIZE,
-        num_train_epochs=10,
-        remove_unused_columns=False,
-        report_to="none"
-    )
 
 def optimal_workers():
     num_cpus = multiprocessing.cpu_count()
@@ -95,17 +68,43 @@ def compute_metrics(p):
     return {"accuracy": accuracy, "precision": precision, "recall": recall, "f1": f1} 
 
 
-clip = get_model()
-trainer = CLIPTrainer(clip, args,
+def train(model, training_set, epochs, prefix, lr, batch_size):
+    args = TrainingArguments(
+        prefix,
+        # evaluation_strategy="steps",
+        evaluation_strategy=trainer_utils.IntervalStrategy.STEPS,
+        eval_steps=500,
+        logging_steps=500,
+        learning_rate=lr,
+        # prediction_loss_only=True,
+        weight_decay=0.003,
+        warmup_steps=500,
+        # fp16=True,
+        # save_strategy='steps',
+        save_strategy=trainer_utils.IntervalStrategy.STEPS,
+        save_steps=500,
+        save_total_limit=2,
+        load_best_model_at_end=True,
+        # metric_for_best_model='eval_loss',
+        greater_is_better=False,
+        gradient_checkpointing=False,
+        gradient_accumulation_steps=1,
+        per_device_train_batch_size=batch_size,
+        per_device_eval_batch_size=batch_size,
+        num_train_epochs=epochs,
+        remove_unused_columns=False,
+        report_to="none"
+    )
+    trainer = CLIPTrainer(model, args,
                           train_dataset=training_set,
                           compute_metrics=compute_metrics,
                           eval_dataset=training_set
                           )
                           
-trainer.train()
+    trainer.train()
 
-metrics=trainer.evaluate()
-print(metrics)
-
-clip.save_pretrained('clip-eng')
+    metrics=trainer.evaluate()
+    print(metrics)
+    model.save_pretrained(f'{prefix}-{epochs}')
+    return model
 

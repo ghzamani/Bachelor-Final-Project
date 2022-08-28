@@ -19,8 +19,8 @@ from transformers import CLIPConfig, CLIPModel
 #     clip.visual_projection = nn.Identity()
 #     return clip
 
-def get_model():
-    clip = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
+def get_model(model_weights):
+    clip = CLIPModel.from_pretrained(model_weights)
     # vision_encoder = CLIPVisionModel.from_pretrained(IMAGE_MODEL)
     # text_encoder = AutoModel.from_pretrained(TEXT_MODEL)
     # vision_encoder = CLIPVisionModel.from_pretrained('SajjadAyoubi/clip-fa-vision')
