@@ -23,6 +23,7 @@ import PIL.Image
 import argparse
 from enum import Enum
 import json
+from tqdm import tqdm
 
 # import cog
 
@@ -80,7 +81,7 @@ class Predictor:
             model = model.to(self.device)
             self.model = model
         else:
-            self.model = training_model
+            self.model = training_model.to(self.device)
 
     def predict(self, image, use_beam_search=False):
         """Run a single prediction on the model"""
@@ -107,14 +108,19 @@ class Predictor:
         else:
             return generate2(model, self.tokenizer, embed=prefix_embed)
         
-    def test(self, test_path, use_beam_search=False):
+    def test(self, test_path, image_start_path, use_beam_search=False):
         with open(test_path, 'r') as f:
             test_dataset = json.load(f)
         results = []
         targets = []
-        for data in test_dataset:
-            results.append(self.predict(data['image'], use_beam_search=use_beam_search))
+        for data in tqdm(test_dataset):
+            pred = self.predict(image_start_path + data['image'], use_beam_search=use_beam_search)
+            results.append(pred)
             targets.append(data['caption'])
+            print("-----------")
+            print("image: ", data["image"])
+            print("pred:", pred)
+            print("captions: ", data['caption'])
         return results, targets
 
 # class Predictor(cog.Predictor):

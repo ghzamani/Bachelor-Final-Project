@@ -43,7 +43,7 @@ def main(clip_model_type: str, language: str, dataset_json_path, image_path, out
     # device = torch.device('cuda:0')
     device = "cuda" if torch.cuda.is_available() else "cpu"
     clip_model_name = clip_model_type.replace('/', '_')
-    out_path = f"{out_path}{clip_model_name}_train.pkl"
+    # out_path = f"{out_path}{clip_model_name}_train.pkl"
     
     if language == "english":
         clip_model, preprocess = clip.load(clip_model_type, device=device, jit=False)

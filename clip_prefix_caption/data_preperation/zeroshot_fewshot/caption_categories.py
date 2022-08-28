@@ -1,6 +1,13 @@
 import json
 from itertools import groupby
 from operator import itemgetter
+from parsivar import Normalizer
+
+def preprocess_caption(caption):
+    my_normalizer = Normalizer(statistical_space_correction=True)
+    caption = my_normalizer.normalize(caption)
+    if caption[-1] not in ['.', '!', '?', '.', '؟', '!']:
+        return caption + '.'
 
 with open('captions_newest.json', 'r', encoding='utf-8-sig') as f:
     dataset = json.load(f)
@@ -12,6 +19,7 @@ for d in directories:
 
 for d in dataset:
     cat = d['image'].split('/')[1]
+    d['caption'] = preprocess_caption(d['caption'])
     categories[cat].append(d)
 
 dataset = {}

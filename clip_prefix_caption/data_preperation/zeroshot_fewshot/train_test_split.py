@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 
 directories = ['cars', 'ceremonies', 'food', 'indoor', 'ashkhas', 'sport']
 
-seed = 24
+seed = {'ashkhas':25}
 train_size = 16
 for d in directories:
     with open(f'{d}.json', 'r', encoding='utf-8') as f:
