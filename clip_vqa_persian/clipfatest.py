@@ -6,10 +6,13 @@ from torch.cuda.amp import autocast
 import multiprocessing
 import gc
 import os
-from clipfadataset import test_generator#, test_ds
+# from clipfadataset import test_generator#, test_ds
 from tqdm import tqdm
 
-def test(model, generator):
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+def test(model, generator, classes, label_to_index):
+    model = model.to(device)
     accuracy = 0
     with torch.no_grad():
         for images, texts, masks, labels in tqdm(generator):
@@ -31,6 +34,3 @@ def test(model, generator):
             accuracy += correct_answers
     accuracy = accuracy / len(generator.dataset)
     print(accuracy)
-
-
-test(get_model(), test_generator)

@@ -29,8 +29,6 @@ def clear_gpu():
     torch.cuda.empty_cache()
     gc.collect()
 
-# args.dataloader_num_workers = optimal_workers()
-
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # os.environ["WANDB_DISABLED"] = "true"
 
@@ -61,6 +59,10 @@ def compute_metrics(p):
     print("\n***Computing Metrics***")
     pred, labels = p
     pred = np.argmax(pred, axis=1)   
+    print(labels.shape)
+    print(pred.shape)
+    print(labels)
+    print(pred)
     accuracy = accuracy_score(y_true=labels, y_pred=pred)
     recall = recall_score(y_true=labels, y_pred=pred, average='macro')
     precision = precision_score(y_true=labels, y_pred=pred, average='macro')
@@ -93,8 +95,12 @@ def train(model, training_set, epochs, prefix, lr, batch_size):
         per_device_eval_batch_size=batch_size,
         num_train_epochs=epochs,
         remove_unused_columns=False,
-        report_to="none"
+        report_to="none",
+        dataloader_pin_memory=False
     )
+
+    # args.dataloader_num_workers = optimal_workers()
+
     trainer = CLIPTrainer(model, args,
                           train_dataset=training_set,
                           compute_metrics=compute_metrics,

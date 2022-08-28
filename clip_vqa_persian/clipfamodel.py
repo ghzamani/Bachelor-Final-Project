@@ -19,12 +19,12 @@ def clip_wraper_creator():
     clip.visual_projection = nn.Identity()
     return clip
 
-def get_model():
+def get_model(vision_encoder_weights, text_encoder_weights):
     # vision_encoder = CLIPVisionModel.from_pretrained(IMAGE_MODEL)
     # text_encoder = AutoModel.from_pretrained(TEXT_MODEL)
-    vision_encoder = CLIPVisionModel.from_pretrained('SajjadAyoubi/clip-fa-vision')
+    vision_encoder = CLIPVisionModel.from_pretrained(vision_encoder_weights)
     # preprocessor = CLIPFeatureExtractor.from_pretrained('SajjadAyoubi/clip-fa-vision')
-    text_encoder = RobertaModel.from_pretrained('SajjadAyoubi/clip-fa-text')
+    text_encoder = RobertaModel.from_pretrained(text_encoder_weights)
     # tokenizer = AutoTokenizer.from_pretrained('SajjadAyoubi/clip-fa-text')
     assert text_encoder.config.hidden_size == vision_encoder.config.hidden_size
 

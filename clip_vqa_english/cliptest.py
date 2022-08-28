@@ -9,7 +9,10 @@ import os
 # from clipdataset import test_generator, classes, label_to_index#, test_ds
 from tqdm import tqdm
 
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
 def test(model, generator, classes, label_to_index):
+    model = model.to(device)
     accuracy = 0
     with torch.no_grad():
         for images, texts, masks, labels in tqdm(generator):
