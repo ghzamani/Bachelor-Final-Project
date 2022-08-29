@@ -4,12 +4,14 @@ from operator import itemgetter
 from parsivar import Normalizer
 
 def preprocess_caption(caption):
-    my_normalizer = Normalizer(statistical_space_correction=True)
-    caption = my_normalizer.normalize(caption)
     if caption[-1] not in ['.', '!', '?', '.', '؟', '!']:
-        return caption + '.'
+        caption = caption + '.'
+    my_normalizer = Normalizer()
+    caption = my_normalizer.normalize(caption)
+    
+    return caption
 
-with open('captions_newest.json', 'r', encoding='utf-8-sig') as f:
+with open('final_project/clip_prefix_caption/data_preperation/zeroshot_fewshot/captions_newest.json', 'r', encoding='utf-8-sig') as f:
     dataset = json.load(f)
 
 categories = {}

@@ -35,7 +35,7 @@ def main():
     args = parser.parse_args()
     
 
-    model = get_model(args.model_weights)
+    model = get_model(args.model_weights_vision, args.model_weights_text)
     _ , _ , training_set = create_train_dataset(args.train_data, args.image_path, args.shots)
     model = train(model, training_set, args.epochs, args.prefix, args.lr, args.bs)
     classes, label_to_index, test_generator = create_test_generator(args.test_data, args.image_path, args.bs)

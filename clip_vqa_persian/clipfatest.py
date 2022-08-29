@@ -18,6 +18,7 @@ def test(model, generator, classes, label_to_index):
         for images, texts, masks, labels in tqdm(generator):
             image_features = model.get_image_features(pixel_values = images)
             predictions = []
+            print()
             for i in range(images.shape[0]):
                 image_feature = image_features[i].unsqueeze(0)
                 class_features = model.get_text_features(input_ids= texts[i], attention_mask=masks[i])

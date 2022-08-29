@@ -32,7 +32,7 @@ def create_dataset_from_json(path_to_json, shots=None):
     if shots != None:
         random_indexes = random.sample(range(len(data)), k=shots)
         data = [data[i] for i in random_indexes]
-    return classes, data
+    return classes, data, label_to_index
 
 class VQATrainDataset(Dataset):
     def __init__(self, data, image_folder, classes):
@@ -59,7 +59,8 @@ class VQATrainDataset(Dataset):
         # print(tokens.to(device)["input_ids"].shape)
         return {'pixel_values': img.to(device),
             'input_ids': tokens.to(device)["input_ids"][0],
-            'attention_mask': tokens.to(device)["attention_mask"][0]}
+            'attention_mask': tokens.to(device)["attention_mask"][0],
+            'labels': torch.tensor(y)}
 
     def preprocess_data(self, b):
         # b is the list of tuples of length batch_size
