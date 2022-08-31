@@ -19,4 +19,4 @@ if __name__ == "__main__":
     preds = ["سلام دنیا", "این گربه است"]
     target = [['سلام دنیا', 'سلام خوبم'], ['این یک بچه گربه است', 'این یک گربه است']]
 
-    evaluate_metrics(preds, target, is_eng=False)
+    print(evaluate_metrics(preds, target, is_eng=False))
