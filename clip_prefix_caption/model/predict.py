@@ -400,7 +400,7 @@ def generate_beam(
 ):
 
     model.eval()
-    stop_token_index = tokenizer.encode(stop_token)[0]
+    stop_token_index = 3#tokenizer.encode(stop_token)[0]
     tokens = None
     scores = None
     device = next(model.parameters()).device
@@ -456,7 +456,7 @@ def generate_beam(
     scores = scores / seq_lengths
     output_list = tokens.cpu().numpy()
     output_texts = [
-        tokenizer.decode(output[: int(length)])
+        tokenizer.decode(output[: int(length)], skip_special_tokens=True)
         for output, length in zip(output_list, seq_lengths)
     ]
     order = scores.argsort(descending=True)

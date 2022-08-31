@@ -40,6 +40,9 @@ class ClipCocoDataset(Dataset):
 
     def __getitem__(self, item: int) -> Tuple[torch.Tensor, ...]:
         tokens, mask = self.pad_tokens(item)
+        # print("tokens: ",tokens)
+        # print("mask: ",mask)
+        # print("decoded tokens: ",self.tokenizer.decode(tokens))
         prefix = self.prefixes[self.caption2embedding[item]]
         if self.normalize_prefix:
             prefix = prefix.float()
