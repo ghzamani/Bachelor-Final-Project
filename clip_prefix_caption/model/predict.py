@@ -108,19 +108,25 @@ class Predictor:
         else:
             return generate2(model, self.tokenizer, embed=prefix_embed)
         
-    def test(self, test_path, image_start_path, use_beam_search=False):
+    def test(self, test_path, image_start_path, use_beam_search=False, output_name=""):
         with open(test_path, 'r') as f:
             test_dataset = json.load(f)
         results = []
         targets = []
+        outputs = []
         for data in tqdm(test_dataset):
             pred = self.predict(image_start_path + data['image'], use_beam_search=use_beam_search)
             results.append(pred)
             targets.append(data['caption'])
+            outputs.append({"image": data['image'], "prediction": pred, "captions": data['caption']})
             print("-----------")
             print("image: ", data["image"])
             print("pred:", pred)
             print("captions: ", data['caption'])
+
+        test_file = test_path.split('/')[-1]
+        with open(f'{output_name}_{test_file}', 'w', encoding='utf-8') as f:
+            f.write(json.dumps(outputs, ensure_ascii=False))
         return results, targets
 
 # class Predictor(cog.Predictor):

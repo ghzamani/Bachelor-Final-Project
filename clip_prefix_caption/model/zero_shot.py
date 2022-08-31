@@ -29,7 +29,8 @@ def main():
 
     predictor = Predictor(args.model_weights, mapping_type=args.mapping_type,clip_length=args.prefix_length_clip, num_layers=args.num_layers,
      is_eng= (args.language == "english"),prefix_length=args.prefix_length, prefix_size=args.prefix_size, clip_model=args.clip_model_type)
-    predictions, targets = predictor.test(args.test_data, args.image_path, use_beam_search=True)
+    prefix = f'zero_shot_{args.language}'
+    predictions, targets = predictor.test(args.test_data, args.image_path, use_beam_search=True, output_name=prefix)
     print(evaluate_metrics(predictions, targets, is_eng=(args.language == "english")))
 
 
