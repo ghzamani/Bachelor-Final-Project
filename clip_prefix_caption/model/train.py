@@ -359,17 +359,17 @@ def train(dataset: ClipCocoDataset, model: ClipCaptionModel, args,
             optimizer.zero_grad()
             progress.set_postfix({"loss": loss.item()})
             progress.update()
-            if (idx + 1) % args.save_every == 0:
+            if (idx + 1) % 1000 == 0:
                 torch.save(
                     model.state_dict(),
                     os.path.join(output_dir, f"{output_prefix}_latest.pt"),
                 )
         progress.close()
-        # if epoch % args.save_every == 0 or epoch == epochs - 1:
-        torch.save(
-            model.state_dict(),
-            os.path.join(output_dir, f"{output_prefix}-{epoch:03d}.pt"),
-        )
+        if epoch % args.save_every == 0 or epoch == epochs - 1:
+            torch.save(
+                model.state_dict(),
+                os.path.join(output_dir, f"{output_prefix}-{epoch:03d}.pt"),
+            )
     return model
 
 
