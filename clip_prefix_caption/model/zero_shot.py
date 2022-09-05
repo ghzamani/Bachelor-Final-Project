@@ -28,7 +28,7 @@ def main():
     # prefix_dim = args.prefix_size
     if args.categories_path != "":
         categories = ['cars', 'ceremonies', 'food', 'indoor', 'ashkhas', 'sport']
-    
+        print("Using categories path will ignore arg test_data")
         args.mapping_type = {'mlp': MappingType.MLP, 'transformer': MappingType.Transformer}[args.mapping_type]
 
         predictor = Predictor(args.model_weights, mapping_type=args.mapping_type,clip_length=args.prefix_length_clip, num_layers=args.num_layers,
@@ -55,7 +55,10 @@ def main():
         is_eng= (args.language == "english"),prefix_length=args.prefix_length, prefix_size=args.prefix_size, clip_model=args.clip_model_type)
         prefix = f'zero_shot_{args.language}'
         predictions, targets = predictor.test(args.test_data, args.image_path, use_beam_search=True, output_name=prefix)
-        print(evaluate_metrics(predictions, targets, is_eng=(args.language == "english")))
+        metrics = evaluate_metrics(predictions, targets, is_eng=(args.language == "english"))
+        print(metrics)
+        with open(f'{prefix}_metrics.json', 'w', encoding='utf-8') as f:
+            json.dump(metrics, f, ensure_ascii=False, indent=4)
 
 
 if __name__ == '__main__':

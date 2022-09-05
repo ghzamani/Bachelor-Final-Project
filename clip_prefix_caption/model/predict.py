@@ -126,7 +126,7 @@ class Predictor:
 
         test_file = test_path.split('/')[-1]
         with open(f'{output_name}_{test_file}', 'w', encoding='utf-8') as f:
-            f.write(json.dumps(outputs, ensure_ascii=False))
+            json.dump(outputs, f, ensure_ascii=False, indent=4)
         return results, targets
 
 # class Predictor(cog.Predictor):
