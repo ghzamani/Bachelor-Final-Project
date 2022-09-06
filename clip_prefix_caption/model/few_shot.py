@@ -7,6 +7,7 @@ from predict import Predictor
 from metrics import evaluate_metrics
 import json
 import pickle
+import parse_dataset
 
 def main():
     parser = argparse.ArgumentParser()
@@ -31,6 +32,7 @@ def main():
     parser.add_argument('--language', default="english", choices=('english', 'persian'))
     parser.add_argument('--shots', type=int, default=10)
     parser.add_argument('--clip_model_type', default="RN50x4", choices=('RN50', 'RN101', 'RN50x4', 'ViT-B/32'))
+    parser.add_argument('--lr', type=float, default=2e-5)
     args = parser.parse_args()
     prefix_length = args.prefix_length
     prefix_dim = args.prefix_size
@@ -39,7 +41,7 @@ def main():
     if args.categories_path != '':
         print("Using categories path will ignore args test_data and train_data")
         categories = ['cars', 'ceremonies', 'food', 'indoor', 'ashkhas', 'sport']
-        args.prefix = f'_{args.shots}_{args.language}'
+        args.prefix += f'_{args.shots}_{args.language}'
         metrics_dict = {}
         for category in categories:
             print("###### Using category", category, "#######")
@@ -48,9 +50,9 @@ def main():
             if args.language == 'english':
                 args.test_data = args.test_data + "_eng"
                 args.train_data = args.train_data + "_eng"
+            args.train_data = args.train_data + ".pkl"
             args.test_data = args.test_data + ".json"
-            args.train_data = args.train_data + ".json"
-    
+            
             dataset = ClipCocoDataset(args.train_data, prefix_length, normalize_prefix=args.normalize_prefix, is_eng=(args.language == "english"), shots_count=args.shots)
             # if args.test_data is None:
             #     with open(args.train_data, 'rb') as f:
@@ -78,7 +80,7 @@ def main():
                 print("Using pretrained weights in file: ", args.model_weights)
                 model.load_state_dict(torch.load(args.model_weights, map_location= torch.device("cpu")))
             
-            model = train(dataset, model, args, output_dir=args.out_dir, output_prefix=args.prefix)
+            model = train(dataset, model, args, output_dir=args.out_dir, output_prefix=args.prefix, lr=args.lr)
 
             predictor = Predictor(args.out_dir+args.prefix+f"-{(args.epochs-1):03d}.pt", mapping_type=args.mapping_type,clip_length=args.prefix_length_clip, num_layers=args.num_layers,
             is_eng= (args.language == "english"),prefix_length=args.prefix_length, prefix_size=args.prefix_size, clip_model=args.clip_model_type)
@@ -119,7 +121,7 @@ def main():
             model.load_state_dict(torch.load(args.model_weights, map_location= torch.device("cpu")))
         
         args.prefix += f'_{args.shots}_{args.language}'
-        model = train(dataset, model, args, output_dir=args.out_dir, output_prefix=args.prefix)
+        model = train(dataset, model, args, output_dir=args.out_dir, output_prefix=args.prefix, lr=args.lr)
 
         predictor = Predictor(args.out_dir+args.prefix+f"-{(args.epochs-1):03d}.pt", mapping_type=args.mapping_type,clip_length=args.prefix_length_clip, num_layers=args.num_layers,
         is_eng= (args.language == "english"),prefix_length=args.prefix_length, prefix_size=args.prefix_size, clip_model=args.clip_model_type)

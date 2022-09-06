@@ -100,7 +100,10 @@ class ClipCocoDataset(Dataset):
             with open(f"{data_path[:-4]}_tokens.pkl", 'wb') as f:
                 pickle.dump([self.captions_tokens, self.caption2embedding, max_seq_len], f)
         all_len = torch.tensor([len(self.captions_tokens[i]) for i in range(len(self))]).float()
-        self.max_seq_len = min(int(all_len.mean() + all_len.std() * 10), int(all_len.max()))
+        if len(all_len) == 1:
+            self.max_seq_len = int(all_len.max())
+        else:
+            self.max_seq_len = min(int(all_len.mean() + all_len.std() * 10), int(all_len.max()))
 
 
 class MLP(nn.Module):
@@ -334,7 +337,7 @@ def train(dataset: ClipCocoDataset, model: ClipCaptionModel, args,
     # print(dataset.__len__())
     # print(len(train_dataloader.dataset))
     scheduler = get_linear_schedule_with_warmup(
-        optimizer, num_warmup_steps=warmup_steps, num_training_steps=epochs * len(train_dataloader)
+        optimizer, num_warmup_steps=0, num_training_steps=epochs * len(train_dataloader)
     )
     for i in range(start_epoch * len(train_dataloader)):
         scheduler.step()
@@ -392,6 +395,7 @@ def main():
     parser.add_argument('--model_weights', default='')
     parser.add_argument('--language', default="english", choices=('english', 'persian'))
     parser.add_argument('--start_epoch', type=int, default=0)
+    parser.add_argument('--lr', type=float, default=2e-5)
     
     args = parser.parse_args()
     prefix_length = args.prefix_length
@@ -412,7 +416,7 @@ def main():
     if args.model_weights != "":
         print("Using pretrained weights in file: ", args.model_weights)
         model.load_state_dict(torch.load(args.model_weights, map_location= torch.device("cpu")))
-    train(dataset, model, args, output_dir=args.out_dir, output_prefix=args.prefix, start_epoch=args.start_epoch)
+    train(dataset, model, args, output_dir=args.out_dir, output_prefix=args.prefix, start_epoch=args.start_epoch, lr=args.lr)
 
 
 if __name__ == '__main__':

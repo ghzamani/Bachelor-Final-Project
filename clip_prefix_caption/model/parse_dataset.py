@@ -95,11 +95,26 @@ if __name__ == '__main__':
     parser.add_argument('--clip_model_type', default="RN50x4", choices=('RN50', 'RN101', 'RN50x4', 'ViT-B/32'))
     parser.add_argument('--language', default="english", choices=('english', 'persian'))
     parser.add_argument('--dataset_json', default='./data/dataset/dataset_train.json')
+    parser.add_argument('--categories_path', default='')
     parser.add_argument('--image_path', default='./data/dataset/train/')
     parser.add_argument('--out_path', default='./')
     args = parser.parse_args()
     
-    exit(main(args.clip_model_type, args.language, args.dataset_json, args.image_path, args.out_path))
+    if args.categories_path != '':
+        print("Using categories path will ignore args dataset_json")
+        categories = ['cars', 'ceremonies', 'food', 'indoor', 'ashkhas', 'sport']
+        for category in categories:
+            print("###### Using category", category, "#######")
+            args.dataset_json = f'{args.categories_path}{category}_train'
+            if args.language == 'english':
+                args.dataset_json = args.dataset_json + "_eng"
+            args.train_pickle = args.dataset_json + ".pkl"
+            args.dataset_json = args.dataset_json + ".json"
+            main(args.clip_model_type, args.language, args.dataset_json, args.image_path, args.train_pickle)
+        
+    else:
+        main(args.clip_model_type, args.language, args.dataset_json, args.image_path, args.out_path)
+
     # with open(f"ViT-B_32_train.pkl","rb") as f:
     #     p = pickle.load(f)
     #     print(p['clip_embedding'].shape)
