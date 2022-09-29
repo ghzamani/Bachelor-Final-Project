@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, CLIPFeatureExtractor
 import PIL
 import random
 
-prompt = "پرسش:[Q] پاسخ:[A]"
+prompt = "[Q] [A]"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Define hyperparameters
