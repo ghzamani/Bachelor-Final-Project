@@ -1,0 +1,5063 @@
+[
+    {
+        "id": 1,
+        "image": "persian_images/cars/cars81.jpg",
+        "question": "خیابان خلوت است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 2,
+        "image": "persian_images/cars/cars57.jpg",
+        "question": "مرد روبروی جه جایی ایستاده است؟",
+        "answer": "نمایشگاه ماشین",
+        "category": "other"
+    },
+    {
+        "id": 3,
+        "image": "persian_images/cars/cars64.jpg",
+        "question": "آیا تصویر در شب گرفته شده است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 4,
+        "image": "persian_images/cars/cars61.jpg",
+        "question": "پارچه‌های نوشته شده در کدام سمت خیابان نصب شده است؟",
+        "answer": "وسط",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 5,
+        "image": "persian_images/cars/cars26.jpg",
+        "question": "آیا همه ماشین‌ها پلاک دارند؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 6,
+        "image": "persian_images/cars/cars10.jpg",
+        "question": "ماشین چه رنگی است؟",
+        "answer": "خاکستری",
+        "category": "color attributes"
+    },
+    {
+        "id": 7,
+        "image": "persian_images/cars/cars16.jpg",
+        "question": "آیا در تصویر برگ درخت وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 8,
+        "image": "persian_images/cars/cars28.jpg",
+        "question": "آیا پارکینگ پر است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 9,
+        "image": "persian_images/cars/cars42.jpg",
+        "question": "آیا خودروها سالم مانده‌اند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 10,
+        "image": "persian_images/cars/cars36.jpg",
+        "question": "رنگ غالب ماشین چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 11,
+        "image": "persian_images/cars/cars84.jpg",
+        "question": "چند تاکسی در تصویر است؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 12,
+        "image": "persian_images/cars/cars18.jpg",
+        "question": "جنسیت شخص چیست؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 13,
+        "image": "persian_images/cars/cars34.jpg",
+        "question": "چند موتور بدون سرنشین در تصویر است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 14,
+        "image": "persian_images/cars/cars43.jpg",
+        "question": "نرده‌های بالایی خیابان بالاتر چه رنگی است؟",
+        "answer": "سبز",
+        "category": "color attributes"
+    },
+    {
+        "id": 15,
+        "image": "persian_images/cars/cars46.jpg",
+        "question": "آیا فردی از خیابان عبور می کند؟",
+        "answer": "خیر",
+        "category": "activity recognition"
+    },
+    {
+        "id": 16,
+        "image": "persian_images/cars/cars93.jpg",
+        "question": "آیا در هر دو سمت بزرگراه ترافیک است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 17,
+        "image": "persian_images/cars/cars21.jpg",
+        "question": "چند نفر در حال عبور از خیابان هستند؟",
+        "answer": "صفر",
+        "category": "counting object"
+    },
+    {
+        "id": 18,
+        "image": "persian_images/cars/cars30.jpg",
+        "question": "چه فصلی از سال است؟",
+        "answer": "پاییز",
+        "category": "other"
+    },
+    {
+        "id": 19,
+        "image": "persian_images/cars/cars76.jpg",
+        "question": "آیا چراغ ترمز همه ی ماشین ها در تصویر روشن است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 20,
+        "image": "persian_images/cars/cars49.jpg",
+        "question": "وضعیت جوی هوا چطوری است؟",
+        "answer": "برفی",
+        "category": "other"
+    },
+    {
+        "id": 21,
+        "image": "persian_images/cars/cars35.jpg",
+        "question": "آیا هر دو ماشین در تصویر یک رنگ هستن؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 22,
+        "image": "persian_images/cars/cars67.jpg",
+        "question": "ماشین جلوی فضای سبز پارک کرده است؟",
+        "answer": "بله",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 23,
+        "image": "persian_images/cars/cars60.jpg",
+        "question": "آیا در تصویر دریا وجود دارد؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 24,
+        "image": "persian_images/cars/cars38.jpg",
+        "question": "آیا در این تصویر درخت وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 25,
+        "image": "persian_images/cars/cars45.jpg",
+        "question": "وضعیت هوا به چه صورت است؟",
+        "answer": "آفتابی",
+        "category": "other"
+    },
+    {
+        "id": 26,
+        "image": "persian_images/cars/cars55.jpg",
+        "question": "آیا ماشین ها در جاده کوهستانی در حال حرکتند؟",
+        "answer": "بله",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 27,
+        "image": "persian_images/cars/cars97.jpg",
+        "question": "ماشین ها در یک جاده کوهستانی در حال حرکت هستند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 28,
+        "image": "persian_images/cars/cars52.jpg",
+        "question": "غروب خورشید از کجای تصویر پیداست؟",
+        "answer": "آینه ماشین",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 29,
+        "image": "persian_images/cars/cars58.jpg",
+        "question": "آسمان موجود در تصویر آفتابی است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 30,
+        "image": "persian_images/cars/cars88.jpg",
+        "question": "چند ماشین در تصویر است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 31,
+        "image": "persian_images/cars/cars56.jpg",
+        "question": "آیا در آسمان ابر وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 32,
+        "image": "persian_images/cars/cars77.jpg",
+        "question": "آیا همه افراد درون اتوبوس‌ها هستند؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 33,
+        "image": "persian_images/cars/cars48.jpg",
+        "question": "ماشین هایی که در حال رفت هستند در کدام قسمت تصویر قرار دارند؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 34,
+        "image": "persian_images/cars/cars44.jpg",
+        "question": "ماشین کجا قرار دارد؟",
+        "answer": "پارکینگ",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 35,
+        "image": "persian_images/cars/cars59.jpg",
+        "question": "ماشین سوار جرثقیل چه رنگی‌ست؟",
+        "answer": "سبز",
+        "category": "color attributes"
+    },
+    {
+        "id": 36,
+        "image": "persian_images/cars/cars86.jpg",
+        "question": "نرده های روی دیوار چه رنگی است؟",
+        "answer": "سبز",
+        "category": "color attributes"
+    },
+    {
+        "id": 37,
+        "image": "persian_images/cars/cars89.jpg",
+        "question": "آیا ماشین پلاک شده است ؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 38,
+        "image": "persian_images/cars/cars72.jpg",
+        "question": "آیا رنگ برگ درختان سبز است؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 39,
+        "image": "persian_images/cars/cars91.jpg",
+        "question": "مرد کیف را در کدام دست نگه داشته است؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 40,
+        "image": "persian_images/cars/cars66.jpg",
+        "question": "آیا در این تصویر پرچم وجود دارد؟",
+        "answer": "بله",
+        "category": "object detection"
+    },
+    {
+        "id": 41,
+        "image": "persian_images/cars/cars78.jpg",
+        "question": "نوار روی ماشین ها چه رنگی است؟",
+        "answer": "زرد",
+        "category": "color attributes"
+    },
+    {
+        "id": 42,
+        "image": "persian_images/cars/cars95.jpg",
+        "question": "آیا ماشین جلویی لاستیک دارد؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 43,
+        "image": "persian_images/cars/cars96.jpg",
+        "question": "درخت ها در کدام سمت تصویر قرار دارند؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 44,
+        "image": "persian_images/cars/cars70.jpg",
+        "question": "کوچه باریک است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 45,
+        "image": "persian_images/cars/cars79.jpg",
+        "question": "وضعیت هوا به چه صورت است؟",
+        "answer": "آفتابی",
+        "category": "other"
+    },
+    {
+        "id": 46,
+        "image": "persian_images/cars/cars74.jpg",
+        "question": "چند تاکسی در خیابان است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 47,
+        "image": "persian_images/cars/cars68.jpg",
+        "question": "چند ماشین جلوی نمایشگاه ماشین است؟",
+        "answer": "چهار",
+        "category": "counting object"
+    },
+    {
+        "id": 48,
+        "image": "persian_images/cars/cars87.jpg",
+        "question": "چند سطل زباله است؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 49,
+        "image": "persian_images/cars/cars92.jpg",
+        "question": "چند ماشین در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 50,
+        "image": "persian_images/cars/cars82.jpg",
+        "question": "ماشین سمت راست چه رنگی است؟",
+        "answer": "زرد",
+        "category": "color attributes"
+    },
+    {
+        "id": 51,
+        "image": "persian_images/cars/cars94.jpg",
+        "question": "جنسیت فردی که با لباس آبی سوار بر موتور است چیست؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 52,
+        "image": "persian_images/cars/cars98.jpg",
+        "question": "آیا مردی که در جلوی ماشین ایستاده کچل است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 53,
+        "image": "persian_images/cars/cars90.jpg",
+        "question": "تصویری که می بینید چه فصلی از سال را نشان میدهد؟",
+        "answer": "زمستان",
+        "category": "other"
+    },
+    {
+        "id": 54,
+        "image": "persian_images/ceremonies/ceremonies39.jpg",
+        "question": "چند نفر در تصویر می‌بینید؟",
+        "answer": "زیاد",
+        "category": "counting object"
+    },
+    {
+        "id": 55,
+        "image": "persian_images/ceremonies/ceremonies44.jpg",
+        "question": "جنسیت افراد در تصویر چیست ؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 56,
+        "image": "persian_images/ceremonies/ceremonies5.jpg",
+        "question": "آیا در تصویر فرش وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 57,
+        "image": "persian_images/ceremonies/ceremonies64.jpg",
+        "question": "چند مرد در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 58,
+        "image": "persian_images/ceremonies/ceremonies32.jpg",
+        "question": "زن ها و مردها در حال انجام چه کاری هستند؟",
+        "answer": "رقصیدن",
+        "category": "activity recognition"
+    },
+    {
+        "id": 59,
+        "image": "persian_images/ceremonies/ceremonies7.jpg",
+        "question": "زن‌ها چه پوششی دارند؟",
+        "answer": "مانتو",
+        "category": "activity recognition"
+    },
+    {
+        "id": 60,
+        "image": "persian_images/ceremonies/ceremonies60.jpg",
+        "question": "مردم در حال انجام چه کاری هستند؟",
+        "answer": "زنجیر زنی",
+        "category": "activity recognition"
+    },
+    {
+        "id": 61,
+        "image": "persian_images/ceremonies/ceremonies37.jpg",
+        "question": "چه کاری در تصویر انجام می شود؟",
+        "answer": "گره زدن",
+        "category": "activity recognition"
+    },
+    {
+        "id": 62,
+        "image": "persian_images/ceremonies/ceremonies56.jpg",
+        "question": "آیا تنها مردها در مراسم حضور دارند؟",
+        "answer": "خیر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 63,
+        "image": "persian_images/ceremonies/ceremonies31.jpg",
+        "question": "مرد از روی چه چیزی می‌پرد؟",
+        "answer": "آتش",
+        "category": "object detection"
+    },
+    {
+        "id": 64,
+        "image": "persian_images/ceremonies/ceremonies33.jpg",
+        "question": "پشت فرد چیست؟",
+        "answer": "آتش",
+        "category": "object detection"
+    },
+    {
+        "id": 65,
+        "image": "persian_images/ceremonies/ceremonies65.jpg",
+        "question": "جنس تخم مرغ ها از چیست؟",
+        "answer": "سفال",
+        "category": "object material"
+    },
+    {
+        "id": 66,
+        "image": "persian_images/ceremonies/ceremonies40.jpg",
+        "question": "افراد در تصویر چه جنسیتی دارند؟",
+        "answer": "مذکر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 67,
+        "image": "persian_images/ceremonies/ceremonies45.jpg",
+        "question": "نمازگزاران زن هستند یا مرد؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 68,
+        "image": "persian_images/ceremonies/ceremonies6.jpg",
+        "question": "در سمت چپ تصویر لباس کودکی که در بغل پدرش است چه رنگی است؟",
+        "answer": "آبی",
+        "category": "color attributes"
+    },
+    {
+        "id": 69,
+        "image": "persian_images/ceremonies/ceremonies25.jpg",
+        "question": "زنان و مردان مشغول چه کاری هستند؟",
+        "answer": "رقص",
+        "category": "activity recognition"
+    },
+    {
+        "id": 70,
+        "image": "persian_images/ceremonies/ceremonies69.jpg",
+        "question": "زن‌ها چه لباسی بر تن دارند؟",
+        "answer": "لباس محلی",
+        "category": "other"
+    },
+    {
+        "id": 71,
+        "image": "persian_images/ceremonies/ceremonies66.jpg",
+        "question": "شخص موجود در تصویر سفیدپوست است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 72,
+        "image": "persian_images/ceremonies/ceremonies55.jpg",
+        "question": "اسم وسیله ای که روی چمن است چیست؟",
+        "answer": "گاز پیک نیک",
+        "category": "object detection"
+    },
+    {
+        "id": 73,
+        "image": "persian_images/ceremonies/ceremonies46.jpg",
+        "question": "رقص افراد درون تصویر چه نوعی است؟",
+        "answer": "سنتی",
+        "category": "other"
+    },
+    {
+        "id": 74,
+        "image": "persian_images/ceremonies/ceremonies35.jpg",
+        "question": "افراد در چه مراسمی شرکت کرده اند؟",
+        "answer": "تاج گذاری",
+        "category": "activity recognition"
+    },
+    {
+        "id": 75,
+        "image": "persian_images/ceremonies/ceremonies14.jpg",
+        "question": "این عزاداری مذهبی در کجاست؟",
+        "answer": "حرم",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 76,
+        "image": "persian_images/ceremonies/ceremonies8.jpg",
+        "question": "عروس چه لباسی پوشیده؟",
+        "answer": "چادر",
+        "category": "other"
+    },
+    {
+        "id": 77,
+        "image": "persian_images/ceremonies/ceremonies13.jpg",
+        "question": "آیا افراد به تنهایی تفریح می‌کنند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 78,
+        "image": "persian_images/ceremonies/ceremonies18.jpg",
+        "question": "آیا مردان کلاه دارند؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 79,
+        "image": "persian_images/ceremonies/ceremonies43.jpg",
+        "question": "شخص موجود در تصویر از روی چه چیزی می پرد؟",
+        "answer": "آتش",
+        "category": "other"
+    },
+    {
+        "id": 80,
+        "image": "persian_images/ceremonies/ceremonies23.jpg",
+        "question": "چه چیزی روی سر مرد است؟",
+        "answer": "کلاه",
+        "category": "object detection"
+    },
+    {
+        "id": 81,
+        "image": "persian_images/ceremonies/ceremonies19.jpg",
+        "question": "جنسیت افرادی که سینی در دست دارند چیست؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 82,
+        "image": "persian_images/ceremonies/ceremonies38.jpg",
+        "question": "زنان در حال انجام چه کاری هستند؟",
+        "answer": "پایکوبی",
+        "category": "activity recognition"
+    },
+    {
+        "id": 83,
+        "image": "persian_images/ceremonies/ceremonies58.jpg",
+        "question": "افراد در سمت چپ خیابان چه کاری می‌کنند؟",
+        "answer": "زنجیر زدن",
+        "category": "activity recognition"
+    },
+    {
+        "id": 84,
+        "image": "persian_images/ceremonies/ceremonies26.jpg",
+        "question": "آیا در آسمان ابر وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 85,
+        "image": "persian_images/ceremonies/ceremonies61.jpg",
+        "question": "آیا شمع روشن است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 86,
+        "image": "persian_images/ceremonies/ceremonies34.jpg",
+        "question": "تصویر از چه مکانی گرفته شده است؟",
+        "answer": "بازار",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 87,
+        "image": "persian_images/ceremonies/ceremonies21.jpg",
+        "question": "این مراسم چیست؟",
+        "answer": "عروسی",
+        "category": "other"
+    },
+    {
+        "id": 88,
+        "image": "persian_images/ceremonies/ceremonies27.jpg",
+        "question": "چند چراغ در تصویر وجود دارد؟",
+        "answer": "سه",
+        "category": "counting object"
+    },
+    {
+        "id": 89,
+        "image": "persian_images/ceremonies/ceremonies57.jpg",
+        "question": "پرچم بزرگ در کجای تصویر قرار دارد؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 90,
+        "image": "persian_images/ceremonies/ceremonies49.jpg",
+        "question": "افراد سربند چه رنگی دارند؟",
+        "answer": "قرمز",
+        "category": "color attributes"
+    },
+    {
+        "id": 91,
+        "image": "persian_images/ceremonies/ceremonies2.jpg",
+        "question": "چه چیزی در دست دختران وجود دارد؟",
+        "answer": "سبزه",
+        "category": "object detection"
+    },
+    {
+        "id": 92,
+        "image": "persian_images/ceremonies/ceremonies41.jpg",
+        "question": "جنسیت افراد در تصویر چیست؟",
+        "answer": "مذکر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 93,
+        "image": "persian_images/ceremonies/ceremonies9.jpg",
+        "question": "دختربچه کجاست؟",
+        "answer": "نمایشگاه",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 94,
+        "image": "persian_images/ceremonies/ceremonies63.jpg",
+        "question": "زنان در حال انجام چه کاری هستند؟",
+        "answer": "پایکوبی",
+        "category": "activity recognition"
+    },
+    {
+        "id": 95,
+        "image": "persian_images/ceremonies/ceremonies29.jpg",
+        "question": "شرکت کنندگان زیادی در این جشن هستند؟",
+        "answer": "بله",
+        "category": "counting object"
+    },
+    {
+        "id": 96,
+        "image": "persian_images/ceremonies/ceremonies50.jpg",
+        "question": "آیا روسری کودک در سمت راست سفید و آبی است؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 97,
+        "image": "persian_images/ceremonies/ceremonies16.jpg",
+        "question": "آیا در تصویر چنگال وجود دارد؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 98,
+        "image": "persian_images/ceremonies/ceremonies11.jpg",
+        "question": "چند قفس پر از گل در تصویر وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 99,
+        "image": "persian_images/ceremonies/ceremonies62.jpg",
+        "question": "رومیزی چه رنگی است؟",
+        "answer": "قرمز",
+        "category": "color attributes"
+    },
+    {
+        "id": 100,
+        "image": "persian_images/ceremonies/ceremonies10.jpg",
+        "question": "در اتاق بخاری وجود دارد؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 101,
+        "image": "persian_images/ceremonies/ceremonies30.jpg",
+        "question": "لباس مردان چه رنگی‌ست؟",
+        "answer": "مشکی",
+        "category": "color attributes"
+    },
+    {
+        "id": 102,
+        "image": "persian_images/ceremonies/ceremonies20.jpg",
+        "question": "آیا کتاب کنار سیب است؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 103,
+        "image": "persian_images/ceremonies/ceremonies3.jpg",
+        "question": "پشت دختر چه چیزی است؟",
+        "answer": "آتش",
+        "category": "object detection"
+    },
+    {
+        "id": 104,
+        "image": "persian_images/ceremonies/ceremonies51.jpg",
+        "question": "زن ها در حال چه کاری هستند؟",
+        "answer": "نماز جماعت",
+        "category": "activity recognition"
+    },
+    {
+        "id": 105,
+        "image": "persian_images/ceremonies/ceremonies42.jpg",
+        "question": "لباس مردان چه رنگی است؟",
+        "answer": "سیاه",
+        "category": "color attributes"
+    },
+    {
+        "id": 106,
+        "image": "persian_images/ceremonies/ceremonies47.jpg",
+        "question": "خانم چادر سرش است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 107,
+        "image": "persian_images/ceremonies/ceremonies4.jpg",
+        "question": "چند زن در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 108,
+        "image": "persian_images/ceremonies/ceremonies12.jpg",
+        "question": "آیا در تصویر مردی دیده می‌شود؟",
+        "answer": "خیر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 109,
+        "image": "persian_images/ceremonies/ceremonies1.jpg",
+        "question": "چند عروس در تصویر شنل دارند؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 110,
+        "image": "persian_images/ceremonies/ceremonies15.jpg",
+        "question": "پسران در خیابان چه کاری انجام می‌دهند؟",
+        "answer": "طبل زدن",
+        "category": "activity recognition"
+    },
+    {
+        "id": 111,
+        "image": "persian_images/ceremonies/ceremonies36.jpg",
+        "question": "مرد در حال ریختن چه چیزی در لیوان‌هاست؟",
+        "answer": "چای",
+        "category": "object detection"
+    },
+    {
+        "id": 112,
+        "image": "persian_images/ceremonies/ceremonies17.jpg",
+        "question": "لباس های پیرمرد ها محلی است یا رسمی؟",
+        "answer": "محلی",
+        "category": "other"
+    },
+    {
+        "id": 113,
+        "image": "persian_images/ceremonies/ceremonies59.jpg",
+        "question": "گل‌ها چه رنگی هستند؟",
+        "answer": "صورتی",
+        "category": "color attributes"
+    },
+    {
+        "id": 114,
+        "image": "persian_images/ceremonies/ceremonies53.jpg",
+        "question": "خانواده مشغول انجام چه کاری است؟",
+        "answer": "تفریح کردن",
+        "category": "activity recognition"
+    },
+    {
+        "id": 115,
+        "image": "persian_images/ceremonies/ceremonies28.jpg",
+        "question": "در تصویر چند مرد دیده می شود؟",
+        "answer": "صفر",
+        "category": "counting object"
+    },
+    {
+        "id": 116,
+        "image": "persian_images/ceremonies/ceremonies48.jpg",
+        "question": "چه چیزی در آسمان دیده می شود؟",
+        "answer": "رنگین کمان",
+        "category": "object detection"
+    },
+    {
+        "id": 117,
+        "image": "persian_images/ceremonies/ceremonies54.jpg",
+        "question": "لباس مرد حاضر در عزاداری چه رنگی است؟",
+        "answer": "مشکی",
+        "category": "color attributes"
+    },
+    {
+        "id": 118,
+        "image": "persian_images/ceremonies/ceremonies52.jpg",
+        "question": "چند مرد در تصویر وجود دارد؟",
+        "answer": "سه",
+        "category": "counting object"
+    },
+    {
+        "id": 119,
+        "image": "persian_images/ceremonies/ceremonies68.jpg",
+        "question": "آیا زنان در تصویر می‌رقصند؟",
+        "answer": "خیر",
+        "category": "activity recognition"
+    },
+    {
+        "id": 120,
+        "image": "persian_images/ceremonies/ceremonies67.jpg",
+        "question": "افراد دور چه چیزی جمع شده‌اند؟",
+        "answer": "کرسی",
+        "category": "object detection"
+    },
+    {
+        "id": 121,
+        "image": "persian_images/ceremonies/ceremonies22.jpg",
+        "question": "لباسی که تن افراد تصویر هست محلی است یا رسمی؟",
+        "answer": "محلی",
+        "category": "other"
+    },
+    {
+        "id": 122,
+        "image": "persian_images/ceremonies/ceremonies24.jpg",
+        "question": "لباس پسر بچه چه رنگی است؟",
+        "answer": "قرمز",
+        "category": "color attributes"
+    },
+    {
+        "id": 123,
+        "image": "persian_images/sport/sport61.jpg",
+        "question": "این عکس چه ورزشی را نشان می دهد؟",
+        "answer": "بسکتبال",
+        "category": "sport recognition"
+    },
+    {
+        "id": 124,
+        "image": "persian_images/sport/sport88.jpg",
+        "question": "شخصی که در تصویر است چه جنسیتی دارد؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 125,
+        "image": "persian_images/sport/sport3.jpg",
+        "question": "زانوبند ورزش کار چه رنگی است؟",
+        "answer": "مشکی",
+        "category": "color attributes"
+    },
+    {
+        "id": 126,
+        "image": "persian_images/sport/sport49.jpg",
+        "question": "رنگ لباس شخصی که وزنه را بالای سر خود نگه داشته است چه رنگی است؟",
+        "answer": "مشکی",
+        "category": "color attributes"
+    },
+    {
+        "id": 127,
+        "image": "persian_images/sport/sport81.jpg",
+        "question": "دو ورزش کار چه مسابقه ای می دهند؟",
+        "answer": "کشتی",
+        "category": "sport recognition"
+    },
+    {
+        "id": 128,
+        "image": "persian_images/sport/sport53.jpg",
+        "question": "ورزشکاران چه ورزشی انجام می دهند؟",
+        "answer": "کشتی",
+        "category": "sport recognition"
+    },
+    {
+        "id": 129,
+        "image": "persian_images/sport/sport73.jpg",
+        "question": "کفش مرد چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 130,
+        "image": "persian_images/sport/sport71.jpg",
+        "question": "زیر پای افراد در تصویر چه چیزی وجود دارد؟",
+        "answer": "چمن",
+        "category": "object detection"
+    },
+    {
+        "id": 131,
+        "image": "persian_images/sport/sport45.jpg",
+        "question": "جنسیت شخصی که  توپ در دست خود دارد چیست؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 132,
+        "image": "persian_images/sport/sport35.jpg",
+        "question": "چند قایق در تصویر مشاهده می‌شود؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 133,
+        "image": "persian_images/sport/sport50.jpg",
+        "question": "زن ورزشکار لباس زیری‌اش چه رنگی است؟",
+        "answer": "سیاه",
+        "category": "other"
+    },
+    {
+        "id": 134,
+        "image": "persian_images/sport/sport34.jpg",
+        "question": "دیسک‌های موجود روی میله وزنه برداری چند رنگ دارند؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 135,
+        "image": "persian_images/sport/sport62.jpg",
+        "question": "چند نفر در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 136,
+        "image": "persian_images/sport/sport36.jpg",
+        "question": "مرد چه ورزشی می‌کند؟",
+        "answer": "تیراندازی",
+        "category": "sport recognition"
+    },
+    {
+        "id": 137,
+        "image": "persian_images/sport/sport7.jpg",
+        "question": "آیا مرد سیاه پوست است؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 138,
+        "image": "persian_images/sport/sport42.jpg",
+        "question": "مردان مشغول انجام چه ورزشی هستند؟",
+        "answer": "والیبال",
+        "category": "sport recognition"
+    },
+    {
+        "id": 139,
+        "image": "persian_images/sport/sport24.jpg",
+        "question": "آیا این افراد در صف حرکت  می‌کنند؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 140,
+        "image": "persian_images/sport/sport56.jpg",
+        "question": "جنسیت هر دو شخصی که در تصویر وجود دارد چیست؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 141,
+        "image": "persian_images/sport/sport74.jpg",
+        "question": "آیا مرد کراوات دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 142,
+        "image": "persian_images/sport/sport48.jpg",
+        "question": "آیا مرد با لباس آبی روی سر مرد با لباس قرمز نشسته است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 143,
+        "image": "persian_images/sport/sport4.jpg",
+        "question": "ورزشکار نیزه را در کدام دستش گرفته است؟",
+        "answer": "راست",
+        "category": "other"
+    },
+    {
+        "id": 144,
+        "image": "persian_images/sport/sport38.jpg",
+        "question": "ورزشکار با لباس آبی شلوارش چه رنگی‌ست؟",
+        "answer": "سیاه",
+        "category": "color attributes"
+    },
+    {
+        "id": 145,
+        "image": "persian_images/sport/sport26.jpg",
+        "question": "شخص موجود در تصویر چه جنسیتی دارد؟",
+        "answer": "دختر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 146,
+        "image": "persian_images/sport/sport20.jpg",
+        "question": "جنسیت افراد در تصویر چیست؟",
+        "answer": "مذکر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 147,
+        "image": "persian_images/sport/sport9.jpg",
+        "question": "تصویر مربوط به چه مکانی است؟",
+        "answer": "دریا",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 148,
+        "image": "persian_images/sport/sport39.jpg",
+        "question": "آیا صندلی قرمز در تصویر وجود دارد؟",
+        "answer": "بله",
+        "category": "color attributes"
+    },
+    {
+        "id": 149,
+        "image": "persian_images/sport/sport11.jpg",
+        "question": "آیا در تصویر تماشاچی مشاهده می کنید؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 150,
+        "image": "persian_images/sport/sport44.jpg",
+        "question": "آیا ورزشکاران در تصویر لباس آستین بلند پوشیده‌اند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 151,
+        "image": "persian_images/sport/sport86.jpg",
+        "question": "زن چه چیزی بر سر دارد؟",
+        "answer": "مقنعه",
+        "category": "object detection"
+    },
+    {
+        "id": 152,
+        "image": "persian_images/sport/sport27.jpg",
+        "question": "از سمت راست چندمین نفر یک عینک دارد؟",
+        "answer": "اولین",
+        "category": "other"
+    },
+    {
+        "id": 153,
+        "image": "persian_images/sport/sport21.jpg",
+        "question": "شخص در تصویر چه جنسیتی دارد؟",
+        "answer": "دختر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 154,
+        "image": "persian_images/sport/sport12.jpg",
+        "question": "رنگ پارچه ساق پای همه اسب های در تصویر قرمز است؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 155,
+        "image": "persian_images/sport/sport23.jpg",
+        "question": "دو ورزشکار مشغول انجام چه ورزشی هستند؟",
+        "answer": "کاراته",
+        "category": "sport recognition"
+    },
+    {
+        "id": 156,
+        "image": "persian_images/sport/sport77.jpg",
+        "question": "زمین فوتبال از چه جنسی است؟",
+        "answer": "چمن",
+        "category": "object material"
+    },
+    {
+        "id": 157,
+        "image": "persian_images/sport/sport79.jpg",
+        "question": "چند مرد لباس قرمز پوشیده اند؟",
+        "answer": "پنج",
+        "category": "counting object"
+    },
+    {
+        "id": 158,
+        "image": "persian_images/sport/sport41.jpg",
+        "question": "آیا دروازه در تصویر دیده می‌شود؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 159,
+        "image": "persian_images/sport/sport80.jpg",
+        "question": "چه ورزشی است؟",
+        "answer": "تیراندازی",
+        "category": "sport recognition"
+    },
+    {
+        "id": 160,
+        "image": "persian_images/sport/sport78.jpg",
+        "question": "جنسیت افراد تصویر چیست؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 161,
+        "image": "persian_images/sport/sport1.jpg",
+        "question": "زن سمت چپ تصویر چه حسی دارد؟",
+        "answer": "شادی",
+        "category": "sentiment understanding"
+    },
+    {
+        "id": 162,
+        "image": "persian_images/sport/sport14.jpg",
+        "question": "اشخاص موجود در تصویر چه جنسیتی دارند؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 163,
+        "image": "persian_images/sport/sport22.jpg",
+        "question": "جنسیت شخصی که در تصویر است چیست؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 164,
+        "image": "persian_images/sport/sport66.jpg",
+        "question": "لباس مردی که ساق دست پوشیده چه رنگی است؟",
+        "answer": "سرمه‌ای",
+        "category": "color attributes"
+    },
+    {
+        "id": 165,
+        "image": "persian_images/sport/sport5.jpg",
+        "question": "رنگ‌های لباس ورزشکار نماد پرچم چه کشوری است؟",
+        "answer": "ایران",
+        "category": "other"
+    },
+    {
+        "id": 166,
+        "image": "persian_images/sport/sport58.jpg",
+        "question": "زن‌ها در ورزشگاه تمرین وزنه برداری می‌کنند؟",
+        "answer": "خیر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 167,
+        "image": "persian_images/sport/sport2.jpg",
+        "question": "آیا مرد انگشتر دارد؟",
+        "answer": "بله",
+        "category": "object detection"
+    },
+    {
+        "id": 168,
+        "image": "persian_images/sport/sport40.jpg",
+        "question": "بازیکنان چه چیزی در دست دارند؟",
+        "answer": "دستکش",
+        "category": "object presence"
+    },
+    {
+        "id": 169,
+        "image": "persian_images/sport/sport51.jpg",
+        "question": "روسری زنان ورزشکار با لباس قرمز چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 170,
+        "image": "persian_images/sport/sport28.jpg",
+        "question": "در این تصویر چند عدد بطری آب وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 171,
+        "image": "persian_images/sport/sport25.jpg",
+        "question": "شخص در حال انجام چه کاری است؟",
+        "answer": "پرتاب تیر",
+        "category": "activity recognition"
+    },
+    {
+        "id": 172,
+        "image": "persian_images/sport/sport70.jpg",
+        "question": "شخص در تصویر چه جنسیتی دارد؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 173,
+        "image": "persian_images/sport/sport37.jpg",
+        "question": "نوشته‌های پشت لباس بازیکنان چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 174,
+        "image": "persian_images/sport/sport60.jpg",
+        "question": "چند مرد در تصویر کت پوشیده است؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 175,
+        "image": "persian_images/sport/sport6.jpg",
+        "question": "جنسیت افراد موجود در تصویر چیست؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 176,
+        "image": "persian_images/sport/sport69.jpg",
+        "question": "صندلی های ورزشگاه چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 177,
+        "image": "persian_images/sport/sport54.jpg",
+        "question": "آیا همه زن های داخل تصویر پوشش آن ها مثل هم هست؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 178,
+        "image": "persian_images/sport/sport82.jpg",
+        "question": "اشخاص چه جنسیتی دارند؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 179,
+        "image": "persian_images/sport/sport33.jpg",
+        "question": "آیا روی لباس وزنه بردار پرچم است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 180,
+        "image": "persian_images/sport/sport29.jpg",
+        "question": "ورزشکار در کدام رقابت شرکت کرده؟",
+        "answer": "المپیک",
+        "category": "other"
+    },
+    {
+        "id": 181,
+        "image": "persian_images/sport/sport65.jpg",
+        "question": "آیا در تصویر زن می بینید؟",
+        "answer": "خیر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 182,
+        "image": "persian_images/sport/sport13.jpg",
+        "question": "ورزشکار مرد است یا زن؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 183,
+        "image": "persian_images/sport/sport55.jpg",
+        "question": "بازیکن تیم ایران لباس چه رنگی پوشیده؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 184,
+        "image": "persian_images/sport/sport76.jpg",
+        "question": "هر دو بازیکن از یک تیم هستند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 185,
+        "image": "persian_images/sport/sport57.jpg",
+        "question": "اشخاص در کجا ایستاده‌اند؟",
+        "answer": "ورزشگاه",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 186,
+        "image": "persian_images/sport/sport85.jpg",
+        "question": "جنسیت تمام افراد در تصویر مذکر است؟",
+        "answer": "خیر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 187,
+        "image": "persian_images/sport/sport18.jpg",
+        "question": "زن در حال انجام چه ورزشی است؟",
+        "answer": "وزنه برداری",
+        "category": "sport recognition"
+    },
+    {
+        "id": 188,
+        "image": "persian_images/sport/sport17.jpg",
+        "question": "چند دختر در تصویر می بینید؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 189,
+        "image": "persian_images/sport/sport59.jpg",
+        "question": "آیا ورزشکاران کلاه دارند؟",
+        "answer": "بله",
+        "category": "object detection"
+    },
+    {
+        "id": 190,
+        "image": "persian_images/sport/sport47.jpg",
+        "question": "افراد در تصویر چه ورزشی می‌کنند؟",
+        "answer": "والیبال",
+        "category": "sport recognition"
+    },
+    {
+        "id": 191,
+        "image": "persian_images/sport/sport87.jpg",
+        "question": "خانم سوار چه چیزی شده است؟",
+        "answer": "قایق",
+        "category": "object detection"
+    },
+    {
+        "id": 192,
+        "image": "persian_images/sport/sport31.jpg",
+        "question": "آیا مرد درد احساس می‌کند؟",
+        "answer": "بله",
+        "category": "sentiment understanding"
+    },
+    {
+        "id": 193,
+        "image": "persian_images/sport/sport15.jpg",
+        "question": "آیا بازیکنان زن بدون حجاب هستند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 194,
+        "image": "persian_images/sport/sport43.jpg",
+        "question": "چند بازیکن در تصویر وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 195,
+        "image": "persian_images/sport/sport16.jpg",
+        "question": "آیا زنان ورزشکار حجاب دارند؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 196,
+        "image": "persian_images/sport/sport52.jpg",
+        "question": "لباس ورزش‌کار چه رنگیه؟",
+        "answer": "سبز",
+        "category": "color attributes"
+    },
+    {
+        "id": 197,
+        "image": "persian_images/sport/sport83.jpg",
+        "question": "آیا پشت لباس شخص نوشته وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 198,
+        "image": "persian_images/sport/sport8.jpg",
+        "question": "افراد موجود در تصویر چه جنسیتی دارند؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 199,
+        "image": "persian_images/sport/sport30.jpg",
+        "question": "آیا فرد روی زمین است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 200,
+        "image": "persian_images/sport/sport64.jpg",
+        "question": "جنسیت افراد موجود در تصویر چیست؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 201,
+        "image": "persian_images/sport/sport63.jpg",
+        "question": "شخص در حال انجام چه کاری است؟",
+        "answer": "پرتاب نیزه",
+        "category": "sport recognition"
+    },
+    {
+        "id": 202,
+        "image": "persian_images/sport/sport19.jpg",
+        "question": "شخص موجود در تصویر چه جنسیتی دارد؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 203,
+        "image": "persian_images/sport/sport84.jpg",
+        "question": "شخص در تصویر در حال انجام چه ورزشی است؟",
+        "answer": "بسکتبال",
+        "category": "sport recognition"
+    },
+    {
+        "id": 204,
+        "image": "persian_images/sport/sport10.jpg",
+        "question": "جنسیت افرادی که درون تصویر می‌بینید چیست؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 205,
+        "image": "persian_images/sport/sport32.jpg",
+        "question": "دو زن ورزشکار حجاب ندارند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 206,
+        "image": "persian_images/sport/sport67.jpg",
+        "question": "آیا موهای ورزشکار معلوم است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 207,
+        "image": "persian_images/sport/sport75.jpg",
+        "question": "مانیتور ورزشگاه روشن است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 208,
+        "image": "persian_images/sport/sport46.jpg",
+        "question": "افراد در تصویر چه ورزشی می‌کنند؟",
+        "answer": "اسکی",
+        "category": "sport recognition"
+    },
+    {
+        "id": 209,
+        "image": "persian_images/sport/sport72.jpg",
+        "question": "دو خانم در حال چه ورزشی هستند؟",
+        "answer": "کوهنوردی",
+        "category": "other"
+    },
+    {
+        "id": 210,
+        "image": "persian_images/sport/sport68.jpg",
+        "question": "افراد در تصویر مشغول چه ورزشی هستند؟",
+        "answer": "قایقرانی",
+        "category": "sport recognition"
+    },
+    {
+        "id": 211,
+        "image": "persian_images/ashkhas/ashkhas49.jpg",
+        "question": "جنس کلاه پیرمرد چیست؟",
+        "answer": "پشمی",
+        "category": "object material"
+    },
+    {
+        "id": 212,
+        "image": "persian_images/ashkhas/ashkhas2.jpg",
+        "question": "اشخاص موجود در تصویر چه جنسیتی دارند؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 213,
+        "image": "persian_images/ashkhas/ashkhas94.jpg",
+        "question": "دختر کجای تصویر ایستاده است؟",
+        "answer": "مرکز",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 214,
+        "image": "persian_images/ashkhas/ashkhas80.jpg",
+        "question": "آیا این نوازندگان سازشان متفاوت است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 215,
+        "image": "persian_images/ashkhas/ashkhas61.jpg",
+        "question": "آیا جنس دیوار موجود در تصویر از سنگ مرمر است؟",
+        "answer": "خیر",
+        "category": "object material"
+    },
+    {
+        "id": 216,
+        "image": "persian_images/ashkhas/ashkhas98.jpg",
+        "question": "آیا پیرمرد لبخند زده است؟",
+        "answer": "بله",
+        "category": "sentiment understanding"
+    },
+    {
+        "id": 217,
+        "image": "persian_images/ashkhas/ashkhas37.jpg",
+        "question": "آیا فرد درون تصویر مرد است؟",
+        "answer": "خیر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 218,
+        "image": "persian_images/ashkhas/ashkhas85.jpg",
+        "question": "آیا پیرمرد ترسیده است؟",
+        "answer": "خیر",
+        "category": "object material"
+    },
+    {
+        "id": 219,
+        "image": "persian_images/ashkhas/ashkhas93.jpg",
+        "question": "چندتا گلدان در تصویر وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 220,
+        "image": "persian_images/ashkhas/ashkhas33.jpg",
+        "question": "جنسیت شخصی که ایستاده است چیست؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 221,
+        "image": "persian_images/ashkhas/ashkhas90.jpg",
+        "question": "شخص در تصویر چه جنسیتی دارد؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 222,
+        "image": "persian_images/ashkhas/ashkhas86.jpg",
+        "question": "صندلی‌ها چه رنگی هستند؟",
+        "answer": "آبی",
+        "category": "color attributes"
+    },
+    {
+        "id": 223,
+        "image": "persian_images/ashkhas/ashkhas43.jpg",
+        "question": "آیا شخص لبو می فروشد؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 224,
+        "image": "persian_images/ashkhas/ashkhas17.jpg",
+        "question": "چه چیزی درون سبد است؟",
+        "answer": "پرتقال",
+        "category": "object detection"
+    },
+    {
+        "id": 225,
+        "image": "persian_images/ashkhas/ashkhas73.jpg",
+        "question": "چند زن در تصویر است؟",
+        "answer": "یک",
+        "category": "object presence"
+    },
+    {
+        "id": 226,
+        "image": "persian_images/ashkhas/ashkhas6.jpg",
+        "question": "چند صورت آدم در تصویر است؟",
+        "answer": "چهار",
+        "category": "counting object"
+    },
+    {
+        "id": 227,
+        "image": "persian_images/ashkhas/ashkhas72.jpg",
+        "question": "روسری زن چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 228,
+        "image": "persian_images/ashkhas/ashkhas12.jpg",
+        "question": "انگشتر در کدام دست شخص در تصویر قرار دارد؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 229,
+        "image": "persian_images/ashkhas/ashkhas16.jpg",
+        "question": "در سینی فلزی چه چیزی وجود دارد؟",
+        "answer": "شربت",
+        "category": "object detection"
+    },
+    {
+        "id": 230,
+        "image": "persian_images/ashkhas/ashkhas100.jpg",
+        "question": "آیا در تصویر پرچم وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 231,
+        "image": "persian_images/ashkhas/ashkhas42.jpg",
+        "question": "در تصویر چند زن وجود دارد؟",
+        "answer": "سه",
+        "category": "counting object"
+    },
+    {
+        "id": 232,
+        "image": "persian_images/ashkhas/ashkhas53.jpg",
+        "question": "آیا در تصویر سبد می بینید؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 233,
+        "image": "persian_images/ashkhas/ashkhas23.jpg",
+        "question": "در تابلوی روی دیوار تصویر چند شخص کشیده شده است؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 234,
+        "image": "persian_images/ashkhas/ashkhas14.jpg",
+        "question": "چند پسر در تصویر می بینید؟",
+        "answer": "چهار",
+        "category": "counting object"
+    },
+    {
+        "id": 235,
+        "image": "persian_images/ashkhas/ashkhas54.jpg",
+        "question": "چند پرچم در تصویر می بینید؟",
+        "answer": "سه",
+        "category": "counting object"
+    },
+    {
+        "id": 236,
+        "image": "persian_images/ashkhas/ashkhas39.jpg",
+        "question": "جنسیت شخص چیست؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 237,
+        "image": "persian_images/ashkhas/ashkhas74.jpg",
+        "question": "آیا چشمان زن بسته است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 238,
+        "image": "persian_images/ashkhas/ashkhas63.jpg",
+        "question": "آیا این فروشنده میوه می‌فروشد؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 239,
+        "image": "persian_images/ashkhas/ashkhas88.jpg",
+        "question": "چند چرخ خیاطی در اتاق وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 240,
+        "image": "persian_images/ashkhas/ashkhas91.jpg",
+        "question": "چند زن شال سبز سرشان است؟",
+        "answer": "پنج",
+        "category": "counting object"
+    },
+    {
+        "id": 241,
+        "image": "persian_images/ashkhas/ashkhas69.jpg",
+        "question": "شخص درون تصویر چه جنسیتی دارد؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 242,
+        "image": "persian_images/ashkhas/ashkhas78.jpg",
+        "question": "پشت بام ها به چه شکلی است؟",
+        "answer": "گنبدی",
+        "category": "other"
+    },
+    {
+        "id": 243,
+        "image": "persian_images/ashkhas/ashkhas20.jpg",
+        "question": "گل در دست پسربچه چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 244,
+        "image": "persian_images/ashkhas/ashkhas47.jpg",
+        "question": "چند مرد در تصویر می بینید؟",
+        "answer": "چهار",
+        "category": "counting object"
+    },
+    {
+        "id": 245,
+        "image": "persian_images/ashkhas/ashkhas40.jpg",
+        "question": "جنس پنجره‌ها چیست؟",
+        "answer": "چوبی",
+        "category": "object material"
+    },
+    {
+        "id": 246,
+        "image": "persian_images/ashkhas/ashkhas65.jpg",
+        "question": "کسی که نان گرفته مرد است؟",
+        "answer": "بله",
+        "category": "gender recognition"
+    },
+    {
+        "id": 247,
+        "image": "persian_images/ashkhas/ashkhas21.jpg",
+        "question": "در تصویر چه حیوانی وجود دارد؟",
+        "answer": "شتر",
+        "category": "object detection"
+    },
+    {
+        "id": 248,
+        "image": "persian_images/ashkhas/ashkhas5.jpg",
+        "question": "دکتر با نوزاد خشن برخورد می‌کند؟",
+        "answer": "خیر",
+        "category": "sentiment understanding"
+    },
+    {
+        "id": 249,
+        "image": "persian_images/ashkhas/ashkhas62.jpg",
+        "question": "پیر مرد در پایین تصویر روی چه چیزی نشسته است؟",
+        "answer": "فرش",
+        "category": "object detection"
+    },
+    {
+        "id": 250,
+        "image": "persian_images/ashkhas/ashkhas101.jpg",
+        "question": "لباسی که دختر به تن دارد چه رنگی است؟",
+        "answer": "سبز",
+        "category": "color attributes"
+    },
+    {
+        "id": 251,
+        "image": "persian_images/ashkhas/ashkhas28.jpg",
+        "question": "صاحب مغازه پیرزن است؟",
+        "answer": "خیر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 252,
+        "image": "persian_images/ashkhas/ashkhas97.jpg",
+        "question": "مرد روی چه چیزی نشسته است؟",
+        "answer": "قالیچه",
+        "category": "object detection"
+    },
+    {
+        "id": 253,
+        "image": "persian_images/ashkhas/ashkhas36.jpg",
+        "question": "آیا فردی که سینی بر سر گذاشته جوان است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 254,
+        "image": "persian_images/ashkhas/ashkhas75.jpg",
+        "question": "شخص موجود در تصویر چه جنسیتی دارد؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 255,
+        "image": "persian_images/ashkhas/ashkhas99.jpg",
+        "question": "آیا هم زن و هم مرد در تصویر هستند؟",
+        "answer": "بله",
+        "category": "gender recognition"
+    },
+    {
+        "id": 256,
+        "image": "persian_images/ashkhas/ashkhas79.jpg",
+        "question": "جنسیت دو نفر جلویی در تصویر چیست؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 257,
+        "image": "persian_images/ashkhas/ashkhas27.jpg",
+        "question": "کدام یک از افراد درون تصویر سبیل ندارد؟",
+        "answer": "راست",
+        "category": "other"
+    },
+    {
+        "id": 258,
+        "image": "persian_images/ashkhas/ashkhas38.jpg",
+        "question": "پوشش خانم‌ها چگونه است؟",
+        "answer": "لباس محلی",
+        "category": "other"
+    },
+    {
+        "id": 259,
+        "image": "persian_images/ashkhas/ashkhas48.jpg",
+        "question": "آیا غذا در ظرف شیشه ای است؟",
+        "answer": "خیر",
+        "category": "object material"
+    },
+    {
+        "id": 260,
+        "image": "persian_images/ashkhas/ashkhas64.jpg",
+        "question": "چه لباسی تن دخترها است؟",
+        "answer": "لباس محلی",
+        "category": "other"
+    },
+    {
+        "id": 261,
+        "image": "persian_images/ashkhas/ashkhas19.jpg",
+        "question": "افراد چه جنسیتی دارند؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 262,
+        "image": "persian_images/ashkhas/ashkhas59.jpg",
+        "question": "درون قوطی سمت چپ چیست؟",
+        "answer": "ترشی",
+        "category": "object detection"
+    },
+    {
+        "id": 263,
+        "image": "persian_images/ashkhas/ashkhas70.jpg",
+        "question": "آیا زن سمت چپ جوان است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 264,
+        "image": "persian_images/ashkhas/ashkhas76.jpg",
+        "question": "آیا این پیرمرد خوراکی می‌فروشد؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 265,
+        "image": "persian_images/ashkhas/ashkhas50.jpg",
+        "question": "یقه لباس زن موجود در تصویر چه رنگی است؟",
+        "answer": "قهوه‌ای",
+        "category": "color attributes"
+    },
+    {
+        "id": 266,
+        "image": "persian_images/ashkhas/ashkhas11.jpg",
+        "question": "چند مرد در تصویر وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 267,
+        "image": "persian_images/ashkhas/ashkhas60.jpg",
+        "question": "مرد داخل تصویر چه حسی دارد؟",
+        "answer": "خوشحال",
+        "category": "sentiment understanding"
+    },
+    {
+        "id": 268,
+        "image": "persian_images/ashkhas/ashkhas18.jpg",
+        "question": "لباس محلی دختر چه رنگی است؟",
+        "answer": "زرد",
+        "category": "color attributes"
+    },
+    {
+        "id": 269,
+        "image": "persian_images/ashkhas/ashkhas35.jpg",
+        "question": "شخص موجود در تصویر مشغول چه کاری است؟",
+        "answer": "قالی‌بافی",
+        "category": "activity recognition"
+    },
+    {
+        "id": 270,
+        "image": "persian_images/ashkhas/ashkhas3.jpg",
+        "question": "چه چیزی در بشقاب در تصویر وجود دارد؟",
+        "answer": "هندوانه",
+        "category": "object detection"
+    },
+    {
+        "id": 271,
+        "image": "persian_images/ashkhas/ashkhas13.jpg",
+        "question": "آیا در عکس گوسفند هم دیده می شود؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 272,
+        "image": "persian_images/ashkhas/ashkhas34.jpg",
+        "question": "شغل پیرمرد چیست؟",
+        "answer": "کفاشی",
+        "category": "activity recognition"
+    },
+    {
+        "id": 273,
+        "image": "persian_images/ashkhas/ashkhas45.jpg",
+        "question": "اشخاص در تصویر به چه چیزی نگاه می‌کنند؟",
+        "answer": "کفش",
+        "category": "object detection"
+    },
+    {
+        "id": 274,
+        "image": "persian_images/ashkhas/ashkhas82.jpg",
+        "question": "چتر مشکی در تصویر می بینید؟",
+        "answer": "بله",
+        "category": "color attributes"
+    },
+    {
+        "id": 275,
+        "image": "persian_images/ashkhas/ashkhas22.jpg",
+        "question": "پشت مرد چه چیزهایی روی هم قرار داده شده‌اند؟",
+        "answer": "فرش",
+        "category": "object detection"
+    },
+    {
+        "id": 276,
+        "image": "persian_images/ashkhas/ashkhas32.jpg",
+        "question": "آیا در تصویر درخت وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 277,
+        "image": "persian_images/ashkhas/ashkhas29.jpg",
+        "question": "آیا موهای دختر درون تصویر کاملا معلوم است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 278,
+        "image": "persian_images/ashkhas/ashkhas66.jpg",
+        "question": "چند نفر در تصویر کلاه پوشیده اند؟",
+        "answer": "سه",
+        "category": "counting object"
+    },
+    {
+        "id": 279,
+        "image": "persian_images/ashkhas/ashkhas77.jpg",
+        "question": "شخصی که قدش بلند تر است چه جنسیتی دارد؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 280,
+        "image": "persian_images/ashkhas/ashkhas84.jpg",
+        "question": "روسری دختری که در تصویر می بینید چه رنگ است؟",
+        "answer": "آبی",
+        "category": "color attributes"
+    },
+    {
+        "id": 281,
+        "image": "persian_images/ashkhas/ashkhas57.jpg",
+        "question": "مرد درحال انجام چه کاری است؟",
+        "answer": "آماده کردن خمیر",
+        "category": "activity recognition"
+    },
+    {
+        "id": 282,
+        "image": "persian_images/ashkhas/ashkhas95.jpg",
+        "question": "چند تا مرد در این تصویر می بینید؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 283,
+        "image": "persian_images/ashkhas/ashkhas83.jpg",
+        "question": "چند دختر در تصویر مشخص است؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 284,
+        "image": "persian_images/ashkhas/ashkhas96.jpg",
+        "question": "مرد کدام دست خود را بلند کرده‌است؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 285,
+        "image": "persian_images/ashkhas/ashkhas46.jpg",
+        "question": "جنسیت کودکی که کنار حیوان ایستاده است چیست؟",
+        "answer": "پسر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 286,
+        "image": "persian_images/ashkhas/ashkhas15.jpg",
+        "question": "چه حیوانی پشت دختر وجود دارد؟",
+        "answer": "الاغ",
+        "category": "object detection"
+    },
+    {
+        "id": 287,
+        "image": "persian_images/ashkhas/ashkhas52.jpg",
+        "question": "در دست پسری که سمت چپ ایستاده چه چیزی است؟",
+        "answer": "قلیان",
+        "category": "object detection"
+    },
+    {
+        "id": 288,
+        "image": "persian_images/ashkhas/ashkhas71.jpg",
+        "question": "جنس کوزه ها از چیست؟",
+        "answer": "سفال",
+        "category": "object material"
+    },
+    {
+        "id": 289,
+        "image": "persian_images/ashkhas/ashkhas56.jpg",
+        "question": "مردها چه لباسی پوشیدند؟",
+        "answer": "تی‌شرت",
+        "category": "other"
+    },
+    {
+        "id": 290,
+        "image": "persian_images/ashkhas/ashkhas30.jpg",
+        "question": "شخصی که در تصویر میبینید چه جنسیتی دارد؟",
+        "answer": "دختر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 291,
+        "image": "persian_images/ashkhas/ashkhas25.jpg",
+        "question": "پسر مشغول انجام چه کاری است؟",
+        "answer": "چیدن گل",
+        "category": "activity recognition"
+    },
+    {
+        "id": 292,
+        "image": "persian_images/ashkhas/ashkhas8.jpg",
+        "question": "اشخاص در تصویر در حال انجام چه کاری هستند؟",
+        "answer": "نماز خواندن",
+        "category": "activity recognition"
+    },
+    {
+        "id": 293,
+        "image": "persian_images/ashkhas/ashkhas9.jpg",
+        "question": "مینی‌بوس سفید رنگ است؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 294,
+        "image": "persian_images/ashkhas/ashkhas1.jpg",
+        "question": "زن جلوی کجا ایستاده است؟",
+        "answer": "در",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 295,
+        "image": "persian_images/ashkhas/ashkhas51.jpg",
+        "question": "کف پوش کتابخانه چه رنگی ست؟",
+        "answer": "قرمز",
+        "category": "color attributes"
+    },
+    {
+        "id": 296,
+        "image": "persian_images/ashkhas/ashkhas31.jpg",
+        "question": "زنی که عینک دارد در کدام سمت تصویر است؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 297,
+        "image": "persian_images/ashkhas/ashkhas58.jpg",
+        "question": "در تصویر سه مرد حضور دارند؟",
+        "answer": "خیر",
+        "category": "counting object"
+    },
+    {
+        "id": 298,
+        "image": "persian_images/ashkhas/ashkhas44.jpg",
+        "question": "جنسیت شخصی که روی صندلی چوبی نشسته چیست؟",
+        "answer": "دختر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 299,
+        "image": "persian_images/ashkhas/ashkhas4.jpg",
+        "question": "چند خانم با پوشش چادر در تصویر وجود دارند؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 300,
+        "image": "persian_images/ashkhas/ashkhas26.jpg",
+        "question": "مرد چه چیزی در دست دارد؟",
+        "answer": "نان",
+        "category": "object presence"
+    },
+    {
+        "id": 301,
+        "image": "persian_images/ashkhas/ashkhas92.jpg",
+        "question": "جنسیت شخص نشسته روی فرش‌ها چیست؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 302,
+        "image": "persian_images/ashkhas/ashkhas24.jpg",
+        "question": "آیا زن در تصویر ایستاده است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 303,
+        "image": "persian_images/ashkhas/ashkhas81.jpg",
+        "question": "چند نان روی میز است؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 304,
+        "image": "persian_images/ashkhas/ashkhas67.jpg",
+        "question": "زنان در حال چه کاری هستند؟",
+        "answer": "دست زدن",
+        "category": "activity recognition"
+    },
+    {
+        "id": 305,
+        "image": "persian_images/ashkhas/ashkhas55.jpg",
+        "question": "دو نفری که گل‌ها را می‌ریزند زن هستند؟",
+        "answer": "خیر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 306,
+        "image": "persian_images/ashkhas/ashkhas41.jpg",
+        "question": "چند دختر در تصویر است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 307,
+        "image": "persian_images/ashkhas/ashkhas7.jpg",
+        "question": "رنگ لباس زن چیست؟",
+        "answer": "سیاه",
+        "category": "color attributes"
+    },
+    {
+        "id": 308,
+        "image": "persian_images/ashkhas/ashkhas87.jpg",
+        "question": "چند صندوق صدقات در تصویر مشخص است؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 309,
+        "image": "persian_images/ashkhas/ashkhas10.jpg",
+        "question": "مقنعه زن چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 310,
+        "image": "persian_images/ashkhas/ashkhas89.jpg",
+        "question": "چند زن با چادر مشکی در تصویر است؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 311,
+        "image": "persian_images/ashkhas/ashkhas68.jpg",
+        "question": "جورابی که دختر با شال سبز پوشیده چه رنگی است؟",
+        "answer": "سبز",
+        "category": "color attributes"
+    },
+    {
+        "id": 312,
+        "image": "persian_images/food/food38.jpg",
+        "question": "چند ظرف سفید رنگ در تصویر موجود است؟",
+        "answer": "سه",
+        "category": "counting object"
+    },
+    {
+        "id": 313,
+        "image": "persian_images/food/food6.jpg",
+        "question": "چند بشقاب غذا در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 314,
+        "image": "persian_images/food/food31.jpg",
+        "question": "کنار گوجه ها چه چیزی خرد شده است؟",
+        "answer": "آووکادو",
+        "category": "object detection"
+    },
+    {
+        "id": 315,
+        "image": "persian_images/food/food3.jpg",
+        "question": "آیا در تصویر نخود وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 316,
+        "image": "persian_images/food/food95.jpg",
+        "question": "چند ظرف غذا داخل تصویر وجود دارد؟",
+        "answer": "سه",
+        "category": "counting object"
+    },
+    {
+        "id": 317,
+        "image": "persian_images/food/food92.jpg",
+        "question": "آیا در سینی جوجه کباب با برنج است؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 318,
+        "image": "persian_images/food/food85.jpg",
+        "question": "گوشت مرغ در تصویر خام است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 319,
+        "image": "persian_images/food/food13.jpg",
+        "question": "آیا در تصویر ماست وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 320,
+        "image": "persian_images/food/food16.jpg",
+        "question": "در ظرف دو سیخ کباب است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 321,
+        "image": "persian_images/food/food72.jpg",
+        "question": "چند عدد قاشق تو تصویر می بینی؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 322,
+        "image": "persian_images/food/food15.jpg",
+        "question": "بشقاب غذا فلزی است؟",
+        "answer": "خیر",
+        "category": "object material"
+    },
+    {
+        "id": 323,
+        "image": "persian_images/food/food59.jpg",
+        "question": "قاشق و چنگال در کدام سمت ظرف غذا قرار دارد؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 324,
+        "image": "persian_images/food/food14.jpg",
+        "question": "آیا غذا در بشقاب ریخته شده است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 325,
+        "image": "persian_images/food/food17.jpg",
+        "question": "زیتون ها چه رنگی است؟",
+        "answer": "سبز",
+        "category": "color attributes"
+    },
+    {
+        "id": 326,
+        "image": "persian_images/food/food55.jpg",
+        "question": "آیا در تصویر قاشق می بینید؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 327,
+        "image": "persian_images/food/food35.jpg",
+        "question": "گلدان در کدام سمت تصویر قرار دارد؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 328,
+        "image": "persian_images/food/food58.jpg",
+        "question": "چند بادمجان درون بشقاب جلوی عکس وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 329,
+        "image": "persian_images/food/food93.jpg",
+        "question": "بلال‌ها روی چه چیزی کباب می‌شوند؟",
+        "answer": "ذغال",
+        "category": "object detection"
+    },
+    {
+        "id": 330,
+        "image": "persian_images/food/food20.jpg",
+        "question": "آیا تمام ظرف‌های غذا در سینی بزرگتری است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 331,
+        "image": "persian_images/food/food45.jpg",
+        "question": "چند نان می‌بینید؟",
+        "answer": "سه",
+        "category": "counting object"
+    },
+    {
+        "id": 332,
+        "image": "persian_images/food/food49.jpg",
+        "question": "آیا داخل ظرف سبزی تربچه است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 333,
+        "image": "persian_images/food/food11.jpg",
+        "question": "آیا کباب‌ها به سیخ کشیده شده‌اند؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 334,
+        "image": "persian_images/food/food90.jpg",
+        "question": "روی غذا چه چیزی وجود دارد؟",
+        "answer": "ته دیگ",
+        "category": "object detection"
+    },
+    {
+        "id": 335,
+        "image": "persian_images/food/food10.jpg",
+        "question": "چند ظرف در تصویر دیده می‌شود؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 336,
+        "image": "persian_images/food/food46.jpg",
+        "question": "ظرف درون تصویر چه جنسی دارد؟",
+        "answer": "مسی",
+        "category": "object material"
+    },
+    {
+        "id": 337,
+        "image": "persian_images/food/food19.jpg",
+        "question": "آیا در ظرف کوچک سالاد است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 338,
+        "image": "persian_images/food/food4.jpg",
+        "question": "آیا در ظرف لیمو وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 339,
+        "image": "persian_images/food/food99.jpg",
+        "question": "جنس قاشق از چیست؟",
+        "answer": "فلز",
+        "category": "object material"
+    },
+    {
+        "id": 340,
+        "image": "persian_images/food/food2.jpg",
+        "question": "چند عدد شیرینی مثلثی شکل در جعبه است؟",
+        "answer": "پنج",
+        "category": "counting object"
+    },
+    {
+        "id": 341,
+        "image": "persian_images/food/food23.jpg",
+        "question": "جنس کاسه از چیست؟",
+        "answer": "فلز",
+        "category": "object material"
+    },
+    {
+        "id": 342,
+        "image": "persian_images/food/food80.jpg",
+        "question": "چه غذایی در تصویر می بینید؟",
+        "answer": "خورش کرفس",
+        "category": "other"
+    },
+    {
+        "id": 343,
+        "image": "persian_images/food/food100.jpg",
+        "question": "آیا خیار شور درون ساندویچ می‌بینید؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 344,
+        "image": "persian_images/food/food1.jpg",
+        "question": "ظرف ماکارونی چه رنگی است؟",
+        "answer": "سورمه‌ای",
+        "category": "color attributes"
+    },
+    {
+        "id": 345,
+        "image": "persian_images/food/food79.jpg",
+        "question": "سایه روی قسمت بالای شیرینی افتاده است یا پایین؟",
+        "answer": "بالا",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 346,
+        "image": "persian_images/food/food68.jpg",
+        "question": "آیا آب غذا در ظرف غذا ریخته شده است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 347,
+        "image": "persian_images/food/food96.jpg",
+        "question": "بشقاب چه رنگی است؟",
+        "answer": "مشکی",
+        "category": "color attributes"
+    },
+    {
+        "id": 348,
+        "image": "persian_images/food/food74.jpg",
+        "question": "چه نوع غذایی در تصویر وجود دارد؟",
+        "answer": "دلمه",
+        "category": "other"
+    },
+    {
+        "id": 349,
+        "image": "persian_images/food/food61.jpg",
+        "question": "آیا این غذا خورش دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 350,
+        "image": "persian_images/food/food50.jpg",
+        "question": "آیا تنها یک ظرف در عکس است؟",
+        "answer": "خیر",
+        "category": "counting object"
+    },
+    {
+        "id": 351,
+        "image": "persian_images/food/food97.jpg",
+        "question": "آیا ظرف خورش از ظرف برنج کوچک‌تر است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 352,
+        "image": "persian_images/food/food60.jpg",
+        "question": "آیا دلمه ها مربعی شکلند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 353,
+        "image": "persian_images/food/food34.jpg",
+        "question": "آیا غذایی که داخل ظرف کشیده شده پلو دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 354,
+        "image": "persian_images/food/food5.jpg",
+        "question": "آیا رومیزی ساده است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 355,
+        "image": "persian_images/food/food18.jpg",
+        "question": "آیا کنار غذا گوجه فرنگی ریز شده است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 356,
+        "image": "persian_images/food/food47.jpg",
+        "question": "آیا در ظرف زیتون قاشق است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 357,
+        "image": "persian_images/food/food66.jpg",
+        "question": "در کاسه کوچکتر سالاد است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 358,
+        "image": "persian_images/food/food33.jpg",
+        "question": "آیا بشقاب گرد است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 359,
+        "image": "persian_images/food/food43.jpg",
+        "question": "جنس لیوان از چیست؟",
+        "answer": "شیشه",
+        "category": "other"
+    },
+    {
+        "id": 360,
+        "image": "persian_images/food/food98.jpg",
+        "question": "قالیچه چه رنگی‌ست؟",
+        "answer": "قرمز",
+        "category": "color attributes"
+    },
+    {
+        "id": 361,
+        "image": "persian_images/food/food40.jpg",
+        "question": "آیا خورش سیب زمینی ندارد؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 362,
+        "image": "persian_images/food/food71.jpg",
+        "question": "چند قاشق در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 363,
+        "image": "persian_images/food/food64.jpg",
+        "question": "غذای داخل ظرف چیست؟",
+        "answer": "آش",
+        "category": "other"
+    },
+    {
+        "id": 364,
+        "image": "persian_images/food/food87.jpg",
+        "question": "دیس روی سطح با چه جنسی گذاشته شده است؟",
+        "answer": "سنگ",
+        "category": "object material"
+    },
+    {
+        "id": 365,
+        "image": "persian_images/food/food30.jpg",
+        "question": "آیا ماست را تزئین کرده‌اند؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 366,
+        "image": "persian_images/food/food39.jpg",
+        "question": "کنار ظرف چه چیزی قرار گرفته است؟",
+        "answer": "نان",
+        "category": "object detection"
+    },
+    {
+        "id": 367,
+        "image": "persian_images/food/food82.jpg",
+        "question": "در تصویر چند قاشق دیده می‌شود؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 368,
+        "image": "persian_images/food/food24.jpg",
+        "question": "چند برش باقلوا در سینی است؟",
+        "answer": "دوازده",
+        "category": "counting object"
+    },
+    {
+        "id": 369,
+        "image": "persian_images/food/food70.jpg",
+        "question": "نام غذای داخل ظرف چیست؟",
+        "answer": "کباب",
+        "category": "other"
+    },
+    {
+        "id": 370,
+        "image": "persian_images/food/food84.jpg",
+        "question": "چند عدد استکان کمر باریک در تصویر وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 371,
+        "image": "persian_images/food/food89.jpg",
+        "question": "آیا درون فلفل دلمه‌ای پر است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 372,
+        "image": "persian_images/food/food25.jpg",
+        "question": "چه غذایی در بشقاب است؟",
+        "answer": "دلمه ی بادمجان",
+        "category": "object detection"
+    },
+    {
+        "id": 373,
+        "image": "persian_images/food/food36.jpg",
+        "question": "چند عدد چنگال در تصویر است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 374,
+        "image": "persian_images/food/food91.jpg",
+        "question": "آیا این غذا برنجی‌ست؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 375,
+        "image": "persian_images/food/food56.jpg",
+        "question": "آیا بشقاب هر دو غذا همرنگ هستند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 376,
+        "image": "persian_images/food/food94.jpg",
+        "question": "چند عدد چنگال در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 377,
+        "image": "persian_images/food/food52.jpg",
+        "question": "علاوه بر زعفران چه چیزی روی برنج است؟",
+        "answer": "مرغ",
+        "category": "object detection"
+    },
+    {
+        "id": 378,
+        "image": "persian_images/food/food76.jpg",
+        "question": "چند فلفل در ظرف وجود دارد؟",
+        "answer": "هفت",
+        "category": "counting object"
+    },
+    {
+        "id": 379,
+        "image": "persian_images/food/food32.jpg",
+        "question": "چند بشقاب غذا در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 380,
+        "image": "persian_images/food/food65.jpg",
+        "question": "چند تخم مرغ در تصویر وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 381,
+        "image": "persian_images/food/food41.jpg",
+        "question": "چند شمع در تصویر دیده می‌شود؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 382,
+        "image": "persian_images/food/food9.jpg",
+        "question": "از چه چیزی برای تزیین کوکو استفاده شده است؟",
+        "answer": "سبزی",
+        "category": "object detection"
+    },
+    {
+        "id": 383,
+        "image": "persian_images/food/food101.jpg",
+        "question": "ظرف لپه در کدام سمت تصویر است؟",
+        "answer": "چپ",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 384,
+        "image": "persian_images/food/food42.jpg",
+        "question": "در تصویر ذغال کجا قرار دارد؟",
+        "answer": "زیر ظرف",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 385,
+        "image": "persian_images/food/food29.jpg",
+        "question": "آیا یک ظرف از سبزی در شکل می‌بینید؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 386,
+        "image": "persian_images/food/food69.jpg",
+        "question": "ظرفی که کشک بادمجان داخلش ریخته شده چه شکلی داره؟",
+        "answer": "بیضی",
+        "category": "other"
+    },
+    {
+        "id": 387,
+        "image": "persian_images/food/food7.jpg",
+        "question": "آیا در غذا لوبیا وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 388,
+        "image": "persian_images/food/food81.jpg",
+        "question": "آیا غذا تزئین شده است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 389,
+        "image": "persian_images/food/food37.jpg",
+        "question": "جنس سبد سبزی چیست؟",
+        "answer": "حصیری",
+        "category": "object material"
+    },
+    {
+        "id": 390,
+        "image": "persian_images/food/food26.jpg",
+        "question": "آیا در عکس سبزی وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 391,
+        "image": "persian_images/food/food53.jpg",
+        "question": "ظرف هایی که در تصویر هستند چه جنسی دارند؟",
+        "answer": "پلاستیک",
+        "category": "object material"
+    },
+    {
+        "id": 392,
+        "image": "persian_images/food/food22.jpg",
+        "question": "غذا بیشتر از چه چیزی تشکیل شده است؟",
+        "answer": "برنج",
+        "category": "other"
+    },
+    {
+        "id": 393,
+        "image": "persian_images/food/food75.jpg",
+        "question": "آیا در تصویر نان سنگک وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 394,
+        "image": "persian_images/food/food86.jpg",
+        "question": "چند عدد قاشق روی میز است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 395,
+        "image": "persian_images/food/food73.jpg",
+        "question": "بستنی ها چه رنگی هستند؟",
+        "answer": "زرد",
+        "category": "color attributes"
+    },
+    {
+        "id": 396,
+        "image": "persian_images/food/food51.jpg",
+        "question": "دور خورش چه چیزی ریخته شده است؟",
+        "answer": "سیب‌زمینی",
+        "category": "object detection"
+    },
+    {
+        "id": 397,
+        "image": "persian_images/food/food48.jpg",
+        "question": "سالاد با چه میوه‌ای تزیین شده است؟",
+        "answer": "هویج",
+        "category": "other"
+    },
+    {
+        "id": 398,
+        "image": "persian_images/food/food88.jpg",
+        "question": "در ظرف چه غذایی‌ست؟",
+        "answer": "کباب",
+        "category": "object presence"
+    },
+    {
+        "id": 399,
+        "image": "persian_images/food/food57.jpg",
+        "question": "در عکس قاشق و چنگال وجود دارد؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 400,
+        "image": "persian_images/food/food67.jpg",
+        "question": "چندتا چنگال در تصویر می بینید؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 401,
+        "image": "persian_images/food/food21.jpg",
+        "question": "آیا در ظرف شیرینی است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 402,
+        "image": "persian_images/food/food77.jpg",
+        "question": "آیا این غذا عدس دارد؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 403,
+        "image": "persian_images/food/food83.jpg",
+        "question": "آیا قاشق و چنگال کنار غذاست؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 404,
+        "image": "persian_images/food/food78.jpg",
+        "question": "طرح پارچه زیر غذا چیست؟",
+        "answer": "راه راه",
+        "category": "other"
+    },
+    {
+        "id": 405,
+        "image": "persian_images/food/food27.jpg",
+        "question": "بطری نوشیدنی روی میز چیست؟",
+        "answer": "دوغ",
+        "category": "object detection"
+    },
+    {
+        "id": 406,
+        "image": "persian_images/food/food62.jpg",
+        "question": "جنس ظرف پارچ چیست؟",
+        "answer": "شیشه",
+        "category": "object material"
+    },
+    {
+        "id": 407,
+        "image": "persian_images/food/food63.jpg",
+        "question": "آیا کنار غذا ظرف سس است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 408,
+        "image": "persian_images/food/food8.jpg",
+        "question": "آیا غذا برش خورده است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 409,
+        "image": "persian_images/food/food44.jpg",
+        "question": "چند نان بربری در عکس است؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 410,
+        "image": "persian_images/food/food54.jpg",
+        "question": "چه غذایی در تصویر است؟",
+        "answer": "ماکارونی",
+        "category": "object material"
+    },
+    {
+        "id": 411,
+        "image": "persian_images/food/food28.jpg",
+        "question": "آیا در تصویر زیتون سبز وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 412,
+        "image": "persian_images/food/food12.jpg",
+        "question": "برنج‌ها چه رنگی هستند؟",
+        "answer": "زرد",
+        "category": "color attributes"
+    },
+    {
+        "id": 413,
+        "image": "persian_images/indoor/indoor76.jpg",
+        "question": "چیدمان رستوران سنتی است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 414,
+        "image": "persian_images/indoor/indoor19.jpg",
+        "question": "آیا اینجا یک رستوران است؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 415,
+        "image": "persian_images/indoor/indoor86.jpg",
+        "question": "در تصویر کدام لوستر بزرگتر است؟",
+        "answer": "وسط",
+        "category": "other"
+    },
+    {
+        "id": 416,
+        "image": "persian_images/indoor/indoor66.jpg",
+        "question": "بالای پنجره‌ها چه شکلی است؟",
+        "answer": "نیم دایره",
+        "category": "other"
+    },
+    {
+        "id": 417,
+        "image": "persian_images/indoor/indoor27.jpg",
+        "question": "شخص درون تصویر چه جنسیتی دارد؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 418,
+        "image": "persian_images/indoor/indoor99.jpg",
+        "question": "ساعت کدام طرف تصویر است؟",
+        "answer": "وسط",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 419,
+        "image": "persian_images/indoor/indoor46.jpg",
+        "question": "سقف اتاق به چه شکل است؟",
+        "answer": "گنبدی",
+        "category": "other"
+    },
+    {
+        "id": 420,
+        "image": "persian_images/indoor/indoor69.jpg",
+        "question": "زنی که در تصویر است چه لباسی دارد؟",
+        "answer": "چادر",
+        "category": "other"
+    },
+    {
+        "id": 421,
+        "image": "persian_images/indoor/indoor94.jpg",
+        "question": "آیا نما دیوار ها سنگی است؟",
+        "answer": "بله",
+        "category": "object material"
+    },
+    {
+        "id": 422,
+        "image": "persian_images/indoor/indoor13.jpg",
+        "question": "افراد در تصویر چه جنسیتی دارند؟",
+        "answer": "مذکر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 423,
+        "image": "persian_images/indoor/indoor63.jpg",
+        "question": "چند صندلی در اتاق دیده می‌شود؟",
+        "answer": "زیاد",
+        "category": "counting object"
+    },
+    {
+        "id": 424,
+        "image": "persian_images/indoor/indoor74.jpg",
+        "question": "تعداد تماشاچیان چقدر است؟",
+        "answer": "زیاد",
+        "category": "counting object"
+    },
+    {
+        "id": 425,
+        "image": "persian_images/indoor/indoor29.jpg",
+        "question": "آیا در تصویر رو میزی وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 426,
+        "image": "persian_images/indoor/indoor21.jpg",
+        "question": "آیا دیوارها کاغذ دیواری دارند؟",
+        "answer": "خیر",
+        "category": "object material"
+    },
+    {
+        "id": 427,
+        "image": "persian_images/indoor/indoor25.jpg",
+        "question": "شخص در تصویر چه جنسیتی دارد؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 428,
+        "image": "persian_images/indoor/indoor78.jpg",
+        "question": "آیا پنجره‌ها پرده دارند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 429,
+        "image": "persian_images/indoor/indoor87.jpg",
+        "question": "افراد در تصویر چه جنسیتی دارند؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 430,
+        "image": "persian_images/indoor/indoor1.jpg",
+        "question": "کف گالری فرش دارد؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 431,
+        "image": "persian_images/indoor/indoor44.jpg",
+        "question": "آیا این رستوان گلدان دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 432,
+        "image": "persian_images/indoor/indoor37.jpg",
+        "question": "اینجا چه مکانی است؟",
+        "answer": "موزه",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 433,
+        "image": "persian_images/indoor/indoor6.jpg",
+        "question": "آیا شیشه بالایی پنجره ها بی رنگ است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 434,
+        "image": "persian_images/indoor/indoor58.jpg",
+        "question": "نورگیر روی سقف چه شکلی دارد؟",
+        "answer": "هشت ضلعی",
+        "category": "other"
+    },
+    {
+        "id": 435,
+        "image": "persian_images/indoor/indoor62.jpg",
+        "question": "آیا تصویر نشان دهنده یک مکان زیارتی است؟",
+        "answer": "بله",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 436,
+        "image": "persian_images/indoor/indoor60.jpg",
+        "question": "آیا اینجا یک مسجد است؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 437,
+        "image": "persian_images/indoor/indoor49.jpg",
+        "question": "آیا صندلی‌ها وسط اتاق قرار دارند؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 438,
+        "image": "persian_images/indoor/indoor36.jpg",
+        "question": "در کدام طرف تصویر فرش می بینید؟",
+        "answer": "دو طرف",
+        "category": "object presence"
+    },
+    {
+        "id": 439,
+        "image": "persian_images/indoor/indoor18.jpg",
+        "question": "تمام افراد حاضر در تصویر مشکی پوشیده‌اند؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 440,
+        "image": "persian_images/indoor/indoor100.jpg",
+        "question": "دیوار از جنس سنگ است؟",
+        "answer": "خیر",
+        "category": "object material"
+    },
+    {
+        "id": 441,
+        "image": "persian_images/indoor/indoor42.jpg",
+        "question": "سقف این مکان چه شکلی هست؟",
+        "answer": "گنبدی",
+        "category": "other"
+    },
+    {
+        "id": 442,
+        "image": "persian_images/indoor/indoor12.jpg",
+        "question": "کف اتاق بدون فرش است؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 443,
+        "image": "persian_images/indoor/indoor73.jpg",
+        "question": "ظاهر زن حاضر در تصویر چگونه است؟",
+        "answer": "پوشیده",
+        "category": "other"
+    },
+    {
+        "id": 444,
+        "image": "persian_images/indoor/indoor68.jpg",
+        "question": "آیا پنجره ها پرده دارند؟",
+        "answer": "بله",
+        "category": "object detection"
+    },
+    {
+        "id": 445,
+        "image": "persian_images/indoor/indoor3.jpg",
+        "question": "چه تعداد چهارپایه در تصویر دیده می شود؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 446,
+        "image": "persian_images/indoor/indoor67.jpg",
+        "question": "قسمت بالایی تخت چه رنگی است؟",
+        "answer": "قرمز",
+        "category": "color attributes"
+    },
+    {
+        "id": 447,
+        "image": "persian_images/indoor/indoor43.jpg",
+        "question": "این مکان کجا است؟",
+        "answer": "گالری",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 448,
+        "image": "persian_images/indoor/indoor5.jpg",
+        "question": "در تصویر چند پله برقی می بینید؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 449,
+        "image": "persian_images/indoor/indoor89.jpg",
+        "question": "آیا تصویر فضای یک مسجد را نشان می دهد؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 450,
+        "image": "persian_images/indoor/indoor77.jpg",
+        "question": "آیا سقف و دیوارها آینه کاری شده است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 451,
+        "image": "persian_images/indoor/indoor17.jpg",
+        "question": "آیا چیدمان این گالری سنتی است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 452,
+        "image": "persian_images/indoor/indoor45.jpg",
+        "question": "این بازیکنان زن هستند؟",
+        "answer": "خیر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 453,
+        "image": "persian_images/indoor/indoor95.jpg",
+        "question": "آیا تماشاچیان در سالن پراکنده هستند؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 454,
+        "image": "persian_images/indoor/indoor83.jpg",
+        "question": "معماری این کتابخانه سنتی است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 455,
+        "image": "persian_images/indoor/indoor30.jpg",
+        "question": "چند فرش داخل اتاق است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 456,
+        "image": "persian_images/indoor/indoor54.jpg",
+        "question": "در تصویر چند گاری وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 457,
+        "image": "persian_images/indoor/indoor55.jpg",
+        "question": "چند نفر در عکس وجود دارد؟",
+        "answer": "زیاد",
+        "category": "counting object"
+    },
+    {
+        "id": 458,
+        "image": "persian_images/indoor/indoor70.jpg",
+        "question": "تابلو سفید با شکل و نوشته کدام سمت تصویر است؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 459,
+        "image": "persian_images/indoor/indoor31.jpg",
+        "question": "چند صندلی در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 460,
+        "image": "persian_images/indoor/indoor34.jpg",
+        "question": "آیا در عکس پرنده می بینید؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 461,
+        "image": "persian_images/indoor/indoor59.jpg",
+        "question": "آیا فردی از خیابان عبور می‌کند؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 462,
+        "image": "persian_images/indoor/indoor98.jpg",
+        "question": "آیا در تصویر حوض وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 463,
+        "image": "persian_images/indoor/indoor26.jpg",
+        "question": "چند آینه در تصویر است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 464,
+        "image": "persian_images/indoor/indoor75.jpg",
+        "question": "شخصی که در تصویر است چه جنسیتی دارد؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 465,
+        "image": "persian_images/indoor/indoor80.jpg",
+        "question": "اینجا چه مکانی است؟",
+        "answer": "مرکز خرید",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 466,
+        "image": "persian_images/indoor/indoor51.jpg",
+        "question": "شکل سقف رستوران به چه صورت است؟",
+        "answer": "گنبدی",
+        "category": "other"
+    },
+    {
+        "id": 467,
+        "image": "persian_images/indoor/indoor56.jpg",
+        "question": "دیوارها نقاشی شده است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 468,
+        "image": "persian_images/indoor/indoor93.jpg",
+        "question": "لامپ در کجای تصویر قرار دارد؟",
+        "answer": "بالا",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 469,
+        "image": "persian_images/indoor/indoor88.jpg",
+        "question": "چه چیزی روی زمین است؟",
+        "answer": "فرش",
+        "category": "object detection"
+    },
+    {
+        "id": 470,
+        "image": "persian_images/indoor/indoor32.jpg",
+        "question": "آیا زن چادر سیاه به سر کرده است؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 471,
+        "image": "persian_images/indoor/indoor96.jpg",
+        "question": "آیا مردان لباس بر تن دارند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 472,
+        "image": "persian_images/indoor/indoor71.jpg",
+        "question": "کاشی های داخل حوض چه رنگی‌ست؟",
+        "answer": "آبی",
+        "category": "color attributes"
+    },
+    {
+        "id": 473,
+        "image": "persian_images/indoor/indoor7.jpg",
+        "question": "سقف مکان چه شکلی است؟",
+        "answer": "گنبدی",
+        "category": "other"
+    },
+    {
+        "id": 474,
+        "image": "persian_images/indoor/indoor16.jpg",
+        "question": "آیا اتاق فرش دارد؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 475,
+        "image": "persian_images/indoor/indoor72.jpg",
+        "question": "جنس زمین پاساژ از چیست؟",
+        "answer": "سنگ",
+        "category": "object material"
+    },
+    {
+        "id": 476,
+        "image": "persian_images/indoor/indoor82.jpg",
+        "question": "آیا زمین فرش دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 477,
+        "image": "persian_images/indoor/indoor20.jpg",
+        "question": "این مکان موزه و حمام تاریخی است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 478,
+        "image": "persian_images/indoor/indoor97.jpg",
+        "question": "آیا فردی که پشت پیشخوان ایستاده مرد است؟",
+        "answer": "خیر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 479,
+        "image": "persian_images/indoor/indoor24.jpg",
+        "question": "سقف در تصویر چه مدلی است؟",
+        "answer": "گنبدی",
+        "category": "other"
+    },
+    {
+        "id": 480,
+        "image": "persian_images/indoor/indoor28.jpg",
+        "question": "جنس دیوارها از چیست؟",
+        "answer": "آینه‌کاری",
+        "category": "object material"
+    },
+    {
+        "id": 481,
+        "image": "persian_images/indoor/indoor81.jpg",
+        "question": "مردان در حال چه کاری هستند؟",
+        "answer": "عبادت",
+        "category": "activity recognition"
+    },
+    {
+        "id": 482,
+        "image": "persian_images/indoor/indoor91.jpg",
+        "question": "ستون های سقف آهنی است؟",
+        "answer": "خیر",
+        "category": "object material"
+    },
+    {
+        "id": 483,
+        "image": "persian_images/indoor/indoor65.jpg",
+        "question": "چه شی آویزانی در عکس است؟",
+        "answer": "لوستر",
+        "category": "object detection"
+    },
+    {
+        "id": 484,
+        "image": "persian_images/indoor/indoor64.jpg",
+        "question": "زن چه پوششی دارد؟",
+        "answer": "چادر",
+        "category": "other"
+    },
+    {
+        "id": 485,
+        "image": "persian_images/indoor/indoor38.jpg",
+        "question": "چند چلچراغ در اتاق وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 486,
+        "image": "persian_images/indoor/indoor84.jpg",
+        "question": "چند عدد صندوقچه در تصویر می بینید؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 487,
+        "image": "persian_images/indoor/indoor33.jpg",
+        "question": "سقف چه رنگی است؟",
+        "answer": "نارنجی",
+        "category": "color attributes"
+    },
+    {
+        "id": 488,
+        "image": "persian_images/indoor/indoor22.jpg",
+        "question": "کاشی‌های دیوار طرحدار هستند؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 489,
+        "image": "persian_images/indoor/indoor11.jpg",
+        "question": "آیا تصویر مربوط به یک آسمان است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 490,
+        "image": "persian_images/indoor/indoor15.jpg",
+        "question": "آیا همه بخش‌های تصویر نقش و نگار دارد؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 491,
+        "image": "persian_images/indoor/indoor10.jpg",
+        "question": "صندلی های موجود در ایستگاه چه رنگی است؟",
+        "answer": "آبی",
+        "category": "color attributes"
+    },
+    {
+        "id": 492,
+        "image": "persian_images/indoor/indoor41.jpg",
+        "question": "وسط مجتمع در طبقه پایین چه چیزی است؟",
+        "answer": "ماشین",
+        "category": "object detection"
+    },
+    {
+        "id": 493,
+        "image": "persian_images/indoor/indoor50.jpg",
+        "question": "دیوار‌ها آینه کاری شده اند؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 494,
+        "image": "persian_images/indoor/indoor61.jpg",
+        "question": "چند پروژکتور در این تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 495,
+        "image": "persian_images/indoor/indoor14.jpg",
+        "question": "آیا در عکس پله برقی وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 496,
+        "image": "persian_images/indoor/indoor92.jpg",
+        "question": "رنگ غالب فرش‌ها چیست؟",
+        "answer": "قرمز",
+        "category": "color attributes"
+    },
+    {
+        "id": 497,
+        "image": "persian_images/indoor/indoor53.jpg",
+        "question": "آیا در تصویر کپسول آتش نشانی وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 498,
+        "image": "persian_images/indoor/indoor48.jpg",
+        "question": "لباس مردی که خم شده چه رنگی است؟",
+        "answer": "مشکی و آبی",
+        "category": "color attributes"
+    },
+    {
+        "id": 499,
+        "image": "persian_images/indoor/indoor8.jpg",
+        "question": "این تصویر چه مکانی را نشان می‌دهد؟",
+        "answer": "بازار",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 500,
+        "image": "persian_images/indoor/indoor47.jpg",
+        "question": "اینجا کجاست؟",
+        "answer": "رستوران سنتی",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 501,
+        "image": "persian_images/indoor/indoor35.jpg",
+        "question": "آیا روی دیوارهای سفید آینه کاری شده است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 502,
+        "image": "persian_images/indoor/indoor52.jpg",
+        "question": "چند مبل دور میز قرار دارد؟",
+        "answer": "چهار",
+        "category": "counting object"
+    },
+    {
+        "id": 503,
+        "image": "persian_images/indoor/indoor40.jpg",
+        "question": "آیا لباس مردی که ایستاده قرمز است؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 504,
+        "image": "persian_images/indoor/indoor90.jpg",
+        "question": "پنجره های رنگی روی در چوبی چه شکلی هستند؟",
+        "answer": "شش ضلعی",
+        "category": "other"
+    },
+    {
+        "id": 505,
+        "image": "persian_images/indoor/indoor4.jpg",
+        "question": "چه چیزی در کف اتاق پهن شده است؟",
+        "answer": "فرش",
+        "category": "object presence"
+    },
+    {
+        "id": 506,
+        "image": "persian_images/indoor/indoor79.jpg",
+        "question": "رنگ فرش های پهن شده چیست؟",
+        "answer": "قرمز",
+        "category": "counting object"
+    },
+    {
+        "id": 507,
+        "image": "persian_images/indoor/indoor39.jpg",
+        "question": "آیا در تصاویر لامپ دیده می شود؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 508,
+        "image": "persian_images/indoor/indoor9.jpg",
+        "question": "در تصویر چند مانیتور وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 509,
+        "image": "persian_images/indoor/indoor57.jpg",
+        "question": "جنس میز تلویزیون از چیست؟",
+        "answer": "چوب",
+        "category": "object material"
+    },
+    {
+        "id": 510,
+        "image": "persian_images/indoor/indoor23.jpg",
+        "question": "چند گلدان بزرگ سفید وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 511,
+        "image": "persian_images/indoor/indoor85.jpg",
+        "question": "آیا چراغ‌های این مکان خاموش است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 512,
+        "image": "persian_images/indoor/indoor2.jpg",
+        "question": "آیا اندازه پنجره بزرگ است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 513,
+        "image": "persian_images/cars/cars102.png",
+        "question": "چند ماشین در تصویر وجود دارد؟",
+        "answer": "سه",
+        "category": "counting object"
+    },
+    {
+        "id": 514,
+        "image": "persian_images/ceremonies/ceremonies89.png",
+        "question": "کتاب کجاست؟",
+        "answer": "جلوی عروس و داماد",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 515,
+        "image": "persian_images/ceremonies/ceremonies91.png",
+        "question": "غذا را روی میز چیده‌اند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 516,
+        "image": "persian_images/ceremonies/ceremonies88.png",
+        "question": "آیا مردم در حال اجرای مراسم خاصی هستند؟",
+        "answer": "بله",
+        "category": "activity recognition"
+    },
+    {
+        "id": 517,
+        "image": "persian_images/ceremonies/ceremonies74.png",
+        "question": "در تصویر چند مرد وجود دارد؟",
+        "answer": "چهار",
+        "category": "counting object"
+    },
+    {
+        "id": 518,
+        "image": "persian_images/ceremonies/ceremonies71.png",
+        "question": "عروس چادر سفید پوشیده؟",
+        "answer": "بله",
+        "category": "color attributes"
+    },
+    {
+        "id": 519,
+        "image": "persian_images/ceremonies/ceremonies79.png",
+        "question": "آیا روی کیک شکلات ریخته‌اند؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 520,
+        "image": "persian_images/ceremonies/ceremonies97.png",
+        "question": "شخصی که اسپند دود می‌کند چه جنسیتی دارد؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 521,
+        "image": "persian_images/ceremonies/ceremonies77.png",
+        "question": "رنگ لباس مردانی که در تصویر  وجود دارد چه رنگی است؟",
+        "answer": "سیاه",
+        "category": "color attributes"
+    },
+    {
+        "id": 522,
+        "image": "persian_images/ceremonies/ceremonies90.png",
+        "question": "در تصویر چند مرد وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 523,
+        "image": "persian_images/ceremonies/ceremonies98.png",
+        "question": "چند مرد در تصویر در حال ساز زدن هستند؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 524,
+        "image": "persian_images/ceremonies/ceremonies99.png",
+        "question": "افراد موجود در تصویر چه جنسیتی دارند؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 525,
+        "image": "persian_images/ceremonies/ceremonies96.png",
+        "question": "آیا مردم زیادی در این خیابان حضور دارند؟",
+        "answer": "بله",
+        "category": "counting object"
+    },
+    {
+        "id": 526,
+        "image": "persian_images/ceremonies/ceremonies73.png",
+        "question": "چند عروسک در تصویر است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 527,
+        "image": "persian_images/ceremonies/ceremonies87.png",
+        "question": "گنبد چه رنگی است؟",
+        "answer": "طلایی",
+        "category": "color attributes"
+    },
+    {
+        "id": 528,
+        "image": "persian_images/ceremonies/ceremonies82.png",
+        "question": "جنسیت شخصی که پشت میز است چیست؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 529,
+        "image": "persian_images/ceremonies/ceremonies85.png",
+        "question": "آیا این مراسم جشن عروسی است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 530,
+        "image": "persian_images/ceremonies/ceremonies78.png",
+        "question": "چند مرد با کلاه گیس در تصویر وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 531,
+        "image": "persian_images/ceremonies/ceremonies95.png",
+        "question": "جنسیت شخص موجود در تصویر چیست؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 532,
+        "image": "persian_images/ceremonies/ceremonies80.png",
+        "question": "گل‌هایی که در سمت راست تصویر دیده می‌شود چه رنگی هستند؟",
+        "answer": "صورتی",
+        "category": "color attributes"
+    },
+    {
+        "id": 533,
+        "image": "persian_images/ceremonies/ceremonies83.png",
+        "question": "چند شخص در تصویر یقه اسکی پوشیده اند؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 534,
+        "image": "persian_images/ceremonies/ceremonies84.png",
+        "question": "زن ایستاده پشت میز چه کار می‌کند؟",
+        "answer": "پخش غذا",
+        "category": "activity recognition"
+    },
+    {
+        "id": 535,
+        "image": "persian_images/ceremonies/ceremonies86.png",
+        "question": "افراد درتصویر چه جنسیتی دارند؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 536,
+        "image": "persian_images/ceremonies/ceremonies72.png",
+        "question": "مردم مشغول چه کاری هستند؟",
+        "answer": "سینه زدن",
+        "category": "activity recognition"
+    },
+    {
+        "id": 537,
+        "image": "persian_images/ceremonies/ceremonies75.png",
+        "question": "چه حیوانی در تصویر وجود دارد؟",
+        "answer": "اسب",
+        "category": "object detection"
+    },
+    {
+        "id": 538,
+        "image": "persian_images/ceremonies/ceremonies81.png",
+        "question": "در آسمان چه چیزی دیده می‌شود؟",
+        "answer": "بادبادک",
+        "category": "object detection"
+    },
+    {
+        "id": 539,
+        "image": "persian_images/ceremonies/ceremonies94.png",
+        "question": "مرد جلوی تصویر چه چیزی را در هوا تکان می‌دهد؟",
+        "answer": "پارچه",
+        "category": "object detection"
+    },
+    {
+        "id": 540,
+        "image": "persian_images/ceremonies/ceremonies76.png",
+        "question": "پیراهن افرادی که جلیقه مشکی به تن دارند چه رنگی است؟",
+        "answer": "نارنجی",
+        "category": "color attributes"
+    },
+    {
+        "id": 541,
+        "image": "persian_images/ceremonies/ceremonies100.png",
+        "question": "اشخاص در حال انجام چه فعالیتی هستند؟",
+        "answer": "رقص",
+        "category": "activity recognition"
+    },
+    {
+        "id": 542,
+        "image": "persian_images/ceremonies/ceremonies92.png",
+        "question": "این دو زن با چرخ خیاطی کار می‌کنند؟",
+        "answer": "خیر",
+        "category": "activity recognition"
+    },
+    {
+        "id": 543,
+        "image": "persian_images/ceremonies/ceremonies70.png",
+        "question": "چند دختر با لباس لیمویی در حال پایکوبی است؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 544,
+        "image": "persian_images/ceremonies/ceremonies93.png",
+        "question": "لباس های افراد درون تصویر محلی است یا رسمی؟",
+        "answer": "محلی",
+        "category": "other"
+    },
+    {
+        "id": 545,
+        "image": "persian_images/sport/sport94.png",
+        "question": "در تصویر چند اسب دیده می‌شود؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 546,
+        "image": "persian_images/sport/sport95.png",
+        "question": "افراد در تصویر چه جنسیتی دارند؟",
+        "answer": "مذکر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 547,
+        "image": "persian_images/sport/sport99.png",
+        "question": "افراد قایقران چه جنسیتی دارند؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 548,
+        "image": "persian_images/sport/sport98.png",
+        "question": "آیا محیط بازی سر بسته است؟",
+        "answer": "بله",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 549,
+        "image": "persian_images/sport/sport89.png",
+        "question": "آیا همه ی دوچرخه سواران در تصویر کلاه ایمنی بر سر دارند؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 550,
+        "image": "persian_images/sport/sport93.png",
+        "question": "چه چیزی در دست سوارکاران است ؟",
+        "answer": "چوب",
+        "category": "object detection"
+    },
+    {
+        "id": 551,
+        "image": "persian_images/sport/sport90.png",
+        "question": "زن ها چه بر سر دارند؟",
+        "answer": "روسری",
+        "category": "object detection"
+    },
+    {
+        "id": 552,
+        "image": "persian_images/sport/sport100.png",
+        "question": "دختر روی چه چیزی سوار شده است؟",
+        "answer": "اسب",
+        "category": "object detection"
+    },
+    {
+        "id": 553,
+        "image": "persian_images/sport/sport101.png",
+        "question": "چند کمان در تصویر می بینید؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 554,
+        "image": "persian_images/sport/sport96.png",
+        "question": "جنسیت افراد در تصویر چیست؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 555,
+        "image": "persian_images/sport/sport91.png",
+        "question": "لباس پسری که کنار دوچرخه  در جلوی تصویر راه می‌رود چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 556,
+        "image": "persian_images/sport/sport92.png",
+        "question": "در تصویر چه وسیله نقلیه ای بجز دوچرخه وجود دارد؟",
+        "answer": "ماشین",
+        "category": "object detection"
+    },
+    {
+        "id": 557,
+        "image": "persian_images/sport/sport97.png",
+        "question": "قایق‌رانان زن هستند؟",
+        "answer": "بله",
+        "category": "gender recognition"
+    },
+    {
+        "id": 558,
+        "image": "persian_images/cars/cars104.jpeg",
+        "question": "آیا رنگ ماشین های درون تصویر آبی است؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 559,
+        "image": "persian_images/cars/cars106.jpeg",
+        "question": "درختان در کدام سمت ماشین سفید قرار دارند؟",
+        "answer": "راست",
+        "category": "object presence"
+    },
+    {
+        "id": 560,
+        "image": "persian_images/cars/cars105.jpeg",
+        "question": "رنگ برگ درختان در تصویر چه رنگی است؟",
+        "answer": "سبز",
+        "category": "color attributes"
+    },
+    {
+        "id": 561,
+        "image": "persian_images/sport/sport102.jpeg",
+        "question": "جنسیت شخص موجود در تصویر چیست؟",
+        "answer": "مرد",
+        "category": "gender recognition"
+    },
+    {
+        "id": 562,
+        "image": "persian_images/cars/cars1.jpg",
+        "question": "چند ماشین مشکی در سمت راست خیابان در حال حرکت هستند؟",
+        "answer": "سه",
+        "category": "counting object"
+    },
+    {
+        "id": 563,
+        "image": "persian_images/cars/cars11.jpg",
+        "question": "آیا ماشین‌ها پلاک دارند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 564,
+        "image": "persian_images/cars/cars15.jpg",
+        "question": "آیا تصویر فصل پاییز را نشان می دهد؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 565,
+        "image": "persian_images/cars/cars20.jpg",
+        "question": "چه وقت روز است؟",
+        "answer": "غروب",
+        "category": "other"
+    },
+    {
+        "id": 566,
+        "image": "persian_images/cars/cars25.jpg",
+        "question": "چند ماشین در تصویر دیده می شود؟",
+        "answer": "شش",
+        "category": "other"
+    },
+    {
+        "id": 567,
+        "image": "persian_images/cars/cars31.jpg",
+        "question": "آیا ماشین جلوی فروشگاه مشکی است؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 568,
+        "image": "persian_images/cars/cars39.jpg",
+        "question": "این مکان یک کوچه است؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 569,
+        "image": "persian_images/cars/cars47.jpg",
+        "question": "چه فصلی از سال است؟",
+        "answer": "پاییز",
+        "category": "other"
+    },
+    {
+        "id": 570,
+        "image": "persian_images/cars/cars53.jpg",
+        "question": "ماشینی که در تصویر است چه رنگی است؟",
+        "answer": "نقره‌ای",
+        "category": "color attributes"
+    },
+    {
+        "id": 571,
+        "image": "persian_images/cars/cars63.jpg",
+        "question": "آیا ماشین‌ها همرنگ هستند؟",
+        "answer": "بله",
+        "category": "color attributes"
+    },
+    {
+        "id": 572,
+        "image": "persian_images/cars/cars71.jpg",
+        "question": "تصویر چه جایی را نشان می‌دهد؟",
+        "answer": "تعمیرگاه",
+        "category": "other"
+    },
+    {
+        "id": 573,
+        "image": "persian_images/cars/cars80.jpg",
+        "question": "خانه چند پنجره دارد؟",
+        "answer": "چهار",
+        "category": "counting object"
+    },
+    {
+        "id": 574,
+        "image": "persian_images/cars/cars99.png",
+        "question": "چند ماشین دیده می‌شود؟",
+        "answer": "شش",
+        "category": "counting object"
+    },
+    {
+        "id": 575,
+        "image": "persian_images/cars/cars100.png",
+        "question": "آیا همه افراد مرد هستند؟",
+        "answer": "خیر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 576,
+        "image": "persian_images/cars/cars12.jpg",
+        "question": "آیا ماشینی در حال عبور است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 577,
+        "image": "persian_images/cars/cars17.jpg",
+        "question": "آیا در تصویر پل عابر پیاده است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 578,
+        "image": "persian_images/cars/cars22.jpg",
+        "question": "آیا در تصویر درخت وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 579,
+        "image": "persian_images/cars/cars27.jpg",
+        "question": "آیا موتورسواران مرد هستند؟",
+        "answer": "بله",
+        "category": "gender recognition"
+    },
+    {
+        "id": 580,
+        "image": "persian_images/cars/cars32.jpg",
+        "question": "چه چیزی در سقف پارکینگ وجود دارد؟",
+        "answer": "لامپ",
+        "category": "object detection"
+    },
+    {
+        "id": 581,
+        "image": "persian_images/cars/cars4.jpg",
+        "question": "چند تابلوی سبز رنگ می‌بینید؟",
+        "answer": "پنج",
+        "category": "color attributes"
+    },
+    {
+        "id": 582,
+        "image": "persian_images/cars/cars5.jpg",
+        "question": "نوار افقی رسم شده روی بدنه ماشین‌های سفید چه رنگی است؟",
+        "answer": "نارنجی",
+        "category": "color attributes"
+    },
+    {
+        "id": 583,
+        "image": "persian_images/cars/cars54.jpg",
+        "question": "چند پل در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 584,
+        "image": "persian_images/cars/cars65.jpg",
+        "question": "سطل زباله در کجای تصویر قرار دارد؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 585,
+        "image": "persian_images/cars/cars73.jpg",
+        "question": "تیر برق کجای تصویر قرار دارد؟",
+        "answer": "وسط",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 586,
+        "image": "persian_images/cars/cars83.jpg",
+        "question": "مردم مشغول گشت و گذار در چه جایی هستند؟",
+        "answer": "کافه‌های خیابانی",
+        "category": "other"
+    },
+    {
+        "id": 587,
+        "image": "persian_images/cars/cars101.png",
+        "question": "خودرو‌ها در چه مکانی هستند؟",
+        "answer": "موزه",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 588,
+        "image": "persian_images/cars/cars13.jpg",
+        "question": "خودروها در یک خط می رانند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 589,
+        "image": "persian_images/cars/cars19.jpg",
+        "question": "ماشین چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 590,
+        "image": "persian_images/cars/cars23.jpg",
+        "question": "کنار بزرگراه چه چیزی دیده می‌شود؟",
+        "answer": "پرچم",
+        "category": "object detection"
+    },
+    {
+        "id": 591,
+        "image": "persian_images/cars/cars29.jpg",
+        "question": "آیا درخت در تصویر دیده می‌شود؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 592,
+        "image": "persian_images/cars/cars33.jpg",
+        "question": "تصویر چه مکانی را نشان می‌دهد؟",
+        "answer": "خیابان",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 593,
+        "image": "persian_images/cars/cars40.jpg",
+        "question": "عکس در شب گرفته شده است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 594,
+        "image": "persian_images/cars/cars50.jpg",
+        "question": "چند موتور سیکلت در زیرگذر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 595,
+        "image": "persian_images/cars/cars6.jpg",
+        "question": "آیا در تصویر جنگل دیده می‌شود؟",
+        "answer": "بله",
+        "category": "object detection"
+    },
+    {
+        "id": 596,
+        "image": "persian_images/cars/cars69.jpg",
+        "question": "آیا تیر چراغ برق وسط کوچه است؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 597,
+        "image": "persian_images/cars/cars75.jpg",
+        "question": "چند ماشین در خیابان در حال حرکت هستند؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 598,
+        "image": "persian_images/cars/cars85.jpg",
+        "question": "درخت ها در کدام سمت تصویر قرار دارند؟",
+        "answer": "چپ",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 599,
+        "image": "persian_images/cars/cars103.jpeg",
+        "question": "آیا اینجا یک نمایشگاه اتومبیل است؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 600,
+        "image": "persian_images/cars/cars14.jpg",
+        "question": "سایه ماشین کدام سمت تصویر است؟",
+        "answer": "چپ",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 601,
+        "image": "persian_images/cars/cars2.jpg",
+        "question": "تابلوی دایره‌ای شکل سمت راست خیابان چه رنگی است؟",
+        "answer": "آبی",
+        "category": "color attributes"
+    },
+    {
+        "id": 602,
+        "image": "persian_images/cars/cars24.jpg",
+        "question": "کاغذ سفید نصب شده کدام سمت شیشه ی خودرو سفید است؟",
+        "answer": "چپ",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 603,
+        "image": "persian_images/cars/cars3.jpg",
+        "question": "تابلوی مغازه چه رنگی است؟",
+        "answer": "آبی",
+        "category": "color attributes"
+    },
+    {
+        "id": 604,
+        "image": "persian_images/cars/cars37.jpg",
+        "question": "آیا خیابان دو طرفه است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 605,
+        "image": "persian_images/cars/cars41.jpg",
+        "question": "چند نفر در تصویر وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 606,
+        "image": "persian_images/cars/cars51.jpg",
+        "question": "مجسمه در وسط میدان از چه جنسی است؟",
+        "answer": "مس",
+        "category": "object material"
+    },
+    {
+        "id": 607,
+        "image": "persian_images/cars/cars62.jpg",
+        "question": "آیا چراغ ماشین روشن است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 608,
+        "image": "persian_images/cars/cars7.jpg",
+        "question": "چه چیزی روی زمین ریخته است؟",
+        "answer": "برگ درختان",
+        "category": "object detection"
+    },
+    {
+        "id": 609,
+        "image": "persian_images/cars/cars8.jpg",
+        "question": "لباس پلیس راهنمایی و رانندگی چه رنگی است؟",
+        "answer": "مشکی",
+        "category": "color attributes"
+    },
+    {
+        "id": 610,
+        "image": "persian_images/cars/cars9.jpg",
+        "question": "مرد در کنار چه چیزی ایستاده است؟",
+        "answer": "ماشین",
+        "category": "object detection"
+    },
+    {
+        "id": 724,
+        "image": "persian_images/outdoor/modern/modern26.jpg",
+        "question": "رنگ پل هوایی که در تصویر وجود دارد چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 725,
+        "image": "persian_images/outdoor/modern/modern24.jpg",
+        "question": "نرده های در تصویر چه رنگی هستند؟",
+        "answer": "سبز",
+        "category": "color attributes"
+    },
+    {
+        "id": 726,
+        "image": "persian_images/outdoor/modern/modern15.jpg",
+        "question": "بیشترین رنگ در تصویر چیست؟",
+        "answer": "سبز",
+        "category": "color attributes"
+    },
+    {
+        "id": 727,
+        "image": "persian_images/outdoor/modern/modern6.jpg",
+        "question": "چند شخص کنار کودک در حال راه رفتن هستند؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 728,
+        "image": "persian_images/outdoor/modern/modern18.jpg",
+        "question": "چند شخص چادری در تصویر می بینید؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 729,
+        "image": "persian_images/outdoor/modern/modern8.jpg",
+        "question": "چند تاکسی زرد در تصویر است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 730,
+        "image": "persian_images/outdoor/modern/modern20.jpg",
+        "question": "آیا در تصویر درخت وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 731,
+        "image": "persian_images/outdoor/modern/modern13.jpg",
+        "question": "سقف ساختمانی که در سمت راست است چه رنگی است؟",
+        "answer": "زرد",
+        "category": "color attributes"
+    },
+    {
+        "id": 732,
+        "image": "persian_images/outdoor/modern/modern2.jpg",
+        "question": "پشت تله‌کابین چه چیزی است؟",
+        "answer": "شهر",
+        "category": "object detection"
+    },
+    {
+        "id": 733,
+        "image": "persian_images/outdoor/modern/modern25.jpg",
+        "question": "تاکسی در تصویر است؟",
+        "answer": "بله",
+        "category": "object detection"
+    },
+    {
+        "id": 734,
+        "image": "persian_images/outdoor/modern/modern22.jpg",
+        "question": "آیا در تصویر خیابان است؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 735,
+        "image": "persian_images/outdoor/modern/modern23.jpg",
+        "question": "چه زمانی از روز است؟",
+        "answer": "غروب",
+        "category": "other"
+    },
+    {
+        "id": 736,
+        "image": "persian_images/outdoor/modern/modern3.jpg",
+        "question": "تصویر در روز است یا شب؟",
+        "answer": "شب",
+        "category": "other"
+    },
+    {
+        "id": 737,
+        "image": "persian_images/outdoor/modern/modern17.jpg",
+        "question": "آیا روی کوه ها برف است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 738,
+        "image": "persian_images/outdoor/modern/modern14.jpg",
+        "question": "چه میوه هایی در تصویر می بینید؟",
+        "answer": "هندوانه و خربزه",
+        "category": "object detection"
+    },
+    {
+        "id": 739,
+        "image": "persian_images/outdoor/modern/modern19.jpg",
+        "question": "آیا کسی از خیابان عبور می‌ کند؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 740,
+        "image": "persian_images/outdoor/modern/modern12.jpg",
+        "question": "تصویر چه جایی را نشان می دهد؟",
+        "answer": "پارک",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 741,
+        "image": "persian_images/outdoor/modern/modern10.jpg",
+        "question": "چند ماشین آبی رنگ در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 742,
+        "image": "persian_images/outdoor/modern/modern21.jpg",
+        "question": "آیا کوه ها از برف پوشیده شده اند؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 743,
+        "image": "persian_images/outdoor/modern/modern9.jpg",
+        "question": "در فضای مرکزی میدان چه چیزی دیده می شود؟",
+        "answer": "حوض",
+        "category": "other"
+    },
+    {
+        "id": 744,
+        "image": "persian_images/outdoor/modern/modern4.jpg",
+        "question": "تعداد پنجره‌های ساختمان‌ها کم است یا زیاد؟",
+        "answer": "زیاد",
+        "category": "counting object"
+    },
+    {
+        "id": 745,
+        "image": "persian_images/outdoor/modern/modern5.jpg",
+        "question": "تابلوی سبز کدام طرف اتوبان است؟",
+        "answer": "راست",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 746,
+        "image": "persian_images/outdoor/modern/modern16.jpg",
+        "question": "آیا در تصویر قایق وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 747,
+        "image": "persian_images/outdoor/modern/modern11.jpg",
+        "question": "آیا شخصی که مانتو سفید مشکی پوشیده نشسته است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 748,
+        "image": "persian_images/outdoor/modern/modern7.jpg",
+        "question": "جنس دیواره های کنار رودخانه چیست؟",
+        "answer": "سنگ",
+        "category": "object material"
+    },
+    {
+        "id": 749,
+        "image": "persian_images/outdoor/modern/modern27.jpg",
+        "question": "چند گنبد مسجد در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 750,
+        "image": "persian_images/outdoor/modern/modern1.jpg",
+        "question": "چند تابلو ورود ممنوع در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 751,
+        "image": "persian_images/outdoor/modern/modern28.png",
+        "question": "ساختمانی که در تصویر وجود دارد چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 752,
+        "image": "persian_images/outdoor/modern/modern29.png",
+        "question": "چند پیرمرد روی نیمکت نزدیک کالسکه نشسته‌اند؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 753,
+        "image": "persian_images/outdoor/modern/modern31.png",
+        "question": "خیابان پهن است یا باریک؟",
+        "answer": "پهن",
+        "category": "other"
+    },
+    {
+        "id": 754,
+        "image": "persian_images/outdoor/modern/modern32.png",
+        "question": "آیا آسمان در تصویر آبی است؟",
+        "answer": "بله",
+        "category": "color attributes"
+    },
+    {
+        "id": 755,
+        "image": "persian_images/outdoor/modern/modern30.png",
+        "question": "شلوار مردی که در حال تماشای نقاشی روی دیوار است چه رنگی است؟",
+        "answer": "سیاه",
+        "category": "color attributes"
+    },
+    {
+        "id": 756,
+        "image": "persian_images/outdoor/modern/modern33.png",
+        "question": "تصویر چه زمانی از شبانه روز را نشان می دهد؟",
+        "answer": "شب",
+        "category": "other"
+    },
+    {
+        "id": 757,
+        "image": "persian_images/outdoor/ethnic/ethnic2.jpg",
+        "question": "چه تعداد درخت وجود دارد؟",
+        "answer": "زیاد",
+        "category": "counting object"
+    },
+    {
+        "id": 758,
+        "image": "persian_images/outdoor/ethnic/ethnic1.jpg",
+        "question": "چند مرد در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 759,
+        "image": "persian_images/outdoor/ethnic/ethnic3.jpg",
+        "question": "کیوی روی درخت است یا بوته؟",
+        "answer": "درخت",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 760,
+        "image": "persian_images/outdoor/ethnic/ethnic5.jpg",
+        "question": "آیا انعکاس قایق در آب افتاده است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 761,
+        "image": "persian_images/outdoor/ethnic/ethnic4.jpg",
+        "question": "کودک شلوارک پوشیده؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 762,
+        "image": "persian_images/outdoor/ethnic/ethnic7.png",
+        "question": "چندتا بادکنک قرمز در تصویر است؟",
+        "answer": "چهار",
+        "category": "color attributes"
+    },
+    {
+        "id": 763,
+        "image": "persian_images/outdoor/ethnic/ethnic6.png",
+        "question": "چه چیزی روی زمین است؟",
+        "answer": "زرشک",
+        "category": "object detection"
+    },
+    {
+        "id": 764,
+        "image": "persian_images/outdoor/ethnic/ethnic10.png",
+        "question": "آیا تصویر بیابان را نشان می دهد؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 765,
+        "image": "persian_images/outdoor/ethnic/ethnic8.png",
+        "question": "چند بادکنک روی ماشینی که در تصویر می بینید وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 766,
+        "image": "persian_images/outdoor/ethnic/ethnic9.png",
+        "question": "خانه ها روی چه چیزی ساخته شده‌اند؟",
+        "answer": "تپه",
+        "category": "object detection"
+    },
+    {
+        "id": 767,
+        "image": "persian_images/outdoor/dasti/dasti17.jpg",
+        "question": "مرد مشغول چه کاری است؟",
+        "answer": "روزنامه خواندن",
+        "category": "activity recognition"
+    },
+    {
+        "id": 768,
+        "image": "persian_images/outdoor/dasti/dasti60.jpg",
+        "question": "فرش های روی تخت ها چه رنگی است؟",
+        "answer": "قرمز",
+        "category": "color attributes"
+    },
+    {
+        "id": 769,
+        "image": "persian_images/outdoor/dasti/dasti61.jpg",
+        "question": "آیا خانه معماری مدرن دارد؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 770,
+        "image": "persian_images/outdoor/dasti/dasti55.jpg",
+        "question": "چند ساختمان نیمه تمام در تصویر است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 771,
+        "image": "persian_images/outdoor/dasti/dasti21.jpg",
+        "question": "آیا درخت نخل در عکس وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 772,
+        "image": "persian_images/outdoor/dasti/dasti43.jpg",
+        "question": "شخصی که کلاه پوشیده چه جنسیتی دارد؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 773,
+        "image": "persian_images/outdoor/dasti/dasti66.jpg",
+        "question": "چند تا پنجره در تصویر وجود دارد؟",
+        "answer": "چهار",
+        "category": "counting object"
+    },
+    {
+        "id": 774,
+        "image": "persian_images/outdoor/dasti/dasti62.jpg",
+        "question": "رنگ لباس شخصی که در تصویر میبینید چه رنگی است؟",
+        "answer": "سفید",
+        "category": "color attributes"
+    },
+    {
+        "id": 775,
+        "image": "persian_images/outdoor/dasti/dasti49.jpg",
+        "question": "زن با شال آبی در کدام قسمت تصویر است؟",
+        "answer": "پایین",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 776,
+        "image": "persian_images/outdoor/dasti/dasti59.jpg",
+        "question": "آیا در تصویر پله وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 777,
+        "image": "persian_images/outdoor/dasti/dasti47.jpg",
+        "question": "برگ درختان در تصویر چه رنگی است؟",
+        "answer": "سبز",
+        "category": "color attributes"
+    },
+    {
+        "id": 778,
+        "image": "persian_images/outdoor/dasti/dasti37.jpg",
+        "question": "شخصی که در تصویر وجود دارد در حال انجام چه کاری است؟",
+        "answer": "جارو زدن",
+        "category": "activity recognition"
+    },
+    {
+        "id": 779,
+        "image": "persian_images/outdoor/dasti/dasti68.jpg",
+        "question": "چند مرد در این تصویر وجود دارد؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 780,
+        "image": "persian_images/outdoor/dasti/dasti64.jpg",
+        "question": "آیا سایه درختان در آب افتاده است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 781,
+        "image": "persian_images/outdoor/dasti/dasti42.jpg",
+        "question": "آیا هوا آفتابی است؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 782,
+        "image": "persian_images/outdoor/dasti/dasti51.jpg",
+        "question": "مردی که کلاه زرد روی سرش دارد کجای تصویر است ؟",
+        "answer": "چپ",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 783,
+        "image": "persian_images/outdoor/dasti/dasti15.jpg",
+        "question": "چند نفر در حال عبور از خط عابر پیاده هستند؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 784,
+        "image": "persian_images/outdoor/dasti/dasti2.jpg",
+        "question": "آیا تصویر در روز گرفته شده است؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 785,
+        "image": "persian_images/outdoor/dasti/dasti11.jpg",
+        "question": "چه تعداد موتور سیکلت در خیابان است؟",
+        "answer": "زیاد",
+        "category": "counting object"
+    },
+    {
+        "id": 786,
+        "image": "persian_images/outdoor/dasti/dasti8.jpg",
+        "question": "جنسیت کودکی که در تصویر می بینید چیست؟",
+        "answer": "دختر",
+        "category": "gender recognition"
+    },
+    {
+        "id": 787,
+        "image": "persian_images/outdoor/dasti/dasti20.jpg",
+        "question": "تصویر چه زمانی از شبانه روز را نشان می دهد؟",
+        "answer": "شب",
+        "category": "other"
+    },
+    {
+        "id": 788,
+        "image": "persian_images/outdoor/dasti/dasti38.jpg",
+        "question": "چند قایق در دریاچه است؟",
+        "answer": "صفر",
+        "category": "counting object"
+    },
+    {
+        "id": 789,
+        "image": "persian_images/outdoor/dasti/dasti16.jpg",
+        "question": "سقف خانه ها چه شکلی است؟",
+        "answer": "شیروانی",
+        "category": "other"
+    },
+    {
+        "id": 790,
+        "image": "persian_images/outdoor/dasti/dasti4.jpg",
+        "question": "درخت چه میوه‌ای دارد؟",
+        "answer": "خیر",
+        "category": "object detection"
+    },
+    {
+        "id": 791,
+        "image": "persian_images/outdoor/dasti/dasti57.jpg",
+        "question": "آیا بالای دیوارها سایبان است؟",
+        "answer": "بله",
+        "category": "object detection"
+    },
+    {
+        "id": 792,
+        "image": "persian_images/outdoor/dasti/dasti44.jpg",
+        "question": "آیا تیر چراغ برق در تصویر دیده می‌شود؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 793,
+        "image": "persian_images/outdoor/dasti/dasti56.jpg",
+        "question": "آیا زن‌ها سینی روی سر دارند؟",
+        "answer": "خیر",
+        "category": "other"
+    },
+    {
+        "id": 794,
+        "image": "persian_images/outdoor/dasti/dasti69.jpg",
+        "question": "دریا در کدام سمت تصویر وجود دارد؟",
+        "answer": "چپ",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 795,
+        "image": "persian_images/outdoor/dasti/dasti13.jpg",
+        "question": "روی لبه ی حوض چه چیزی وجود دارد؟",
+        "answer": "گلدان",
+        "category": "object detection"
+    },
+    {
+        "id": 796,
+        "image": "persian_images/outdoor/dasti/dasti46.jpg",
+        "question": "جنسیت افراد در تصویر چیست؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 797,
+        "image": "persian_images/outdoor/dasti/dasti67.jpg",
+        "question": "آیا این دشت فقط چمن دارد؟",
+        "answer": "خیر",
+        "category": "object presence"
+    },
+    {
+        "id": 798,
+        "image": "persian_images/outdoor/dasti/dasti6.jpg",
+        "question": "چند اسب در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 799,
+        "image": "persian_images/outdoor/dasti/dasti19.jpg",
+        "question": "چند گنبد در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 800,
+        "image": "persian_images/outdoor/dasti/dasti26.jpg",
+        "question": "چند نیمکت در تصویر است؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 801,
+        "image": "persian_images/outdoor/dasti/dasti23.jpg",
+        "question": "آیا پلاستیکی که در سطل زباله وجود دارد زرد رنگ است؟",
+        "answer": "خیر",
+        "category": "color attributes"
+    },
+    {
+        "id": 802,
+        "image": "persian_images/outdoor/dasti/dasti34.jpg",
+        "question": "پوشش زن چیست؟",
+        "answer": "چادر",
+        "category": "other"
+    },
+    {
+        "id": 803,
+        "image": "persian_images/outdoor/dasti/dasti14.jpg",
+        "question": "جنسیت شخص در تصویر چیست؟",
+        "answer": "مونث",
+        "category": "gender recognition"
+    },
+    {
+        "id": 804,
+        "image": "persian_images/outdoor/dasti/dasti12.jpg",
+        "question": "زنی که با توپ بازی می‌کند مانتو چه رنگی دارد؟",
+        "answer": "مشکی",
+        "category": "color attributes"
+    },
+    {
+        "id": 805,
+        "image": "persian_images/outdoor/dasti/dasti24.jpg",
+        "question": "سقف ساختمان رو برو چه رنگی است؟",
+        "answer": "قهوه ای",
+        "category": "color attributes"
+    },
+    {
+        "id": 806,
+        "image": "persian_images/outdoor/dasti/dasti54.jpg",
+        "question": "این مکان چه جایی است؟",
+        "answer": "کوچه",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 807,
+        "image": "persian_images/outdoor/dasti/dasti41.jpg",
+        "question": "مردم روی فرش مشغول چه کاری هستند؟",
+        "answer": "نماز خواندن",
+        "category": "activity recognition"
+    },
+    {
+        "id": 808,
+        "image": "persian_images/outdoor/dasti/dasti5.jpg",
+        "question": "آیا نمای دیوار سمت چپی از سنگ است؟",
+        "answer": "بله",
+        "category": "object material"
+    },
+    {
+        "id": 809,
+        "image": "persian_images/outdoor/dasti/dasti28.jpg",
+        "question": "خانه ی سمت راست چند طبقه است؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 810,
+        "image": "persian_images/outdoor/dasti/dasti9.jpg",
+        "question": "در دست چپ زن چه چیزی قرار دارد؟",
+        "answer": "کیف",
+        "category": "object detection"
+    },
+    {
+        "id": 811,
+        "image": "persian_images/outdoor/dasti/dasti50.jpg",
+        "question": "تصویر مربوط به چه فصلی از سال است؟",
+        "answer": "زمستان",
+        "category": "other"
+    },
+    {
+        "id": 812,
+        "image": "persian_images/outdoor/dasti/dasti33.jpg",
+        "question": "در انتهای تصویر چه چیزی دیده می‌شود؟",
+        "answer": "کوه",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 813,
+        "image": "persian_images/outdoor/dasti/dasti3.jpg",
+        "question": "آیا در تصویر ماشین سبز رنگ وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 814,
+        "image": "persian_images/outdoor/dasti/dasti52.jpg",
+        "question": "چند مرد در حال عبور از کوچه هستند؟",
+        "answer": "دو",
+        "category": "counting object"
+    },
+    {
+        "id": 815,
+        "image": "persian_images/outdoor/dasti/dasti25.jpg",
+        "question": "چادرها روی صخره ها واقع شده اند؟",
+        "answer": "خیر",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 816,
+        "image": "persian_images/outdoor/dasti/dasti31.jpg",
+        "question": "از چه چیزی برای ایجاد سایه استفاده شده است؟",
+        "answer": "چتر",
+        "category": "object detection"
+    },
+    {
+        "id": 817,
+        "image": "persian_images/outdoor/dasti/dasti63.jpg",
+        "question": "آیا کسی در آب است؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 818,
+        "image": "persian_images/outdoor/dasti/dasti58.jpg",
+        "question": "چه چیزی در تصویر روی زمین جاری است؟",
+        "answer": "آب",
+        "category": "object detection"
+    },
+    {
+        "id": 819,
+        "image": "persian_images/outdoor/dasti/dasti1.jpg",
+        "question": "آسمان چه رنگی است؟",
+        "answer": "آبی",
+        "category": "color attributes"
+    },
+    {
+        "id": 820,
+        "image": "persian_images/outdoor/dasti/dasti22.jpg",
+        "question": "چند مرد با لباس راه راه در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 821,
+        "image": "persian_images/outdoor/dasti/dasti18.jpg",
+        "question": "چند قایق در تصویر وجود دارند؟",
+        "answer": "هفت",
+        "category": "counting object"
+    },
+    {
+        "id": 822,
+        "image": "persian_images/outdoor/dasti/dasti39.jpg",
+        "question": "زن چه پوششی دارد؟",
+        "answer": "چادر",
+        "category": "other"
+    },
+    {
+        "id": 823,
+        "image": "persian_images/outdoor/dasti/dasti65.jpg",
+        "question": "تصویر چه فصلی در سال را نشان می دهد؟",
+        "answer": "زمستان",
+        "category": "other"
+    },
+    {
+        "id": 824,
+        "image": "persian_images/outdoor/dasti/dasti40.jpg",
+        "question": "مرد چه کار می کند؟",
+        "answer": "چوپانی",
+        "category": "activity recognition"
+    },
+    {
+        "id": 825,
+        "image": "persian_images/outdoor/dasti/dasti32.jpg",
+        "question": "رنگ نیمکت های سمت چپ تصویر چه رنگی است؟",
+        "answer": "آبی",
+        "category": "color attributes"
+    },
+    {
+        "id": 826,
+        "image": "persian_images/outdoor/dasti/dasti30.jpg",
+        "question": "چه چیزی کنار مرد آبی پوش است؟",
+        "answer": "چادر مسافرتی",
+        "category": "object detection"
+    },
+    {
+        "id": 827,
+        "image": "persian_images/outdoor/dasti/dasti10.jpg",
+        "question": "جنسیت افراد درون تصویر چیست؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 828,
+        "image": "persian_images/outdoor/dasti/dasti70.jpg",
+        "question": "در طبقه دوم ساختمانی که در تصویر است  گیاه وجود دارد؟",
+        "answer": "بله",
+        "category": "object presence"
+    },
+    {
+        "id": 829,
+        "image": "persian_images/outdoor/dasti/dasti36.jpg",
+        "question": "آیا اکثر افراد برای خوردن غذای خیابانی آمده‌اند؟",
+        "answer": "بله",
+        "category": "other"
+    },
+    {
+        "id": 830,
+        "image": "persian_images/outdoor/dasti/dasti29.jpg",
+        "question": "چندتا درب در تصویر وجود دارد؟",
+        "answer": "یک",
+        "category": "counting object"
+    },
+    {
+        "id": 831,
+        "image": "persian_images/outdoor/dasti/dasti45.jpg",
+        "question": "آیا در عکس یک بنای تاریخی است؟",
+        "answer": "بله",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 832,
+        "image": "persian_images/outdoor/dasti/dasti53.jpg",
+        "question": "دستکش مردی که از روبرو می‌آید چه رنگی است؟",
+        "answer": "نارنجی",
+        "category": "color attributes"
+    },
+    {
+        "id": 833,
+        "image": "persian_images/outdoor/dasti/dasti27.jpg",
+        "question": "جنسیت شخصی که در تصویر می بینید چیست؟",
+        "answer": "زن",
+        "category": "gender recognition"
+    },
+    {
+        "id": 834,
+        "image": "persian_images/outdoor/dasti/dasti7.jpg",
+        "question": "خانه‌ای که روی سقف آن کولر وجود دارد در کدام سمت کوچه قرار گرفته است؟",
+        "answer": "چپ",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 835,
+        "image": "persian_images/outdoor/dasti/dasti35.jpg",
+        "question": "تاکسی‌ در حال حرکت چه رنگی است؟",
+        "answer": "زرد",
+        "category": "color attributes"
+    },
+    {
+        "id": 836,
+        "image": "persian_images/outdoor/dasti/dasti48.jpg",
+        "question": "آیا این خانه‌ها نو هستند؟",
+        "answer": "خیر",
+        "category": "other"
+    }
+]

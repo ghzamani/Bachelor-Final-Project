@@ -98,13 +98,13 @@ class CLIPTrainer(Trainer):
         return (loss, logits, inputs['labels'])
 
 def compute_metrics(p):    
-    print("\n***Computing Metrics***")
+    # print("\n***Computing Metrics***")
     pred, labels = p
     pred = np.argmax(pred, axis=1)   
-    print(labels.shape)
-    print(pred.shape)
-    print(labels)
-    print(pred)
+    # print(labels.shape)
+    # print(pred.shape)
+    # print(labels)
+    # print(pred)
     accuracy = accuracy_score(y_true=labels, y_pred=pred)
     recall = recall_score(y_true=labels, y_pred=pred, average='macro')
     precision = precision_score(y_true=labels, y_pred=pred, average='macro')

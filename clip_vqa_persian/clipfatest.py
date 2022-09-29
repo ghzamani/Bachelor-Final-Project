@@ -25,7 +25,7 @@ def test(model, generator, classes, label_to_index):
                 image_feature /= image_feature.norm(dim=-1, keepdim=True)
                 class_features /= class_features.norm(dim=-1, keepdim=True)
                 similarity = (100.0 * image_feature @ class_features.T).softmax(dim=-1)
-                print("similarity: ", similarity)
+                # print("similarity: ", similarity)
                 predictions.append(torch.argmax(similarity[0]))
             
             predictions = torch.tensor(predictions)

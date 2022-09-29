@@ -1,0 +1,5063 @@
+[
+    {
+        "id": 1,
+        "image": "persian_images/cars/cars81.jpg",
+        "question": "Is the street quiet?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 2,
+        "image": "persian_images/cars/cars57.jpg",
+        "question": "Where is the man standing in front of?",
+        "answer": "Car exhibition",
+        "category": "other"
+    },
+    {
+        "id": 3,
+        "image": "persian_images/cars/cars64.jpg",
+        "question": "Was the picture taken at night?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 4,
+        "image": "persian_images/cars/cars61.jpg",
+        "question": "On which side of the street are the written fabrics installed?",
+        "answer": "Center",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 5,
+        "image": "persian_images/cars/cars26.jpg",
+        "question": "Do all cars have license plates?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 6,
+        "image": "persian_images/cars/cars10.jpg",
+        "question": "What color is the car?",
+        "answer": "Gray",
+        "category": "color attributes"
+    },
+    {
+        "id": 7,
+        "image": "persian_images/cars/cars16.jpg",
+        "question": "Are there leaves in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 8,
+        "image": "persian_images/cars/cars28.jpg",
+        "question": "Is the parking lot full?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 9,
+        "image": "persian_images/cars/cars42.jpg",
+        "question": "Are the cars safe?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 10,
+        "image": "persian_images/cars/cars36.jpg",
+        "question": "What is the dominant color of the car?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 11,
+        "image": "persian_images/cars/cars84.jpg",
+        "question": "How many taxis are in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 12,
+        "image": "persian_images/cars/cars18.jpg",
+        "question": "What is the person's gender?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 13,
+        "image": "persian_images/cars/cars34.jpg",
+        "question": "How many drones are in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 14,
+        "image": "persian_images/cars/cars43.jpg",
+        "question": "What color are the upper fences of the higher street?",
+        "answer": "Green",
+        "category": "color attributes"
+    },
+    {
+        "id": 15,
+        "image": "persian_images/cars/cars46.jpg",
+        "question": "Is someone crossing the street?",
+        "answer": "no",
+        "category": "activity recognition"
+    },
+    {
+        "id": 16,
+        "image": "persian_images/cars/cars93.jpg",
+        "question": "Is there traffic on both sides of the highway?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 17,
+        "image": "persian_images/cars/cars21.jpg",
+        "question": "How many people are crossing the street?",
+        "answer": "Zero",
+        "category": "counting object"
+    },
+    {
+        "id": 18,
+        "image": "persian_images/cars/cars30.jpg",
+        "question": "What season of the year is it?",
+        "answer": "Fall",
+        "category": "other"
+    },
+    {
+        "id": 19,
+        "image": "persian_images/cars/cars76.jpg",
+        "question": "Are the brake lights of all the cars in the picture on?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 20,
+        "image": "persian_images/cars/cars49.jpg",
+        "question": "How is the weather?",
+        "answer": "snowy",
+        "category": "other"
+    },
+    {
+        "id": 21,
+        "image": "persian_images/cars/cars35.jpg",
+        "question": "Are both cars in the picture the same color?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 22,
+        "image": "persian_images/cars/cars67.jpg",
+        "question": "Is the car parked in front of the green space?",
+        "answer": "Yes",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 23,
+        "image": "persian_images/cars/cars60.jpg",
+        "question": "Is there a sea in the picture?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 24,
+        "image": "persian_images/cars/cars38.jpg",
+        "question": "Is there a tree in this picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 25,
+        "image": "persian_images/cars/cars45.jpg",
+        "question": "What is the weather like?",
+        "answer": "Sunny",
+        "category": "other"
+    },
+    {
+        "id": 26,
+        "image": "persian_images/cars/cars55.jpg",
+        "question": "Are the cars moving on the mountain road?",
+        "answer": "Yes",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 27,
+        "image": "persian_images/cars/cars97.jpg",
+        "question": "Cars moving on a mountain road?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 28,
+        "image": "persian_images/cars/cars52.jpg",
+        "question": "Where is the sunset in the picture?",
+        "answer": "Car Mirror",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 29,
+        "image": "persian_images/cars/cars58.jpg",
+        "question": "Is the sky in the picture sunny?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 30,
+        "image": "persian_images/cars/cars88.jpg",
+        "question": "How many cars are in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 31,
+        "image": "persian_images/cars/cars56.jpg",
+        "question": "Are there clouds in the sky?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 32,
+        "image": "persian_images/cars/cars77.jpg",
+        "question": "Are all the people on the buses?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 33,
+        "image": "persian_images/cars/cars48.jpg",
+        "question": "In which part of the picture are the cars that are going?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 34,
+        "image": "persian_images/cars/cars44.jpg",
+        "question": "where is the car",
+        "answer": "Parking",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 35,
+        "image": "persian_images/cars/cars59.jpg",
+        "question": "What color is the car with the crane?",
+        "answer": "Green",
+        "category": "color attributes"
+    },
+    {
+        "id": 36,
+        "image": "persian_images/cars/cars86.jpg",
+        "question": "What color are the fences on the wall?",
+        "answer": "Green",
+        "category": "color attributes"
+    },
+    {
+        "id": 37,
+        "image": "persian_images/cars/cars89.jpg",
+        "question": "Does the car have a number plate?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 38,
+        "image": "persian_images/cars/cars72.jpg",
+        "question": "Are the leaves of the trees green?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 39,
+        "image": "persian_images/cars/cars91.jpg",
+        "question": "In which hand is the man holding the bag?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 40,
+        "image": "persian_images/cars/cars66.jpg",
+        "question": "Is there a flag in this picture?",
+        "answer": "Yes",
+        "category": "object detection"
+    },
+    {
+        "id": 41,
+        "image": "persian_images/cars/cars78.jpg",
+        "question": "What color is the tape on the cars?",
+        "answer": "yellow",
+        "category": "color attributes"
+    },
+    {
+        "id": 42,
+        "image": "persian_images/cars/cars95.jpg",
+        "question": "Does the front car have tires?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 43,
+        "image": "persian_images/cars/cars96.jpg",
+        "question": "On which side of the picture are the trees?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 44,
+        "image": "persian_images/cars/cars70.jpg",
+        "question": "Is the alley narrow?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 45,
+        "image": "persian_images/cars/cars79.jpg",
+        "question": "What is the weather like?",
+        "answer": "Sunny",
+        "category": "other"
+    },
+    {
+        "id": 46,
+        "image": "persian_images/cars/cars74.jpg",
+        "question": "How many taxis are on the street?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 47,
+        "image": "persian_images/cars/cars68.jpg",
+        "question": "How many cars are in front of the car showroom?",
+        "answer": "four",
+        "category": "counting object"
+    },
+    {
+        "id": 48,
+        "image": "persian_images/cars/cars87.jpg",
+        "question": "How many trash cans?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 49,
+        "image": "persian_images/cars/cars92.jpg",
+        "question": "How many cars are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 50,
+        "image": "persian_images/cars/cars82.jpg",
+        "question": "What color is the car on the right?",
+        "answer": "yellow",
+        "category": "color attributes"
+    },
+    {
+        "id": 51,
+        "image": "persian_images/cars/cars94.jpg",
+        "question": "What is the gender of the person who is riding the motorcycle in blue?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 52,
+        "image": "persian_images/cars/cars98.jpg",
+        "question": "Is the man standing in front of the car bald?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 53,
+        "image": "persian_images/cars/cars90.jpg",
+        "question": "What season of the year does the picture you see show?",
+        "answer": "winter",
+        "category": "other"
+    },
+    {
+        "id": 54,
+        "image": "persian_images/ceremonies/ceremonies39.jpg",
+        "question": "How many people do you see in the picture?",
+        "answer": "Much",
+        "category": "counting object"
+    },
+    {
+        "id": 55,
+        "image": "persian_images/ceremonies/ceremonies44.jpg",
+        "question": "What is the gender of the people in the picture?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 56,
+        "image": "persian_images/ceremonies/ceremonies5.jpg",
+        "question": "Is there a carpet in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 57,
+        "image": "persian_images/ceremonies/ceremonies64.jpg",
+        "question": "How many men are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 58,
+        "image": "persian_images/ceremonies/ceremonies32.jpg",
+        "question": "What are men and women doing?",
+        "answer": "to dance",
+        "category": "activity recognition"
+    },
+    {
+        "id": 59,
+        "image": "persian_images/ceremonies/ceremonies7.jpg",
+        "question": "What do women wear?",
+        "answer": "manto",
+        "category": "activity recognition"
+    },
+    {
+        "id": 60,
+        "image": "persian_images/ceremonies/ceremonies60.jpg",
+        "question": "What are people doing?",
+        "answer": "chaining",
+        "category": "activity recognition"
+    },
+    {
+        "id": 61,
+        "image": "persian_images/ceremonies/ceremonies37.jpg",
+        "question": "What is being done in the picture?",
+        "answer": "To tie",
+        "category": "activity recognition"
+    },
+    {
+        "id": 62,
+        "image": "persian_images/ceremonies/ceremonies56.jpg",
+        "question": "Are only men present at the ceremony?",
+        "answer": "no",
+        "category": "gender recognition"
+    },
+    {
+        "id": 63,
+        "image": "persian_images/ceremonies/ceremonies31.jpg",
+        "question": "What does the man jump over?",
+        "answer": "Fire",
+        "category": "object detection"
+    },
+    {
+        "id": 64,
+        "image": "persian_images/ceremonies/ceremonies33.jpg",
+        "question": "What is behind the person?",
+        "answer": "Fire",
+        "category": "object detection"
+    },
+    {
+        "id": 65,
+        "image": "persian_images/ceremonies/ceremonies65.jpg",
+        "question": "What are the eggs made of?",
+        "answer": "pottery",
+        "category": "object material"
+    },
+    {
+        "id": 66,
+        "image": "persian_images/ceremonies/ceremonies40.jpg",
+        "question": "What gender are the people in the picture?",
+        "answer": "male",
+        "category": "gender recognition"
+    },
+    {
+        "id": 67,
+        "image": "persian_images/ceremonies/ceremonies45.jpg",
+        "question": "Are the worshipers women or men?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 68,
+        "image": "persian_images/ceremonies/ceremonies6.jpg",
+        "question": "What color is the dress of the child in his father's arms on the left side of the picture?",
+        "answer": "Blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 69,
+        "image": "persian_images/ceremonies/ceremonies25.jpg",
+        "question": "What are men and women doing?",
+        "answer": "Dance",
+        "category": "activity recognition"
+    },
+    {
+        "id": 70,
+        "image": "persian_images/ceremonies/ceremonies69.jpg",
+        "question": "What clothes do the women wear?",
+        "answer": "local clothes",
+        "category": "other"
+    },
+    {
+        "id": 71,
+        "image": "persian_images/ceremonies/ceremonies66.jpg",
+        "question": "Is the person in the picture white?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 72,
+        "image": "persian_images/ceremonies/ceremonies55.jpg",
+        "question": "What is the name of the device on the grass?",
+        "answer": "picnic gas",
+        "category": "object detection"
+    },
+    {
+        "id": 73,
+        "image": "persian_images/ceremonies/ceremonies46.jpg",
+        "question": "What is the dance of the people in the picture?",
+        "answer": "Traditional",
+        "category": "other"
+    },
+    {
+        "id": 74,
+        "image": "persian_images/ceremonies/ceremonies35.jpg",
+        "question": "What events have people participated in?",
+        "answer": "Coronation",
+        "category": "activity recognition"
+    },
+    {
+        "id": 75,
+        "image": "persian_images/ceremonies/ceremonies14.jpg",
+        "question": "Where is this religious mourning?",
+        "answer": "shrine",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 76,
+        "image": "persian_images/ceremonies/ceremonies8.jpg",
+        "question": "What is the bride wearing?",
+        "answer": "chador",
+        "category": "other"
+    },
+    {
+        "id": 77,
+        "image": "persian_images/ceremonies/ceremonies13.jpg",
+        "question": "Do people have fun alone?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 78,
+        "image": "persian_images/ceremonies/ceremonies18.jpg",
+        "question": "Do men wear hats?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 79,
+        "image": "persian_images/ceremonies/ceremonies43.jpg",
+        "question": "What is the person in the picture jumping over?",
+        "answer": "Fire",
+        "category": "other"
+    },
+    {
+        "id": 80,
+        "image": "persian_images/ceremonies/ceremonies23.jpg",
+        "question": "What is on the man's head?",
+        "answer": "Hat",
+        "category": "object detection"
+    },
+    {
+        "id": 81,
+        "image": "persian_images/ceremonies/ceremonies19.jpg",
+        "question": "What is the gender of the person holding the tray?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 82,
+        "image": "persian_images/ceremonies/ceremonies38.jpg",
+        "question": "What are the women doing?",
+        "answer": "stomping",
+        "category": "activity recognition"
+    },
+    {
+        "id": 83,
+        "image": "persian_images/ceremonies/ceremonies58.jpg",
+        "question": "What do people do on the left side of the street?",
+        "answer": "to chain",
+        "category": "activity recognition"
+    },
+    {
+        "id": 84,
+        "image": "persian_images/ceremonies/ceremonies26.jpg",
+        "question": "Are there clouds in the sky?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 85,
+        "image": "persian_images/ceremonies/ceremonies61.jpg",
+        "question": "Is the candle lit?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 86,
+        "image": "persian_images/ceremonies/ceremonies34.jpg",
+        "question": "Where was the picture taken?",
+        "answer": "Market",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 87,
+        "image": "persian_images/ceremonies/ceremonies21.jpg",
+        "question": "What is this ceremony?",
+        "answer": "wedding",
+        "category": "other"
+    },
+    {
+        "id": 88,
+        "image": "persian_images/ceremonies/ceremonies27.jpg",
+        "question": "How many lights are there in the picture?",
+        "answer": "Three",
+        "category": "counting object"
+    },
+    {
+        "id": 89,
+        "image": "persian_images/ceremonies/ceremonies57.jpg",
+        "question": "Where is the big flag in the picture?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 90,
+        "image": "persian_images/ceremonies/ceremonies49.jpg",
+        "question": "What color are people with headscarves?",
+        "answer": "Red",
+        "category": "color attributes"
+    },
+    {
+        "id": 91,
+        "image": "persian_images/ceremonies/ceremonies2.jpg",
+        "question": "What is in the hands of the girls?",
+        "answer": "green",
+        "category": "object detection"
+    },
+    {
+        "id": 92,
+        "image": "persian_images/ceremonies/ceremonies41.jpg",
+        "question": "What is the gender of the people in the picture?",
+        "answer": "male",
+        "category": "gender recognition"
+    },
+    {
+        "id": 93,
+        "image": "persian_images/ceremonies/ceremonies9.jpg",
+        "question": "where is the little girl",
+        "answer": "Exhibition",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 94,
+        "image": "persian_images/ceremonies/ceremonies63.jpg",
+        "question": "What are the women doing?",
+        "answer": "stomping",
+        "category": "activity recognition"
+    },
+    {
+        "id": 95,
+        "image": "persian_images/ceremonies/ceremonies29.jpg",
+        "question": "Are there many participants in this celebration?",
+        "answer": "Yes",
+        "category": "counting object"
+    },
+    {
+        "id": 96,
+        "image": "persian_images/ceremonies/ceremonies50.jpg",
+        "question": "Is the baby's scarf on the right white and blue?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 97,
+        "image": "persian_images/ceremonies/ceremonies16.jpg",
+        "question": "Is there a fork in the picture?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 98,
+        "image": "persian_images/ceremonies/ceremonies11.jpg",
+        "question": "How many cages full of flowers are there in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 99,
+        "image": "persian_images/ceremonies/ceremonies62.jpg",
+        "question": "What color is the table?",
+        "answer": "Red",
+        "category": "color attributes"
+    },
+    {
+        "id": 100,
+        "image": "persian_images/ceremonies/ceremonies10.jpg",
+        "question": "Is there a heater in the room?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 101,
+        "image": "persian_images/ceremonies/ceremonies30.jpg",
+        "question": "What color are men's clothes?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 102,
+        "image": "persian_images/ceremonies/ceremonies20.jpg",
+        "question": "Is the book next to the apple?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 103,
+        "image": "persian_images/ceremonies/ceremonies3.jpg",
+        "question": "What is behind the girl?",
+        "answer": "Fire",
+        "category": "object detection"
+    },
+    {
+        "id": 104,
+        "image": "persian_images/ceremonies/ceremonies51.jpg",
+        "question": "What are the women doing?",
+        "answer": "Congregational Prayer",
+        "category": "activity recognition"
+    },
+    {
+        "id": 105,
+        "image": "persian_images/ceremonies/ceremonies42.jpg",
+        "question": "What color are men's clothes?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 106,
+        "image": "persian_images/ceremonies/ceremonies47.jpg",
+        "question": "Does the lady have a veil on her head?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 107,
+        "image": "persian_images/ceremonies/ceremonies4.jpg",
+        "question": "How many women are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 108,
+        "image": "persian_images/ceremonies/ceremonies12.jpg",
+        "question": "Is there a man in the picture?",
+        "answer": "no",
+        "category": "gender recognition"
+    },
+    {
+        "id": 109,
+        "image": "persian_images/ceremonies/ceremonies1.jpg",
+        "question": "How many brides in the picture have capes?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 110,
+        "image": "persian_images/ceremonies/ceremonies15.jpg",
+        "question": "What do boys do on the street?",
+        "answer": "druming",
+        "category": "activity recognition"
+    },
+    {
+        "id": 111,
+        "image": "persian_images/ceremonies/ceremonies36.jpg",
+        "question": "What is the man pouring into the glasses?",
+        "answer": "Tea",
+        "category": "object detection"
+    },
+    {
+        "id": 112,
+        "image": "persian_images/ceremonies/ceremonies17.jpg",
+        "question": "Are old men's clothes local or formal?",
+        "answer": "local",
+        "category": "other"
+    },
+    {
+        "id": 113,
+        "image": "persian_images/ceremonies/ceremonies59.jpg",
+        "question": "What color are the flowers?",
+        "answer": "pink",
+        "category": "color attributes"
+    },
+    {
+        "id": 114,
+        "image": "persian_images/ceremonies/ceremonies53.jpg",
+        "question": "What is the family doing?",
+        "answer": "Disport",
+        "category": "activity recognition"
+    },
+    {
+        "id": 115,
+        "image": "persian_images/ceremonies/ceremonies28.jpg",
+        "question": "How many men can be seen in the picture?",
+        "answer": "Zero",
+        "category": "counting object"
+    },
+    {
+        "id": 116,
+        "image": "persian_images/ceremonies/ceremonies48.jpg",
+        "question": "What is seen in the sky?",
+        "answer": "Rainbow",
+        "category": "object detection"
+    },
+    {
+        "id": 117,
+        "image": "persian_images/ceremonies/ceremonies54.jpg",
+        "question": "What color is the dress of the man in mourning?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 118,
+        "image": "persian_images/ceremonies/ceremonies52.jpg",
+        "question": "How many men are there in the picture?",
+        "answer": "Three",
+        "category": "counting object"
+    },
+    {
+        "id": 119,
+        "image": "persian_images/ceremonies/ceremonies68.jpg",
+        "question": "Are the women dancing in the picture?",
+        "answer": "no",
+        "category": "activity recognition"
+    },
+    {
+        "id": 120,
+        "image": "persian_images/ceremonies/ceremonies67.jpg",
+        "question": "What are people gathered around?",
+        "answer": "chair",
+        "category": "object detection"
+    },
+    {
+        "id": 121,
+        "image": "persian_images/ceremonies/ceremonies22.jpg",
+        "question": "Is the clothes of the people in the picture local or official?",
+        "answer": "local",
+        "category": "other"
+    },
+    {
+        "id": 122,
+        "image": "persian_images/ceremonies/ceremonies24.jpg",
+        "question": "What color is the boy's clothes?",
+        "answer": "Red",
+        "category": "color attributes"
+    },
+    {
+        "id": 123,
+        "image": "persian_images/sport/sport61.jpg",
+        "question": "What sport does this picture show?",
+        "answer": "basketball",
+        "category": "sport recognition"
+    },
+    {
+        "id": 124,
+        "image": "persian_images/sport/sport88.jpg",
+        "question": "What gender is the person in the picture?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 125,
+        "image": "persian_images/sport/sport3.jpg",
+        "question": "What color is the work knee brace?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 126,
+        "image": "persian_images/sport/sport49.jpg",
+        "question": "What is the color of the clothes of the person who holds the weight above his head?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 127,
+        "image": "persian_images/sport/sport81.jpg",
+        "question": "What kind of competition do two sports have?",
+        "answer": "Ship",
+        "category": "sport recognition"
+    },
+    {
+        "id": 128,
+        "image": "persian_images/sport/sport53.jpg",
+        "question": "What sports do athletes do?",
+        "answer": "Ship",
+        "category": "sport recognition"
+    },
+    {
+        "id": 129,
+        "image": "persian_images/sport/sport73.jpg",
+        "question": "What color are the man's shoes?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 130,
+        "image": "persian_images/sport/sport71.jpg",
+        "question": "What is under the feet of the people in the picture?",
+        "answer": "grass",
+        "category": "object detection"
+    },
+    {
+        "id": 131,
+        "image": "persian_images/sport/sport45.jpg",
+        "question": "What is the gender of the person holding the ball?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 132,
+        "image": "persian_images/sport/sport35.jpg",
+        "question": "How many boats can be seen in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 133,
+        "image": "persian_images/sport/sport50.jpg",
+        "question": "What color is the sportswoman's underwear?",
+        "answer": "Black",
+        "category": "other"
+    },
+    {
+        "id": 134,
+        "image": "persian_images/sport/sport34.jpg",
+        "question": "What colors are the discs on the barbell?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 135,
+        "image": "persian_images/sport/sport62.jpg",
+        "question": "How many people are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 136,
+        "image": "persian_images/sport/sport36.jpg",
+        "question": "What sport does the man do?",
+        "answer": "shooting",
+        "category": "sport recognition"
+    },
+    {
+        "id": 137,
+        "image": "persian_images/sport/sport7.jpg",
+        "question": "Is the man black?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 138,
+        "image": "persian_images/sport/sport42.jpg",
+        "question": "What sports are men doing?",
+        "answer": "Volleyball",
+        "category": "sport recognition"
+    },
+    {
+        "id": 139,
+        "image": "persian_images/sport/sport24.jpg",
+        "question": "Do these people move in line?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 140,
+        "image": "persian_images/sport/sport56.jpg",
+        "question": "What is the gender of both people in the picture?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 141,
+        "image": "persian_images/sport/sport74.jpg",
+        "question": "Does the man have a tie?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 142,
+        "image": "persian_images/sport/sport48.jpg",
+        "question": "Is the man in blue sitting on top of the man in red?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 143,
+        "image": "persian_images/sport/sport4.jpg",
+        "question": "In which hand does the athlete hold the spear?",
+        "answer": "Right",
+        "category": "other"
+    },
+    {
+        "id": 144,
+        "image": "persian_images/sport/sport38.jpg",
+        "question": "What color is the athlete wearing a blue suit?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 145,
+        "image": "persian_images/sport/sport26.jpg",
+        "question": "What gender is the person in the picture?",
+        "answer": "Girl",
+        "category": "gender recognition"
+    },
+    {
+        "id": 146,
+        "image": "persian_images/sport/sport20.jpg",
+        "question": "What is the gender of the people in the picture?",
+        "answer": "male",
+        "category": "gender recognition"
+    },
+    {
+        "id": 147,
+        "image": "persian_images/sport/sport9.jpg",
+        "question": "What place is the picture about?",
+        "answer": "Sea",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 148,
+        "image": "persian_images/sport/sport39.jpg",
+        "question": "Is there a red chair in the picture?",
+        "answer": "Yes",
+        "category": "color attributes"
+    },
+    {
+        "id": 149,
+        "image": "persian_images/sport/sport11.jpg",
+        "question": "Do you see the audience in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 150,
+        "image": "persian_images/sport/sport44.jpg",
+        "question": "Are the athletes in the picture wearing long sleeves?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 151,
+        "image": "persian_images/sport/sport86.jpg",
+        "question": "What is the woman wearing?",
+        "answer": "scarf",
+        "category": "object detection"
+    },
+    {
+        "id": 152,
+        "image": "persian_images/sport/sport27.jpg",
+        "question": "How many people from the right have glasses?",
+        "answer": "the first",
+        "category": "other"
+    },
+    {
+        "id": 153,
+        "image": "persian_images/sport/sport21.jpg",
+        "question": "What gender is the person in the picture?",
+        "answer": "Girl",
+        "category": "gender recognition"
+    },
+    {
+        "id": 154,
+        "image": "persian_images/sport/sport12.jpg",
+        "question": "Is the leg cloth color of all the horses in the picture red?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 155,
+        "image": "persian_images/sport/sport23.jpg",
+        "question": "What sport are the two athletes doing?",
+        "answer": "Karate",
+        "category": "sport recognition"
+    },
+    {
+        "id": 156,
+        "image": "persian_images/sport/sport77.jpg",
+        "question": "What gender is the football field?",
+        "answer": "grass",
+        "category": "object material"
+    },
+    {
+        "id": 157,
+        "image": "persian_images/sport/sport79.jpg",
+        "question": "How many men are wearing red clothes?",
+        "answer": "five",
+        "category": "counting object"
+    },
+    {
+        "id": 158,
+        "image": "persian_images/sport/sport41.jpg",
+        "question": "Is the gate visible in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 159,
+        "image": "persian_images/sport/sport80.jpg",
+        "question": "What sport is it?",
+        "answer": "shooting",
+        "category": "sport recognition"
+    },
+    {
+        "id": 160,
+        "image": "persian_images/sport/sport78.jpg",
+        "question": "What is the gender of the people in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 161,
+        "image": "persian_images/sport/sport1.jpg",
+        "question": "How does the woman on the left of the picture feel?",
+        "answer": "Happiness",
+        "category": "sentiment understanding"
+    },
+    {
+        "id": 162,
+        "image": "persian_images/sport/sport14.jpg",
+        "question": "What gender are the people in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 163,
+        "image": "persian_images/sport/sport22.jpg",
+        "question": "What is the gender of the person in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 164,
+        "image": "persian_images/sport/sport66.jpg",
+        "question": "What color is the man wearing leggings?",
+        "answer": "Navy blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 165,
+        "image": "persian_images/sport/sport5.jpg",
+        "question": "The colors of the athlete's clothes are symbols of the flag of which country?",
+        "answer": "Iran",
+        "category": "other"
+    },
+    {
+        "id": 166,
+        "image": "persian_images/sport/sport58.jpg",
+        "question": "Do women lift weights at the gym?",
+        "answer": "no",
+        "category": "gender recognition"
+    },
+    {
+        "id": 167,
+        "image": "persian_images/sport/sport2.jpg",
+        "question": "Does the man have a ring?",
+        "answer": "Yes",
+        "category": "object detection"
+    },
+    {
+        "id": 168,
+        "image": "persian_images/sport/sport40.jpg",
+        "question": "What do the players have in their hands?",
+        "answer": "gloves",
+        "category": "object presence"
+    },
+    {
+        "id": 169,
+        "image": "persian_images/sport/sport51.jpg",
+        "question": "What color is the scarf of female athletes wearing red clothes?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 170,
+        "image": "persian_images/sport/sport28.jpg",
+        "question": "How many water bottles are there in this picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 171,
+        "image": "persian_images/sport/sport25.jpg",
+        "question": "What is the person doing?",
+        "answer": "Throwing an arrow",
+        "category": "activity recognition"
+    },
+    {
+        "id": 172,
+        "image": "persian_images/sport/sport70.jpg",
+        "question": "What gender is the person in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 173,
+        "image": "persian_images/sport/sport37.jpg",
+        "question": "What color are the writings on the back of the players' uniforms?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 174,
+        "image": "persian_images/sport/sport60.jpg",
+        "question": "How many men are wearing coats in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 175,
+        "image": "persian_images/sport/sport6.jpg",
+        "question": "What is the gender of the people in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 176,
+        "image": "persian_images/sport/sport69.jpg",
+        "question": "What color are the seats in the stadium?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 177,
+        "image": "persian_images/sport/sport54.jpg",
+        "question": "Are all the women in their cover art the same?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 178,
+        "image": "persian_images/sport/sport82.jpg",
+        "question": "What gender are people?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 179,
+        "image": "persian_images/sport/sport33.jpg",
+        "question": "Is there a flag on the weightlifter's uniform?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 180,
+        "image": "persian_images/sport/sport29.jpg",
+        "question": "Which competition did the athlete participate in?",
+        "answer": "Olympic",
+        "category": "other"
+    },
+    {
+        "id": 181,
+        "image": "persian_images/sport/sport65.jpg",
+        "question": "Do you see a woman in the picture?",
+        "answer": "no",
+        "category": "gender recognition"
+    },
+    {
+        "id": 182,
+        "image": "persian_images/sport/sport13.jpg",
+        "question": "Is the athlete male or female?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 183,
+        "image": "persian_images/sport/sport55.jpg",
+        "question": "What color is the Iranian team player wearing?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 184,
+        "image": "persian_images/sport/sport76.jpg",
+        "question": "Are both players from the same team?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 185,
+        "image": "persian_images/sport/sport57.jpg",
+        "question": "Where do people stand?",
+        "answer": "Stadium",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 186,
+        "image": "persian_images/sport/sport85.jpg",
+        "question": "Is the gender of all the people in the picture male?",
+        "answer": "no",
+        "category": "gender recognition"
+    },
+    {
+        "id": 187,
+        "image": "persian_images/sport/sport18.jpg",
+        "question": "What sport is the woman doing?",
+        "answer": "weightlifting",
+        "category": "sport recognition"
+    },
+    {
+        "id": 188,
+        "image": "persian_images/sport/sport17.jpg",
+        "question": "How many girls do you see in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 189,
+        "image": "persian_images/sport/sport59.jpg",
+        "question": "Do athletes wear hats?",
+        "answer": "Yes",
+        "category": "object detection"
+    },
+    {
+        "id": 190,
+        "image": "persian_images/sport/sport47.jpg",
+        "question": "What sports are the people in the picture doing?",
+        "answer": "Volleyball",
+        "category": "sport recognition"
+    },
+    {
+        "id": 191,
+        "image": "persian_images/sport/sport87.jpg",
+        "question": "What is the lady riding?",
+        "answer": "the boat",
+        "category": "object detection"
+    },
+    {
+        "id": 192,
+        "image": "persian_images/sport/sport31.jpg",
+        "question": "Does the man feel pain?",
+        "answer": "Yes",
+        "category": "sentiment understanding"
+    },
+    {
+        "id": 193,
+        "image": "persian_images/sport/sport15.jpg",
+        "question": "Are female players without hijab?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 194,
+        "image": "persian_images/sport/sport43.jpg",
+        "question": "How many players are there in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 195,
+        "image": "persian_images/sport/sport16.jpg",
+        "question": "Do female athletes wear hijab?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 196,
+        "image": "persian_images/sport/sport52.jpg",
+        "question": "What color is the athlete's clothes?",
+        "answer": "Green",
+        "category": "color attributes"
+    },
+    {
+        "id": 197,
+        "image": "persian_images/sport/sport83.jpg",
+        "question": "Is there any writing on the back of the person's clothes?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 198,
+        "image": "persian_images/sport/sport8.jpg",
+        "question": "What gender are the people in the picture?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 199,
+        "image": "persian_images/sport/sport30.jpg",
+        "question": "Is the person on the ground?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 200,
+        "image": "persian_images/sport/sport64.jpg",
+        "question": "What is the gender of the people in the picture?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 201,
+        "image": "persian_images/sport/sport63.jpg",
+        "question": "What is the person doing?",
+        "answer": "Javelin",
+        "category": "sport recognition"
+    },
+    {
+        "id": 202,
+        "image": "persian_images/sport/sport19.jpg",
+        "question": "What gender is the person in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 203,
+        "image": "persian_images/sport/sport84.jpg",
+        "question": "What sport is the person in the picture doing?",
+        "answer": "basketball",
+        "category": "sport recognition"
+    },
+    {
+        "id": 204,
+        "image": "persian_images/sport/sport10.jpg",
+        "question": "What is the gender of the people you see in the picture?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 205,
+        "image": "persian_images/sport/sport32.jpg",
+        "question": "Two female athletes don't have hijab?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 206,
+        "image": "persian_images/sport/sport67.jpg",
+        "question": "Is the athlete's hair obvious?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 207,
+        "image": "persian_images/sport/sport75.jpg",
+        "question": "Is the stadium monitor on?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 208,
+        "image": "persian_images/sport/sport46.jpg",
+        "question": "What sports are the people in the picture doing?",
+        "answer": "Ski",
+        "category": "sport recognition"
+    },
+    {
+        "id": 209,
+        "image": "persian_images/sport/sport72.jpg",
+        "question": "What sport are the two women playing?",
+        "answer": "Mountaineering",
+        "category": "other"
+    },
+    {
+        "id": 210,
+        "image": "persian_images/sport/sport68.jpg",
+        "question": "What sport are the people in the picture doing?",
+        "answer": "Boating",
+        "category": "sport recognition"
+    },
+    {
+        "id": 211,
+        "image": "persian_images/ashkhas/ashkhas49.jpg",
+        "question": "What is the type of old man's hat?",
+        "answer": "woolen",
+        "category": "object material"
+    },
+    {
+        "id": 212,
+        "image": "persian_images/ashkhas/ashkhas2.jpg",
+        "question": "What gender are the people in the picture?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 213,
+        "image": "persian_images/ashkhas/ashkhas94.jpg",
+        "question": "Where is the girl standing in the picture?",
+        "answer": "Center",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 214,
+        "image": "persian_images/ashkhas/ashkhas80.jpg",
+        "question": "Are these musicians different?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 215,
+        "image": "persian_images/ashkhas/ashkhas61.jpg",
+        "question": "Is the material of the wall in the picture marble?",
+        "answer": "no",
+        "category": "object material"
+    },
+    {
+        "id": 216,
+        "image": "persian_images/ashkhas/ashkhas98.jpg",
+        "question": "Did the old man smile?",
+        "answer": "Yes",
+        "category": "sentiment understanding"
+    },
+    {
+        "id": 217,
+        "image": "persian_images/ashkhas/ashkhas37.jpg",
+        "question": "Is the person in the picture a man?",
+        "answer": "no",
+        "category": "gender recognition"
+    },
+    {
+        "id": 218,
+        "image": "persian_images/ashkhas/ashkhas85.jpg",
+        "question": "Is the old man scared?",
+        "answer": "no",
+        "category": "object material"
+    },
+    {
+        "id": 219,
+        "image": "persian_images/ashkhas/ashkhas93.jpg",
+        "question": "How many pots are there in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 220,
+        "image": "persian_images/ashkhas/ashkhas33.jpg",
+        "question": "What is the gender of the person standing?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 221,
+        "image": "persian_images/ashkhas/ashkhas90.jpg",
+        "question": "What gender is the person in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 222,
+        "image": "persian_images/ashkhas/ashkhas86.jpg",
+        "question": "What color are the chairs?",
+        "answer": "Blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 223,
+        "image": "persian_images/ashkhas/ashkhas43.jpg",
+        "question": "Does anyone sell lips?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 224,
+        "image": "persian_images/ashkhas/ashkhas17.jpg",
+        "question": "What is in the basket?",
+        "answer": "Orange",
+        "category": "object detection"
+    },
+    {
+        "id": 225,
+        "image": "persian_images/ashkhas/ashkhas73.jpg",
+        "question": "How many women are in the picture?",
+        "answer": "One",
+        "category": "object presence"
+    },
+    {
+        "id": 226,
+        "image": "persian_images/ashkhas/ashkhas6.jpg",
+        "question": "How many faces are there in the picture?",
+        "answer": "four",
+        "category": "counting object"
+    },
+    {
+        "id": 227,
+        "image": "persian_images/ashkhas/ashkhas72.jpg",
+        "question": "What color is the woman's scarf?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 228,
+        "image": "persian_images/ashkhas/ashkhas12.jpg",
+        "question": "In which hand is the ring in the picture?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 229,
+        "image": "persian_images/ashkhas/ashkhas16.jpg",
+        "question": "What's in the metal tray?",
+        "answer": "Sherbet",
+        "category": "object detection"
+    },
+    {
+        "id": 230,
+        "image": "persian_images/ashkhas/ashkhas100.jpg",
+        "question": "Is there a flag in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 231,
+        "image": "persian_images/ashkhas/ashkhas42.jpg",
+        "question": "How many women are there in the picture?",
+        "answer": "Three",
+        "category": "counting object"
+    },
+    {
+        "id": 232,
+        "image": "persian_images/ashkhas/ashkhas53.jpg",
+        "question": "Do you see the basket in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 233,
+        "image": "persian_images/ashkhas/ashkhas23.jpg",
+        "question": "How many people are depicted in the painting on the wall?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 234,
+        "image": "persian_images/ashkhas/ashkhas14.jpg",
+        "question": "How many boys do you see in the picture?",
+        "answer": "four",
+        "category": "counting object"
+    },
+    {
+        "id": 235,
+        "image": "persian_images/ashkhas/ashkhas54.jpg",
+        "question": "How many flags do you see in the picture?",
+        "answer": "Three",
+        "category": "counting object"
+    },
+    {
+        "id": 236,
+        "image": "persian_images/ashkhas/ashkhas39.jpg",
+        "question": "What is the person's gender?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 237,
+        "image": "persian_images/ashkhas/ashkhas74.jpg",
+        "question": "Are the woman's eyes closed?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 238,
+        "image": "persian_images/ashkhas/ashkhas63.jpg",
+        "question": "Does this vendor sell fruit?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 239,
+        "image": "persian_images/ashkhas/ashkhas88.jpg",
+        "question": "How many sewing machines are there in the room?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 240,
+        "image": "persian_images/ashkhas/ashkhas91.jpg",
+        "question": "How many women have green shawls on their heads?",
+        "answer": "five",
+        "category": "counting object"
+    },
+    {
+        "id": 241,
+        "image": "persian_images/ashkhas/ashkhas69.jpg",
+        "question": "What gender is the person in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 242,
+        "image": "persian_images/ashkhas/ashkhas78.jpg",
+        "question": "What are the roofs like?",
+        "answer": "a dome",
+        "category": "other"
+    },
+    {
+        "id": 243,
+        "image": "persian_images/ashkhas/ashkhas20.jpg",
+        "question": "What color is the flower in the boy's hand?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 244,
+        "image": "persian_images/ashkhas/ashkhas47.jpg",
+        "question": "How many men do you see in the picture?",
+        "answer": "four",
+        "category": "counting object"
+    },
+    {
+        "id": 245,
+        "image": "persian_images/ashkhas/ashkhas40.jpg",
+        "question": "What is the material of the windows?",
+        "answer": "wooden",
+        "category": "object material"
+    },
+    {
+        "id": 246,
+        "image": "persian_images/ashkhas/ashkhas65.jpg",
+        "question": "Is the person who took the bread a man?",
+        "answer": "Yes",
+        "category": "gender recognition"
+    },
+    {
+        "id": 247,
+        "image": "persian_images/ashkhas/ashkhas21.jpg",
+        "question": "What animal is in the picture?",
+        "answer": "camel",
+        "category": "object detection"
+    },
+    {
+        "id": 248,
+        "image": "persian_images/ashkhas/ashkhas5.jpg",
+        "question": "Does the doctor treat the baby violently?",
+        "answer": "no",
+        "category": "sentiment understanding"
+    },
+    {
+        "id": 249,
+        "image": "persian_images/ashkhas/ashkhas62.jpg",
+        "question": "What is the old man sitting on at the bottom of the picture?",
+        "answer": "Carpet",
+        "category": "object detection"
+    },
+    {
+        "id": 250,
+        "image": "persian_images/ashkhas/ashkhas101.jpg",
+        "question": "What color is the dress the girl is wearing?",
+        "answer": "Green",
+        "category": "color attributes"
+    },
+    {
+        "id": 251,
+        "image": "persian_images/ashkhas/ashkhas28.jpg",
+        "question": "Is the shop owner an old woman?",
+        "answer": "no",
+        "category": "gender recognition"
+    },
+    {
+        "id": 252,
+        "image": "persian_images/ashkhas/ashkhas97.jpg",
+        "question": "What is the man sitting on?",
+        "answer": "rug",
+        "category": "object detection"
+    },
+    {
+        "id": 253,
+        "image": "persian_images/ashkhas/ashkhas36.jpg",
+        "question": "Is the person wearing the tray young?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 254,
+        "image": "persian_images/ashkhas/ashkhas75.jpg",
+        "question": "What gender is the person in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 255,
+        "image": "persian_images/ashkhas/ashkhas99.jpg",
+        "question": "Are there both men and women in the picture?",
+        "answer": "Yes",
+        "category": "gender recognition"
+    },
+    {
+        "id": 256,
+        "image": "persian_images/ashkhas/ashkhas79.jpg",
+        "question": "What is the gender of the two front people in the picture?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 257,
+        "image": "persian_images/ashkhas/ashkhas27.jpg",
+        "question": "Which of the people in the picture does not have a mustache?",
+        "answer": "Right",
+        "category": "other"
+    },
+    {
+        "id": 258,
+        "image": "persian_images/ashkhas/ashkhas38.jpg",
+        "question": "How are women dressed?",
+        "answer": "local clothes",
+        "category": "other"
+    },
+    {
+        "id": 259,
+        "image": "persian_images/ashkhas/ashkhas48.jpg",
+        "question": "Is the food in a glass container?",
+        "answer": "no",
+        "category": "object material"
+    },
+    {
+        "id": 260,
+        "image": "persian_images/ashkhas/ashkhas64.jpg",
+        "question": "What clothes are the girls?",
+        "answer": "local clothes",
+        "category": "other"
+    },
+    {
+        "id": 261,
+        "image": "persian_images/ashkhas/ashkhas19.jpg",
+        "question": "What gender are people?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 262,
+        "image": "persian_images/ashkhas/ashkhas59.jpg",
+        "question": "What is inside the box on the left?",
+        "answer": "Pickle",
+        "category": "object detection"
+    },
+    {
+        "id": 263,
+        "image": "persian_images/ashkhas/ashkhas70.jpg",
+        "question": "Is the woman on the left young?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 264,
+        "image": "persian_images/ashkhas/ashkhas76.jpg",
+        "question": "Does this old man sell food?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 265,
+        "image": "persian_images/ashkhas/ashkhas50.jpg",
+        "question": "What color is the collar of the woman in the picture?",
+        "answer": "Brown",
+        "category": "color attributes"
+    },
+    {
+        "id": 266,
+        "image": "persian_images/ashkhas/ashkhas11.jpg",
+        "question": "How many men are there in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 267,
+        "image": "persian_images/ashkhas/ashkhas60.jpg",
+        "question": "How does the man in the picture feel?",
+        "answer": "Happy",
+        "category": "sentiment understanding"
+    },
+    {
+        "id": 268,
+        "image": "persian_images/ashkhas/ashkhas18.jpg",
+        "question": "What color is the local dress of the girl?",
+        "answer": "yellow",
+        "category": "color attributes"
+    },
+    {
+        "id": 269,
+        "image": "persian_images/ashkhas/ashkhas35.jpg",
+        "question": "What is the person in the picture doing?",
+        "answer": "carpet weaving",
+        "category": "activity recognition"
+    },
+    {
+        "id": 270,
+        "image": "persian_images/ashkhas/ashkhas3.jpg",
+        "question": "What is on the plate in the picture?",
+        "answer": "watermelon",
+        "category": "object detection"
+    },
+    {
+        "id": 271,
+        "image": "persian_images/ashkhas/ashkhas13.jpg",
+        "question": "Is there a sheep in the photo?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 272,
+        "image": "persian_images/ashkhas/ashkhas34.jpg",
+        "question": "What is the old man's job?",
+        "answer": "Shoemaker",
+        "category": "activity recognition"
+    },
+    {
+        "id": 273,
+        "image": "persian_images/ashkhas/ashkhas45.jpg",
+        "question": "What are people looking at in the picture?",
+        "answer": "shoe",
+        "category": "object detection"
+    },
+    {
+        "id": 274,
+        "image": "persian_images/ashkhas/ashkhas82.jpg",
+        "question": "Do you see the black umbrella in the picture?",
+        "answer": "Yes",
+        "category": "color attributes"
+    },
+    {
+        "id": 275,
+        "image": "persian_images/ashkhas/ashkhas22.jpg",
+        "question": "What are stacked on the back of the man?",
+        "answer": "Carpet",
+        "category": "object detection"
+    },
+    {
+        "id": 276,
+        "image": "persian_images/ashkhas/ashkhas32.jpg",
+        "question": "Is there a tree in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 277,
+        "image": "persian_images/ashkhas/ashkhas29.jpg",
+        "question": "Is the hair of the girl in the picture completely clear?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 278,
+        "image": "persian_images/ashkhas/ashkhas66.jpg",
+        "question": "How many people are wearing hats in the picture?",
+        "answer": "Three",
+        "category": "counting object"
+    },
+    {
+        "id": 279,
+        "image": "persian_images/ashkhas/ashkhas77.jpg",
+        "question": "What gender is the taller person?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 280,
+        "image": "persian_images/ashkhas/ashkhas84.jpg",
+        "question": "What color is the scarf of the girl you see in the picture?",
+        "answer": "Blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 281,
+        "image": "persian_images/ashkhas/ashkhas57.jpg",
+        "question": "What is the man doing?",
+        "answer": "Prepare the dough",
+        "category": "activity recognition"
+    },
+    {
+        "id": 282,
+        "image": "persian_images/ashkhas/ashkhas95.jpg",
+        "question": "How many men do you see in this picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 283,
+        "image": "persian_images/ashkhas/ashkhas83.jpg",
+        "question": "How many girls are visible in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 284,
+        "image": "persian_images/ashkhas/ashkhas96.jpg",
+        "question": "Which hand has the man raised?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 285,
+        "image": "persian_images/ashkhas/ashkhas46.jpg",
+        "question": "What is the gender of the child standing next to the animal?",
+        "answer": "Boy",
+        "category": "gender recognition"
+    },
+    {
+        "id": 286,
+        "image": "persian_images/ashkhas/ashkhas15.jpg",
+        "question": "What animal is behind the girl?",
+        "answer": "Donkey",
+        "category": "object detection"
+    },
+    {
+        "id": 287,
+        "image": "persian_images/ashkhas/ashkhas52.jpg",
+        "question": "What is in the hand of the boy standing on the left?",
+        "answer": "hookah",
+        "category": "object detection"
+    },
+    {
+        "id": 288,
+        "image": "persian_images/ashkhas/ashkhas71.jpg",
+        "question": "What are the jars made of?",
+        "answer": "pottery",
+        "category": "object material"
+    },
+    {
+        "id": 289,
+        "image": "persian_images/ashkhas/ashkhas56.jpg",
+        "question": "What did the men wear?",
+        "answer": "T-shirt",
+        "category": "other"
+    },
+    {
+        "id": 290,
+        "image": "persian_images/ashkhas/ashkhas30.jpg",
+        "question": "What is the gender of the person you see in the picture?",
+        "answer": "Girl",
+        "category": "gender recognition"
+    },
+    {
+        "id": 291,
+        "image": "persian_images/ashkhas/ashkhas25.jpg",
+        "question": "What is the boy doing?",
+        "answer": "picking flowers",
+        "category": "activity recognition"
+    },
+    {
+        "id": 292,
+        "image": "persian_images/ashkhas/ashkhas8.jpg",
+        "question": "What are the people in the picture doing?",
+        "answer": "pray",
+        "category": "activity recognition"
+    },
+    {
+        "id": 293,
+        "image": "persian_images/ashkhas/ashkhas9.jpg",
+        "question": "Is the minibus white?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 294,
+        "image": "persian_images/ashkhas/ashkhas1.jpg",
+        "question": "Where is the woman standing?",
+        "answer": "At",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 295,
+        "image": "persian_images/ashkhas/ashkhas51.jpg",
+        "question": "What color is the floor of the library?",
+        "answer": "Red",
+        "category": "color attributes"
+    },
+    {
+        "id": 296,
+        "image": "persian_images/ashkhas/ashkhas31.jpg",
+        "question": "On which side of the picture is the woman wearing glasses?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 297,
+        "image": "persian_images/ashkhas/ashkhas58.jpg",
+        "question": "Are there three men in the picture?",
+        "answer": "no",
+        "category": "counting object"
+    },
+    {
+        "id": 298,
+        "image": "persian_images/ashkhas/ashkhas44.jpg",
+        "question": "What is the gender of the person sitting on the wooden chair?",
+        "answer": "Girl",
+        "category": "gender recognition"
+    },
+    {
+        "id": 299,
+        "image": "persian_images/ashkhas/ashkhas4.jpg",
+        "question": "How many women are there in the picture with a veil?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 300,
+        "image": "persian_images/ashkhas/ashkhas26.jpg",
+        "question": "What is the man holding?",
+        "answer": "Bread",
+        "category": "object presence"
+    },
+    {
+        "id": 301,
+        "image": "persian_images/ashkhas/ashkhas92.jpg",
+        "question": "What is the gender of the person sitting on the carpets?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 302,
+        "image": "persian_images/ashkhas/ashkhas24.jpg",
+        "question": "Is the woman standing in the picture?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 303,
+        "image": "persian_images/ashkhas/ashkhas81.jpg",
+        "question": "How many breads are on the table?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 304,
+        "image": "persian_images/ashkhas/ashkhas67.jpg",
+        "question": "What are women doing?",
+        "answer": "clap",
+        "category": "activity recognition"
+    },
+    {
+        "id": 305,
+        "image": "persian_images/ashkhas/ashkhas55.jpg",
+        "question": "Are the two people who throw the flowers women?",
+        "answer": "no",
+        "category": "gender recognition"
+    },
+    {
+        "id": 306,
+        "image": "persian_images/ashkhas/ashkhas41.jpg",
+        "question": "How many girls are in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 307,
+        "image": "persian_images/ashkhas/ashkhas7.jpg",
+        "question": "What is the color of the woman's dress?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 308,
+        "image": "persian_images/ashkhas/ashkhas87.jpg",
+        "question": "How many charity boxes are visible in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 309,
+        "image": "persian_images/ashkhas/ashkhas10.jpg",
+        "question": "What color is the woman's mask?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 310,
+        "image": "persian_images/ashkhas/ashkhas89.jpg",
+        "question": "How many women with black veils are in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 311,
+        "image": "persian_images/ashkhas/ashkhas68.jpg",
+        "question": "What color is the sock that the girl is wearing with a green shawl?",
+        "answer": "Green",
+        "category": "color attributes"
+    },
+    {
+        "id": 312,
+        "image": "persian_images/food/food38.jpg",
+        "question": "How many white dishes are there in the picture?",
+        "answer": "Three",
+        "category": "counting object"
+    },
+    {
+        "id": 313,
+        "image": "persian_images/food/food6.jpg",
+        "question": "How many plates of food are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 314,
+        "image": "persian_images/food/food31.jpg",
+        "question": "What is chopped next to the tomatoes?",
+        "answer": "Avocado",
+        "category": "object detection"
+    },
+    {
+        "id": 315,
+        "image": "persian_images/food/food3.jpg",
+        "question": "Are there peas in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 316,
+        "image": "persian_images/food/food95.jpg",
+        "question": "How many dishes are there in the picture?",
+        "answer": "Three",
+        "category": "counting object"
+    },
+    {
+        "id": 317,
+        "image": "persian_images/food/food92.jpg",
+        "question": "Is there a roast chicken with rice in the tray?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 318,
+        "image": "persian_images/food/food85.jpg",
+        "question": "Is the chicken in the picture raw?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 319,
+        "image": "persian_images/food/food13.jpg",
+        "question": "Is it in our picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 320,
+        "image": "persian_images/food/food16.jpg",
+        "question": "Is there two kebab skewers in the dish?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 321,
+        "image": "persian_images/food/food72.jpg",
+        "question": "How many spoons do you see in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 322,
+        "image": "persian_images/food/food15.jpg",
+        "question": "Is the food plate metal?",
+        "answer": "no",
+        "category": "object material"
+    },
+    {
+        "id": 323,
+        "image": "persian_images/food/food59.jpg",
+        "question": "Which side of the dish is the spoon and fork?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 324,
+        "image": "persian_images/food/food14.jpg",
+        "question": "Is the food spilled on the plate?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 325,
+        "image": "persian_images/food/food17.jpg",
+        "question": "What color are olives?",
+        "answer": "Green",
+        "category": "color attributes"
+    },
+    {
+        "id": 326,
+        "image": "persian_images/food/food55.jpg",
+        "question": "Do you see the spoon in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 327,
+        "image": "persian_images/food/food35.jpg",
+        "question": "On which side of the picture is the pot?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 328,
+        "image": "persian_images/food/food58.jpg",
+        "question": "How many eggplants are there in the plate in front of the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 329,
+        "image": "persian_images/food/food93.jpg",
+        "question": "What are the cobs grilled on?",
+        "answer": "charcoal",
+        "category": "object detection"
+    },
+    {
+        "id": 330,
+        "image": "persian_images/food/food20.jpg",
+        "question": "Are all the dishes on a larger tray?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 331,
+        "image": "persian_images/food/food45.jpg",
+        "question": "How many loaves do you see?",
+        "answer": "Three",
+        "category": "counting object"
+    },
+    {
+        "id": 332,
+        "image": "persian_images/food/food49.jpg",
+        "question": "Is there radish in the dish?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 333,
+        "image": "persian_images/food/food11.jpg",
+        "question": "Are the kebabs skewered?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 334,
+        "image": "persian_images/food/food90.jpg",
+        "question": "What's on the food?",
+        "answer": "bottom of the pot",
+        "category": "object detection"
+    },
+    {
+        "id": 335,
+        "image": "persian_images/food/food10.jpg",
+        "question": "How many dishes can be seen in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 336,
+        "image": "persian_images/food/food46.jpg",
+        "question": "What gender is the container in the picture?",
+        "answer": "copper",
+        "category": "object material"
+    },
+    {
+        "id": 337,
+        "image": "persian_images/food/food19.jpg",
+        "question": "Is it in a small salad bowl?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 338,
+        "image": "persian_images/food/food4.jpg",
+        "question": "Are there lemons in the dish?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 339,
+        "image": "persian_images/food/food99.jpg",
+        "question": "What is the spoon made of?",
+        "answer": "metal",
+        "category": "object material"
+    },
+    {
+        "id": 340,
+        "image": "persian_images/food/food2.jpg",
+        "question": "How many triangular sweets are in the box?",
+        "answer": "five",
+        "category": "counting object"
+    },
+    {
+        "id": 341,
+        "image": "persian_images/food/food23.jpg",
+        "question": "What is the bowl made of?",
+        "answer": "metal",
+        "category": "object material"
+    },
+    {
+        "id": 342,
+        "image": "persian_images/food/food80.jpg",
+        "question": "What food do you see in the picture?",
+        "answer": "Celery stew",
+        "category": "other"
+    },
+    {
+        "id": 343,
+        "image": "persian_images/food/food100.jpg",
+        "question": "Do you see the pickle in the sandwich?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 344,
+        "image": "persian_images/food/food1.jpg",
+        "question": "What color is the pasta dish?",
+        "answer": "Dark Blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 345,
+        "image": "persian_images/food/food79.jpg",
+        "question": "Is the shadow on the top or bottom of the cake?",
+        "answer": "Top",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 346,
+        "image": "persian_images/food/food68.jpg",
+        "question": "Has food water been spilled in the dish?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 347,
+        "image": "persian_images/food/food96.jpg",
+        "question": "What color is the plate?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 348,
+        "image": "persian_images/food/food74.jpg",
+        "question": "What kind of food is in the picture?",
+        "answer": "itch",
+        "category": "other"
+    },
+    {
+        "id": 349,
+        "image": "persian_images/food/food61.jpg",
+        "question": "Does this food have stew?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 350,
+        "image": "persian_images/food/food50.jpg",
+        "question": "Is there only one dish in the picture?",
+        "answer": "no",
+        "category": "counting object"
+    },
+    {
+        "id": 351,
+        "image": "persian_images/food/food97.jpg",
+        "question": "Is the stew pot smaller than the rice pot?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 352,
+        "image": "persian_images/food/food60.jpg",
+        "question": "Are the scabs square?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 353,
+        "image": "persian_images/food/food34.jpg",
+        "question": "Does the food that is pulled into the dish have pilaf?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 354,
+        "image": "persian_images/food/food5.jpg",
+        "question": "Is the table simple?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 355,
+        "image": "persian_images/food/food18.jpg",
+        "question": "Are there chopped tomatoes with the food?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 356,
+        "image": "persian_images/food/food47.jpg",
+        "question": "Is there a spoon in the olive bowl?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 357,
+        "image": "persian_images/food/food66.jpg",
+        "question": "Is the salad in a smaller bowl?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 358,
+        "image": "persian_images/food/food33.jpg",
+        "question": "Is the plate round?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 359,
+        "image": "persian_images/food/food43.jpg",
+        "question": "What is the glass made of?",
+        "answer": "Glass",
+        "category": "other"
+    },
+    {
+        "id": 360,
+        "image": "persian_images/food/food98.jpg",
+        "question": "What color is the carpet?",
+        "answer": "Red",
+        "category": "color attributes"
+    },
+    {
+        "id": 361,
+        "image": "persian_images/food/food40.jpg",
+        "question": "Does not have potato stew?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 362,
+        "image": "persian_images/food/food71.jpg",
+        "question": "How many spoons are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 363,
+        "image": "persian_images/food/food64.jpg",
+        "question": "What is the food in the dish?",
+        "answer": "ash",
+        "category": "other"
+    },
+    {
+        "id": 364,
+        "image": "persian_images/food/food87.jpg",
+        "question": "What gender is the disc placed on the surface?",
+        "answer": "Rock",
+        "category": "object material"
+    },
+    {
+        "id": 365,
+        "image": "persian_images/food/food30.jpg",
+        "question": "Have they decorated the yogurt?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 366,
+        "image": "persian_images/food/food39.jpg",
+        "question": "What is next to the dish?",
+        "answer": "Bread",
+        "category": "object detection"
+    },
+    {
+        "id": 367,
+        "image": "persian_images/food/food82.jpg",
+        "question": "How many spoons can be seen in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 368,
+        "image": "persian_images/food/food24.jpg",
+        "question": "How many slices of baklava are in the tray?",
+        "answer": "twelve",
+        "category": "counting object"
+    },
+    {
+        "id": 369,
+        "image": "persian_images/food/food70.jpg",
+        "question": "What is the name of the food in the dish?",
+        "answer": "Barbecue",
+        "category": "other"
+    },
+    {
+        "id": 370,
+        "image": "persian_images/food/food84.jpg",
+        "question": "How many narrow waist bras are there in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 371,
+        "image": "persian_images/food/food89.jpg",
+        "question": "Is there a filling inside the bell pepper?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 372,
+        "image": "persian_images/food/food25.jpg",
+        "question": "What food is on the plate?",
+        "answer": "Eggplant crust",
+        "category": "object detection"
+    },
+    {
+        "id": 373,
+        "image": "persian_images/food/food36.jpg",
+        "question": "How many forks are in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 374,
+        "image": "persian_images/food/food91.jpg",
+        "question": "Is this food rice?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 375,
+        "image": "persian_images/food/food56.jpg",
+        "question": "Are the plates of both dishes the same color?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 376,
+        "image": "persian_images/food/food94.jpg",
+        "question": "How many forks are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 377,
+        "image": "persian_images/food/food52.jpg",
+        "question": "Besides saffron, what is on rice?",
+        "answer": "Chicken",
+        "category": "object detection"
+    },
+    {
+        "id": 378,
+        "image": "persian_images/food/food76.jpg",
+        "question": "How many peppers are there in the dish?",
+        "answer": "Seven",
+        "category": "counting object"
+    },
+    {
+        "id": 379,
+        "image": "persian_images/food/food32.jpg",
+        "question": "How many plates of food are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 380,
+        "image": "persian_images/food/food65.jpg",
+        "question": "How many eggs are there in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 381,
+        "image": "persian_images/food/food41.jpg",
+        "question": "How many candles can be seen in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 382,
+        "image": "persian_images/food/food9.jpg",
+        "question": "What is used to decorate the cake?",
+        "answer": "vegetable",
+        "category": "object detection"
+    },
+    {
+        "id": 383,
+        "image": "persian_images/food/food101.jpg",
+        "question": "On which side of the picture is the cob dish?",
+        "answer": "Left",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 384,
+        "image": "persian_images/food/food42.jpg",
+        "question": "Where is the coal in the picture?",
+        "answer": "under the dish",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 385,
+        "image": "persian_images/food/food29.jpg",
+        "question": "Do you see a dish of vegetables in the picture?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 386,
+        "image": "persian_images/food/food69.jpg",
+        "question": "What does the dish with eggplant curd look like?",
+        "answer": "oval",
+        "category": "other"
+    },
+    {
+        "id": 387,
+        "image": "persian_images/food/food7.jpg",
+        "question": "Are there beans in the food?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 388,
+        "image": "persian_images/food/food81.jpg",
+        "question": "Is the food decorated?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 389,
+        "image": "persian_images/food/food37.jpg",
+        "question": "What is the type of vegetable basket?",
+        "answer": "straw",
+        "category": "object material"
+    },
+    {
+        "id": 390,
+        "image": "persian_images/food/food26.jpg",
+        "question": "Are there any vegetables in the photo?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 391,
+        "image": "persian_images/food/food53.jpg",
+        "question": "What gender are the dishes in the picture?",
+        "answer": "Plastic",
+        "category": "object material"
+    },
+    {
+        "id": 392,
+        "image": "persian_images/food/food22.jpg",
+        "question": "What is food mostly made of?",
+        "answer": "Rice",
+        "category": "other"
+    },
+    {
+        "id": 393,
+        "image": "persian_images/food/food75.jpg",
+        "question": "Is there any stone bread in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 394,
+        "image": "persian_images/food/food86.jpg",
+        "question": "How many spoons are on the table?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 395,
+        "image": "persian_images/food/food73.jpg",
+        "question": "What color are the ice creams?",
+        "answer": "yellow",
+        "category": "color attributes"
+    },
+    {
+        "id": 396,
+        "image": "persian_images/food/food51.jpg",
+        "question": "What is poured around the stew?",
+        "answer": "potato",
+        "category": "object detection"
+    },
+    {
+        "id": 397,
+        "image": "persian_images/food/food48.jpg",
+        "question": "What fruit is the salad decorated with?",
+        "answer": "carrot",
+        "category": "other"
+    },
+    {
+        "id": 398,
+        "image": "persian_images/food/food88.jpg",
+        "question": "What food is in the dish?",
+        "answer": "Barbecue",
+        "category": "object presence"
+    },
+    {
+        "id": 399,
+        "image": "persian_images/food/food57.jpg",
+        "question": "Are there spoons and forks in the picture?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 400,
+        "image": "persian_images/food/food67.jpg",
+        "question": "How many forks do you see in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 401,
+        "image": "persian_images/food/food21.jpg",
+        "question": "Is it in a candy dish?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 402,
+        "image": "persian_images/food/food77.jpg",
+        "question": "Does this dish have lentils?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 403,
+        "image": "persian_images/food/food83.jpg",
+        "question": "Are there spoons and forks with the food?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 404,
+        "image": "persian_images/food/food78.jpg",
+        "question": "What is the design of the fabric under the food?",
+        "answer": "Stripes",
+        "category": "other"
+    },
+    {
+        "id": 405,
+        "image": "persian_images/food/food27.jpg",
+        "question": "What is the drink bottle on the table?",
+        "answer": "Dough",
+        "category": "object detection"
+    },
+    {
+        "id": 406,
+        "image": "persian_images/food/food62.jpg",
+        "question": "What is the material of the pitcher?",
+        "answer": "Glass",
+        "category": "object material"
+    },
+    {
+        "id": 407,
+        "image": "persian_images/food/food63.jpg",
+        "question": "Is there a sauce dish next to the food?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 408,
+        "image": "persian_images/food/food8.jpg",
+        "question": "Is the food cut?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 409,
+        "image": "persian_images/food/food44.jpg",
+        "question": "How many Berber breads are in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 410,
+        "image": "persian_images/food/food54.jpg",
+        "question": "What food is in the picture?",
+        "answer": "pasta",
+        "category": "object material"
+    },
+    {
+        "id": 411,
+        "image": "persian_images/food/food28.jpg",
+        "question": "Are there green olives in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 412,
+        "image": "persian_images/food/food12.jpg",
+        "question": "What color are the rice?",
+        "answer": "yellow",
+        "category": "color attributes"
+    },
+    {
+        "id": 413,
+        "image": "persian_images/indoor/indoor76.jpg",
+        "question": "Is the layout of the restaurant traditional?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 414,
+        "image": "persian_images/indoor/indoor19.jpg",
+        "question": "Is this a restaurant?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 415,
+        "image": "persian_images/indoor/indoor86.jpg",
+        "question": "Which chandelier is bigger in the picture?",
+        "answer": "Center",
+        "category": "other"
+    },
+    {
+        "id": 416,
+        "image": "persian_images/indoor/indoor66.jpg",
+        "question": "What is the shape of the top of the windows?",
+        "answer": "Semicircular",
+        "category": "other"
+    },
+    {
+        "id": 417,
+        "image": "persian_images/indoor/indoor27.jpg",
+        "question": "What gender is the person in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 418,
+        "image": "persian_images/indoor/indoor99.jpg",
+        "question": "Which side of the picture is the clock?",
+        "answer": "Center",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 419,
+        "image": "persian_images/indoor/indoor46.jpg",
+        "question": "What is the shape of the ceiling of the room?",
+        "answer": "a dome",
+        "category": "other"
+    },
+    {
+        "id": 420,
+        "image": "persian_images/indoor/indoor69.jpg",
+        "question": "What is the woman in the picture wearing?",
+        "answer": "chador",
+        "category": "other"
+    },
+    {
+        "id": 421,
+        "image": "persian_images/indoor/indoor94.jpg",
+        "question": "Are the facades of the walls stone?",
+        "answer": "Yes",
+        "category": "object material"
+    },
+    {
+        "id": 422,
+        "image": "persian_images/indoor/indoor13.jpg",
+        "question": "What gender are the people in the picture?",
+        "answer": "male",
+        "category": "gender recognition"
+    },
+    {
+        "id": 423,
+        "image": "persian_images/indoor/indoor63.jpg",
+        "question": "How many chairs are there in the room?",
+        "answer": "Much",
+        "category": "counting object"
+    },
+    {
+        "id": 424,
+        "image": "persian_images/indoor/indoor74.jpg",
+        "question": "How many spectators?",
+        "answer": "Much",
+        "category": "counting object"
+    },
+    {
+        "id": 425,
+        "image": "persian_images/indoor/indoor29.jpg",
+        "question": "Is there a table in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 426,
+        "image": "persian_images/indoor/indoor21.jpg",
+        "question": "Do the walls have wallpaper?",
+        "answer": "no",
+        "category": "object material"
+    },
+    {
+        "id": 427,
+        "image": "persian_images/indoor/indoor25.jpg",
+        "question": "What gender is the person in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 428,
+        "image": "persian_images/indoor/indoor78.jpg",
+        "question": "Do the windows have curtains?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 429,
+        "image": "persian_images/indoor/indoor87.jpg",
+        "question": "What gender are the people in the picture?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 430,
+        "image": "persian_images/indoor/indoor1.jpg",
+        "question": "Does the floor of the gallery have carpet?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 431,
+        "image": "persian_images/indoor/indoor44.jpg",
+        "question": "Does this restaurant have pots?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 432,
+        "image": "persian_images/indoor/indoor37.jpg",
+        "question": "What place is this?",
+        "answer": "Museum",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 433,
+        "image": "persian_images/indoor/indoor6.jpg",
+        "question": "Is the upper glass of the windows colorless?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 434,
+        "image": "persian_images/indoor/indoor58.jpg",
+        "question": "What is the shape of the skylight on the ceiling?",
+        "answer": "Octagonal",
+        "category": "other"
+    },
+    {
+        "id": 435,
+        "image": "persian_images/indoor/indoor62.jpg",
+        "question": "Does the image represent a pilgrimage site?",
+        "answer": "Yes",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 436,
+        "image": "persian_images/indoor/indoor60.jpg",
+        "question": "Is this a mosque?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 437,
+        "image": "persian_images/indoor/indoor49.jpg",
+        "question": "Are the chairs in the middle of the room?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 438,
+        "image": "persian_images/indoor/indoor36.jpg",
+        "question": "On which side of the picture do you see the carpet?",
+        "answer": "both sides",
+        "category": "object presence"
+    },
+    {
+        "id": 439,
+        "image": "persian_images/indoor/indoor18.jpg",
+        "question": "Are all the people in the picture wearing black?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 440,
+        "image": "persian_images/indoor/indoor100.jpg",
+        "question": "Is the wall made of stone?",
+        "answer": "no",
+        "category": "object material"
+    },
+    {
+        "id": 441,
+        "image": "persian_images/indoor/indoor42.jpg",
+        "question": "What is the shape of the roof of this place?",
+        "answer": "a dome",
+        "category": "other"
+    },
+    {
+        "id": 442,
+        "image": "persian_images/indoor/indoor12.jpg",
+        "question": "Is the floor of the room carpetless?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 443,
+        "image": "persian_images/indoor/indoor73.jpg",
+        "question": "What does the woman in the picture look like?",
+        "answer": "Worn",
+        "category": "other"
+    },
+    {
+        "id": 444,
+        "image": "persian_images/indoor/indoor68.jpg",
+        "question": "Do the windows have curtains?",
+        "answer": "Yes",
+        "category": "object detection"
+    },
+    {
+        "id": 445,
+        "image": "persian_images/indoor/indoor3.jpg",
+        "question": "How many stools can be seen in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 446,
+        "image": "persian_images/indoor/indoor67.jpg",
+        "question": "What color is the top of the bed?",
+        "answer": "Red",
+        "category": "color attributes"
+    },
+    {
+        "id": 447,
+        "image": "persian_images/indoor/indoor43.jpg",
+        "question": "where is this place",
+        "answer": "gallery",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 448,
+        "image": "persian_images/indoor/indoor5.jpg",
+        "question": "How many escalators do you see in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 449,
+        "image": "persian_images/indoor/indoor89.jpg",
+        "question": "Does the image show the atmosphere of a mosque?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 450,
+        "image": "persian_images/indoor/indoor77.jpg",
+        "question": "Are the ceiling and walls mirrored?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 451,
+        "image": "persian_images/indoor/indoor17.jpg",
+        "question": "Is the layout of this gallery traditional?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 452,
+        "image": "persian_images/indoor/indoor45.jpg",
+        "question": "Are these female players?",
+        "answer": "no",
+        "category": "gender recognition"
+    },
+    {
+        "id": 453,
+        "image": "persian_images/indoor/indoor95.jpg",
+        "question": "Are the audience scattered in the hall?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 454,
+        "image": "persian_images/indoor/indoor83.jpg",
+        "question": "Is the architecture of this library traditional?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 455,
+        "image": "persian_images/indoor/indoor30.jpg",
+        "question": "How many carpets are in the room?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 456,
+        "image": "persian_images/indoor/indoor54.jpg",
+        "question": "How many carts are there in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 457,
+        "image": "persian_images/indoor/indoor55.jpg",
+        "question": "How many people are there in the picture?",
+        "answer": "Much",
+        "category": "counting object"
+    },
+    {
+        "id": 458,
+        "image": "persian_images/indoor/indoor70.jpg",
+        "question": "Which side of the picture is the white board with the shape and text?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 459,
+        "image": "persian_images/indoor/indoor31.jpg",
+        "question": "How many chairs are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 460,
+        "image": "persian_images/indoor/indoor34.jpg",
+        "question": "Do you see a bird in the picture?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 461,
+        "image": "persian_images/indoor/indoor59.jpg",
+        "question": "Is someone crossing the street?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 462,
+        "image": "persian_images/indoor/indoor98.jpg",
+        "question": "Is there a pond in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 463,
+        "image": "persian_images/indoor/indoor26.jpg",
+        "question": "How many mirrors are in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 464,
+        "image": "persian_images/indoor/indoor75.jpg",
+        "question": "What gender is the person in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 465,
+        "image": "persian_images/indoor/indoor80.jpg",
+        "question": "What place is this?",
+        "answer": "shopping center",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 466,
+        "image": "persian_images/indoor/indoor51.jpg",
+        "question": "What is the shape of the roof of the restaurant?",
+        "answer": "a dome",
+        "category": "other"
+    },
+    {
+        "id": 467,
+        "image": "persian_images/indoor/indoor56.jpg",
+        "question": "Are the walls painted?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 468,
+        "image": "persian_images/indoor/indoor93.jpg",
+        "question": "Where is the lamp in the picture?",
+        "answer": "Top",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 469,
+        "image": "persian_images/indoor/indoor88.jpg",
+        "question": "What is on the ground?",
+        "answer": "Carpet",
+        "category": "object detection"
+    },
+    {
+        "id": 470,
+        "image": "persian_images/indoor/indoor32.jpg",
+        "question": "Is the woman wearing a black veil?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 471,
+        "image": "persian_images/indoor/indoor96.jpg",
+        "question": "Do men wear clothes?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 472,
+        "image": "persian_images/indoor/indoor71.jpg",
+        "question": "What color are the tiles inside the pool?",
+        "answer": "Blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 473,
+        "image": "persian_images/indoor/indoor7.jpg",
+        "question": "What is the shape of the roof of the place?",
+        "answer": "a dome",
+        "category": "other"
+    },
+    {
+        "id": 474,
+        "image": "persian_images/indoor/indoor16.jpg",
+        "question": "Does the room have a carpet?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 475,
+        "image": "persian_images/indoor/indoor72.jpg",
+        "question": "What is the material of the passage ground?",
+        "answer": "Rock",
+        "category": "object material"
+    },
+    {
+        "id": 476,
+        "image": "persian_images/indoor/indoor82.jpg",
+        "question": "Does the floor have a carpet?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 477,
+        "image": "persian_images/indoor/indoor20.jpg",
+        "question": "Is this place a historical museum and bathhouse?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 478,
+        "image": "persian_images/indoor/indoor97.jpg",
+        "question": "Is the person standing behind the counter a man?",
+        "answer": "no",
+        "category": "gender recognition"
+    },
+    {
+        "id": 479,
+        "image": "persian_images/indoor/indoor24.jpg",
+        "question": "What model is the roof in the picture?",
+        "answer": "a dome",
+        "category": "other"
+    },
+    {
+        "id": 480,
+        "image": "persian_images/indoor/indoor28.jpg",
+        "question": "What are the walls made of?",
+        "answer": "Mirrors",
+        "category": "object material"
+    },
+    {
+        "id": 481,
+        "image": "persian_images/indoor/indoor81.jpg",
+        "question": "What are the men doing?",
+        "answer": "worship",
+        "category": "activity recognition"
+    },
+    {
+        "id": 482,
+        "image": "persian_images/indoor/indoor91.jpg",
+        "question": "Are the roof pillars iron?",
+        "answer": "no",
+        "category": "object material"
+    },
+    {
+        "id": 483,
+        "image": "persian_images/indoor/indoor65.jpg",
+        "question": "What is the hanging object in the picture?",
+        "answer": "chandelier",
+        "category": "object detection"
+    },
+    {
+        "id": 484,
+        "image": "persian_images/indoor/indoor64.jpg",
+        "question": "What does a woman wear?",
+        "answer": "chador",
+        "category": "other"
+    },
+    {
+        "id": 485,
+        "image": "persian_images/indoor/indoor38.jpg",
+        "question": "How many chandeliers are there in the room?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 486,
+        "image": "persian_images/indoor/indoor84.jpg",
+        "question": "How many boxes do you see in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 487,
+        "image": "persian_images/indoor/indoor33.jpg",
+        "question": "What color is the roof?",
+        "answer": "orange",
+        "category": "color attributes"
+    },
+    {
+        "id": 488,
+        "image": "persian_images/indoor/indoor22.jpg",
+        "question": "Are the wall tiles patterned?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 489,
+        "image": "persian_images/indoor/indoor11.jpg",
+        "question": "Is the image of a sky?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 490,
+        "image": "persian_images/indoor/indoor15.jpg",
+        "question": "Are all parts of the image engraved?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 491,
+        "image": "persian_images/indoor/indoor10.jpg",
+        "question": "What color are the seats in the station?",
+        "answer": "Blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 492,
+        "image": "persian_images/indoor/indoor41.jpg",
+        "question": "What is in the middle of the complex downstairs?",
+        "answer": "Machine",
+        "category": "object detection"
+    },
+    {
+        "id": 493,
+        "image": "persian_images/indoor/indoor50.jpg",
+        "question": "Are the walls mirrored?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 494,
+        "image": "persian_images/indoor/indoor61.jpg",
+        "question": "How many projectors are there in this picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 495,
+        "image": "persian_images/indoor/indoor14.jpg",
+        "question": "Is there an escalator in the photo?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 496,
+        "image": "persian_images/indoor/indoor92.jpg",
+        "question": "What is the dominant color of carpets?",
+        "answer": "Red",
+        "category": "color attributes"
+    },
+    {
+        "id": 497,
+        "image": "persian_images/indoor/indoor53.jpg",
+        "question": "Is there a fire extinguisher in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 498,
+        "image": "persian_images/indoor/indoor48.jpg",
+        "question": "What color is the bent man's clothes?",
+        "answer": "black and blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 499,
+        "image": "persian_images/indoor/indoor8.jpg",
+        "question": "What place does this picture show?",
+        "answer": "Market",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 500,
+        "image": "persian_images/indoor/indoor47.jpg",
+        "question": "where is here?",
+        "answer": "Traditional restaurant",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 501,
+        "image": "persian_images/indoor/indoor35.jpg",
+        "question": "Is it mirrored on the white walls?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 502,
+        "image": "persian_images/indoor/indoor52.jpg",
+        "question": "How many sofas are around the table?",
+        "answer": "four",
+        "category": "counting object"
+    },
+    {
+        "id": 503,
+        "image": "persian_images/indoor/indoor40.jpg",
+        "question": "Is the man standing red in his clothes?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 504,
+        "image": "persian_images/indoor/indoor90.jpg",
+        "question": "What are the colored windows on the wooden door?",
+        "answer": "hexagon",
+        "category": "other"
+    },
+    {
+        "id": 505,
+        "image": "persian_images/indoor/indoor4.jpg",
+        "question": "What is spread on the floor?",
+        "answer": "Carpet",
+        "category": "object presence"
+    },
+    {
+        "id": 506,
+        "image": "persian_images/indoor/indoor79.jpg",
+        "question": "What is the color of carpets?",
+        "answer": "Red",
+        "category": "counting object"
+    },
+    {
+        "id": 507,
+        "image": "persian_images/indoor/indoor39.jpg",
+        "question": "Can you see the lamp in the pictures?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 508,
+        "image": "persian_images/indoor/indoor9.jpg",
+        "question": "How many monitors are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 509,
+        "image": "persian_images/indoor/indoor57.jpg",
+        "question": "What is the material of the TV table?",
+        "answer": "Wood",
+        "category": "object material"
+    },
+    {
+        "id": 510,
+        "image": "persian_images/indoor/indoor23.jpg",
+        "question": "How many big white vases are there?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 511,
+        "image": "persian_images/indoor/indoor85.jpg",
+        "question": "Are the lights off in this place?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 512,
+        "image": "persian_images/indoor/indoor2.jpg",
+        "question": "Is the window size large?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 513,
+        "image": "persian_images/cars/cars102.png",
+        "question": "How many cars are there in the picture?",
+        "answer": "Three",
+        "category": "counting object"
+    },
+    {
+        "id": 514,
+        "image": "persian_images/ceremonies/ceremonies89.png",
+        "question": "where is the book",
+        "answer": "In front of the bride and groom",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 515,
+        "image": "persian_images/ceremonies/ceremonies91.png",
+        "question": "Have they put the food on the table?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 516,
+        "image": "persian_images/ceremonies/ceremonies88.png",
+        "question": "Are people performing special ceremonies?",
+        "answer": "Yes",
+        "category": "activity recognition"
+    },
+    {
+        "id": 517,
+        "image": "persian_images/ceremonies/ceremonies74.png",
+        "question": "How many men are there in the picture?",
+        "answer": "four",
+        "category": "counting object"
+    },
+    {
+        "id": 518,
+        "image": "persian_images/ceremonies/ceremonies71.png",
+        "question": "Is the bride wearing a white veil?",
+        "answer": "Yes",
+        "category": "color attributes"
+    },
+    {
+        "id": 519,
+        "image": "persian_images/ceremonies/ceremonies79.png",
+        "question": "Have they poured chocolate on the cake?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 520,
+        "image": "persian_images/ceremonies/ceremonies97.png",
+        "question": "What gender is a person who smokes pecans?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 521,
+        "image": "persian_images/ceremonies/ceremonies77.png",
+        "question": "What is the color of the men's clothes in the picture?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 522,
+        "image": "persian_images/ceremonies/ceremonies90.png",
+        "question": "How many men are there in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 523,
+        "image": "persian_images/ceremonies/ceremonies98.png",
+        "question": "How many men are playing instruments in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 524,
+        "image": "persian_images/ceremonies/ceremonies99.png",
+        "question": "What gender are the people in the picture?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 525,
+        "image": "persian_images/ceremonies/ceremonies96.png",
+        "question": "Are there many people on this street?",
+        "answer": "Yes",
+        "category": "counting object"
+    },
+    {
+        "id": 526,
+        "image": "persian_images/ceremonies/ceremonies73.png",
+        "question": "How many dolls are in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 527,
+        "image": "persian_images/ceremonies/ceremonies87.png",
+        "question": "What color is the dome?",
+        "answer": "golden",
+        "category": "color attributes"
+    },
+    {
+        "id": 528,
+        "image": "persian_images/ceremonies/ceremonies82.png",
+        "question": "What is the gender of the person behind the table?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 529,
+        "image": "persian_images/ceremonies/ceremonies85.png",
+        "question": "Is this a wedding ceremony?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 530,
+        "image": "persian_images/ceremonies/ceremonies78.png",
+        "question": "How many men in wigs are there in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 531,
+        "image": "persian_images/ceremonies/ceremonies95.png",
+        "question": "What is the gender of the person in the picture?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 532,
+        "image": "persian_images/ceremonies/ceremonies80.png",
+        "question": "What color are the flowers on the right side of the picture?",
+        "answer": "pink",
+        "category": "color attributes"
+    },
+    {
+        "id": 533,
+        "image": "persian_images/ceremonies/ceremonies83.png",
+        "question": "How many people in the picture are wearing turtlenecks?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 534,
+        "image": "persian_images/ceremonies/ceremonies84.png",
+        "question": "What is the woman doing standing behind the table?",
+        "answer": "food distribution",
+        "category": "activity recognition"
+    },
+    {
+        "id": 535,
+        "image": "persian_images/ceremonies/ceremonies86.png",
+        "question": "What gender are the people in the picture?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 536,
+        "image": "persian_images/ceremonies/ceremonies72.png",
+        "question": "What are people doing?",
+        "answer": "chest",
+        "category": "activity recognition"
+    },
+    {
+        "id": 537,
+        "image": "persian_images/ceremonies/ceremonies75.png",
+        "question": "What animal is in the picture?",
+        "answer": "Horse",
+        "category": "object detection"
+    },
+    {
+        "id": 538,
+        "image": "persian_images/ceremonies/ceremonies81.png",
+        "question": "What is seen in the sky?",
+        "answer": "Kite",
+        "category": "object detection"
+    },
+    {
+        "id": 539,
+        "image": "persian_images/ceremonies/ceremonies94.png",
+        "question": "What is the man in front of the picture waving in the air?",
+        "answer": "the cloth",
+        "category": "object detection"
+    },
+    {
+        "id": 540,
+        "image": "persian_images/ceremonies/ceremonies76.png",
+        "question": "What color is the shirt of people wearing black vests?",
+        "answer": "orange",
+        "category": "color attributes"
+    },
+    {
+        "id": 541,
+        "image": "persian_images/ceremonies/ceremonies100.png",
+        "question": "What activities are people doing?",
+        "answer": "Dance",
+        "category": "activity recognition"
+    },
+    {
+        "id": 542,
+        "image": "persian_images/ceremonies/ceremonies92.png",
+        "question": "Do these two women work with sewing machines?",
+        "answer": "no",
+        "category": "activity recognition"
+    },
+    {
+        "id": 543,
+        "image": "persian_images/ceremonies/ceremonies70.png",
+        "question": "How many girls are stomping around in lemon dresses?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 544,
+        "image": "persian_images/ceremonies/ceremonies93.png",
+        "question": "Are the clothes of the people in the picture local or official?",
+        "answer": "local",
+        "category": "other"
+    },
+    {
+        "id": 545,
+        "image": "persian_images/sport/sport94.png",
+        "question": "How many horses are seen in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 546,
+        "image": "persian_images/sport/sport95.png",
+        "question": "What gender are the people in the picture?",
+        "answer": "male",
+        "category": "gender recognition"
+    },
+    {
+        "id": 547,
+        "image": "persian_images/sport/sport99.png",
+        "question": "What gender are rowers?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 548,
+        "image": "persian_images/sport/sport98.png",
+        "question": "Is the game environment closed?",
+        "answer": "Yes",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 549,
+        "image": "persian_images/sport/sport89.png",
+        "question": "Are all the cyclists in the picture wearing helmets?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 550,
+        "image": "persian_images/sport/sport93.png",
+        "question": "What is in the hands of the riders?",
+        "answer": "Wood",
+        "category": "object detection"
+    },
+    {
+        "id": 551,
+        "image": "persian_images/sport/sport90.png",
+        "question": "What are the women wearing?",
+        "answer": "Scarf",
+        "category": "object detection"
+    },
+    {
+        "id": 552,
+        "image": "persian_images/sport/sport100.png",
+        "question": "What is the girl riding on?",
+        "answer": "Horse",
+        "category": "object detection"
+    },
+    {
+        "id": 553,
+        "image": "persian_images/sport/sport101.png",
+        "question": "How many bows do you see in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 554,
+        "image": "persian_images/sport/sport96.png",
+        "question": "What is the gender of the people in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 555,
+        "image": "persian_images/sport/sport91.png",
+        "question": "What color is the clothes of the boy walking next to the bicycle in front of the picture?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 556,
+        "image": "persian_images/sport/sport92.png",
+        "question": "What vehicle is there in the picture besides a bicycle?",
+        "answer": "Machine",
+        "category": "object detection"
+    },
+    {
+        "id": 557,
+        "image": "persian_images/sport/sport97.png",
+        "question": "Are rowers women?",
+        "answer": "Yes",
+        "category": "gender recognition"
+    },
+    {
+        "id": 558,
+        "image": "persian_images/cars/cars104.jpeg",
+        "question": "Are the cars in the picture blue?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 559,
+        "image": "persian_images/cars/cars106.jpeg",
+        "question": "On which side of the white car are the trees?",
+        "answer": "Right",
+        "category": "object presence"
+    },
+    {
+        "id": 560,
+        "image": "persian_images/cars/cars105.jpeg",
+        "question": "What color are the leaves of the trees in the picture?",
+        "answer": "Green",
+        "category": "color attributes"
+    },
+    {
+        "id": 561,
+        "image": "persian_images/sport/sport102.jpeg",
+        "question": "What is the gender of the person in the picture?",
+        "answer": "Man",
+        "category": "gender recognition"
+    },
+    {
+        "id": 562,
+        "image": "persian_images/cars/cars1.jpg",
+        "question": "How many black cars are moving on the right side of the street?",
+        "answer": "Three",
+        "category": "counting object"
+    },
+    {
+        "id": 563,
+        "image": "persian_images/cars/cars11.jpg",
+        "question": "Do cars have license plates?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 564,
+        "image": "persian_images/cars/cars15.jpg",
+        "question": "Does the picture show the autumn season?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 565,
+        "image": "persian_images/cars/cars20.jpg",
+        "question": "what time of day is it",
+        "answer": "sunset",
+        "category": "other"
+    },
+    {
+        "id": 566,
+        "image": "persian_images/cars/cars25.jpg",
+        "question": "How many cars can be seen in the picture?",
+        "answer": "six",
+        "category": "other"
+    },
+    {
+        "id": 567,
+        "image": "persian_images/cars/cars31.jpg",
+        "question": "Is the car in front of the store black?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 568,
+        "image": "persian_images/cars/cars39.jpg",
+        "question": "Is this place an alley?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 569,
+        "image": "persian_images/cars/cars47.jpg",
+        "question": "What season of the year is it?",
+        "answer": "Fall",
+        "category": "other"
+    },
+    {
+        "id": 570,
+        "image": "persian_images/cars/cars53.jpg",
+        "question": "What color is the car in the picture?",
+        "answer": "silver",
+        "category": "color attributes"
+    },
+    {
+        "id": 571,
+        "image": "persian_images/cars/cars63.jpg",
+        "question": "Are the cars the same color?",
+        "answer": "Yes",
+        "category": "color attributes"
+    },
+    {
+        "id": 572,
+        "image": "persian_images/cars/cars71.jpg",
+        "question": "Where does the picture show?",
+        "answer": "repair shop",
+        "category": "other"
+    },
+    {
+        "id": 573,
+        "image": "persian_images/cars/cars80.jpg",
+        "question": "How many windows does the house have?",
+        "answer": "four",
+        "category": "counting object"
+    },
+    {
+        "id": 574,
+        "image": "persian_images/cars/cars99.png",
+        "question": "How many cars can be seen?",
+        "answer": "six",
+        "category": "counting object"
+    },
+    {
+        "id": 575,
+        "image": "persian_images/cars/cars100.png",
+        "question": "Are all people male?",
+        "answer": "no",
+        "category": "gender recognition"
+    },
+    {
+        "id": 576,
+        "image": "persian_images/cars/cars12.jpg",
+        "question": "Is there a car passing by?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 577,
+        "image": "persian_images/cars/cars17.jpg",
+        "question": "Is there a pedestrian bridge in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 578,
+        "image": "persian_images/cars/cars22.jpg",
+        "question": "Is there a tree in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 579,
+        "image": "persian_images/cars/cars27.jpg",
+        "question": "Are motorcyclists men?",
+        "answer": "Yes",
+        "category": "gender recognition"
+    },
+    {
+        "id": 580,
+        "image": "persian_images/cars/cars32.jpg",
+        "question": "What is on the roof of the parking lot?",
+        "answer": "Lamp",
+        "category": "object detection"
+    },
+    {
+        "id": 581,
+        "image": "persian_images/cars/cars4.jpg",
+        "question": "How many green signs do you see?",
+        "answer": "five",
+        "category": "color attributes"
+    },
+    {
+        "id": 582,
+        "image": "persian_images/cars/cars5.jpg",
+        "question": "What color is the horizontal strip drawn on the body of white cars?",
+        "answer": "orange",
+        "category": "color attributes"
+    },
+    {
+        "id": 583,
+        "image": "persian_images/cars/cars54.jpg",
+        "question": "How many bridges are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 584,
+        "image": "persian_images/cars/cars65.jpg",
+        "question": "Where is the trash can in the picture?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 585,
+        "image": "persian_images/cars/cars73.jpg",
+        "question": "Where is the electric pole in the picture?",
+        "answer": "Center",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 586,
+        "image": "persian_images/cars/cars83.jpg",
+        "question": "Where are people browsing?",
+        "answer": "Street cafes",
+        "category": "other"
+    },
+    {
+        "id": 587,
+        "image": "persian_images/cars/cars101.png",
+        "question": "Where are the cars?",
+        "answer": "Museum",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 588,
+        "image": "persian_images/cars/cars13.jpg",
+        "question": "Do cars drive in one lane?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 589,
+        "image": "persian_images/cars/cars19.jpg",
+        "question": "What color is the car?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 590,
+        "image": "persian_images/cars/cars23.jpg",
+        "question": "What can be seen on the side of the highway?",
+        "answer": "Flag",
+        "category": "object detection"
+    },
+    {
+        "id": 591,
+        "image": "persian_images/cars/cars29.jpg",
+        "question": "Is the tree visible in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 592,
+        "image": "persian_images/cars/cars33.jpg",
+        "question": "What place does the picture show?",
+        "answer": "Street",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 593,
+        "image": "persian_images/cars/cars40.jpg",
+        "question": "Was the photo taken at night?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 594,
+        "image": "persian_images/cars/cars50.jpg",
+        "question": "How many motorcycles are there in the underpass?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 595,
+        "image": "persian_images/cars/cars6.jpg",
+        "question": "Can you see the forest in the picture?",
+        "answer": "Yes",
+        "category": "object detection"
+    },
+    {
+        "id": 596,
+        "image": "persian_images/cars/cars69.jpg",
+        "question": "Is the light pole in the middle of the street?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 597,
+        "image": "persian_images/cars/cars75.jpg",
+        "question": "How many cars are moving on the street?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 598,
+        "image": "persian_images/cars/cars85.jpg",
+        "question": "On which side of the picture are the trees?",
+        "answer": "Left",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 599,
+        "image": "persian_images/cars/cars103.jpeg",
+        "question": "Is this a car show?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 600,
+        "image": "persian_images/cars/cars14.jpg",
+        "question": "Which side of the image is the shadow of the car?",
+        "answer": "Left",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 601,
+        "image": "persian_images/cars/cars2.jpg",
+        "question": "What color is the circular sign on the right side of the street?",
+        "answer": "Blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 602,
+        "image": "persian_images/cars/cars24.jpg",
+        "question": "Which side of the white paper installed on the car window is white?",
+        "answer": "Left",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 603,
+        "image": "persian_images/cars/cars3.jpg",
+        "question": "What color is the shop sign?",
+        "answer": "Blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 604,
+        "image": "persian_images/cars/cars37.jpg",
+        "question": "Is the street two-way?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 605,
+        "image": "persian_images/cars/cars41.jpg",
+        "question": "How many people are there in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 606,
+        "image": "persian_images/cars/cars51.jpg",
+        "question": "What gender is the statue in the middle of the square?",
+        "answer": "copper",
+        "category": "object material"
+    },
+    {
+        "id": 607,
+        "image": "persian_images/cars/cars62.jpg",
+        "question": "Is the car light on?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 608,
+        "image": "persian_images/cars/cars7.jpg",
+        "question": "What fell on the ground?",
+        "answer": "Leaves of trees",
+        "category": "object detection"
+    },
+    {
+        "id": 609,
+        "image": "persian_images/cars/cars8.jpg",
+        "question": "What color is the uniform of the traffic police?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 610,
+        "image": "persian_images/cars/cars9.jpg",
+        "question": "What is the man standing next to?",
+        "answer": "Machine",
+        "category": "object detection"
+    },
+    {
+        "id": 724,
+        "image": "persian_images/outdoor/modern/modern26.jpg",
+        "question": "What is the color of the flyover in the picture?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 725,
+        "image": "persian_images/outdoor/modern/modern24.jpg",
+        "question": "What color are the fences in the picture?",
+        "answer": "Green",
+        "category": "color attributes"
+    },
+    {
+        "id": 726,
+        "image": "persian_images/outdoor/modern/modern15.jpg",
+        "question": "What is the most color in the picture?",
+        "answer": "Green",
+        "category": "color attributes"
+    },
+    {
+        "id": 727,
+        "image": "persian_images/outdoor/modern/modern6.jpg",
+        "question": "How many people are walking next to the child?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 728,
+        "image": "persian_images/outdoor/modern/modern18.jpg",
+        "question": "How many tent people do you see in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 729,
+        "image": "persian_images/outdoor/modern/modern8.jpg",
+        "question": "How many yellow taxis are in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 730,
+        "image": "persian_images/outdoor/modern/modern20.jpg",
+        "question": "Is there a tree in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 731,
+        "image": "persian_images/outdoor/modern/modern13.jpg",
+        "question": "What color is the roof of the building on the right?",
+        "answer": "yellow",
+        "category": "color attributes"
+    },
+    {
+        "id": 732,
+        "image": "persian_images/outdoor/modern/modern2.jpg",
+        "question": "What is behind the cable car?",
+        "answer": "City",
+        "category": "object detection"
+    },
+    {
+        "id": 733,
+        "image": "persian_images/outdoor/modern/modern25.jpg",
+        "question": "Is the taxi in the picture?",
+        "answer": "Yes",
+        "category": "object detection"
+    },
+    {
+        "id": 734,
+        "image": "persian_images/outdoor/modern/modern22.jpg",
+        "question": "Is it the street in the picture?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 735,
+        "image": "persian_images/outdoor/modern/modern23.jpg",
+        "question": "what time of day is it",
+        "answer": "sunset",
+        "category": "other"
+    },
+    {
+        "id": 736,
+        "image": "persian_images/outdoor/modern/modern3.jpg",
+        "question": "Is the image during the day or night?",
+        "answer": "the night",
+        "category": "other"
+    },
+    {
+        "id": 737,
+        "image": "persian_images/outdoor/modern/modern17.jpg",
+        "question": "Is there snow on the mountains?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 738,
+        "image": "persian_images/outdoor/modern/modern14.jpg",
+        "question": "What fruits do you see in the picture?",
+        "answer": "Watermelon and melon",
+        "category": "object detection"
+    },
+    {
+        "id": 739,
+        "image": "persian_images/outdoor/modern/modern19.jpg",
+        "question": "Is anyone crossing the street?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 740,
+        "image": "persian_images/outdoor/modern/modern12.jpg",
+        "question": "Where does the picture show?",
+        "answer": "Park",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 741,
+        "image": "persian_images/outdoor/modern/modern10.jpg",
+        "question": "How many blue cars are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 742,
+        "image": "persian_images/outdoor/modern/modern21.jpg",
+        "question": "Are the mountains covered with snow?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 743,
+        "image": "persian_images/outdoor/modern/modern9.jpg",
+        "question": "What can be seen in the central space of the square?",
+        "answer": "Pool",
+        "category": "other"
+    },
+    {
+        "id": 744,
+        "image": "persian_images/outdoor/modern/modern4.jpg",
+        "question": "Is the number of windows in buildings too few or too many?",
+        "answer": "Much",
+        "category": "counting object"
+    },
+    {
+        "id": 745,
+        "image": "persian_images/outdoor/modern/modern5.jpg",
+        "question": "Which side of the highway is the green sign?",
+        "answer": "Right",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 746,
+        "image": "persian_images/outdoor/modern/modern16.jpg",
+        "question": "Is there a boat in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 747,
+        "image": "persian_images/outdoor/modern/modern11.jpg",
+        "question": "Is the person wearing the black and white coat sitting?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 748,
+        "image": "persian_images/outdoor/modern/modern7.jpg",
+        "question": "What is the material of the riverside walls?",
+        "answer": "Rock",
+        "category": "object material"
+    },
+    {
+        "id": 749,
+        "image": "persian_images/outdoor/modern/modern27.jpg",
+        "question": "How many mosque domes are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 750,
+        "image": "persian_images/outdoor/modern/modern1.jpg",
+        "question": "How many no-entry signs are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 751,
+        "image": "persian_images/outdoor/modern/modern28.png",
+        "question": "What color is the building in the picture?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 752,
+        "image": "persian_images/outdoor/modern/modern29.png",
+        "question": "How many old men are sitting on the bench near the carriage?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 753,
+        "image": "persian_images/outdoor/modern/modern31.png",
+        "question": "Is the street wide or narrow?",
+        "answer": "wide",
+        "category": "other"
+    },
+    {
+        "id": 754,
+        "image": "persian_images/outdoor/modern/modern32.png",
+        "question": "Is the sky blue in the picture?",
+        "answer": "Yes",
+        "category": "color attributes"
+    },
+    {
+        "id": 755,
+        "image": "persian_images/outdoor/modern/modern30.png",
+        "question": "What color are the pants of the man who is looking at the painting on the wall?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 756,
+        "image": "persian_images/outdoor/modern/modern33.png",
+        "question": "What time of day does the picture show?",
+        "answer": "the night",
+        "category": "other"
+    },
+    {
+        "id": 757,
+        "image": "persian_images/outdoor/ethnic/ethnic2.jpg",
+        "question": "How many trees are there?",
+        "answer": "Much",
+        "category": "counting object"
+    },
+    {
+        "id": 758,
+        "image": "persian_images/outdoor/ethnic/ethnic1.jpg",
+        "question": "How many men are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 759,
+        "image": "persian_images/outdoor/ethnic/ethnic3.jpg",
+        "question": "Is kiwi on a tree or a bush?",
+        "answer": "Tree",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 760,
+        "image": "persian_images/outdoor/ethnic/ethnic5.jpg",
+        "question": "Is the reflection of the boat in the water?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 761,
+        "image": "persian_images/outdoor/ethnic/ethnic4.jpg",
+        "question": "Is the child wearing shorts?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 762,
+        "image": "persian_images/outdoor/ethnic/ethnic7.png",
+        "question": "How many red balloons are in the picture?",
+        "answer": "four",
+        "category": "color attributes"
+    },
+    {
+        "id": 763,
+        "image": "persian_images/outdoor/ethnic/ethnic6.png",
+        "question": "What is on the ground?",
+        "answer": "barberry",
+        "category": "object detection"
+    },
+    {
+        "id": 764,
+        "image": "persian_images/outdoor/ethnic/ethnic10.png",
+        "question": "Does the picture show the desert?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 765,
+        "image": "persian_images/outdoor/ethnic/ethnic8.png",
+        "question": "How many balloons are there on the car in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 766,
+        "image": "persian_images/outdoor/ethnic/ethnic9.png",
+        "question": "What are houses built on?",
+        "answer": "Hill",
+        "category": "object detection"
+    },
+    {
+        "id": 767,
+        "image": "persian_images/outdoor/dasti/dasti17.jpg",
+        "question": "What is the man doing?",
+        "answer": "reading newspaper",
+        "category": "activity recognition"
+    },
+    {
+        "id": 768,
+        "image": "persian_images/outdoor/dasti/dasti60.jpg",
+        "question": "What color are the carpets on the beds?",
+        "answer": "Red",
+        "category": "color attributes"
+    },
+    {
+        "id": 769,
+        "image": "persian_images/outdoor/dasti/dasti61.jpg",
+        "question": "Does the house have modern architecture?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 770,
+        "image": "persian_images/outdoor/dasti/dasti55.jpg",
+        "question": "How many half-finished buildings are in the picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 771,
+        "image": "persian_images/outdoor/dasti/dasti21.jpg",
+        "question": "Is there a palm tree in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 772,
+        "image": "persian_images/outdoor/dasti/dasti43.jpg",
+        "question": "What gender is the person wearing the hat?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 773,
+        "image": "persian_images/outdoor/dasti/dasti66.jpg",
+        "question": "How many windows are there in the picture?",
+        "answer": "four",
+        "category": "counting object"
+    },
+    {
+        "id": 774,
+        "image": "persian_images/outdoor/dasti/dasti62.jpg",
+        "question": "What is the color of the clothes of the person you see in the picture?",
+        "answer": "white",
+        "category": "color attributes"
+    },
+    {
+        "id": 775,
+        "image": "persian_images/outdoor/dasti/dasti49.jpg",
+        "question": "In which part of the picture is the woman with a blue shawl?",
+        "answer": "Down",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 776,
+        "image": "persian_images/outdoor/dasti/dasti59.jpg",
+        "question": "Are there stairs in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 777,
+        "image": "persian_images/outdoor/dasti/dasti47.jpg",
+        "question": "What color are the leaves of the trees in the picture?",
+        "answer": "Green",
+        "category": "color attributes"
+    },
+    {
+        "id": 778,
+        "image": "persian_images/outdoor/dasti/dasti37.jpg",
+        "question": "What is the person in the picture doing?",
+        "answer": "Sweeping",
+        "category": "activity recognition"
+    },
+    {
+        "id": 779,
+        "image": "persian_images/outdoor/dasti/dasti68.jpg",
+        "question": "How many men are there in this picture?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 780,
+        "image": "persian_images/outdoor/dasti/dasti64.jpg",
+        "question": "Is the shadow of the trees in the water?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 781,
+        "image": "persian_images/outdoor/dasti/dasti42.jpg",
+        "question": "is it sunny",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 782,
+        "image": "persian_images/outdoor/dasti/dasti51.jpg",
+        "question": "Where is the man with a yellow hat on his head in the picture?",
+        "answer": "Left",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 783,
+        "image": "persian_images/outdoor/dasti/dasti15.jpg",
+        "question": "How many people are crossing the crosswalk?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 784,
+        "image": "persian_images/outdoor/dasti/dasti2.jpg",
+        "question": "Was the picture taken during the day?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 785,
+        "image": "persian_images/outdoor/dasti/dasti11.jpg",
+        "question": "How many motorcycles are on the street?",
+        "answer": "Much",
+        "category": "counting object"
+    },
+    {
+        "id": 786,
+        "image": "persian_images/outdoor/dasti/dasti8.jpg",
+        "question": "What is the gender of the child you see in the picture?",
+        "answer": "Girl",
+        "category": "gender recognition"
+    },
+    {
+        "id": 787,
+        "image": "persian_images/outdoor/dasti/dasti20.jpg",
+        "question": "What time of day does the picture show?",
+        "answer": "the night",
+        "category": "other"
+    },
+    {
+        "id": 788,
+        "image": "persian_images/outdoor/dasti/dasti38.jpg",
+        "question": "How many boats are in the lake?",
+        "answer": "Zero",
+        "category": "counting object"
+    },
+    {
+        "id": 789,
+        "image": "persian_images/outdoor/dasti/dasti16.jpg",
+        "question": "What is the shape of the roof of the house?",
+        "answer": "gable",
+        "category": "other"
+    },
+    {
+        "id": 790,
+        "image": "persian_images/outdoor/dasti/dasti4.jpg",
+        "question": "What fruit does the tree have?",
+        "answer": "no",
+        "category": "object detection"
+    },
+    {
+        "id": 791,
+        "image": "persian_images/outdoor/dasti/dasti57.jpg",
+        "question": "Is there a canopy above the walls?",
+        "answer": "Yes",
+        "category": "object detection"
+    },
+    {
+        "id": 792,
+        "image": "persian_images/outdoor/dasti/dasti44.jpg",
+        "question": "Can you see the light pole in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 793,
+        "image": "persian_images/outdoor/dasti/dasti56.jpg",
+        "question": "Do women have trays on their heads?",
+        "answer": "no",
+        "category": "other"
+    },
+    {
+        "id": 794,
+        "image": "persian_images/outdoor/dasti/dasti69.jpg",
+        "question": "On which side of the picture is the sea?",
+        "answer": "Left",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 795,
+        "image": "persian_images/outdoor/dasti/dasti13.jpg",
+        "question": "What is on the edge of the pond?",
+        "answer": "flower pot",
+        "category": "object detection"
+    },
+    {
+        "id": 796,
+        "image": "persian_images/outdoor/dasti/dasti46.jpg",
+        "question": "What is the gender of the people in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 797,
+        "image": "persian_images/outdoor/dasti/dasti67.jpg",
+        "question": "Does this plain have only grass?",
+        "answer": "no",
+        "category": "object presence"
+    },
+    {
+        "id": 798,
+        "image": "persian_images/outdoor/dasti/dasti6.jpg",
+        "question": "How many horses are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 799,
+        "image": "persian_images/outdoor/dasti/dasti19.jpg",
+        "question": "How many domes are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 800,
+        "image": "persian_images/outdoor/dasti/dasti26.jpg",
+        "question": "How many benches are in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 801,
+        "image": "persian_images/outdoor/dasti/dasti23.jpg",
+        "question": "Is the plastic in the trash can yellow?",
+        "answer": "no",
+        "category": "color attributes"
+    },
+    {
+        "id": 802,
+        "image": "persian_images/outdoor/dasti/dasti34.jpg",
+        "question": "What is a woman's clothing?",
+        "answer": "chador",
+        "category": "other"
+    },
+    {
+        "id": 803,
+        "image": "persian_images/outdoor/dasti/dasti14.jpg",
+        "question": "What is the gender of the person in the picture?",
+        "answer": "female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 804,
+        "image": "persian_images/outdoor/dasti/dasti12.jpg",
+        "question": "What color is the coat of the woman who plays with the ball?",
+        "answer": "Black",
+        "category": "color attributes"
+    },
+    {
+        "id": 805,
+        "image": "persian_images/outdoor/dasti/dasti24.jpg",
+        "question": "What color is the roof of the building?",
+        "answer": "Brown",
+        "category": "color attributes"
+    },
+    {
+        "id": 806,
+        "image": "persian_images/outdoor/dasti/dasti54.jpg",
+        "question": "Where is this place?",
+        "answer": "the alley",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 807,
+        "image": "persian_images/outdoor/dasti/dasti41.jpg",
+        "question": "What are people doing on the carpet?",
+        "answer": "pray",
+        "category": "activity recognition"
+    },
+    {
+        "id": 808,
+        "image": "persian_images/outdoor/dasti/dasti5.jpg",
+        "question": "Is the view of the left wall made of stone?",
+        "answer": "Yes",
+        "category": "object material"
+    },
+    {
+        "id": 809,
+        "image": "persian_images/outdoor/dasti/dasti28.jpg",
+        "question": "How many floors is the house on the right?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 810,
+        "image": "persian_images/outdoor/dasti/dasti9.jpg",
+        "question": "What is in the woman's left hand?",
+        "answer": "Bag",
+        "category": "object detection"
+    },
+    {
+        "id": 811,
+        "image": "persian_images/outdoor/dasti/dasti50.jpg",
+        "question": "What season of the year is the picture?",
+        "answer": "winter",
+        "category": "other"
+    },
+    {
+        "id": 812,
+        "image": "persian_images/outdoor/dasti/dasti33.jpg",
+        "question": "What can be seen at the end of the picture?",
+        "answer": "Mountain",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 813,
+        "image": "persian_images/outdoor/dasti/dasti3.jpg",
+        "question": "Is there a green car in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 814,
+        "image": "persian_images/outdoor/dasti/dasti52.jpg",
+        "question": "How many men are crossing the street?",
+        "answer": "two",
+        "category": "counting object"
+    },
+    {
+        "id": 815,
+        "image": "persian_images/outdoor/dasti/dasti25.jpg",
+        "question": "Are the tents located on the rocks?",
+        "answer": "no",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 816,
+        "image": "persian_images/outdoor/dasti/dasti31.jpg",
+        "question": "What is used to create the shadow?",
+        "answer": "Umbrella",
+        "category": "object detection"
+    },
+    {
+        "id": 817,
+        "image": "persian_images/outdoor/dasti/dasti63.jpg",
+        "question": "Is anyone in the water?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 818,
+        "image": "persian_images/outdoor/dasti/dasti58.jpg",
+        "question": "What is going on in the picture on the ground?",
+        "answer": "Water",
+        "category": "object detection"
+    },
+    {
+        "id": 819,
+        "image": "persian_images/outdoor/dasti/dasti1.jpg",
+        "question": "What color is the sky?",
+        "answer": "Blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 820,
+        "image": "persian_images/outdoor/dasti/dasti22.jpg",
+        "question": "How many men in striped clothes are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 821,
+        "image": "persian_images/outdoor/dasti/dasti18.jpg",
+        "question": "How many boats are there in the picture?",
+        "answer": "Seven",
+        "category": "counting object"
+    },
+    {
+        "id": 822,
+        "image": "persian_images/outdoor/dasti/dasti39.jpg",
+        "question": "What does a woman wear?",
+        "answer": "chador",
+        "category": "other"
+    },
+    {
+        "id": 823,
+        "image": "persian_images/outdoor/dasti/dasti65.jpg",
+        "question": "What season of the year does the picture show?",
+        "answer": "winter",
+        "category": "other"
+    },
+    {
+        "id": 824,
+        "image": "persian_images/outdoor/dasti/dasti40.jpg",
+        "question": "What does the man do?",
+        "answer": "shepherd",
+        "category": "activity recognition"
+    },
+    {
+        "id": 825,
+        "image": "persian_images/outdoor/dasti/dasti32.jpg",
+        "question": "What is the color of the benches on the left side of the picture?",
+        "answer": "Blue",
+        "category": "color attributes"
+    },
+    {
+        "id": 826,
+        "image": "persian_images/outdoor/dasti/dasti30.jpg",
+        "question": "What is next to the man in blue?",
+        "answer": "Travel tent",
+        "category": "object detection"
+    },
+    {
+        "id": 827,
+        "image": "persian_images/outdoor/dasti/dasti10.jpg",
+        "question": "What is the gender of the people in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 828,
+        "image": "persian_images/outdoor/dasti/dasti70.jpg",
+        "question": "Is there a plant on the second floor of the building in the picture?",
+        "answer": "Yes",
+        "category": "object presence"
+    },
+    {
+        "id": 829,
+        "image": "persian_images/outdoor/dasti/dasti36.jpg",
+        "question": "Do most people come to eat street food?",
+        "answer": "Yes",
+        "category": "other"
+    },
+    {
+        "id": 830,
+        "image": "persian_images/outdoor/dasti/dasti29.jpg",
+        "question": "How many doors are there in the picture?",
+        "answer": "One",
+        "category": "counting object"
+    },
+    {
+        "id": 831,
+        "image": "persian_images/outdoor/dasti/dasti45.jpg",
+        "question": "Is there a historical monument in the photo?",
+        "answer": "Yes",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 832,
+        "image": "persian_images/outdoor/dasti/dasti53.jpg",
+        "question": "What color is the glove of the man coming from the front?",
+        "answer": "orange",
+        "category": "color attributes"
+    },
+    {
+        "id": 833,
+        "image": "persian_images/outdoor/dasti/dasti27.jpg",
+        "question": "What is the gender of the person you see in the picture?",
+        "answer": "Female",
+        "category": "gender recognition"
+    },
+    {
+        "id": 834,
+        "image": "persian_images/outdoor/dasti/dasti7.jpg",
+        "question": "On which side of the street is the house with an air conditioner on the roof located?",
+        "answer": "Left",
+        "category": "positional reasoning"
+    },
+    {
+        "id": 835,
+        "image": "persian_images/outdoor/dasti/dasti35.jpg",
+        "question": "What color is the moving taxi?",
+        "answer": "yellow",
+        "category": "color attributes"
+    },
+    {
+        "id": 836,
+        "image": "persian_images/outdoor/dasti/dasti48.jpg",
+        "question": "Are these houses new?",
+        "answer": "no",
+        "category": "other"
+    }
+]
