@@ -1,0 +1,852 @@
+[
+    {
+        "image": "persian_images/food/food26.jpg",
+        "prediction": "A plate of food with rice on it.                                                          ",
+        "captions": [
+            "The bottom of the rice pot with some vegetables on it.",
+            "The bottom of the saffron pot is cut in the shape of a triangle and arranged on a plate.",
+            "There is a white porcelain plate decorated with parsley on the table.",
+            "The pot and vegetables are in a white container."
+        ]
+    },
+    {
+        "image": "persian_images/food/food80.jpg",
+        "prediction": "A bowl filled with food on a table.                                                          ",
+        "captions": [
+            "A white plate is full of celery stew.",
+            "A dish full of celery stew is colorful and glazed.",
+            "A white porcelain plate full of celery stew is on the table.",
+            "A bowl of stew with pieces of meat and celery is on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food70.jpg",
+        "prediction": "A plate full of food on a table.                                                          ",
+        "captions": [
+            "There are some kebab skewers, bread and pepper on the table.",
+            "A tray of pounded kebab and tomatoes and peppers is on the floor.",
+            "A lot of pounded kebabs with tomatoes are arranged on bread.",
+            "A big tray of pounded kebab with tomatoes is on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food46.jpg",
+        "prediction": "A bowl filled with food on a table.                                                          ",
+        "captions": [
+            "There is a bowl of broth, yogurt and vegetables on a table.",
+            "A copper plate of muscle stew with a bowl of yogurt, cucumber and vegetables is on the table.",
+            "Cooked muscles next to a bowl of yogurt and cucumber.",
+            "There is a metal container full of offal and next to it is a container of yogurt and cucumber."
+        ]
+    },
+    {
+        "image": "persian_images/food/food58.jpg",
+        "prediction": "A plate topped with a banana and a dessert.                                                         ",
+        "captions": [
+            "He has filled the table with some dolma with vegetables.",
+            "Eggplant shell arranged in a dish decorated with mint leaves.",
+            "Eggplant stew is served on a white dish.",
+            "There are three slices of eggplant and a mint container on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food10.jpg",
+        "prediction": "Two bowls of food on a table.                                                           ",
+        "captions": [
+            "Two copper dishes on the table in which rice and vegetable soup are poured.",
+            "A dish of vegetable stew and a dish of saffron pilaf are on the table.",
+            "Vegetable and vegetable stew is in a round dish next to a dish full of rice.",
+            "In one metal container is saffron rice and in another container is green vegetables."
+        ]
+    },
+    {
+        "image": "persian_images/food/food31.jpg",
+        "prediction": "A plate of food is sitting on a table.                                                         ",
+        "captions": [
+            "Breakfast dishes are filled with bread, vegetables, cheese, walnuts and tomatoes.",
+            "A number of dishes of cheese, vegetables and bread are placed on the table.",
+            "Breakfast including bread, cheese, walnuts, vegetables, tomatoes and cucumbers are arranged in white dishes.",
+            "Bread, cheese, walnuts, vegetables, tomatoes and cucumbers are placed in four white dishes."
+        ]
+    },
+    {
+        "image": "persian_images/food/food99.jpg",
+        "prediction": "A white plate topped with a bunch of food.                                                         ",
+        "captions": [
+            "Next to the white dish of celery stew is a spoon.",
+            "Celery stew is served in a white dish.",
+            "A white bowl with a spoon is full of celery stew.",
+            "A dish of celery stew with a spoon in it."
+        ]
+    },
+    {
+        "image": "persian_images/food/food2.jpg",
+        "prediction": "A tray full of food on a table.                                                          ",
+        "captions": [
+            "There is a carton full of sweets and a container of chocolate next to it on the table.",
+            "A box full of different types of beans.",
+            "A box of baklava sweets is next to the reception table.",
+            "It is a box full of baklava sweets with different designs."
+        ]
+    },
+    {
+        "image": "persian_images/food/food17.jpg",
+        "prediction": "A plate of rice, chicken, and vegetables.                                                         ",
+        "captions": [
+            "Vegetable pilaf dish with fish is decorated with olives, lime and broccoli.",
+            "A plate is filled with dill rice and chicken.",
+            "It is in a round dish full of vegetables with fish, cinnamon, olives and sour lemon.",
+            "A plate decorated with rice and fish is on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food25.jpg",
+        "prediction": "A white plate topped with a bunch of food.                                                         ",
+        "captions": [
+            "There are three stuffed eggplants in the middle of the plate.",
+            "Stuffed eggplants are served in a dish with a flower design.",
+            "A Chinese plate of eggplant stew is on a wicker tablecloth.",
+            "A white plate is filled with eggplant stew."
+        ]
+    },
+    {
+        "image": "persian_images/food/food27.jpg",
+        "prediction": "A table topped with plates of food on a table.                                                        ",
+        "captions": [
+            "Pilaf is served in a mold on a tray with kebab.",
+            "The dish of vegetable pilaf with fish and kebab is arranged on the table for two people.",
+            "A table of different foods is in the green heights.",
+            "A high-altitude restaurant that serves rice and kebabs on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food37.jpg",
+        "prediction": "Two bowls of food on a table.                                                           ",
+        "captions": [
+            "The dining table is filled with vegetables, rice and side dishes.",
+            "A table of copper dishes in which vegetable soup and rice are poured.",
+            "Vegetable stew is placed in a round dish next to the salad dish.",
+            "On the table is a dish of vegetable stew, pilaf, vegetables and Shirazi salad along with two small jugs of buttermilk."
+        ]
+    },
+    {
+        "image": "persian_images/food/food55.jpg",
+        "prediction": "A plate of food on a table.                                                           ",
+        "captions": [
+            "A plate of pilaf and kebab with side dishes is in the tray.",
+            "Grilled pan with tomato is placed on a mold plate.",
+            "There is a dish with a glass of buttermilk and a container of yogurt on the table.",
+            "The copper plate contains kebab, tomato and rice with cinnamon, lime and parsley on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food38.jpg",
+        "prediction": "A plate of food is sitting on a table.                                                         ",
+        "captions": [
+            "There is a plate full of pilaf on the table.",
+            "A plate of pilaf decorated with blackberries and raisins is placed on a traditional tablecloth.",
+            "Lentil pilaf decorated with raisins, hot onion and barberry is poured into the plate.",
+            "There are two plates of shirin pilu on the traditional table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food11.jpg",
+        "prediction": "A lot of food is being cooked on a grill.                                                        ",
+        "captions": [
+            "A few skewers of grilled chicken and two skewers of grilled tomatoes are next to the grill.",
+            "Several chicken skewers are prepared along with tomato skewers.",
+            "Grilled chicken and some tomatoes are being cooked on charcoal.",
+            "A few chicken skewers are ready to serve and the tomatoes are frying on the fire."
+        ]
+    },
+    {
+        "image": "persian_images/food/food3.jpg",
+        "prediction": "A bowl of soup is filled with soup.                                                          ",
+        "captions": [
+            "A white bowl is filled with noodles.",
+            "There is a white bowl of noodles on the table.",
+            "Noodle soup is poured into a white container.",
+            "A white dish full of noodles is on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food23.jpg",
+        "prediction": "A large bowl of food on a table.                                                          ",
+        "captions": [
+            "A bowl is filled with noodles and hot onions.",
+            "Noodle soup decorated with curd and hot mint is poured into a copper dish.",
+            "There is a copper bowl of soup on a white table.",
+            "There is a copper dish full of noodles on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food12.jpg",
+        "prediction": "A plate filled with food on a table.                                                          ",
+        "captions": [
+            "A golden plate decorated with barberry.",
+            "Barberry rice is poured on the porcelain dish.",
+            "A part is cut from the bottom of the mold.",
+            "In a white dish, the bottom of the chicken is filled with barberry."
+        ]
+    },
+    {
+        "image": "persian_images/food/food82.jpg",
+        "prediction": "A bowl of food is sitting on a table.                                                         ",
+        "captions": [
+            "There is a plate of rice noodles on the white tablecloth.",
+            "A rice dish decorated with saffron, scallions and carrots.",
+            "A rice plate decorated with pistachio slices, almonds and carrots is on the table.",
+            "It is studded with orange peel, pistachio slices, almond slices and carrots inside the dish."
+        ]
+    },
+    {
+        "image": "persian_images/food/food96.jpg",
+        "prediction": "A plate full of food on a table.                                                          ",
+        "captions": [
+            "A plate of rice and kebab with side dishes is on the table.",
+            "Grilled pan with tomato is served on moldy rice.",
+            "Inside the black plate is rice, kebab, tomato, onion and garlic.",
+            "A tray of rice with pieces of meat and tomato on it."
+        ]
+    },
+    {
+        "image": "persian_images/food/food59.jpg",
+        "prediction": "A table topped with plates of food on a table.     ...................................................",
+        "captions": [
+            "Beans and beans are arranged on the table along with salad and bottom of the pot.",
+            "A tray of beans and rice with a few pieces of the bottom of the pot and a salad bowl are on the table.",
+            "On the table is a bowl of beans with a pot, a bowl of salad and two jars of buttermilk.",
+            "There is a dish full of beans and a salad bowl with two jars of buttermilk on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food21.jpg",
+        "prediction": "A plate of food in a bowl on a table.                                                        ",
+        "captions": [
+            "Zulbiya and okra are arranged in the dish with pistachio slices.",
+            "Zolbia and okra sweets are decorated with pistachio nuts.",
+            "A dish full of zolbia and okra decorated with almond slices.",
+            "Some zolbia and okra are in a dish on a table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food47.jpg",
+        "prediction": "A bowl of food is sitting on a table.                                                         ",
+        "captions": [
+            "On the table are Sangak bread, olives and eggplant curd.",
+            "Eggplant curd garnished with curd, hot onion and hot mint served in a traditional bowl.",
+            "There is a dish next to a bowl of olives and stone bread on a wooden table.",
+            "A bowl of eggplant curd decorated with curd and mint is on a table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food101.jpg",
+        "prediction": "A pan filled with food on a table.                                                          ",
+        "captions": [
+            "A table full of food and a pot of eggplant stuffing with a rice dish next to it.",
+            "The pilaf decorated with saffron along with eggplant stew is in a round dish on the table.",
+            "A dish of eggplant stew and a dish of pilaf are on the table next to the vegetables.",
+            "A table filled with different foods."
+        ]
+    },
+    {
+        "image": "persian_images/food/food92.jpg",
+        "prediction": "A plate of food is sitting on a table.                                                         ",
+        "captions": [
+            "A glass of buttermilk and a tray of rice, pounded kebab and tomatoes are on the table.",
+            "A copper plate of pounded kebab with rice and tomatoes is on the table.",
+            "Two pounded kebab skewers are on the table next to the saffron rice with a glass of buttermilk.",
+            "On a table there is a big plate of kebab and rice and a glass of buttermilk."
+        ]
+    },
+    {
+        "image": "persian_images/food/food19.jpg",
+        "prediction": "two plates of food on a table.                                                           ",
+        "captions": [
+            "A plate of rice in a china dish is on a table.",
+            "A Chinese plate of rice noodles with a pot of potatoes is on the table.",
+            "The food dishes are filled with rice and the bottom of the pot, and a salad dish is also next to them.",
+            "A round plate with rice and potato casserole inside."
+        ]
+    },
+    {
+        "image": "persian_images/food/food52.jpg",
+        "prediction": "A plate of food with rice and chicken.                                                          ",
+        "captions": [
+            "Zarshek pilaf with chicken, with chicken broth poured over it.",
+            "With a spoon, the sauce is poured on the barberry chicken pilaf.",
+            "A dish of pilaf with chicken that is poured over the chickens with a metal spoon.",
+            "A rice dish with two pieces of chicken on it."
+        ]
+    },
+    {
+        "image": "persian_images/food/food30.jpg",
+        "prediction": "A table topped with a bowl of food.                                                          ",
+        "captions": [
+            "A tray with rice, garlic, olives and a dish of stew is on the table.",
+            "There are two bowls of yogurt next to the tray full of food and some spoons and forks next to it.",
+            "A copper tray containing eggs and rice along with olives, garlic and chives is on the table.",
+            "There is a tray of rice and food on the table and two bowls of yogurt next to it."
+        ]
+    },
+    {
+        "image": "persian_images/food/food22.jpg",
+        "prediction": "A cake on a plate on a table.                                                          ",
+        "captions": [
+            "A Chinese dish with barberry and pistachio slices is on the table.",
+            "A clay pot with a bottom that is decorated with barberry and almond slices.",
+            "The pilaf dish is decorated with barberry and pistachio on the table.",
+            "Saffron rice is a mold decorated with barberry and pistachio in a blue dish."
+        ]
+    },
+    {
+        "image": "persian_images/food/food69.jpg",
+        "prediction": "A plate of food is sitting on a table.                                                         ",
+        "captions": [
+            "Eggplant curd, bread and vegetables are on the blue table.",
+            "Eggplant curd tray, vegetables and bread have filled the table.",
+            "A dish of eggplant curd on the table decorated with curd and mint.",
+            "A copper dish of eggplant curd decorated with bread and side dishes is on the traditional blue table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food6.jpg",
+        "prediction": "A plate full of food on a table.                                                          ",
+        "captions": [
+            "A cocoa plate with butter, bread and side dishes.",
+            "A large number of kebabs along with potatoes and cabbage are arranged in a round dish.",
+            "A plate of cutlets with potatoes, cabbage, tomatoes, cucumbers, vegetables, bread and a glass of butter is on the table.",
+            "A dish with some cutlets and potatoes on a dining table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food20.jpg",
+        "prediction": "A table topped with plates of food.                                                           ",
+        "captions": [
+            "A cutlet plate with vegetables, olives and other seasonings is placed in the tray.",
+            "In a tray there are cutlets, vegetables and side dishes, and next to it is bread.",
+            "The cutlet is arranged with the sauce in a dish and the rest of the side dishes such as tomatoes, peppers, pickled cucumbers and vegetables in a large tray.",
+            "Inside the big copper tray are cutlets, olives, tomatoes, pickles, peppers and vegetables."
+        ]
+    },
+    {
+        "image": "persian_images/food/food67.jpg",
+        "prediction": "A table with a bunch of food on it.                                                         ",
+        "captions": [
+            "There is a frying pan full of tomato, eggplant and a rice dish next to it.",
+            "A pan of eggplant stew is decorated with a branch of tomato.",
+            "Blue round dish of eggplant stew with tomatoes inside.",
+            "There is a pan of eggplant stew with a rice dish on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food74.jpg",
+        "prediction": "A plate full of food on a table.                                                          ",
+        "captions": [
+            "A plate filled with hair shavings, which is decorated with barberry.",
+            "The cooked dolmehs are arranged in a dish decorated with barberry.",
+            "There are two Chinese bowls of hairy leaves decorated with barberry on the table.",
+            "Various dishes are arranged on the table which are filled with hair leaves, pepper, lemon and side dishes."
+        ]
+    },
+    {
+        "image": "persian_images/food/food29.jpg",
+        "prediction": "A bowl of food sitting on a table.                                                          ",
+        "captions": [
+            "There is a metal plate full of firecrackers and a rice plate next to it.",
+            "Fasanjan rice and stew are in two copper dishes on the table.",
+            "A copper dish full of stew and another dish full of rice with a pomegranate on it are on the table.",
+            "A copper bowl full of stew next to the pilaf dish."
+        ]
+    },
+    {
+        "image": "persian_images/food/food85.jpg",
+        "prediction": "A plate of food on a table.                                                           ",
+        "captions": [
+            "There is a dish of chicken and some tomatoes on the table.",
+            "Three skewers of grilled chicken and one tomato skewer are placed in the dish.",
+            "A dish filled with skewers of grilled chicken, tomato and stone bread.",
+            "There is a tomato skewer on three grilled chicken skewers on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food51.jpg",
+        "prediction": "A large bowl of food is in a bowl.                                                         ",
+        "captions": [
+            "Sliced ​​fried potatoes are poured on top of the ghee stew.",
+            "Stew of minced meat with potatoes is drawn in a dish.",
+            "A dish of ghee stew that is filled with potatoes.",
+            "It is a dish of minced meat stew with pieces of meat and potatoes."
+        ]
+    },
+    {
+        "image": "persian_images/food/food53.jpg",
+        "prediction": "Three bowls of food are lined up on a table.                                                        ",
+        "captions": [
+            "Halim bowls with cinnamon are placed together.",
+            "There are six bowls of Halim decorated with cinnamon and pistachio powder on the table.",
+            "A number of dishes in which Halim has been poured.",
+            "A few bowls of Halim decorated with pistachio powder and cinnamon powder are arranged on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food78.jpg",
+        "prediction": "A table topped with plates of food.                                                           ",
+        "captions": [
+            "A plate of rice, a white dish of stew, a bowl of yogurt and a glass of syrup are on the table.",
+            "A white dish is filled with tomatoes and eggplants and next to it is a rice dish and a drinking glass.",
+            "Pumpkin stew is poured into an oval dish along with gourd and tomato.",
+            "A bowl of pumpkin stew is on a table with a bowl of rice."
+        ]
+    },
+    {
+        "image": "persian_images/food/food15.jpg",
+        "prediction": "A plate of spaghetti with noodles and cheese.                                                          ",
+        "captions": [
+            "A white plate filled with pasta.",
+            "The pasta is stretched in a large round container.",
+            "A white and patterned dish is full of pasta.",
+            "Some pasta is served on a white plate."
+        ]
+    },
+    {
+        "image": "persian_images/food/food14.jpg",
+        "prediction": "A plate of rice and meat on a table.                                                         ",
+        "captions": [
+            "Bean pilaf is served in a dish on a blue and red cloth.",
+            "The oval disc is bean-colored blue on a blue napkin with red spots.",
+            "A tray containing pilaf beans with pieces of meat is on a table.",
+            "The blue plate is filled with beans, rice and meat."
+        ]
+    },
+    {
+        "image": "persian_images/food/food39.jpg",
+        "prediction": "A pizza sits on a plate on a table.                                                         ",
+        "captions": [
+            "There is a bread with two halved eggs on the table.",
+            "The bread and half-bread are in the pan on the table.",
+            "Two eggs with a stone bread are on the table.",
+            "A stone bread is next to a dish of eggs on a cloth."
+        ]
+    },
+    {
+        "image": "persian_images/food/food98.jpg",
+        "prediction": "A table topped with bowls of food.                                                           ",
+        "captions": [
+            "Two copper plates of food with vegetables, olives and salad are placed on a red rug.",
+            "A plate of beans and rice along with a dish of meat, salad and vegetables are placed together.",
+            "Muscle fillets are placed together in oval dishes.",
+            "A tray full of beans, chicken, vegetables and side dishes is on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food94.jpg",
+        "prediction": "A table full of food and flowers.                                                           ",
+        "captions": [
+            "A table is filled with chicken and side dishes.",
+            "A rice dish decorated with pieces of meat and saffron, pistachio slices and almonds.",
+            "The large copper plate of rice is decorated with saffron rice, pistachio slices, almond slices and barberry.",
+            "The meat challah is decorated with almond slices, pistachios and barberry and is placed in a round tray."
+        ]
+    },
+    {
+        "image": "persian_images/food/food8.jpg",
+        "prediction": "A plate topped with bread on a table.                                                          ",
+        "captions": [
+            "Vegetable coco on a food plate decorated with barberry and greens.",
+            "The wooden plate contains six triangular slices of coco sabzi with bread and vegetables on the table.",
+            "A number of green cocos arranged in a plate.",
+            "Triangular pieces of coco sabzi decorated with barberry and basil are arranged in the dish."
+        ]
+    },
+    {
+        "image": "persian_images/food/food1.jpg",
+        "prediction": "A bowl of noodles with macaroni and cheese.                                                        ",
+        "captions": [
+            "The pasta is served in a black dish with the bottom of the potato pot.",
+            "A black container is filled with pasta and pot.",
+            "A round navy blue dish full of pasta is on the white table.",
+            "A dish of pasta with a pot of potatoes is on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food45.jpg",
+        "prediction": "A bunch of breads on a plate.                                                          ",
+        "captions": [
+            "There are three loaves of bread on the lace table in the bakery.",
+            "There are three loaves of bread on the table with blue lace.",
+            "Three breads on a blue bakery wire.",
+            "There are three pieces of bread decorated with sesame seeds on the bars."
+        ]
+    },
+    {
+        "image": "persian_images/food/food4.jpg",
+        "prediction": "A bowl filled with vegetables and salad.                                                           ",
+        "captions": [
+            "A metal container is filled with vegetable salad.",
+            "Inside the round dish, there is lettuce, tomato, lime, onion and parsley.",
+            "Some parsley, tomato, lettuce, radish and lemon are arranged in a round dish.",
+            "A tray of vegetables on the floor."
+        ]
+    },
+    {
+        "image": "persian_images/food/food91.jpg",
+        "prediction": "A plate of food is sitting on a table.                                                         ",
+        "captions": [
+            "Bagali pilaf with dill and garnished with fresh dill served on a white plate.",
+            "A plate is filled with beans, rice and dill.",
+            "There is a white china plate full of dill beans and rice on the table.",
+            "There is a plate of beans and rice with some green leaves on it."
+        ]
+    },
+    {
+        "image": "persian_images/food/food24.jpg",
+        "prediction": "A piece of cake is sitting on a plate.                                                         ",
+        "captions": [
+            "A large tray is filled with baklava.",
+            "Pistachio powder is poured on twelve pieces of baklava.",
+            "A number of baklavas are arranged in a circular dish.",
+            "There is a tray of sweets on a table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food72.jpg",
+        "prediction": "A bowl of food is sitting on a table.                                                         ",
+        "captions": [
+            "There is a white porcelain plate of vegetable stew and a black plate of pilaf on the tray.",
+            "Qorme Sabzi is served with plenty of water in a round white dish.",
+            "A tray in which a plate of vegetable soup and a plate of rice are placed.",
+            "The white dish is filled with vegetable stew and a dish full of rice is next to it."
+        ]
+    },
+    {
+        "image": "persian_images/food/food44.jpg",
+        "prediction": "A plate of food on a table.                                                           ",
+        "captions": [
+            "There are two cups of tea next to bread, cheese and a dish of tomatoes and cucumbers.",
+            "Breakfast table that includes tea, bread, cheese and tomato.",
+            "Sesame filled bread is placed next to the cucumber and tomato dish.",
+            "A table on which two glasses of tea and a piece of cheese and Berber bread are placed."
+        ]
+    },
+    {
+        "image": "persian_images/food/food93.jpg",
+        "prediction": "A bunch of hot corn on a grill.                                                          ",
+        "captions": [
+            "A lot of corn is roasted on the fire.",
+            "There are some roasted cobs next to the grill.",
+            "Grilled cobs on the grill.",
+            "Cooked and ready cobs are arranged together."
+        ]
+    },
+    {
+        "image": "persian_images/food/food36.jpg",
+        "prediction": "A plate of food sitting on a table.                                                          ",
+        "captions": [
+            "A tray of beans and rice along with a pot of potatoes, salad and yogurt is on a table.",
+            "Beans and pilaf are arranged on a tray along with potatoes, salad, yogurt and vegetables.",
+            "A tray is filled with beans, hot pot, salad and side dishes.",
+            "In the copper tray are beans, vegetables, salad and yogurt."
+        ]
+    },
+    {
+        "image": "persian_images/food/food89.jpg",
+        "prediction": "A plate filled with food on a table.                                                          ",
+        "captions": [
+            "The sweet pepper is in a dish on the table.",
+            "A piece of dolma is served in a white dish.",
+            "In a white bowl, a piece of pepper is placed.",
+            "A hot pepper with rice inside."
+        ]
+    },
+    {
+        "image": "persian_images/food/food34.jpg",
+        "prediction": "A white plate topped with rice on a table.                                                         ",
+        "captions": [
+            "A plate of lentil rice garnished with onions and raisins.",
+            "A white plate of lentil rice with onions and raisins is on the table.",
+            "Lentil pilaf decorated with hot onion and raisins is poured into the dish.",
+            "A white dish is filled with hot lentils and onions and raisins."
+        ]
+    },
+    {
+        "image": "persian_images/food/food28.jpg",
+        "prediction": "A table topped with bowls of food.                                                           ",
+        "captions": [
+            "Bean pilaf with chicken is served with vegetables, yogurt, olives and lemon in a copper tray.",
+            "A tray of beans, rice and chicken with olives, buttermilk and side dishes.",
+            "Fried chicken thighs with dill rice are arranged in a tray.",
+            "A tray of rice and chicken pieces with yogurt and vegetables is on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food81.jpg",
+        "prediction": "A cake with flowers on top of it.                                                          ",
+        "captions": [
+            "The yellow shell dish is decorated with cinnamon, chrysanthemum buds and pistachio slices.",
+            "There is a glass container of yellow shell decorated with flowers on the table.",
+            "A large square container of yellow shell decorated with roses and cinnamon.",
+            "A yellow shell dish decorated with roses and cinnamon."
+        ]
+    },
+    {
+        "image": "persian_images/food/food66.jpg",
+        "prediction": "A plate full of food on a table.                                                          ",
+        "captions": [
+            "On the plate is the decorated lentil pilaf of the salad bowl.",
+            "A tray of lentil pilaf decorated with a bowl of salad is on the table.",
+            "Lentils pilaf decorated with meat, barberry, raisins and the bottom of the pot are drawn in a round tray.",
+            "There is a metal tray full of lentils, raisins and tedig."
+        ]
+    },
+    {
+        "image": "persian_images/food/food77.jpg",
+        "prediction": "A bowl full of food on a table.                                                          ",
+        "captions": [
+            "The lentil dish is served in a white bowl.",
+            "A white dish full of lentils is on the table.",
+            "A white dish is filled with lentils and placed on a white cloth.",
+            "There is a spoon inside the white bowl of lentils."
+        ]
+    },
+    {
+        "image": "persian_images/food/food16.jpg",
+        "prediction": "A plate of food on a table.                                                           ",
+        "captions": [
+            "Two skewers of grilled meat with cinnamon and tomato are arranged in a dish.",
+            "On a white Chinese plate, two kebabs are pounded, tomatoes, lemons, pickled cucumbers and onions are chopped.",
+            "A dish of kebab and tomatoes is on the table.",
+            "There are two skewers of kebab and tomato on a white plate."
+        ]
+    },
+    {
+        "image": "persian_images/food/food54.jpg",
+        "prediction": "A plate of pasta with spaghetti and bread.                                                          ",
+        "captions": [
+            "Pasta with side dishes is arranged on a red table.",
+            "On a table, there is a large dish of pasta, a pot of potatoes, buttermilk and side dishes.",
+            "A round wooden dish full of pasta with buttermilk, lemon and tomato is on the table.",
+            "There is a wooden bowl of pasta, buttermilk and a few slices of lemon on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food73.jpg",
+        "prediction": "A table with a bunch of cakes on it.                                                         ",
+        "captions": [
+            "Traditional yellow ice creams are decorated with almond slices and rose flowers.",
+            "A large number of ice creams arranged in a circle with the decoration of pistachio slices and rose petals.",
+            "A number of ice creams decorated with red flowers and pistachio nuts are placed on the table.",
+            "Pieces of ice cream with pistachio slices are placed inside the ice cream bread."
+        ]
+    },
+    {
+        "image": "persian_images/food/food83.jpg",
+        "prediction": "A bowl of stew is sitting on a table.                                                         ",
+        "captions": [
+            "Okra stew is served in a white bowl.",
+            "There is a white porcelain bowl full of stew and a bowl of pilaf on the red tablecloth.",
+            "A bowl full of okra stew is on a table.",
+            "A plate of okra and rice stew is on a red cloth tablecloth."
+        ]
+    },
+    {
+        "image": "persian_images/food/food57.jpg",
+        "prediction": "Two bowls of food on a table.                                                           ",
+        "captions": [
+            "Food trays containing stew and rice are on the wooden table.",
+            "The ghee stew and vegetable ghorme stew are spread on the bottom of the saffron pot.",
+            "There is a steel dish full of ghee stew and vegetable soup on the table.",
+            "A dish of food that is filled with vegetables on one side and ghee on the other side."
+        ]
+    },
+    {
+        "image": "persian_images/food/food75.jpg",
+        "prediction": "A table filled with bowls of food.                                                           ",
+        "captions": [
+            "Clay dishes filled with daisy and all kinds of vegetables, pickles and buttermilk and placed in the tray.",
+            "On a traditional bed, there is a tray of broth and side dishes, including a variety of pickles.",
+            "In a copper tray, there are some blue dishes containing food.",
+            "The food is in a blue clay dish next to various pickles on the tray."
+        ]
+    },
+    {
+        "image": "persian_images/food/food71.jpg",
+        "prediction": "A bowl of soup with a bowl of soup.                                                         ",
+        "captions": [
+            "There is a bowl of noodle soup decorated with curd, hot mint, hot onion and hot garlic on the table.",
+            "There is a white bowl full of noodles and a spoon next to it.",
+            "It is decorated with mint and hot onion on the bowl of soup.",
+            "A bowl of noodles decorated with curd and mint is on a table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food87.jpg",
+        "prediction": "A plate of chicken and vegetables on a table.                                                         ",
+        "captions": [
+            "A flowery china dish with pieces of chicken meat arranged in it.",
+            "There is an orange stone surface and a dish full of chicken and vegetables.",
+            "A Chinese dish containing chicken cooked with cinnamon is placed next to the traditional tablecloth.",
+            "A few pieces of chicken are arranged in a white dish."
+        ]
+    },
+    {
+        "image": "persian_images/food/food76.jpg",
+        "prediction": "A plate of food is sitting on a table.                                                         ",
+        "captions": [
+            "A large copper plate of sabzi pilaf with fish is on the traditional table.",
+            "Dill rice served with smoked fish and side dishes on a copper tray.",
+            "A metal tray is filled with fish, vegetables and side dishes.",
+            "A tray of rice and fish with two Chinese salt shakers is on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food88.jpg",
+        "prediction": "A table full of meat and vegetables.                                                           ",
+        "captions": [
+            "A metal tray is filled with chicken, kebab and vegetables, and there is a rice tray next to it.",
+            "A large plate of grilled chicken and pounded kebab garnished with parsley and lemon is on the table.",
+            "A lot of batter and chicken are poured into a large container with parsley.",
+            "A tray with chicken on one side and a grilled dish on the other side."
+        ]
+    },
+    {
+        "image": "persian_images/food/food9.jpg",
+        "prediction": "A plate of food sitting on a table.                                                          ",
+        "captions": [
+            "A dish of green coco decorated with parsley leaves.",
+            "Vegetable cocoa decorated with parsley is in a round black container.",
+            "The black plate of vegetable coco is decorated with parsley.",
+            "There is a vegetable coco in a dark container."
+        ]
+    },
+    {
+        "image": "persian_images/food/food33.jpg",
+        "prediction": "A cake that has been baked in the oven.                                                         ",
+        "captions": [
+            "A container is full of potatoes.",
+            "There is a glass plate under the pot of potatoes on the table.",
+            "The bottom of the pot of potatoes that has been turned into a mold on a tray.",
+            "A pot of potato casserole that is orange in color."
+        ]
+    },
+    {
+        "image": "persian_images/food/food65.jpg",
+        "prediction": "A plate full of food on a table.                                                          ",
+        "captions": [
+            "There are two eggs and two cups of tea in the breakfast tray.",
+            "The tray in which they put bread, basil, cheese and cucumber.",
+            "There are two cups of tea, cheese, tomatoes, cucumbers, vegetables, eggs and stone bread in a tray on the table.",
+            "A metal breakfast tray includes bread, tea, cheese, tomatoes and cucumbers."
+        ]
+    },
+    {
+        "image": "persian_images/food/food41.jpg",
+        "prediction": "A table with many plates of food on it.                                                         ",
+        "captions": [
+            "Halva in different shapes and two candles are on the table next to them.",
+            "Halva is arranged in the form of roses and decorated with pistachio slices on a blue dish.",
+            "On the table in three trays and plates all kinds of sweets with halva are arranged.",
+            "Halva dishes are placed on a traditional table next to two candlesticks and a flower basket."
+        ]
+    },
+    {
+        "image": "persian_images/food/food63.jpg",
+        "prediction": "A plate full of food on a table.                                                          ",
+        "captions": [
+            "There is a plate of samosa on a patterned tablecloth.",
+            "Samboseh with red sauce and two cherry tomatoes are arranged in a dish.",
+            "A plate full of food with sauce on a traditional blue tablecloth.",
+            "A dish of samosa with a bowl of tomato sauce is on a table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food84.jpg",
+        "prediction": "A plate of food is sitting on a table.                                                         ",
+        "captions": [
+            "Square cheeses are arranged next to fresh mint inside the dish.",
+            "Two cups of tea are arranged next to pieces of bread and two dishes containing cheese, vegetables, tomatoes, cucumbers and walnuts on a traditional table.",
+            "A table on which a dish of cheese with vegetables and tea is placed.",
+            "The table is filled with cheese, vegetables, bread, walnuts and tea."
+        ]
+    },
+    {
+        "image": "persian_images/food/food79.jpg",
+        "prediction": "An orange is sliced in half on a plate.                                                         ",
+        "captions": [
+            "There are some Zolbia sweets in a cream-colored paper envelope.",
+            "A few fresh zolbia with sap under them.",
+            "Golden zolbia with a little oil collected under it.",
+            "A box filled with sweets."
+        ]
+    },
+    {
+        "image": "persian_images/food/food50.jpg",
+        "prediction": "A plate of food on a table.                                                           ",
+        "captions": [
+            "Bean pilaf is served in a blue colored dish.",
+            "A plate of beans and rice with pieces of meat is on the table.",
+            "A plate is filled with pilaf beans and next to it is a bowl of yogurt.",
+            "A round plate with beans and meat is on the table."
+        ]
+    },
+    {
+        "image": "persian_images/food/food64.jpg",
+        "prediction": "A pot full of food on a wooden table.                                                         ",
+        "captions": [
+            "A red dish with noodles inside.",
+            "There is a red pot full of noodles on the table.",
+            "There is a red dish of noodles on the table.",
+            "Noodle soup is poured into a red pot."
+        ]
+    },
+    {
+        "image": "persian_images/food/food5.jpg",
+        "prediction": "A table topped with bowls of food.                                                           ",
+        "captions": [
+            "On the table is a plate of pasta, salad, olives, vegetables, yogurt and a pitcher of water with lemon and mint.",
+            "In a pasta house, salad and side dishes are arranged on the table.",
+            "A plate of pasta decorated with lemon and mint leaves is on the table.",
+            "Inside a circular dish, there is pasta with potatoes and sour lemon."
+        ]
+    },
+    {
+        "image": "persian_images/food/food95.jpg",
+        "prediction": "A bowl of soup is sitting on a table.                                                         ",
+        "captions": [
+            "In the bowl is yellow shell decorated with pistachio and almond slices.",
+            "A dish with red flowers is filled with yellow shells, decorated with flowers and almond slices.",
+            "It is decorated with slices of pistachio, almonds and roses on three yellow shells.",
+            "A china dish with pink flowers in which they pour yellow shell."
+        ]
+    },
+    {
+        "image": "persian_images/food/food32.jpg",
+        "prediction": "A plate of chicken and rice on a table.                                                         ",
+        "captions": [
+            "Zarshak rice with chicken is served in a dish with saffron rice garnish.",
+            "It is a plate full of barberry with chicken and saffron.",
+            "Two fried chicken legs with barberry and saffron pilaf are in the plate.",
+            "There are two pieces of chicken on a plate of rice."
+        ]
+    },
+    {
+        "image": "persian_images/food/food97.jpg",
+        "prediction": "A bowl of stew is sitting on a table.                                                         ",
+        "captions": [
+            "Two plates include okra stew and rice.",
+            "Okra stew and rice are arranged in a dish and on the table.",
+            "A bowl filled with okra stew.",
+            "Okra stew is served in a white bowl."
+        ]
+    },
+    {
+        "image": "persian_images/food/food61.jpg",
+        "prediction": "A bowl of food is sitting on a table.                                                         ",
+        "captions": [
+            "There is a dish of ghee stew full of fried potatoes and two dishes of pilaf and vegetables on the table.",
+            "The ghee stew is served with plenty of potatoes in a round dish.",
+            "A bowl of ghee stew with potato slices and a dish of vegetables and rice is on the table.",
+            "There is a rice tray with a bowl of minced meat stew on the table."
+        ]
+    }
+]

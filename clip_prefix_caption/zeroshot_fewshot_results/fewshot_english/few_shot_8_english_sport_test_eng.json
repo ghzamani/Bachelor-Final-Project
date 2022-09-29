@@ -1,0 +1,863 @@
+[
+    {
+        "image": "persian_images/sport/sport46.jpg",
+        "prediction": "A group of people sitting in the snow near a ski lift.                                                      ",
+        "captions": [
+            "At the ski resort, many people have come to exercise and watch.",
+            "A group of skiers gathered in the heights.",
+            "Many people have gathered in the snow-covered ski resort.",
+            "Many men and women are having fun on the slopes of a snow-covered mountain."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport25.jpg",
+        "prediction": "A woman is holding a baseball bat.                                                           ",
+        "captions": [
+            "A woman shooter who is throwing an arrow.",
+            "A woman is shooting with a bow and arrow.",
+            "The female shooter in a white dress is aiming her bow and arrow at the target.",
+            "A woman is shooting with a bow and arrow."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport38.jpg",
+        "prediction": "A couple of skiers are in the air.                                                         ",
+        "captions": [
+            "Two opponents with red and blue clothes compete in taekwondo.",
+            "Iranian female karate player competes with her foreign rival.",
+            "Blue Karate Karate and Red Karate Karate are fighting each other.",
+            "Taekwondo worker in blue uniform hit the opponent with his foot."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport55.jpg",
+        "prediction": "A man in a white shirt with a basketball in his hand.                                                      ",
+        "captions": [
+            "The basketball player is competing with the ball in his hand on the court.",
+            "Two men in white and green clothes are playing basketball.",
+            "The basketball player with the ball in his hand wants to pass the opponent.",
+            "A basketball man wearing white clothes tries not to give the ball to his opponent."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport95.png",
+        "prediction": "A group of people riding bicycles down a street.                                                         ",
+        "captions": [
+            "Many cyclists are racing.",
+            "A large number of male athletes in identical clothes are riding bicycles.",
+            "Boys on bicycles are riding side by side on a road.",
+            "Lots of cyclists riding on the street."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport79.jpg",
+        "prediction": "A group of men playing soccer on a field.                                                         ",
+        "captions": [
+            "The players are playing football with white and red clothes.",
+            "In the football match, the players have jumped up to catch the ball.",
+            "A number of young people in red and white clothes are playing football.",
+            "Two soccer players in white clothes jumped in the air to hit the ball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport13.jpg",
+        "prediction": "A person standing in the middle of the street.                                                         ",
+        "captions": [
+            "A female athlete is ready to throw weights in a big gym.",
+            "A female athlete is exercising on the playground.",
+            "A female athlete throws a weight on the track.",
+            "The athlete in a green dress and black pants is throwing a ball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport66.jpg",
+        "prediction": "A man holding a basketball in front of a basket.                                                        ",
+        "captions": [
+            "The player in dark red prevents the white player from scoring.",
+            "Two basketball players in white and black clothes are trying to catch the ball.",
+            "The basketball player in white is throwing the ball into the basket.",
+            "The basketball player wants to throw the ball into the net and his opponent tries to stop him."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport65.jpg",
+        "prediction": "A man is standing in the middle of the field.                                                        ",
+        "captions": [
+            "The athlete man throws the discus with his hand on the field of competition.",
+            "An athlete in white and black is throwing a discus.",
+            "A man in white and red clothes is throwing a discus.",
+            "A male athlete is throwing a weight."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport42.jpg",
+        "prediction": "Two men are playing a game of tennis.                                                          ",
+        "captions": [
+            "Two volleyball players in blue jumped on the net to defend.",
+            "Three men are volleyball players who raised their hands to catch the ball.",
+            "In the competition, the male volleyball player jumped up to pass the ball over the net.",
+            "The red volleyball player is hitting the ball against the blue players."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport87.jpg",
+        "prediction": "A man on a skis in the water.                                                         ",
+        "captions": [
+            "An Iranian woman rower is rowing in the water.",
+            "A girl with an Iranian flag is rowing in a boat.",
+            "A sports woman is rowing in the lake.",
+            "A rowing woman is rowing in the middle of the lake and a flag is attached to both oars."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport51.jpg",
+        "prediction": "A group of people sitting around a tennis court.                                                         ",
+        "captions": [
+            "The women's sitting volleyball team competes with each other.",
+            "Two handicapped teams with red and yellow uniforms are playing against each other.",
+            "Women are playing volleyball sitting on the pink sports field.",
+            "Two women sitting volleyball teams with yellow and red clothes are competing."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport54.jpg",
+        "prediction": "A woman sitting at a table with a cell phone.                                                        ",
+        "captions": [
+            "A female chess player takes a photo with a camera in front of the chess board.",
+            "A lady playing chess who is taking pictures.",
+            "A woman with a black mask is photographing the chess board.",
+            "A woman sits at the table and takes a picture with a camera during a chess tournament."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport11.jpg",
+        "prediction": "A man jumping into the air while jumping into the air.                                                       ",
+        "captions": [
+            "A volleyball player in a dark suit is hitting spikes.",
+            "A number of young volleyball players are playing against each other.",
+            "Male players are competing in a volleyball match.",
+            "Two defenders of the white team jumped into the air to defend the net."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport34.jpg",
+        "prediction": "A woman standing in front of a tennis court.                                                         ",
+        "captions": [
+            "A female weightlifter in a black dress lifts the weight.",
+            "A female weightlifter in black clothes is lifting weights.",
+            "Women's work in sports has kept the weight on their shoulders.",
+            "A female weightlifter lifts a weight in competition."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport27.jpg",
+        "prediction": "A group of people riding skateboards down a street.                                                        ",
+        "captions": [
+            "Five athletic girls are ready for the skating competition at the starting line.",
+            "The skater girl in black dress is waiting for the start of the race.",
+            "A number of skating girls who are competing.",
+            "Women skaters are standing at the starting line of the race and ready to go."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport64.jpg",
+        "prediction": "A couple of men standing in front of cameras.                                                         ",
+        "captions": [
+            "Three male shooters are racing and shooting at targets.",
+            "Shooters practice or compete in a shooting club.",
+            "Three men are practicing shooting.",
+            "Three men are shooting at a target with an air rifle."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport77.jpg",
+        "prediction": "A soccer player kicking a soccer ball.                                                           ",
+        "captions": [
+            "A female soccer player dribbles on the grass field.",
+            "A female soccer player in a black dress practices on the grass field.",
+            "Female soccer players are hitting a ball.",
+            "A girl with a white hat and black clothes is practicing on the football field."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport37.jpg",
+        "prediction": "A group of people playing soccer on a field.                                                         ",
+        "captions": [
+            "The female player in a green dress is attacking the opponent's field.",
+            "Three soccer players in green uniforms are fighting with two soccer players in red uniforms to catch the ball.",
+            "Futsalist women compete in the stadium.",
+            "Two teams of women play futsal with green and red uniforms."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport18.jpg",
+        "prediction": "A woman is sitting on a pole in a match.                                                        ",
+        "captions": [
+            "A female weightlifter is lifting weights.",
+            "Muslim woman weight lifter in black clothes holds the weight with both hands.",
+            "A female weightlifter in a black dress is lifting weights above her head.",
+            "A woman in black clothes is lifting weights."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport94.png",
+        "prediction": "Two men are riding horses in a field.                                                          ",
+        "captions": [
+            "Two men on horses are playing polo on the grass.",
+            "Two men riding horses in traditional clothes are playing.",
+            "Two men on horses are competing in polo.",
+            "Two men on horseback are playing polo in the grass."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport88.jpg",
+        "prediction": "A man in a blue shirt playing with a ball.                                                        ",
+        "captions": [
+            "A man playing water polo wants to catch the ball.",
+            "A man with a black hat is swimming.",
+            "A water polo player is catching a yellow ball in the water.",
+            "A male athlete in water polo stretches his hand towards the ball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport56.jpg",
+        "prediction": "Two men riding bicycles down a street.                                                           ",
+        "captions": [
+            "Two men, one of whom is disabled in the hand and the other in the leg, are riding a bicycle.",
+            "Two cyclists with helmets are racing.",
+            "Two athletic men are racing their bikes.",
+            "The cyclist wearing green and yellow clothes is ahead of the other cyclist."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport53.jpg",
+        "prediction": "A man standing on top of a basketball court.                                                         ",
+        "captions": [
+            "Wrestling players in blue and red wrestling uniforms are competing.",
+            "Two wrestlers in red and blue clothes are wrestling on the mat.",
+            "Two male wrestlers compete on the wrestling mat.",
+            "Two male wrestlers try to hit each other on the mat.",
+            "Two male wrestlers try to hit each other on the mat."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport92.png",
+        "prediction": "A group of people riding bikes down a street.                                                         ",
+        "captions": [
+            "A teenage boy in a red dress and blue pants is racing a bicycle.",
+            "Many men are riding bicycles on a street.",
+            "Many men are riding bicycles in a wide street.",
+            "A boy in a red dress is with a group of cyclists on the street."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport48.jpg",
+        "prediction": "A man riding a red tennis racket on a court.                                                        ",
+        "captions": [
+            "The wrestler in red clothes knocks the opponent down.",
+            "The red wrestler is competing with the opponent.",
+            "The Iranian wrestler wearing a red dress has knocked down a blue opponent.",
+            "Two wrestlers in red and blue clothes are wrestling on the mat."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport45.jpg",
+        "prediction": "A female basketball player is riding a basketball.                                                          ",
+        "captions": [
+            "A female basketball player in a red dress is holding the ball.",
+            "A female basketball player is holding a ball in the stadium.",
+            "The ball is in the hands of the female basketball player in a red dress.",
+            "A woman wearing an Islamic veil is playing basketball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport35.jpg",
+        "prediction": "A man is paddling a paddle in the water.                                                        ",
+        "captions": [
+            "The boatman is kneeling on one leg.",
+            "The rower is in the boat wearing yellow and dark red clothes.",
+            "A male rower propels his boat forward in the water with an oar.",
+            "A man in yellow and green clothes is rowing on a boat."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport47.jpg",
+        "prediction": "Two men playing a game of tennis.                                                           ",
+        "captions": [
+            "The red and blue volleyball players are competing on the field.",
+            "Two teams with blue and red clothes are playing volleyball.",
+            "A male volleyball player in blue jumps up to defend the opponent's ball.",
+            "The volleyball player in a red dress jumped into the air to attack."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport20.jpg",
+        "prediction": "A group of men playing a game of volleyball.                                                         ",
+        "captions": [
+            "Two male volleyball players have jumped to pass the ball over the net.",
+            "The yellow and blue ball is thrown in the sky from the side of the red players towards the opposing team.",
+            "Two volleyball players in red clothes jumped into the air to defend the net.",
+            "Two men in red clothes are trying to hit the ball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport6.jpg",
+        "prediction": "A woman is fighting for a volleyball.                                                           ",
+        "captions": [
+            "The female volleyball player in a red dress blocks the ball with her forearm.",
+            "A female volleyball player in a red dress is hitting the ball with her forearm.",
+            "Women volleyball players in red clothes are competing in the stadium.",
+            "Girls play volleyball in red clothes."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport2.jpg",
+        "prediction": "A man holding onto a pole while holding a camera.                                                        ",
+        "captions": [
+            "The player in red is aiming and throwing arrows.",
+            "A man shooter in a red blouse is concentrating to shoot an arrow.",
+            "A male athlete in a red dress is aiming a bow at the target.",
+            "A man in a red dress and hat is shooting with a bow."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport22.jpg",
+        "prediction": "A woman holding a tennis racquet on a tennis court.                                                       ",
+        "captions": [
+            "The female player is holding the tennis racket in one hand and making a fist with the other hand.",
+            "A woman tennis player is standing with tennis in her hand.",
+            "A girl in a white dress and black pants holding a tennis racket.",
+            "A tennis player in a white blouse and black pants is holding a racket."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport33.jpg",
+        "prediction": "A man on a pole holding a soccer ball.                                                         ",
+        "captions": [
+            "A weightlifter who holds the weight above his head.",
+            "A male weightlifter shouts as he lifts the weight.",
+            "The weightlifter is holding the weight above his head with a blue bib.",
+            "A weightlifting man has succeeded in lifting the weight above his head."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport60.jpg",
+        "prediction": "A group of people playing a game of roulette.                                                        ",
+        "captions": [
+            "Kar Red Taekwondo kicks his opponent to the ground.",
+            "The red karate player is hitting the blue karate player.",
+            "Karate players compete on the field.",
+            "Two taekwondo fighters are fighting against each other on the mat."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport50.jpg",
+        "prediction": "A woman is riding a tennis racquet.                                                          ",
+        "captions": [
+            "A woman in sportswear is running a race.",
+            "The Iranian female athlete is throwing the discus in the sports field.",
+            "A female athlete in a blue and black dress is throwing a discus.",
+            "A female athlete practices discus throwing on the sports field."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport24.jpg",
+        "prediction": "A group of people walking down a mountain.                                                          ",
+        "captions": [
+            "A large group is climbing a mountain.",
+            "Mountaineers are climbing a rocky mountain.",
+            "A group of men and women climbers are climbing the mountainside.",
+            "A lot of people are climbing the mountain."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport80.jpg",
+        "prediction": "A man holding a baseball bat in front of a fence.                                                       ",
+        "captions": [
+            "A man shoots arrows in a shooting club.",
+            "The shooter in green clothes is shooting.",
+            "An athletic man is shooting with a pistol.",
+            "A man in green is practicing shooting."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport97.png",
+        "prediction": "A group of women are rowing in the water.                                                        ",
+        "captions": [
+            "A group of girls in white clothes are rowing.",
+            "Iranian female rowers are rowing in the race.",
+            "Women rowers row in the water with all their strength.",
+            "Female rowers push the boat forward in the river with oars."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport41.jpg",
+        "prediction": "A soccer player is kicking the ball.                                                           ",
+        "captions": [
+            "The soccer player in red is shooting the ball.",
+            "Footballer men try to reach the ball during the game.",
+            "The soccer player in white is fighting with the soccer player in red to get the ball.",
+            "Two teams with red and white uniforms are playing on the football field."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport4.jpg",
+        "prediction": "A couple of people sitting on top of a pole.                                                        ",
+        "captions": [
+            "A man in a green sports suit is throwing a javelin.",
+            "The disabled athlete sits on a chair and throws the javelin.",
+            "A sportsman in a green suit is throwing a javelin.",
+            "An athletic and strong man throws a spear."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport101.png",
+        "prediction": "A man is standing in front of a fence.                                                         ",
+        "captions": [
+            "An athletic man throws an arrow on the grass field.",
+            "A number of men are aiming with a bow and arrow.",
+            "In the shooting competition, the sportsman is aiming his bow at the target.",
+            "A man in blue is taking aim with a bow."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport57.jpg",
+        "prediction": "A group of soccer players standing next to each other.                                                        ",
+        "captions": [
+            "The red-clad football team players are taking a group photo.",
+            "The football team is standing together and getting ready for a photo shoot.",
+            "Eleven athletes are standing on the grass to take a group photo.",
+            "Men in a soccer team stand together before the start of a friendly match."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport72.jpg",
+        "prediction": "Two women standing next to each other on a dirt road.                                                       ",
+        "captions": [
+            "Two women in pink dresses are walking.",
+            "Two women in pink and red clothes and black scarves are climbing.",
+            "Two women are walking in the nature and waving with a smile.",
+            "Two women are waving and smiling while climbing the mountain."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport30.jpg",
+        "prediction": "A person flying a kite in the air.                                                         ",
+        "captions": [
+            "A person rides a kite in the sky above the city.",
+            "A man with a three-color umbrella flies over the city sky.",
+            "A skydiver has opened his parachute in the sky.",
+            "A person is parachuting in the sky with a red and white parachute."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport90.png",
+        "prediction": "Two women are paddling on top of a boat.                                                        ",
+        "captions": [
+            "Women rowers are rowing with all their might.",
+            "A group of girls in blue clothes riding a boat.",
+            "The women's rowing team is rowing in blue.",
+            "Rowing women in blue and black clothes are rowing."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport29.jpg",
+        "prediction": "A man standing in front of a pole.                                                          ",
+        "captions": [
+            "A male weightlifter in black sportswear is holding the weight above his head.",
+            "A weightlifter in black clothes has lifted the weight above his head.",
+            "A male athlete lifts the weight above his head in competitions.",
+            "A man in black and white clothes has lifted a weight above his head."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport68.jpg",
+        "prediction": "A group of people riding paddle boards in the water.                                                        ",
+        "captions": [
+            "Three rowers including one woman and two men are competing or training.",
+            "Three rowers are rowing and competing with each other.",
+            "A woman and two men rowers are practicing in the lake.",
+            "A group is boating in a river."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport73.jpg",
+        "prediction": "A man standing next to a soccer ball.                                                          ",
+        "captions": [
+            "A man in blue clothes is ready to lift weights.",
+            "A weightlifting man in a blue suit is sitting behind the weight and preparing himself to lift the weight.",
+            "A weightlifter wants to lift a weight.",
+            "A weightlifter in a blue suit prepares to lift a heavy weight."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport9.jpg",
+        "prediction": "Two men riding on a motor boat in the water.                                                        ",
+        "captions": [
+            "Two people are on a boat holding a flag.",
+            "Two men are riding a jet ski and one of them is holding a flag.",
+            "A motor boat is moving and its passenger is holding a flag.",
+            "Two men riding a jet ski and holding a flag are moving in the sea."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport15.jpg",
+        "prediction": "A group of women playing volleyball in a field.                                                         ",
+        "captions": [
+            "Two volleyball players in red clothes jumped into the air to defend the net.",
+            "Female volleyball players are playing in red clothes and Islamic clothing.",
+            "Women volleyball players stretch their hands to hit the ball.",
+            "Two girls in red clothes are trying to hit the ball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport83.jpg",
+        "prediction": "A man holding a baseball bat in front of a fence.                                                       ",
+        "captions": [
+            "A girl practicing shooting.",
+            "The female shooter is standing in front of the target in the shooting club and wants to shoot.",
+            "An Iranian female shooter is aiming at the target.",
+            "A lady in a black dress is shooting with a gun."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport78.jpg",
+        "prediction": "A person is standing in front of a fence.                                                         ",
+        "captions": [
+            "Two female shooters shoot targets while standing.",
+            "Two shooting ladies who are practicing.",
+            "Two women are competing in shooting.",
+            "Two female shooters are concentrating and training in the gym."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport17.jpg",
+        "prediction": "A couple of people standing in a field.                                                          ",
+        "captions": [
+            "A female shooter prepares her bow in a sports camp.",
+            "Two women compete in archery next to each other.",
+            "Two athletes in red and white clothes are competing in the archery competition.",
+            "Two girls in white and red clothes are practicing shooting."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport74.jpg",
+        "prediction": "A woman standing next to a fence.                                                           ",
+        "captions": [
+            "A female athlete doing martial arts and a male referee are standing.",
+            "A female karate athlete is performing martial arts.",
+            "A female taekwondo practitioner is standing in a defensive position.",
+            "A girl in a white dress and a black belt is performing dramatic movements."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport85.jpg",
+        "prediction": "A group of people standing around a ball field.                                                         ",
+        "captions": [
+            "A number of young boys and girls are training to shoot.",
+            "A number of female and male soldiers are throwing arrows with a bow.",
+            "A group of men and women are aiming at the target with their bows.",
+            "Men and women shooters are standing together and holding bows."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport93.png",
+        "prediction": "A couple of men riding horses in a field.                                                         ",
+        "captions": [
+            "A horseman riding a brown horse.",
+            "Three men on horseback are playing polo on the grass.",
+            "Three men on horses playing a game.",
+            "Men on horses are playing polo in the grass."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport10.jpg",
+        "prediction": "A group of women playing soccer on a field.                                                         ",
+        "captions": [
+            "The female players are playing futsal in white clothes and wearing Islamic clothing.",
+            "In futsal competition, women in white dress and their rivals compete with each other.",
+            "A female Muslim soccer player has fought with three defenders of the opposing team to get the ball.",
+            "One group of girls are playing futsal with headscarves and the other group without headscarves."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport70.jpg",
+        "prediction": "A woman is holding a large metal baseball bat.                                                         ",
+        "captions": [
+            "The female shooter in a white dress and a green hat is aiming the bow.",
+            "A girl in a white dress and a green hat is practicing shooting.",
+            "A female athlete in a white dress and a green hat is throwing an arrow.",
+            "A female shooter shoots in the grass field."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport23.jpg",
+        "prediction": "A couple of men playing a game of soccer.                                                         ",
+        "captions": [
+            "Two karate players compete with each other in the stadium.",
+            "Two karate fighters with blue and red belts are fighting.",
+            "A player with a blue boxing belt is fighting with a player with a red belt.",
+            "The athlete punches the opponent in the face with blue gloves."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport26.jpg",
+        "prediction": "A person riding a bike on the street.                                                          ",
+        "captions": [
+            "A woman cyclist with a helmet is riding on the road.",
+            "A female cyclist in a blue dress is speeding on her bike.",
+            "A lady cyclist in a blue dress is moving.",
+            "A girl in a blue dress is riding a bicycle on the road."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport36.jpg",
+        "prediction": "A man with a baseball bat in his hand.                                                         ",
+        "captions": [
+            "A man is aiming to shoot with a rifle.",
+            "Man shooter in shooting club is focused and wants to shoot.",
+            "The shooter is aiming his gun at the target.",
+            "A man shooter is aiming at the target."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport76.jpg",
+        "prediction": "A group of men playing a game of basketball.                                                         ",
+        "captions": [
+            "The basketball player in the red dress touches the ball with his left hand.",
+            "Two basketball players, one of whom is black, are competing.",
+            "One of the players of the basketball team is trying to catch the ball.",
+            "The red basketball player is catching the orange ball on the court."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport12.jpg",
+        "prediction": "Two people riding horses on a green field.                                                          ",
+        "captions": [
+            "Players on horses are playing polo.",
+            "Two people in red and gray clothes are riding horses.",
+            "A polo player on a brown horse with a red blouse has lifted the stick above his head.",
+            "Two athletes in red and gray clothes riding on horses are playing polo."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport67.jpg",
+        "prediction": "A woman standing in the middle of a field.                                                         ",
+        "captions": [
+            "A female athlete is throwing weights.",
+            "An Iranian female athlete in a blue dress is throwing a ball.",
+            "A woman throws an iron ball with her right hand.",
+            "A female athlete throwing a ball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport7.jpg",
+        "prediction": "A man in a red and white striped shirt running in the water.                                                     ",
+        "captions": [
+            "A male swimmer swims as hard as he can near the finish line.",
+            "The male swimmer takes his head out of the water to breathe.",
+            "A man with black glasses is swimming.",
+            "A man swimming in the pool with swimming goggles."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport8.jpg",
+        "prediction": "A group of women playing basketball on a court.                                                         ",
+        "captions": [
+            "Two female handball players in white clothes prevent three opponent handball players from scoring.",
+            "A number of female athletes are playing handball in the stadium.",
+            "The women's handball team wearing white and navy is competing.",
+            "A group of girls are playing handball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport100.png",
+        "prediction": "A woman riding a horse in a field.                                                          ",
+        "captions": [
+            "A woman archer is riding a horse.",
+            "A girl riding a white horse who is shooting with a bow.",
+            "A female rider on a white horse is aiming at the target with a bow.",
+            "A lady in a black dress and white pants is shooting on a horse."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport69.jpg",
+        "prediction": "Two men playing soccer on a field.                                                           ",
+        "captions": [
+            "The football player in dark red clothes threw himself on the player in white clothes.",
+            "Two football teams with white and blue uniforms playing against each other.",
+            "Two soccer players have jumped up on the grass field and two other soccer players are running towards them.",
+            "The soccer player in navy uniform and the soccer player in white uniform collided to catch the ball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport5.jpg",
+        "prediction": "A man jumping into the air with a parachute.                                                         ",
+        "captions": [
+            "A man with the design of the Iranian flag on his clothes is doing sports.",
+            "Gymnast man is doing showmanship.",
+            "A male athlete is performing gymnastic movements.",
+            "A male gymnast in a sports suit performs dramatic movements."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport62.jpg",
+        "prediction": "A man riding a bicycle in the dirt.                                                          ",
+        "captions": [
+            "An athlete in a blue hat is skiing on the grass.",
+            "A man is skating on the grass.",
+            "An athlete in a blue hat is skiing on the grass.",
+            "An athlete is skiing on the grass."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport89.png",
+        "prediction": "A group of people riding bikes down a street.                                                         ",
+        "captions": [
+            "Men on bicycles are riding around on a path.",
+            "Cyclists are passing the street bend.",
+            "Many cyclists are competing with each other.",
+            "A large number of men riding bicycles."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport14.jpg",
+        "prediction": "A couple of people standing around a match.                                                          ",
+        "captions": [
+            "Two women, one of whom is Iranian, compete in karate.",
+            "Two karate ladies with red and blue hats are fighting.",
+            "The karate player with the red hat is dodging the opponent's kick.",
+            "A female athlete in a blue dress attacks the opponent with her feet."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport31.jpg",
+        "prediction": "A man laying on top of a tennis court.                                                         ",
+        "captions": [
+            "The wrestler in the red suit upsets the balance of the wrestler in the blue suit.",
+            "Two wrestlers in red and blue clothes are wrestling.",
+            "A wrestler in a blue suit and a wrestler in a red suit are fighting on the mat.",
+            "Two male wrestlers are competing and the referee is watching."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport99.png",
+        "prediction": "A group of women holding a baseball bat.                                                          ",
+        "captions": [
+            "The women's rowing team raised their oars as a sign of victory.",
+            "There is a group of young girls on a boat in yellow clothes.",
+            "The women of the rowing team are having fun wearing yellow and dark red clothes.",
+            "Rowing women in yellow dresses raised their oars to express happiness."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport58.jpg",
+        "prediction": "A man standing in front of a basketball court.                                                         ",
+        "captions": [
+            "A man is training weight lifting and his coach guides him.",
+            "Weightlifters train with weights on the side of the competition field.",
+            "A weightlifter in a blue suit is training for weightlifting.",
+            "A number of weightlifters are training in the gym."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport3.jpg",
+        "prediction": "A man jumping into the air while jumping into the air.                                                       ",
+        "captions": [
+            "An athlete in a white dress and red pants is throwing a ball.",
+            "A male athlete jumped to throw a weight the farthest distance.",
+            "Sportsman in white and blue clothes prepares to throw the ball.",
+            "A man in a white dress and red pants throws a small ball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport28.jpg",
+        "prediction": "A woman holding a baseball bat in her hand.                                                         ",
+        "captions": [
+            "A girl in black clothes is practicing shooting.",
+            "A woman is aiming her gun at the target.",
+            "A female shooter in a black dress is shooting with a pistol.",
+            "A woman shooter shoots in the club."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport98.png",
+        "prediction": "A group of men playing a game of soccer.                                                         ",
+        "captions": [
+            "Two teams are playing futsal and everyone is looking at the ball.",
+            "There are four players and a referee on the playing field.",
+            "White soccer players and black soccer players are competing.",
+            "Male athletes compete in the stadium and chase the ball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport21.jpg",
+        "prediction": "A woman riding a horse in a arena.                                                          ",
+        "captions": [
+            "A girl with a black hijab is lifting weights.",
+            "A female weightlifter has lifted the weight.",
+            "A female weightlifter in a black dress is holding the weight above her head.",
+            "A female athlete in a black dress is training weight lifting."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport75.jpg",
+        "prediction": "A group of men standing in front of a building.                                                        ",
+        "captions": [
+            "Three male athletes are standing next to their bicycles.",
+            "Three cyclists standing with their bicycles in the stadium.",
+            "Three cyclists are standing behind their bicycles.",
+            "Three men standing next to their bicycles."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport44.jpg",
+        "prediction": "A couple of men on a tennis court.                                                          ",
+        "captions": [
+            "Two men in white and red clothes are playing volleyball.",
+            "The attack of the volleyball player in the white uniform was met by the opponent's defense on the net.",
+            "Two volleyball players are jumping on the net.",
+            "Two male volleyball players have jumped up to hit the ball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport86.jpg",
+        "prediction": "A woman holding a pole in front of a fence.                                                        ",
+        "captions": [
+            "A female weight lifter wearing Islamic veil has managed to hold the weight above her head.",
+            "A female athlete holds a barbell above her head.",
+            "An Iranian weightlifter holds the weight above her head.",
+            "The female weightlifter has lifted the weight above her head."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport39.jpg",
+        "prediction": "A group of basketball players are sitting on a bench.                                                        ",
+        "captions": [
+            "The sitting basketball team throws the ball into the net.",
+            "The disabled basketball team in red uniforms is scoring against the white team.",
+            "The wheelchair basketball match is played between two teams wearing red and white uniforms.",
+            "A number of men sitting on wheelchairs are playing basketball."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport43.jpg",
+        "prediction": "Two men playing soccer on a field.                                                           ",
+        "captions": [
+            "The soccer player in white with the ball jumps over the player in orange.",
+            "The soccer player jumps over the goalkeeper with the soccer ball.",
+            "A soccer player in a white uniform jumps over the goalkeeper of the opposing team with the ball.",
+            "Two men in white and orange clothes are playing football."
+        ]
+    },
+    {
+        "image": "persian_images/sport/sport84.jpg",
+        "prediction": "A man holding a basketball in his hand.                                                          ",
+        "captions": [
+            "The ball is in the hands of the player of the Iranian basketball team.",
+            "The athletic man wants to throw the ball into the net.",
+            "A basketball player in a red dress throws the ball with a long jump.",
+            "A basketball player in a red dress has a ball in his hand."
+        ]
+    }
+]

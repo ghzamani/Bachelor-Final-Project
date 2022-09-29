@@ -1,0 +1,843 @@
+[
+    {
+        "image": "persian_images/indoor/indoor92.jpg",
+        "prediction": "A group of people sitting in a room.                                                          ",
+        "captions": [
+            "Colored carpets are spread on the floor.",
+            "Two men and a woman are sitting on wooden chairs in the carpet shop.",
+            "A woman and two men are sitting in a carpet room and the shop is filled with carpet boards.",
+            "Two men and a woman are sitting on a stool in a carpet shop."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor73.jpg",
+        "prediction": "A woman sitting at a table in a restaurant.                                                         ",
+        "captions": [
+            "A girl with a red scarf is sitting on a wooden chair and looking at a painting on the wall.",
+            "A lady in a gray dress and a red scarf is sitting on a chair.",
+            "A woman is sitting on a wooden chair in a restaurant and looking at the paintings on the ceiling.",
+            "A woman is sitting in a coffee house with patterned walls and looking at a painting."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor88.jpg",
+        "prediction": "A colorful room with a colorful ceiling and windows.                                                         ",
+        "captions": [
+            "Light shines into the room through colored glass.",
+            "The light shines from two windows with colored glass on the carpets.",
+            "The sunlight shining into the room through the colored glass of the window.",
+            "A place with colored windows where the light from the window falls on the carpet."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor49.jpg",
+        "prediction": "A room with a table and chairs.                                                           ",
+        "captions": [
+            "A large table with a tablecloth with a blue border is spread on it.",
+            "In an old room with a brick domed ceiling, there are some wooden chairs and a library.",
+            "An old space with a traditional layout where the table and chairs are arranged in the middle.",
+            "An old room with brick walls and a red carpet on the floor."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor87.jpg",
+        "prediction": "Two men are standing in a bakery.                                                           ",
+        "captions": [
+            "A bakery with those who work in it.",
+            "Shater has hung the bread from the ceiling of the bakery.",
+            "Three bread sheaves are standing together.",
+            "Three bakers are standing next to each other at the bread dough table."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor60.jpg",
+        "prediction": "A group of people standing in a mall.                                                          ",
+        "captions": [
+            "There are two escalators in the building of a busy commercial complex.",
+            "A number of people are shopping in a mall.",
+            "A shopping mall with an escalator where people shopped.",
+            "A number of men and women are using the escalators of a commercial complex."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor86.jpg",
+        "prediction": "A room filled with colorful furniture and colorful decorations.                                                         ",
+        "captions": [
+            "Sunlight is shining through the colored glass of the room.",
+            "An old and luxurious house with windows, ceiling and floor.",
+            "The sunlight from the colorful windows of a room is reflected on the carpets.",
+            "A room with colored walls and windows that has several large colored chandeliers."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor100.jpg",
+        "prediction": "A group of people sitting on chairs in a library.                                                        ",
+        "captions": [
+            "A book house full of bookshelves.",
+            "A number of men and women are socializing in a book cafe.",
+            "A book cafe where people are sitting downstairs.",
+            "A big shelf full of books and some tables where people are sitting around it."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor42.jpg",
+        "prediction": "A large bathroom with a fountain in it.                                                          ",
+        "captions": [
+            "A mosque with a high roof and a pond in its yard.",
+            "A traditional courtyard with tiled walls with a small water pond in the center.",
+            "A pool full of water with blue tiles inside.",
+            "A pond full of water is located in the middle of a building with traditional architecture."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor21.jpg",
+        "prediction": "A room with a large table and chairs.                                                          ",
+        "captions": [
+            "There are three chairs next to the big window with colored glass in the room with traditional architecture.",
+            "It is a corner of a traditional house with three chairs and a table.",
+            "In an old and luxurious house, tables and chairs are placed in the middle.",
+            "Three green chairs are arranged around a golden table."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor2.jpg",
+        "prediction": "A living room with a wall and a table.                                                         ",
+        "captions": [
+            "A space with a modern arrangement has a wall full of paintings.",
+            "Small photo frames are arranged on the wall.",
+            "A room where one side of the wall is filled with many paintings.",
+            "Many small boards with wooden frames are installed on the wall of the house."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor4.jpg",
+        "prediction": "A living room with a rug and chairs.                                                          ",
+        "captions": [
+            "A room with a red carpet and a white sofa with a white vase on the table.",
+            "A house with carpeted floors, sofas and light-reflecting windows.",
+            "A leather sofa is arranged in front of the window.",
+            "There is a white double sofa and a table on the carpet in one room."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor11.jpg",
+        "prediction": "A large room filled with rug and chairs.                                                          ",
+        "captions": [
+            "The room has five large wooden windows with white curtains.",
+            "An old house with a traditional layout, the floor is covered with carpets and the windows have long curtains.",
+            "Five windows with white curtains tied in the middle.",
+            "A room with a red carpet that has many windows."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor25.jpg",
+        "prediction": "A room filled with colorful furniture and a fountain.                                                         ",
+        "captions": [
+            "A woman in a white tent is sitting in the middle of a house with tiled walls and colored windows.",
+            "A lady with a white tent is sitting in a traditional place.",
+            "A place where a woman with a white tent is sitting in the middle of it.",
+            "A woman in a white tent is sitting on carpets in a place with colorful windows."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor76.jpg",
+        "prediction": "A dining room with many tables and chairs.                                                          ",
+        "captions": [
+            "There are several rows of tables and chairs in the hall.",
+            "A restaurant that has a number of brown tables and chairs.",
+            "A restaurant with a special layout that has wooden decor.",
+            "All the tables in the restaurant are set for reception."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor58.jpg",
+        "prediction": "A large square room with a fountain in it.                                                         ",
+        "captions": [
+            "A traditional space with a high ceiling that has a pond in the middle.",
+            "A traditional house with brick walls with a pond in the middle.",
+            "The building has a brown domed roof and a pond.",
+            "A pond is located in the middle of a building with a circular roof."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor66.jpg",
+        "prediction": "A dining room filled with tables and chairs.                                                          ",
+        "captions": [
+            "Six empty dining tables are arranged in a traditional restaurant.",
+            "A traditional style restaurant with stained glass decorated with red and blue tables and chairs.",
+            "Blue and red chairs are arranged around a round table in a room with wooden doors.",
+            "A restaurant with an old layout that has carpets and a chandelier hanging from its high ceiling."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor12.jpg",
+        "prediction": "A room with a large table and chairs.                                                          ",
+        "captions": [
+            "There are a number of chandeliers and classic chairs in the hall.",
+            "A luxurious house with chandeliers hanging from the ceiling and a table and chairs for sitting.",
+            "Four cream-colored sofas are arranged around a rectangular table.",
+            "A number of tables and chairs are placed on the carpet in the room."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor16.jpg",
+        "prediction": "A large room with a large window.                                                           ",
+        "captions": [
+            "An old house with colorful decorations and its doors are closed.",
+            "There are three long and colored doors with traditional designs in the room.",
+            "Wooden doors made of colored glass.",
+            "There are three large wooden windows with colored glass in the room.",
+            "There are three large wooden windows with colored glass in the room."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor41.jpg",
+        "prediction": "A couple of people standing in a shopping mall.                                                         ",
+        "captions": [
+            "A commercial complex is decorated using white and pink lights.",
+            "Pink and white lights have been installed for the beauty of the shopping center.",
+            "A multi-storey shopping center with special decorations.",
+            "A multi-story building with a car parked in the middle of the ground floor."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor5.jpg",
+        "prediction": "A group of people standing in a mall.                                                          ",
+        "captions": [
+            "A passage where there are toys on the upper floor.",
+            "A multi-storey commercial complex where people come to shop.",
+            "A large crowd is present in the commercial complex for shopping and entertainment.",
+            "People are moving in a multi-story shopping mall."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor74.jpg",
+        "prediction": "A group of people sitting in a room.                                                          ",
+        "captions": [
+            "A large number of people are sitting on the floor of the amphitheater.",
+            "Many men and women are sitting in a hall with a wooden ceiling.",
+            "In a hall, the audience sits on chairs and the floor and looks at the stage.",
+            "Many men and women are sitting on the floor and on chairs in a hall."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor53.jpg",
+        "prediction": "A train is traveling down the tracks at a station.                                                        ",
+        "captions": [
+            "The metro station is quiet and there is no one there.",
+            "There is a row of green and yellow chairs in the hall.",
+            "A hall with yellow and green chairs.",
+            "A hall with stone walls that is empty of people."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor55.jpg",
+        "prediction": "A group of people sitting at a table in a restaurant.                                                       ",
+        "captions": [
+            "People are talking in a cafe with a traditional arrangement.",
+            "Many men and women are sitting at the restaurant tables.",
+            "A man in a blue checkered dress is sitting in front of a woman in a restaurant.",
+            "A busy restaurant with a large chandelier."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor84.jpg",
+        "prediction": "A room with a rug and a table.                                                          ",
+        "captions": [
+            "An old house with a traditional layout, the floor is covered with carpets.",
+            "A room with two red carpets and a wooden ceiling.",
+            "Tasseled woolen curtains hang above the windows.",
+            "Inside a room with a wooden ceiling is a chest and two red backs."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor99.jpg",
+        "prediction": "A couple of people standing in a room.                                                          ",
+        "captions": [
+            "Passengers' entrance gates are located inside the large corridor.",
+            "A large tiled area that is quiet.",
+            "A large hall whose floor and walls are made of stone.",
+            "A large hall with many lights on the ceiling and is quiet."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor36.jpg",
+        "prediction": "A bathroom with a bathtub and a fountain.                                                         ",
+        "captions": [
+            "A place with a dome roof and blue and white tiles.",
+            "An old place with a pond in the middle and beds on both sides.",
+            "In the middle of the building with traditional architecture, there is a water pond with a fountain.",
+            "A place whose walls are tiled with blue and white tiles."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor15.jpg",
+        "prediction": "A colorful room with a colorful ceiling.                                                           ",
+        "captions": [
+            "Sunlight shines in an artistic place with traditional architecture.",
+            "A historical and religious place with a unique architecture.",
+            "The light reflection from the colored glass can be seen on the carpets of this place.",
+            "The roof and walls of the old building are covered with colorful tiles."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor33.jpg",
+        "prediction": "A group of people sitting on a bench.                                                          ",
+        "captions": [
+            "Two men are walking in a shopping mall.",
+            "A number of people in a passage, some of them are sitting and two other men are passing by.",
+            "A man in a jacket and black pants is looking at his cell phone.",
+            "A number of men and women are present in a commercial complex for sightseeing and shopping."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor72.jpg",
+        "prediction": "A display of video games on display in a store.                                                        ",
+        "captions": [
+            "A shopping center that has computer equipment in the shop windows.",
+            "Laptop shops that have arranged a few samples behind the window.",
+            "A number of mobile phone shops are located next to each other in a passage.",
+            "There are a number of shops that have laptops behind their windows."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor97.jpg",
+        "prediction": "A woman is using a phone in a store.                                                         ",
+        "captions": [
+            "A lady in a white dress and a black shawl is standing behind the shop counter.",
+            "In a pharmacy, a woman with a mask is standing behind the counter.",
+            "A girl with a white robe and a black mask is selling medicine.",
+            "A woman in a white robe is selling medicine in a pharmacy."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor19.jpg",
+        "prediction": "A large room with a lot of furniture.                                                          ",
+        "captions": [
+            "A religious place where women with black veils are visiting.",
+            "A place where women worship with black tents.",
+            "A large number of women with black veils are praying in a place.",
+            "A number of women with black tents are worshiping."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor44.jpg",
+        "prediction": "A large dining room with tables and chairs.                                                          ",
+        "captions": [
+            "A brick-walled restaurant with a large chandelier hanging from the ceiling.",
+            "A luxurious old-style restaurant with a long chandelier hanging from the ceiling.",
+            "A large chandelier is installed in the hall of the traditional restaurant.",
+            "Dishes are arranged on the tables in a restaurant."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor59.jpg",
+        "prediction": "A view of a city filled with mountains.                                                          ",
+        "captions": [
+            "The big white tower is on the edge of the street.",
+            "A wide street with tall buildings where there are many cars.",
+            "A street with tall buildings where several cars are passing by.",
+            "The tall white building is on the left side of the street."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor89.jpg",
+        "prediction": "A large room with a large window.                                                           ",
+        "captions": [
+            "An atmosphere of a traditional restaurant that has a pond with colored lights in the center.",
+            "A large place with a traditional design that has a basin in the middle and a small chandelier hanging from the ceiling.",
+            "There is a pond in the central space and three large windows with old glass in the traditional restaurant.",
+            "The fountain with colored lighting and stone material is in the middle of the restaurant."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor10.jpg",
+        "prediction": "A man standing next to a subway train.                                                          ",
+        "captions": [
+            "The train is passing the subway station.",
+            "The subway train enters the station with its lights on.",
+            "A subway station that is deserted and only one person is standing in it.",
+            "The subway is passing passengers at the station."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor46.jpg",
+        "prediction": "A room with a rug and chairs.                                                           ",
+        "captions": [
+            "White matkas are arranged all around the wall.",
+            "A room filled with pillows.",
+            "White pillows are arranged around the old adobe room.",
+            "An old house surrounded by white backs for sitting."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor52.jpg",
+        "prediction": "A room with a table and chairs.                                                           ",
+        "captions": [
+            "An artistic place with four red velvet chairs around a table in the middle.",
+            "Red velvet furniture is arranged around a golden round table.",
+            "There are four red velvet chairs and a table next to the old wooden windows.",
+            "An old luxurious room with a table and velvet chairs arranged in the middle."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor90.jpg",
+        "prediction": "A large room with a rug and a table.                                                         ",
+        "captions": [
+            "A house that opens to the courtyard and the door is mostly made of glass.",
+            "A house whose window opens to the trees.",
+            "The nature of the garden can be seen from the glass door of this house.",
+            "The window of the room is open to the courtyard terrace."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor63.jpg",
+        "prediction": "A room with a large table and chairs.                                                          ",
+        "captions": [
+            "The traditional red carpet is spread in the middle of this restaurant.",
+            "A place with colored windows where tables and chairs are arranged.",
+            "There are wooden tables and chairs on both sides of the large room.",
+            "A traditional restaurant that has large windows with colored glass."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor29.jpg",
+        "prediction": "A table topped with a bowl of food.                                                          ",
+        "captions": [
+            "There is a tray of food on the table in the room.",
+            "In an old house, there is a black tray of vegetables on the chair.",
+            "Gorumeh stew of vegetables, pilaf, vegetables and pickles is in a tray on the chair.",
+            "A big chair with a red blanket, which has a copper tray containing vegetables and rice on it."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor51.jpg",
+        "prediction": "A dining room filled with tables and chairs.                                                          ",
+        "captions": [
+            "Brown chairs are arranged behind the tables with white tablecloths.",
+            "All the tables of the traditional restaurant are arranged for reception.",
+            "A hall where all kinds of food are arranged on the tables.",
+            "An old style restaurant with many tables and chairs."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor47.jpg",
+        "prediction": "A room filled with furniture and tables.                                                           ",
+        "captions": [
+            "A traditional restaurant with wooden tables placed together.",
+            "In the traditional restaurant, wooden beds are arranged with red cushions.",
+            "There are some wooden benches inside the traditional restaurant.",
+            "A man is sitting on one of the beds in a dining room."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor56.jpg",
+        "prediction": "A large bathroom with a waterfall in it.                                                          ",
+        "captions": [
+            "There is a water basin in the old public bath with patterned walls.",
+            "A historical place with a high and designed ceiling that has a basin in the middle.",
+            "A large empty pond made with gray and blue stones.",
+            "It is a place with tiled walls and an empty pond in the middle."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor9.jpg",
+        "prediction": "A shopping mall with a large shopping cart.                                                          ",
+        "captions": [
+            "A store that only sells drinks.",
+            "A large store is designed in a modern way.",
+            "There are small stalls in the commercial complex.",
+            "A shopping center where the dominant color is white and no one is present."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor3.jpg",
+        "prediction": "A group of people standing in a kitchen.                                                          ",
+        "captions": [
+            "Three men in gray, white and yellow clothes are in a shop.",
+            "A man walking with a bottle of water in his hand.",
+            "A man is walking with a bottle of mineral water.",
+            "There are three men in a cafe and there are several posters on the wall."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor37.jpg",
+        "prediction": "A large room with a large window and glass windows.                                                        ",
+        "captions": [
+            "Museum of historical works in a place that has many colored and dome-shaped windows.",
+            "A museum with many stained glass windows.",
+            "In a museum with colored windows, old objects are placed in glass cases.",
+            "In a hall with a colored glass wall, old museum items are arranged."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor18.jpg",
+        "prediction": "A group of people sitting at a table eating food.                                                        ",
+        "captions": [
+            "Many people eat in traditional restaurants.",
+            "A number of people are eating in the restaurant.",
+            "Several families are sitting around several tables to eat.",
+            "In a small domed dining room, many people are sitting at the table and eating."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor7.jpg",
+        "prediction": "A couple of people standing in a room.                                                          ",
+        "captions": [
+            "The interior of a traditional building whose floor is covered with several carpets.",
+            "The dome ceiling of the corridor is decorated with white and blue tiles.",
+            "A place with traditional carpets and the sun shines through its colored glass.",
+            "A place with colored windows and a carpeted floor."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor93.jpg",
+        "prediction": "A large room with a rug and a table.                                                         ",
+        "captions": [
+            "Red carpets are spread in the mosque for praying.",
+            "A prayer hall covered with red carpets.",
+            "A religious place covered with a red carpet.",
+            "Carpets are spread in the corridor with azure dome ceiling."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor13.jpg",
+        "prediction": "A couple of people sitting at a shopping cart.                                                         ",
+        "captions": [
+            "A shopping center where people are sitting.",
+            "A multi-story shopping center where a number of men are sitting on benches.",
+            "A man in a black jacket is sitting on a chair next to the escalator.",
+            "A few men are sitting on a chair in the corridor of an arcade."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor57.jpg",
+        "prediction": "A room with a rug and a chair.                                                          ",
+        "captions": [
+            "Sunlight shines on the carpet from the window of the room.",
+            "Sunlight shines on the carpet through the net curtain of the room.",
+            "A house where the light shines through the window and shines on the carpet.",
+            "A house with white curtains where sunlight shines into the house."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor1.jpg",
+        "prediction": "A living room with a clock on the wall.                                                         ",
+        "captions": [
+            "A corridor that opens the doors of a number of rooms and many signs are installed on its walls.",
+            "A gallery with paintings hanging on the wall.",
+            "A clean corridor whose floor shines with cleanliness.",
+            "In a corridor, a number of signs are installed on the wall."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor71.jpg",
+        "prediction": "A large bathroom with a waterfall in it.                                                          ",
+        "captions": [
+            "A traditional environment with a small pond in the middle.",
+            "A water pond is located in the central space of the building with traditional architecture.",
+            "Sunlight falls on a polygonal basin with blue tiles.",
+            "A historical place with a nested roof with a treasure in the middle."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor32.jpg",
+        "prediction": "A woman standing in front of a red curtain.                                                         ",
+        "captions": [
+            "A woman with a thin tent is standing in front of the window of a historical place.",
+            "A lady is praying in the beautiful light of the colored mirrors of this room.",
+            "A woman with a tent is standing in the light reflection of an old window with stained glass.",
+            "A woman in a white turban is standing in a dark room with tinted windows."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor83.jpg",
+        "prediction": "A room with a large green table and chairs.                                                         ",
+        "captions": [
+            "A library with a modern layout that has little light.",
+            "There are many tables and chairs for reading in the hall.",
+            "Many cream-colored stairs are placed in the middle of the library.",
+            "There are many tables for reading in the library hall."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor20.jpg",
+        "prediction": "A couple of people sitting in front of a mosque.                                                        ",
+        "captions": [
+            "A traditional bath where three men are sitting.",
+            "Statues of people are made in a historical place.",
+            "There are three statues of men in traditional clothes inside the traditional bath museum.",
+            "The statue of a man on the right is smoking a pipe and the statue on the left is smoking a hookah."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor70.jpg",
+        "prediction": "A street filled with cars and trucks.                                                           ",
+        "captions": [
+            "The sun is shining on the trees in the street.",
+            "A street where some cars are parked and some are moving.",
+            "A number of cars are parked diagonally on the right side of the street.",
+            "A street with cars parked on both sides and green trees."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor23.jpg",
+        "prediction": "There are two rows of chairs in a large room.                                                        ",
+        "captions": [
+            "An artificial river is designed between two escalators.",
+            "A large shopping center with a small waterfall between the escalators.",
+            "Waterfront stairs are inside a building.",
+            "A water feature and beautiful nature view is next to the escalators."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor94.jpg",
+        "prediction": "Two people standing in a swimming pool in a building.                                                        ",
+        "captions": [
+            "Many people visit the large pool of the traditional bath.",
+            "It is a place with streams with blue tiles.",
+            "A place where there are statues of people.",
+            "A covered place with several male and female statues surrounded by a pond."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor64.jpg",
+        "prediction": "A person is sitting on the roof of a building.                                                        ",
+        "captions": [
+            "A woman with a yellow veil is sitting in a mosque with a high ceiling.",
+            "A woman with a colored veil is sitting under the dome of the old mosque.",
+            "A woman is sitting on the ground with a white veil.",
+            "A woman in a tent is praying in the middle of the mosque."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor39.jpg",
+        "prediction": "A group of people walking around a mall.                                                          ",
+        "captions": [
+            "Many people are moving in the floors of the complex.",
+            "A number of people are shopping in a multi-storey shopping mall.",
+            "Many men and women are moving on the floors of a passage.",
+            "A multi-story shopping center where people were busy shopping."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor40.jpg",
+        "prediction": "A woman standing next to a luggage cart.                                                          ",
+        "captions": [
+            "A woman and a man are standing behind the gate with their luggage.",
+            "A woman with a blue shawl and a black coat delivers her luggage to the airport.",
+            "A woman and a man are standing to deliver their luggage.",
+            "A number of people are delivering luggage."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor85.jpg",
+        "prediction": "A room filled with couches and chairs.                                                          ",
+        "captions": [
+            "Patterned cushions are arranged around two large tables.",
+            "A residence with a special arrangement with a wooden roof.",
+            "A number of red mattresses and pillows are arranged on the old terrace.",
+            "A room with a wooden ceiling, where there are some tables and pillows."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor8.jpg",
+        "prediction": "A group of people sitting in a room.                                                          ",
+        "captions": [
+            "Doshi bags are hanging from the front of the shop.",
+            "The market of carpet sellers, where a man is passing by with a wheelbarrow in the middle of the market.",
+            "The old market where traditional bags hang from above.",
+            "A number of carpet shops are located next to each other in an old covered market."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor50.jpg",
+        "prediction": "A stained glass bathroom with a lot of furniture.                                                         ",
+        "captions": [
+            "Green prayer mats are spread next to the shrine.",
+            "A religious place where a shrine is located.",
+            "There are many lights installed above the yellow shrine.",
+            "A religious place with a stone floor and mirrored walls."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor26.jpg",
+        "prediction": "A dining room with tables and chairs.                                                           ",
+        "captions": [
+            "A traditional cafe with decorated doors and mirrors on the wall.",
+            "The sunlight reflected from the colored glass on the door and wall of the restaurant.",
+            "A place where there are some brown tables and chairs.",
+            "Inside a traditional restaurant there are several doors with colored glass."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor80.jpg",
+        "prediction": "A shopping mall filled with colorful bags.                                                           ",
+        "captions": [
+            "A multi-storey shopping center with colored walls.",
+            "There are many shops in the large multi-storey commercial complex.",
+            "This colorful commercial complex has many floors.",
+            "A multi-storey shopping center where some people are shopping."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor24.jpg",
+        "prediction": "A blue and white room with a blue ceiling.                                                         ",
+        "captions": [
+            "Two women are standing in the courtyard of the mosque under the traditional dome.",
+            "A traditional place where two girls in black clothes are standing.",
+            "In a religious place, two people are standing under a high ceiling.",
+            "Two ladies are looking at a place with a domed roof."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor35.jpg",
+        "prediction": "A view of a large stairwell in a building.                                                        ",
+        "captions": [
+            "There are two round staircases with red carpet to the top floor of the building.",
+            "A corridor of several stairs with a red carpet on the stairs.",
+            "There are two arched staircases on both sides of a large mansion.",
+            "A large hall with a spiral staircase, the floor of which is carpeted."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor65.jpg",
+        "prediction": "A group of people standing in a courtyard.                                                          ",
+        "captions": [
+            "Some men are standing or walking at the entrance of the shrine.",
+            "The walls of this religious place are tiled and mirrored.",
+            "A number of men and women are entering a place.",
+            "A number of men standing on red carpets."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor31.jpg",
+        "prediction": "A room with a table and chairs.                                                           ",
+        "captions": [
+            "An old room with a table and chairs that opens to another room.",
+            "A yellow tablecloth with pink flowers and long roots is spread on the table.",
+            "There is a round table next to the green wooden door of the room.",
+            "A room with a green door, where there is a table and a chair."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor81.jpg",
+        "prediction": "A couple of people standing in front of a decorated altar.                                                       ",
+        "captions": [
+            "A man in a black blouse and pants is praying.",
+            "A place with elaborate walls and roof where men worship.",
+            "A number of men are worshiping and visiting a religious place.",
+            "A mosque with glass walls where a number of men are praying."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor91.jpg",
+        "prediction": "A restaurant with many tables and chairs.                                                           ",
+        "captions": [
+            "Families are eating in a busy restaurant.",
+            "A traditional wooden restaurant where all the seats are full.",
+            "Many people are sitting at the restaurant tables to eat.",
+            "A restaurant where a family sits on every table."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor61.jpg",
+        "prediction": "A table with a laptop on it.                                                           ",
+        "captions": [
+            "There are some notebooks on the table with black chairs around it.",
+            "A room with cream-colored tables with some books on them.",
+            "A large wooden table on which there is a file, a box of tissues and papers.",
+            "A long conference hall where no one is present."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor96.jpg",
+        "prediction": "A group of people sitting in a bath.                                                          ",
+        "captions": [
+            "A number of men are sitting in a traditional and old bathroom.",
+            "Two men are washing themselves around the pool of this hot spring.",
+            "A public bath with a vault in the middle where men go to bathe.",
+            "A number of men are taking a bath in a traditional bath."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor67.jpg",
+        "prediction": "A hotel room with a bed and a chair.                                                         ",
+        "captions": [
+            "A double bed and a TV in a bedroom with the lights on.",
+            "A double bed with a white and yellow bedspread is placed in the room.",
+            "A bedroom with a double bed and long curtains.",
+            "There is a double bed, a desk and two sofas in the room."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor17.jpg",
+        "prediction": "A large room with many people in it.                                                          ",
+        "captions": [
+            "The interior view of a two-story building whose stairs are without protection.",
+            "Many people are present in the building to visit the exhibition boards.",
+            "A multi-storey white building with interesting stairs.",
+            "A gallery with columns and white walls where people are present on the floors."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor75.jpg",
+        "prediction": "A woman is sitting on a balcony in a room.                                                        ",
+        "captions": [
+            "In a colorful and patterned space, a woman is sitting in a blue dress.",
+            "A woman with a white scarf, blue blouse and flowered skirt is sitting by the pond.",
+            "A woman in traditional dress is sitting next to the octagonal pool in the middle of the old building.",
+            "A girl in a blue dress is sitting next to a pond in the middle of a room."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor30.jpg",
+        "prediction": "A living room filled with furniture and a table.                                                         ",
+        "captions": [
+            "Two carpets and some sofas are arranged in the living room.",
+            "A house with a cream carpet and long curtains with a chandelier hanging from the ceiling.",
+            "A light colored carpet is spread in the middle of the house.",
+            "The interior of a house with white sofas."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor27.jpg",
+        "prediction": "A woman standing in front of a colorful room.                                                         ",
+        "captions": [
+            "A woman in colorful clothes is sitting in a place with stained glass.",
+            "A girl in white clothes is sitting on red carpets.",
+            "A wooden door with colored glass is installed at the entrance of the room.",
+            "A woman is sitting on a carpet in the colorful reflection of light from a traditional window."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor28.jpg",
+        "prediction": "A person standing in front of a wall.                                                          ",
+        "captions": [
+            "A lady is standing on the carpets of the mirrored room next to the window.",
+            "A lady in a white dress is standing in a mirrored room.",
+            "A girl with a white tent is standing in a house with glass walls.",
+            "A woman with a tent is standing in a religious place."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor45.jpg",
+        "prediction": "A group of men playing baseball on a field.                                                         ",
+        "captions": [
+            "The men's hockey team competes indoors.",
+            "A number of men are exercising in the gym.",
+            "A number of young people in white and black clothes are exercising.",
+            "Six men are playing hockey."
+        ]
+    },
+    {
+        "image": "persian_images/indoor/indoor77.jpg",
+        "prediction": "A room filled with chandeliers and chairs.                                                         ",
+        "captions": [
+            "The orange carpet and royal furniture are neatly arranged.",
+            "A luxurious palace with a high ceiling in the middle of the sofa.",
+            "It is a luxurious house with stone walls.",
+            "There are many sofas in a mirrored room."
+        ]
+    }
+]

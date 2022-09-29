@@ -1,0 +1,852 @@
+[
+    {
+        "image": "persian_images/ashkhas/ashkhas97.jpg",
+        "prediction": "A man sitting in a chair holding a pair of scissors.                                                       ",
+        "captions": [
+            "A man in red is working with musical instruments.",
+            "A man in a red dress and black pants is playing three strings.",
+            "An old man holds an accordion and plays on the carpet.",
+            "An old man in traditional clothes sits on the carpet next to the instruments and plays the three strings."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas91.jpg",
+        "prediction": "A group of women sitting next to each other.                                                         ",
+        "captions": [
+            "Several women with green shawls are in the stadium.",
+            "Four women with green shawls, one of them holding a green flag.",
+            "A number of women with green scarves are standing together.",
+            "A number of girls with green shawls are standing next to each other."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas47.jpg",
+        "prediction": "A man holding a kite on top of a hill.                                                       ",
+        "captions": [
+            "Four men in the same local clothes are shaking hands.",
+            "Four men in traditional Balochi clothes are shaking hands in an old area.",
+            "Men dance and stomp in local clothes.",
+            "Four men in white local clothes are shaking hands."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas32.jpg",
+        "prediction": "A woman is riding a white horse.                                                           ",
+        "captions": [
+            "A girl in a white wedding dress is riding a decorated horse.",
+            "A lady in a white dress is riding a brown horse.",
+            "A woman in a white wedding dress is riding a horse.",
+            "A woman in a white local dress is sitting on a horse."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas46.jpg",
+        "prediction": "A young boy standing next to a goat.                                                          ",
+        "captions": [
+            "A black and white goat with a small horn on its head is standing next to two children.",
+            "Two village children are standing next to a horned goat.",
+            "Two village boys are standing in the desert with a goat.",
+            "Two children in local clothes are standing next to a goat."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas37.jpg",
+        "prediction": "A woman in a costume standing in a garden.                                                         ",
+        "captions": [
+            "A lady in colorful local dress is standing in front of a green tree.",
+            "A woman is standing in a traditional dress and skirt.",
+            "A woman in local dress is standing in front of a tree.",
+            "A girl in local dress and a colorful skirt is standing next to a tree."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas18.jpg",
+        "prediction": "A couple of children standing next to each other.                                                         ",
+        "captions": [
+            "The girl in yellow traditional dress is holding the boy's hand.",
+            "A girl and a boy are wearing local clothes and holding hands.",
+            "Two children in local clothes are holding each other's hands.",
+            "Two children in local clothes holding each other's hands."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas10.jpg",
+        "prediction": "A woman in a uniform sits on a desk.                                                         ",
+        "captions": [
+            "A female medical staff is sitting in the reception area of ​​the hospital.",
+            "A female nurse with a white mask and a blue coat is sitting on a chair.",
+            "A female nurse is sitting on a chair behind the hospital counter.",
+            "A nurse with a white mask is sitting behind a table."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas44.jpg",
+        "prediction": "A woman sitting on a bench holding a musical instrument.                                                        ",
+        "captions": [
+            "A girl is sitting on a wooden chair and playing the violin in the area under a building.",
+            "A girl is sitting on a wooden bench and playing the violin.",
+            "A lady in a black dress is playing music on a chair.",
+            "A female musician sits on a wooden chair and plays the violin."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas89.jpg",
+        "prediction": "A woman standing next to a baby on the street.                                                        ",
+        "captions": [
+            "A woman with a colorful chador with a child in her arms is in the local market.",
+            "A woman with an orange tent and a child in her arms is standing in the market.",
+            "A young lady is holding a child in a t-shirt and blue shorts.",
+            "A woman hugging her child in the local market."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas49.jpg",
+        "prediction": "A man sitting in front of a bowl of food.                                                        ",
+        "captions": [
+            "An old copper seller is sitting next to the dishes in his shop.",
+            "An old man sitting next to copper dishes.",
+            "The old man is sitting on the floor in the shop and selling copper utensils.",
+            "Copper pots in different sizes are stacked on top of each other."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas22.jpg",
+        "prediction": "A man sitting in front of a table in a restaurant.                                                       ",
+        "captions": [
+            "A man in a white and black shirt is leaning on the rugs.",
+            "A man sits on a platform next to folded carpets, a wooden chest and chessboards.",
+            "A young man is sitting on a carpet in a carpet shop.",
+            "A man is sitting on a carpet in the market."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas8.jpg",
+        "prediction": "A man standing next to a crowd of people.                                                         ",
+        "captions": [
+            "Many men raise their hands and pray.",
+            "Praying men have raised their hands.",
+            "A large number of men are praying Qunut.",
+            "Men worship in group prayers."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas83.jpg",
+        "prediction": "A man and a woman standing next to a bus.                                                        ",
+        "captions": [
+            "A man and a woman are standing by the street and laughing.",
+            "A woman in a red dress is standing next to a man in a white shirt and red pants.",
+            "A woman and a man are standing in the street in front of a red bus with a vase in their hands.",
+            "A woman in a red dress is standing next to a man in a white shirt in front of a red bus."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas29.jpg",
+        "prediction": "A little girl holding a flower in her hand.                                                         ",
+        "captions": [
+            "A girl in a blue dress is smelling red flowers.",
+            "A girl in a blue dress is smelling a flower branch.",
+            "This girl in a blue dress is smelling red flowers.",
+            "A little girl wearing a blue dress and a floral scarf is holding and smelling a rose."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas81.jpg",
+        "prediction": "A man standing next to a pizza oven.                                                          ",
+        "captions": [
+            "A baker in white clothes and a hat brings the bread.",
+            "The bakery shopkeeper has some stone bread in his hand.",
+            "A baker man brings ready-made Sangak breads and another man puts the dough in the oven.",
+            "Two bakers are baking Sangak bread."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas7.jpg",
+        "prediction": "A woman sitting on top of a tree in the woods.                                                       ",
+        "captions": [
+            "A woman with braided hair is carrying firewood.",
+            "An elderly village woman carrying a load of firewood on her back.",
+            "The old village woman carries a big bundle of wood on her shoulder.",
+            "A woman in a black dress has a tree trunk tied to her back."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas82.jpg",
+        "prediction": "A group of people that are holding umbrellas.                                                        ",
+        "captions": [
+            "Three women holding umbrellas take a selfie under the rain.",
+            "Some women with colored umbrellas are present in the march and take souvenir photos.",
+            "Three women holding a colored umbrella above their heads.",
+            "Three women are taking pictures under a colored umbrella on the sidelines of a ceremony."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas3.jpg",
+        "prediction": "A couple of people sitting next to each other.                                                         ",
+        "captions": [
+            "An old man and woman are sitting next to each other in an old house and eating watermelon.",
+            "The old woman in blue dress is eating watermelon next to the old man.",
+            "An old woman and an old village man are sitting together and eating watermelon.",
+            "A village man and woman are leaning on the beds in the room."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas27.jpg",
+        "prediction": "Two men are sitting on a motorcycle.                                                           ",
+        "captions": [
+            "Two men are sitting on the motorcycle and one man is standing next to his motorcycle by the wall.",
+            "Three men with motorcycles are standing together in front of the wall.",
+            "Three men with two motorcycles are leaning against the wall.",
+            "Three men in black jackets are standing next to the engine."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas25.jpg",
+        "prediction": "A man standing in front of a bunch of yellow flowers.                                                       ",
+        "captions": [
+            "A boy in gray clothes is picking white and yellow flowers.",
+            "The young man picks up a big bunch of flowers.",
+            "A man in gray clothes is packing daffodil flowers.",
+            "A young man picks and bunches flowers in the plain."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas39.jpg",
+        "prediction": "A man standing next to a table filled with food.                                                        ",
+        "captions": [
+            "Spices are neatly arranged in copper containers on the shelves.",
+            "A man has arranged all kinds of spices in different containers in his shop.",
+            "A man is selling dried fruits in a shop.",
+            "A salesman in Attari gives him the rest of the customer's money."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas63.jpg",
+        "prediction": "A man standing next to a bag of food.                                                         ",
+        "captions": [
+            "A teenage boy is standing behind a table full of bread in the shop.",
+            "A boy in white and blue clothes selling bread.",
+            "Small and large breads are placed on top of each other.",
+            "A young baker boy arranges the candy buns."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas17.jpg",
+        "prediction": "A man sitting in a basket holding oranges.                                                          ",
+        "captions": [
+            "An old man sits under an orange tree and picks oranges with scissors.",
+            "The old man is picking oranges from the tree.",
+            "An old man picks oranges from a tree and puts them in a basket.",
+            "An old man is picking oranges from trees."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas59.jpg",
+        "prediction": "A woman sitting in front of a table full of vegetables.                                                       ",
+        "captions": [
+            "An old woman is sitting in the market and sells pickles and vegetables.",
+            "An old woman sits in the corner of the market and sells vegetables and pickles.",
+            "An old woman with a floral scarf and a black dress is sorting vegetables.",
+            "An old woman is sitting next to her table of pickles and vegetables."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas53.jpg",
+        "prediction": "Two men standing next to a bunch of apples.                                                         ",
+        "captions": [
+            "Two men are collecting pomegranates that have fallen on the ground.",
+            "Two men put pomegranates on the garden floor into a bag.",
+            "Two men are collecting fallen pomegranates.",
+            "Two men collect pomegranates in the forest."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas50.jpg",
+        "prediction": "A man and woman standing next to each other.                                                         ",
+        "captions": [
+            "A man and a woman are standing side by side in the street covered with snow.",
+            "A young man and woman in white and black clothes are standing together on a snowy winter day.",
+            "A woman in a black dress and a man in a white coat are standing together in a snowy alley.",
+            "A man in a white dress and black pants and a woman in a black dress are standing together."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas71.jpg",
+        "prediction": "A couple of people sitting around a pot.                                                          ",
+        "captions": [
+            "Two old ladies are sitting in the middle of a yard with mud walls next to pots.",
+            "Two old women are sitting in a village house next to traditional clay jars.",
+            "Two old women are sitting together in the village and there are designed clay dishes in front of them.",
+            "Clay jars with different designs and patterns are arranged on the ground."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas54.jpg",
+        "prediction": "A little girl standing next to a kite.                                                         ",
+        "captions": [
+            "A little girl with a balloon and a flag in her hand is attending a ceremony.",
+            "The girl with a black turban is holding a red balloon and a flag.",
+            "A little girl with a tent has a flag in one hand and a red balloon in the other.",
+            "A little girl holding a flag and a balloon."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas66.jpg",
+        "prediction": "A couple of people sitting in the snow.                                                          ",
+        "captions": [
+            "A man and two children ride a tube on the snow.",
+            "A father is riding tires in the snow with his two children.",
+            "A man with two children in his arms is sliding on the snow with tires.",
+            "A man on a tire with his two children are sliding on the snow."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas43.jpg",
+        "prediction": "A man standing next to a hot dog stand.                                                         ",
+        "captions": [
+            "A man buys cooked red beets from a vendor on the street.",
+            "The peddler on the side of the street pours boiled beet juice on them with a ladle.",
+            "Red lips are arranged in a round metal container.",
+            "A man buys lipstick from a lipstick seller on the street."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas65.jpg",
+        "prediction": "A man is holding a large piece of bread.                                                         ",
+        "captions": [
+            "A man who has a lot of bread on his hands.",
+            "A man walks with a lot of bread in his hand.",
+            "A man has a lot of bread in his hand.",
+            "A lot of stone breads are stacked on top of each other."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas87.jpg",
+        "prediction": "A man standing next to a hot dog stand.                                                         ",
+        "captions": [
+            "An old man is collecting some bread.",
+            "An old man in a black coat takes the bread from the netted table of the bakery.",
+            "An old man buys a lot of Berber bread from a bakery.",
+            "A man has stacked a lot of Berber bread."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas55.jpg",
+        "prediction": "A man that is holding a bunch of flowers.                                                         ",
+        "captions": [
+            "Two men are picking rose water with sacks full of flowers.",
+            "Two men empty the picked flowers from the bag.",
+            "Two men are emptying flowers from a bag.",
+            "Two men empty a big bag of roses."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas85.jpg",
+        "prediction": "A man holding a bouquet of flowers.                                                          ",
+        "captions": [
+            "An old man in a blue dress holding a bouquet of flowers.",
+            "An old man is holding a bouquet of flowers in an alley.",
+            "An old man is standing in front of the wall with a bouquet of flowers in his hand.",
+            "An old man with a white beard and a blue shirt holding a bunch of colored flowers."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas31.jpg",
+        "prediction": "Two women standing next to each other on a sidewalk.                                                        ",
+        "captions": [
+            "Two old village women with floral masks are standing together.",
+            "Two women with long flowered scarves and local clothes are standing in front of a house.",
+            "Two women are standing in front of the house with flowered scarves and local clothes.",
+            "Two old women with flowered scarves are standing together."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas41.jpg",
+        "prediction": "Two women sitting at a table eating food.                                                          ",
+        "captions": [
+            "Two girls in winter clothes are drinking tea in an open space.",
+            "A woman wearing a black shawl and jacket is drinking tea in front of another woman.",
+            "Two women are drinking tea behind a table with a traditional tablecloth.",
+            "Two women are drinking tea in a high-rise cafe."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas35.jpg",
+        "prediction": "A woman sits on a table next to a ladder.                                                        ",
+        "captions": [
+            "A woman is sitting on a wooden board and weaving a carpet.",
+            "A girl who is weaving a piece of carpet.",
+            "A woman with a brown scarf and a gray blouse is weaving a carpet.",
+            "Two women are sitting next to a carpet and weaving carpets."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas36.jpg",
+        "prediction": "A woman holding a basket full of flowers.                                                          ",
+        "captions": [
+            "An old woman carries a green tray on her head.",
+            "A woman wearing a red scarf is carrying some green wheat in a pan on her head.",
+            "A village woman with clay gloves is holding a basin full of rice plants on her head.",
+            "A woman with a colored scarf and a yellow blouse has a bowl full of greens on her head."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas73.jpg",
+        "prediction": "A man is holding a tray of food on a table.                                                       ",
+        "captions": [
+            "An old man is sitting next to the fish market in the market.",
+            "The old man in the green jacket is selling smoked fish.",
+            "An old man who sells grilled fish on the side of the street.",
+            "An old man in a green and black jacket is sitting on a table in the market and selling smoked fish."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas12.jpg",
+        "prediction": "A woman sitting in front of a large pot.                                                         ",
+        "captions": [
+            "A woman is peeling and seeding a pomegranate.",
+            "A woman is grinding pomegranate seeds in a large round container.",
+            "An old woman in local dress separates pomegranate seeds.",
+            "A woman in local dress is sowing pomegranate seeds in a large tray."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas77.jpg",
+        "prediction": "A couple of people standing next to each other.                                                         ",
+        "captions": [
+            "An old man and woman are standing next to each other.",
+            "An old woman and an old village man in local clothes are standing together in the desert.",
+            "A man in traditional clothes and a gun is standing next to a woman in a blue floral scarf.",
+            "A nomadic man and woman are standing next to their tent."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas100.jpg",
+        "prediction": "A man standing next to a fence holding a bag.                                                        ",
+        "captions": [
+            "A man in a suit and tie is holding bread.",
+            "A man in a dark suit is holding a loaf of bread.",
+            "A man in a black suit is standing on the side of the street with a stone bread in his hand.",
+            "A man in a black suit is standing on the side of the street in front of the flag with a stone bread in his hand."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas42.jpg",
+        "prediction": "A group of women standing next to each other.                                                         ",
+        "captions": [
+            "Three ladies in local red dresses are in the grass.",
+            "Three young girls in red local clothes and hats are standing next to each other in the grass.",
+            "Three women in red local clothes are standing together in a green field.",
+            "Three girls in red hats and traditional clothes are standing together in a desert."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas74.jpg",
+        "prediction": "A woman holding an instrument in her hand.                                                          ",
+        "captions": [
+            "A woman in a traditional dress is playing an instrument.",
+            "A woman in a dress plays localization.",
+            "A young woman in a dark dress with flowers plays the strings.",
+            "A woman in a patterned scarf and floral dress is playing music."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas60.jpg",
+        "prediction": "A man standing next to flowers in a field.                                                         ",
+        "captions": [
+            "An old man puts a necklace of saffron flowers around his wife's neck.",
+            "An old man and an old woman who are busy harvesting saffron.",
+            "The old man has made a necklace for his wife with saffron flowers.",
+            "In the field, the old farmer has made a necklace for the old woman with saffron flowers."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas76.jpg",
+        "prediction": "A man sitting in front of a door.                                                          ",
+        "captions": [
+            "An old man in black clothes sells colored beads on the side of the street.",
+            "An old man selling rosaries with a white beard is sitting behind his table.",
+            "An old peddler in black clothes is selling rosaries.",
+            "The old man who sells handicrafts is sitting next to his rosaries."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas86.jpg",
+        "prediction": "A group of men standing in a circle.                                                          ",
+        "captions": [
+            "Men in local clothes perform local dance in the stadium.",
+            "A number of men in white clothes holding each other's hands.",
+            "Six men in white Arabic clothes dance hand in hand.",
+            "Six men in long white clothes are holding each other's hands."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas1.jpg",
+        "prediction": "A woman standing in front of a door.                                                          ",
+        "captions": [
+            "A woman in a black dress is standing by the door in a room.",
+            "A woman in a black cloak and mask is standing in front of a wooden door.",
+            "A lady in a black dress is standing in front of the brown door.",
+            "A woman in a formal dress standing in front of a wooden door."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas56.jpg",
+        "prediction": "Two men standing on top of a beach.                                                          ",
+        "captions": [
+            "Two young boys in white blouses are standing by the sea.",
+            "Two men with red and white shoes are standing by the sea.",
+            "Two men in white blouses are standing by the sea.",
+            "Two young men with sunglasses are standing together on the beach."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas57.jpg",
+        "prediction": "A man and a child sitting on a picnic table.                                                        ",
+        "captions": [
+            "A man makes bread next to a girl.",
+            "A man in a white shirt and a black vest is sitting next to a little girl.",
+            "Father and daughter who are busy preparing the dough.",
+            "A man is sitting next to a little girl."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas98.jpg",
+        "prediction": "A man sitting on a chair in a room.                                                         ",
+        "captions": [
+            "A man in local clothes is sitting on a table.",
+            "An old man in local clothes is sitting on the bed.",
+            "A man in green clothes and a big rosary is sitting on a wooden bed.",
+            "An old man is sitting on a bench in local clothes and holding a rosary."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas94.jpg",
+        "prediction": "A little girl wearing a colorful costume standing on a sidewalk.                                                       ",
+        "captions": [
+            "A girl child in local dress is standing in front of a house with blue fences.",
+            "A little girl in traditional dress is standing in the yard of a house.",
+            "A little girl is standing in a colorful local dress.",
+            "A little girl in local clothes is standing in front of a house."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas70.jpg",
+        "prediction": "A woman standing next to a table full of food.                                                        ",
+        "captions": [
+            "Three women with colored tents are next to the gravestones.",
+            "Three ladies, all wearing tents, are standing in a religious place.",
+            "In a religious place, a woman with a colored veil recites Fatiha for someone.",
+            "Three women are standing next to three graves in the courtyard of a religious place."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas62.jpg",
+        "prediction": "A couple of men sitting in a living room.                                                         ",
+        "captions": [
+            "A man in a brown suit is drinking tea.",
+            "In a cell in the market, old men are talking to each other.",
+            "A man is sitting in front and two people inside a carpet shop.",
+            "Three men are talking in a carpet shop."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas52.jpg",
+        "prediction": "A couple of boys sitting on a stone ledge.                                                         ",
+        "captions": [
+            "A boy sitting smoking hookah.",
+            "Two boys are sitting on a bicycle, smoking hookah and eating sandwiches.",
+            "A boy smoking hookah has his hand around the neck of a boy.",
+            "Two boys, one of whom is holding a clay hookah."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas75.jpg",
+        "prediction": "A woman sitting in front of a table.                                                          ",
+        "captions": [
+            "A woman in traditional dress sits by the window and picks apples in a bowl.",
+            "A woman with a white shawl is putting apples in a container.",
+            "A woman in a white patterned dress picks pomegranates in a bowl.",
+            "A woman with a white shawl is sitting by the window."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas28.jpg",
+        "prediction": "A man holding a tray of food in his hand.                                                        ",
+        "captions": [
+            "An old man is sitting on a shop chair next to chocolates and spices.",
+            "The old man is sitting next to the chocolate shop and pointing with his hand.",
+            "The old chocolate seller is talking.",
+            "An old salesman is sitting next to candies in his shop."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas5.jpg",
+        "prediction": "A woman in a hospital bed holding a baby.                                                         ",
+        "captions": [
+            "A female doctor listens to the baby's heartbeat.",
+            "A nurse who is examining a newborn baby.",
+            "A female doctor examines a baby.",
+            "A female doctor is examining a baby."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas69.jpg",
+        "prediction": "A woman sitting in front of a fireplace.                                                          ",
+        "captions": [
+            "A village woman sits in a stone house and thinks.",
+            "A lady in a brown dress and scarf is deep in thought.",
+            "A village woman in local dress is sitting in a stone house.",
+            "A woman in a brown local dress is sitting in a room with stone walls."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas40.jpg",
+        "prediction": "A woman sitting at a table with a glass of water.                                                       ",
+        "captions": [
+            "A lady with a gray and yellow scarf is sitting on a chair in a cafe.",
+            "A woman smiles in a cafe with a cup of tea in her hand.",
+            "A woman with a yellow and gray scarf holding a glass of tea.",
+            "A lady in a cafe holding a glass of tea."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas95.jpg",
+        "prediction": "A man standing next to a hot dog stand.                                                         ",
+        "captions": [
+            "A salesman with a food tray in front of him.",
+            "A man in dark clothes sells food on two big trays.",
+            "A man in black clothes is selling beets.",
+            "A man has placed cooked lips on top of each other."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas24.jpg",
+        "prediction": "A woman standing next to a pile of toys.                                                         ",
+        "captions": [
+            "A saleswoman sitting on the corner of the street.",
+            "A woman is weaving dolls and selling them.",
+            "A village woman has woven many colorful cotton dolls and hung them on the wall.",
+            "The old woman is sitting next to her dolls and selling them."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas16.jpg",
+        "prediction": "A couple of men standing next to a table.                                                         ",
+        "captions": [
+            "Two young men give syrup to people on the street.",
+            "Two men give syrup to two other men with a tray.",
+            "Two men are giving syrup to motorcyclists.",
+            "Two boys with a tray of syrup give glasses of syrup to others."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas64.jpg",
+        "prediction": "Two young girls are standing next to each other.                                                         ",
+        "captions": [
+            "Two children in colorful and local clothes are sitting next to a wall.",
+            "Two girls in colorful local clothes are looking around.",
+            "Two girls in traditional clothes are sitting next to each other.",
+            "Two girls in local clothes are sitting together and looking somewhere."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas30.jpg",
+        "prediction": "A little girl sitting on top of a table.                                                         ",
+        "captions": [
+            "The little girl with a red scarf is pouring tea into the cup.",
+            "The little girl is sitting on the carpet and playing with a teapot and a cup.",
+            "A little girl is sitting in front of the back and pours tea in a cup.",
+            "A little girl in a red scarf is playing with a small Chinese teapot."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas15.jpg",
+        "prediction": "A girl standing next to a herd of horses.                                                         ",
+        "captions": [
+            "A little girl with a red scarf and a white dress is standing next to a white donkey.",
+            "A little girl with a red scarf standing in the nature.",
+            "The girl with a red scarf and white blouse is smiling.",
+            "A little girl with a red scarf is standing next to a white horse."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas13.jpg",
+        "prediction": "A man standing next to a dog on a hill.                                                        ",
+        "captions": [
+            "The old man is standing next to the herd dog in shepherd's clothes.",
+            "The old shepherd is standing on top of the hill with his sheep and herding dog.",
+            "An old man is standing next to the herd in a traditional dress.",
+            "The shepherd man is standing in the meadow with the herd dog."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas90.jpg",
+        "prediction": "A woman holding a basket full of apples.                                                          ",
+        "captions": [
+            "There are five red apples in the hands of a smiling old village woman.",
+            "An old woman with smiling lips holding some apples in her hands.",
+            "An old woman with a scarf and a brown jacket offers two apples.",
+            "An old woman offers apples in her hand."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas20.jpg",
+        "prediction": "A little boy in a suit walking across a field.                                                        ",
+        "captions": [
+            "A child with styled hair smiles in the green plain.",
+            "A boy is standing in a green field with a local dress and a flower in his hand.",
+            "A boy is standing in white and black traditional clothes with a flower in his hands.",
+            "A boy standing in a field wearing white and gray clothes."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas33.jpg",
+        "prediction": "A woman standing next to a bowl of water.                                                         ",
+        "captions": [
+            "A woman with a flowered veil is stirring the food in the pot.",
+            "An old village woman is standing and stirring the pot and a man is sitting.",
+            "The old man is sitting on the carpet next to the old woman and the old woman is cooking.",
+            "The old woman is cooking and her husband is sitting next to her."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas21.jpg",
+        "prediction": "A man standing next to a woman holding a kite.                                                       ",
+        "captions": [
+            "A Turkmen man in traditional clothes blows reeds in a wedding ceremony.",
+            "Men and women are standing together in local clothes.",
+            "A number of men and women in traditional clothes are celebrating.",
+            "A man in a brown hat and red dress is playing the flute."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas67.jpg",
+        "prediction": "A group of people standing in a field.                                                          ",
+        "captions": [
+            "A number of women in colorful clothes are shaking hands.",
+            "Four women in local clothes are standing and a little girl is standing with a bag in her hand.",
+            "Four women and a child in local clothes are performing rituals.",
+            "A few women in local blouses and skirts are waving."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas72.jpg",
+        "prediction": "A man and a woman standing next to each other.                                                        ",
+        "captions": [
+            "A young man and woman in colorful traditional clothes are standing next to each other in front of the old house.",
+            "A woman in a scarf and a flowery dress and a man in a red dress are standing together.",
+            "A man and a woman in local clothes are standing together and smiling.",
+            "A man and a woman are standing together in local clothes."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas96.jpg",
+        "prediction": "A man with a beard standing next to a statue.                                                        ",
+        "captions": [
+            "A man in a purple dress and a cane is reading.",
+            "A man in traditional clothes and a cane is standing in front of the painting.",
+            "An old man carrying wood tells a story by hand.",
+            "An old man in blue and white clothes is talking."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas38.jpg",
+        "prediction": "A group of people sitting around a table.                                                          ",
+        "captions": [
+            "Four women in local clothes are sitting around a table.",
+            "Several women are gathered around a table with a striped tablecloth.",
+            "Some old women in local clothes are sitting around the chair.",
+            "Four women in traditional clothes are sitting behind a chair full of food."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas48.jpg",
+        "prediction": "A woman serving a bowl of food on a table.                                                        ",
+        "captions": [
+            "A woman in a white dress is distributing yellow food.",
+            "In a canteen, a saleswoman sells soups to customers.",
+            "A lady wearing a black turban is buying a yellow scarf from a sales lady.",
+            "A woman with a pink mask and a white robe is preparing lunch in a dish."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas4.jpg",
+        "prediction": "Two women are holding umbrellas in the rain.                                                        ",
+        "captions": [
+            "Two women wearing umbrellas are walking on the wet sidewalk.",
+            "Two women with black tents and umbrellas are crossing the street.",
+            "Two women are holding an umbrella on their heads on a rainy day.",
+            "Two women with black tents and umbrellas are walking in the rain."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas23.jpg",
+        "prediction": "A man sitting in a chair holding a flower.                                                         ",
+        "captions": [
+            "An old man is holding a flower branch.",
+            "A man with white hair and a gray suit is holding a rose and a lily of the valley.",
+            "An old man with a gray coat and a flower in his hand is sitting on a cream sofa.",
+            "An old man wearing a gray coat and holding a flower branch."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas58.jpg",
+        "prediction": "A group of people sitting on a grassy field.                                                        ",
+        "captions": [
+            "A man in a brown blouse and a man in a white dress are shaking hands.",
+            "Two young men are sitting on the grass and shaking hands while two other men are watching them.",
+            "A number of men are fighting in the desert.",
+            "Two men are shaking hands in the plain and two other men are watching."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas9.jpg",
+        "prediction": "A woman standing next to a parked car.                                                          ",
+        "captions": [
+            "A girl is leaning on a green van.",
+            "A young girl with a black coat and a bag on her shoulder is leaning against a green car on the side of the street.",
+            "A woman with a mask and a black dress and a white folder is leaning against the green car.",
+            "A female student is standing in front of an old green car."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas79.jpg",
+        "prediction": "Two people are standing next to each other.                                                          ",
+        "captions": [
+            "Two teenage twin girls have prepared to cheer for the Iranian national team.",
+            "Two girls who wear glasses have painted on their faces.",
+            "Two girls with black scarves and paintings on their faces are standing together.",
+            "Two girls with flag pattern on their faces are smiling."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas51.jpg",
+        "prediction": "A group of people in a library.                                                           ",
+        "captions": [
+            "A lady with a blue and yellow shawl and a red shirt is reading a book.",
+            "Three women are in a library with shelves full of books.",
+            "Three women are choosing books in a library.",
+            "Three women go around the library shelves and look at the books."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas11.jpg",
+        "prediction": "Two men are working on an antique rug.                                                          ",
+        "captions": [
+            "Two men are taking care of old carpets.",
+            "Two elderly men are cleaning the carpets.",
+            "A man in an orange, cream and brown striped shirt is sewing a carpet.",
+            "Two men are sitting on the floor and cleaning the carpets."
+        ]
+    },
+    {
+        "image": "persian_images/ashkhas/ashkhas80.jpg",
+        "prediction": "Two men standing next to each other holding instruments.                                                         ",
+        "captions": [
+            "Two men are standing in nature with musical instruments in their hands.",
+            "Two men playing musical instruments are standing together and smiling.",
+            "A man in a blue, tarred dress and a man in a crimson dress are standing side by side.",
+            "Two men in blue and crimson clothes, each holding a musical instrument."
+        ]
+    }
+]

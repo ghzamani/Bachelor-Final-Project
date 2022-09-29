@@ -1,0 +1,842 @@
+[
+    {
+        "image": "persian_images/ceremonies/ceremonies2.jpg",
+        "prediction": "A group of people standing in a field.                                                          ",
+        "captions": [
+            "A lot of women in colorful clothes, each holding a green one.",
+            "A number of girls are walking with matching clothes and greens in their hands.",
+            "A group of women walk with local clothes and greens in their hands.",
+            "Women walk with greens in their hands and local clothes."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies73.png",
+        "prediction": "A group of people standing in front of a stage.                                                        ",
+        "captions": [
+            "A puppet with a white and red dress holding a blue flag.",
+            "A group of men and women are standing together with flags.",
+            "Two big dolls walk next to people in a procession.",
+            "Two people have participated in the ceremony wearing doll clothes and holding a blue flag."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies9.jpg",
+        "prediction": "A man standing next to a large collection of colorful objects.                                                       ",
+        "captions": [
+            "A little girl in a red shawl and pants watches the colored eggs.",
+            "A little girl is standing among the large designed eggs.",
+            "A little girl with a red shawl is standing next to colored eggs.",
+            "Big eggs with colorful patterns."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies28.jpg",
+        "prediction": "A crowd of people standing next to each other.                                                         ",
+        "captions": [
+            "Women in black with babies in green clothes are gathered in a place.",
+            "A religious ceremony where mothers bring their children with a uniform and special dress.",
+            "Children in green clothes are gathered in a place with their mothers.",
+            "Many mothers participated in the mourning ceremony with their children."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies77.png",
+        "prediction": "A group of people standing next to a building.                                                         ",
+        "captions": [
+            "Men in black clothes are holding flowers in the shrine.",
+            "Many people are present in the shrine with black clothes and flowers in their hands.",
+            "People have gathered in a religious place and are holding flowers.",
+            "A man with a flower in his hand and a green hat is in a crowd dressed in black."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies86.png",
+        "prediction": "A group of men that are standing in a field.                                                        ",
+        "captions": [
+            "Men in local clothes are holding handkerchiefs and dancing.",
+            "A large number of men wearing tribal clothes and colorful handkerchiefs are performing rhythmic movements.",
+            "Four men in traditional clothes are waving colored handkerchiefs in their hands.",
+            "A number of men dance in local clothes and colorful handkerchiefs."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies19.jpg",
+        "prediction": "A group of people standing in a field.                                                          ",
+        "captions": [
+            "Four women in local clothes are holding some dishes in their hands.",
+            "Women in traditional clothes holding dishes.",
+            "Four women in green and red local clothes are standing together.",
+            "Four women have participated in a ceremony with traditional clothes and a tray in their hands."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies95.png",
+        "prediction": "A woman flying a kite in the sky.                                                         ",
+        "captions": [
+            "A girl flies some colorful kites.",
+            "A woman is playing with a kite in the blue sky.",
+            "A girl in black clothes flying a colorful kite.",
+            "Under the sunlight, a woman leads two colorful kites in the sky."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies38.jpg",
+        "prediction": "A young girl is holding a kite in her hand.                                                       ",
+        "captions": [
+            "A little girl in local dress dancing.",
+            "A little girl with traditional clothes and colorful handkerchiefs is dancing and happy.",
+            "A little girl is standing in a local dress and a colored handkerchief.",
+            "A little girl in traditional dress waves two handkerchiefs in the ceremony."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies89.png",
+        "prediction": "A man and woman sitting next to a table.                                                         ",
+        "captions": [
+            "A couple who held their wedding ceremony in a religious place.",
+            "The bride and groom are sitting together in the shrine and there is a book in front of them.",
+            "The bride and groom are sitting on a chair in front of a book.",
+            "A young boy and girl are sitting on a chair in a religious place."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies74.png",
+        "prediction": "A group of people standing next to each other.                                                         ",
+        "captions": [
+            "The lady is holding a big blue scarf with a pink cloth.",
+            "In a black space, there are two women and several men in local clothes.",
+            "Men and women wearing local and colorful clothes are dancing and having fun.",
+            "Four men and two women perform a traditional ceremony in local clothes."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies57.jpg",
+        "prediction": "A man with a flag flying in the air.                                                         ",
+        "captions": [
+            "The sports team of the Islamic Republic of Iran is entering the stadium.",
+            "Women in blue mantles and men in navy clothes are holding flags and marching.",
+            "A number of ladies and gentlemen are moving in a ceremony.",
+            "A group of boys and girls with small flags in their hands are passing through an area."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies61.jpg",
+        "prediction": "A table full of food and gifts.                                                           ",
+        "captions": [
+            "The table has several bowls with different contents arranged with candles and books.",
+            "Different materials are arranged in blue clay bowls and on the table.",
+            "Dishes in which vegetables, garlic, cumin, coins, etc. are placed.",
+            "Haftsin table with blue dishes and lighted candles is on the side."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies72.png",
+        "prediction": "A group of people standing in a street.                                                          ",
+        "captions": [
+            "Six young men put their hands on the shoulder of the man next to them and beat their chests.",
+            "A young boy with a green shawl is holding his hand on his chest.",
+            "A group of young people are clapping their hands on their chests.",
+            "Men stand together in a mourning group and beat their chests."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies16.jpg",
+        "prediction": "a close up of a person holding a ring.                                                         ",
+        "captions": [
+            "A Chadori woman is banging a spoon on a bowl in a field.",
+            "A woman in a colorful turban taps a bowl on her back with a spoon.",
+            "A woman is hitting the back of a steel bowl with a spoon.",
+            "A woman with a colorful turban knocks a metal spoon into a bowl."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies47.jpg",
+        "prediction": "A woman holding a child in her arms.                                                          ",
+        "captions": [
+            "A chador woman is holding her baby in green.",
+            "A woman holding a baby in green clothes.",
+            "A mother is wearing a green dress on her young child.",
+            "A mother with a black veil has lifted her child in her hand during the ceremony."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies6.jpg",
+        "prediction": "A table full of food on a buffet table.                                                         ",
+        "captions": [
+            "Many trays full of different foods are carried on men's heads.",
+            "Black-clad mourners are holding trays on their heads.",
+            "Men have placed large trays on their heads for reception.",
+            "A large number of men carry trays full of food on their heads."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies80.png",
+        "prediction": "A man and a woman sitting on a bench.                                                         ",
+        "captions": [
+            "Two young men and women are sitting on a chair and the man is reading a book.",
+            "The bride and groom are sitting together and the groom is holding a book.",
+            "A man is reading a book next to a woman with a white veil.",
+            "A young man and woman are sitting next to each other under a white net."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies42.jpg",
+        "prediction": "A group of people standing in front of a cake.                                                        ",
+        "captions": [
+            "A large number of men in black clothes have gathered in a place of pilgrimage.",
+            "A large number of men in black clothes are performing mourning ceremonies.",
+            "A place where many people are mourning in black clothes.",
+            "Many men in black clothes are mourning."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies29.jpg",
+        "prediction": "A man standing next to a crowd of people.                                                         ",
+        "captions": [
+            "A large number of men in local clothes are playing drums for the audience.",
+            "Men are gathered together and some of them have tambourines in their hands.",
+            "Many men are playing drums.",
+            "In a traditional ceremony, a large number of village people have gathered together."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies22.jpg",
+        "prediction": "A group of people standing next to each other.                                                         ",
+        "captions": [
+            "Many old men in local clothes are performing a ceremony.",
+            "A large number of men are performing a mass ceremony.",
+            "A group of men in local clothes are in a ceremony.",
+            "A large number of men in traditional clothes are dancing together in a tent."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies45.jpg",
+        "prediction": "A group of people standing next to each other.                                                         ",
+        "captions": [
+            "Many women are praying with veils.",
+            "A large number of women are praying together with colorful tents.",
+            "Many women are praying in congregation.",
+            "Many women are standing in the prayer queue with tents."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies90.png",
+        "prediction": "A group of people sitting around a table.                                                          ",
+        "captions": [
+            "A number of people are lighting candles in one place.",
+            "Five women and two men light candles.",
+            "Many men and women are lighting candles.",
+            "A number of people are lighting white candles."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies67.jpg",
+        "prediction": "A group of people sitting at a table with food.                                                        ",
+        "captions": [
+            "Family members sit around a table and eat food.",
+            "A family is sitting around a table with a red tablecloth on a red carpet.",
+            "This family is gathered around the table full of food.",
+            "A large family sitting around a chair with fruit on it."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies43.jpg",
+        "prediction": "A group of people standing around a fire.                                                          ",
+        "captions": [
+            "The fire is burning and someone is jumping over it.",
+            "A ceremony in which a man is jumping over the fire.",
+            "During the fireworks ceremony, a man jumps from the top of the fire.",
+            "A man jumps over the fire and several men and women are standing around the fire."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies85.png",
+        "prediction": "Two men sitting at a table with plates of food.                                                        ",
+        "captions": [
+            "A cleric and two teenagers in white clothes are eating.",
+            "A cleric is sitting next to a boy at the dining table.",
+            "The boy in a white shirt is holding a bowl of soup.",
+            "A man and two children are sitting at the table and eating."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies98.png",
+        "prediction": "A group of men that are holding instruments.                                                          ",
+        "captions": [
+            "Five men are dancing hand in hand, wearing brown local clothes.",
+            "A number of men in the same color clothes are standing together and stomping their feet.",
+            "A man in a gray suit is playing the flute.",
+            "A man in a local costume plays the instrument and the other men dance with handkerchiefs in their hands."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies51.jpg",
+        "prediction": "A group of people standing next to each other.                                                         ",
+        "captions": [
+            "Many women with black, white and colored tents are praying in regular lines.",
+            "A line of prayers where women are standing with colored and black tents.",
+            "Many women with black and colored tents are praying.",
+            "A row of praying women with colored and black veils standing behind each other."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies1.jpg",
+        "prediction": "Two people standing next to a white horse.                                                          ",
+        "captions": [
+            "Two grooms are standing next to two brides in an old house.",
+            "Two brides who cover their faces with capes.",
+            "Two brides and two grooms are standing in the room.",
+            "Two brides in white dresses and two grooms in brown shirts and gray pants are standing together."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies53.jpg",
+        "prediction": "A group of people sitting on a grassy field.                                                        ",
+        "captions": [
+            "A natural resort where people have set up tents and are sitting on the mat.",
+            "People have gone to nature to have fun.",
+            "In nature, a large family has come to have fun.",
+            "Several families are camping next to the trees in the park and on the grass."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies96.png",
+        "prediction": "A crowd of people sitting around a festival.                                                          ",
+        "captions": [
+            "Many people sit at tables on both sides of the street and participate in the celebration.",
+            "A large number of people sitting in an area.",
+            "People are sitting on both sides of the street and some are walking in the middle of the street.",
+            "A lot of people are sitting on chairs in the street."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies66.jpg",
+        "prediction": "A man in a red jacket and a red cap.                                                        ",
+        "captions": [
+            "A man in a red dress is standing on the street.",
+            "A black man is standing on the sidewalk with a drum in his hand.",
+            "A man with a black face and red clothes and a bell ring is standing on the sidewalk.",
+            "A man in a red dress and hat with a black face is standing on the street."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies17.jpg",
+        "prediction": "A group of men standing next to each other.                                                         ",
+        "captions": [
+            "Three old men in local clothes are talking to each other.",
+            "Three old men in traditional clothes are talking in the plain.",
+            "Three men are talking by the lawn.",
+            "Three old men in hats and local clothes are talking to each other."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies76.png",
+        "prediction": "A group of people that are wearing masks.                                                          ",
+        "captions": [
+            "Men in local dress dance in the celebration.",
+            "A number of men with hats and local clothes are dancing and having fun.",
+            "A number of men in traditional clothes are performing a stick dance.",
+            "Some men in orange shirts and black vests and woolen hats are playing with sticks."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies91.png",
+        "prediction": "A group of people sitting around a table.                                                          ",
+        "captions": [
+            "A few men and children are sitting and talking by the dining table.",
+            "Men and boys are sitting around the table.",
+            "Men of different ages are sitting around a table.",
+            "A family gathered around a table."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies30.jpg",
+        "prediction": "A man holding a cell phone in a parking lot.                                                        ",
+        "captions": [
+            "The group of mourners are mourning on three sides of the picture.",
+            "A man with a green shawl is standing among the mourners.",
+            "A man with a green shawl is standing in front of the speaker and in the line of religious mourning.",
+            "A man in a black shirt and a green shawl is breast feeding."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies39.jpg",
+        "prediction": "A group of people standing around a fire hydrant.                                                        ",
+        "captions": [
+            "A large crowd is holding hands around a big fire.",
+            "A very big fire around which many people move.",
+            "People are walking hand in hand around a big fire.",
+            "A large number of people have gathered around a big fire."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies87.png",
+        "prediction": "A group of people standing next to a building.                                                         ",
+        "captions": [
+            "A large crowd has gathered in the courtyard of the shrine with many lights.",
+            "The religious place has been tied with string and many pilgrims are visiting.",
+            "Many people are present in the lit courtyard of the shrine for pilgrimage.",
+            "A large number of people who are in a place of pilgrimage."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies37.jpg",
+        "prediction": "a close up of a grassy green grass.                                                         ",
+        "captions": [
+            "Hands that tie the green grass.",
+            "Two hands tie the green Eid.",
+            "A person is tying the green with his two hands.",
+            "Someone is tying greens in a wicker basket."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies7.jpg",
+        "prediction": "A group of people sitting on a grassy field.                                                        ",
+        "captions": [
+            "A family that went to nature for fun in spring.",
+            "A family has gathered together in nature for fun.",
+            "Families have spread mats and are sitting in the green space.",
+            "Some families are relaxing and playing in nature."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies82.png",
+        "prediction": "A group of people standing around a table.                                                          ",
+        "captions": [
+            "The wedding table with the bride, groom, and women who rub sugar on their heads.",
+            "The bride and groom are sitting next to the table and reading a book.",
+            "The bride and groom are sitting on two chairs while some women are standing behind them.",
+            "A wedding ceremony is being held next to a religious place."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies12.jpg",
+        "prediction": "A group of people standing near a fence.                                                          ",
+        "captions": [
+            "A number of women in traditional clothes are having fun.",
+            "A large number of women have participated in religious ceremonies wearing colorful clothes.",
+            "The women are gathered together in local colored clothes and one woman has a child in her arms.",
+            "A large number of women in colorful local clothes attend a celebration."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies65.jpg",
+        "prediction": "A person decorating a vase with colorful vases.                                                       ",
+        "captions": [
+            "Someone has drawn a design on the egg.",
+            "A person prepares colored eggs.",
+            "The drawing of the bird along with flowers is drawn on five eggs.",
+            "A person who is painting on a clay egg."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies14.jpg",
+        "prediction": "A group of men standing next to each other.                                                         ",
+        "captions": [
+            "Many men are mourning in a ceremony.",
+            "Regular queues of mourning men stand in the yard and perform the ceremony.",
+            "A large number of men wearing black clothes have participated in the mourning ceremony.",
+            "A large number of men beat their breasts in a regular procession in the courtyard of a religious place."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies40.jpg",
+        "prediction": "A group of people dressed in green coats and helmets.                                                        ",
+        "captions": [
+            "A number of men and children are holding ceremonies and shows.",
+            "A show with the presence of many spectators is held in the square.",
+            "A man in a green hat and long white shirt is speaking into the microphone.",
+            "A street show in Tazzieh that men watch."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies27.jpg",
+        "prediction": "A group of people standing next to each other.                                                         ",
+        "captions": [
+            "Many girls in colorful clothes are standing in a row.",
+            "A large number of women wearing colorful local clothes and wearing masks are carrying things.",
+            "A number of women with traditional Gilki clothes and face masks are standing in a queue.",
+            "Many women are walking on the sidewalk wearing their traditional clothes and masks."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies3.jpg",
+        "prediction": "A person sitting on top of a fire hydrant.                                                        ",
+        "captions": [
+            "A happy young woman jumps over the fire.",
+            "A girl is jumping over the fire at night.",
+            "A girl is jumping over the fire in a ceremony.",
+            "A woman is jumping over the fire."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies84.png",
+        "prediction": "A woman sitting at a table with a bowl of soup.                                                       ",
+        "captions": [
+            "A woman is distributing food in a dish to a little girl.",
+            "Three women in the tent feed the little girl from two pots of soup.",
+            "In a tent, an old woman gives a bowl of food to a little girl.",
+            "This woman is feeding the child."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies32.jpg",
+        "prediction": "A group of people standing around a dance floor.                                                         ",
+        "captions": [
+            "Some men and women in traditional clothes are having fun and dancing.",
+            "Some women in colorful clothes are performing rhythmic movements in ritual ceremonies.",
+            "Men and women dance together in colorful clothes.",
+            "A number of men and women in traditional clothes are holding a ceremony."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies70.png",
+        "prediction": "A group of people standing next to each other.                                                         ",
+        "captions": [
+            "Three girls in the audience are stomping in local clothes.",
+            "Four girls are dancing in colorful local clothes and a tray on their heads.",
+            "A lady in a green and red dress is holding a big tray on her head.",
+            "The girls wear trays in local clothes and dance."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies68.jpg",
+        "prediction": "A group of people walking through a field.                                                          ",
+        "captions": [
+            "Women walk in local clothing and colorful clothes.",
+            "A large number of women have participated in the ceremony in colorful local clothes.",
+            "Many women in colorful traditional clothes are next to a small room.",
+            "Women walk together in local clothes."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies79.png",
+        "prediction": "A table full of food on a table.                                                          ",
+        "captions": [
+            "A table in which there is alwieh, fruit, cake and sweets.",
+            "The fruit dish and cake along with many other foods are arranged on the table.",
+            "Cake with chocolate coating, a dish full of different fruits and all kinds of desserts are arranged on the table.",
+            "There are many containers of fruit, nuts and food on the carpet."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies62.jpg",
+        "prediction": "A table full of different kinds of food.                                                          ",
+        "captions": [
+            "Red pomegranates, black grapes, seeds and watermelon are placed in containers on the table.",
+            "A table with a red tablecloth on which food is arranged.",
+            "A table filled with pomegranates, watermelons, sweets and nuts.",
+            "There are many foods on a large table with a red tablecloth."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies94.png",
+        "prediction": "A group of men holding a kite together.                                                         ",
+        "captions": [
+            "Some men in traditional clothes and holding blue flags are dancing to the music.",
+            "A man is playing an instrument and some people in local clothes are stomping.",
+            "Many men have folded their hands and are making rhythmic movements.",
+            "A Kurdish man plays an instrument and others dance."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies69.jpg",
+        "prediction": "A group of people standing next to a purple flower.                                                        ",
+        "captions": [
+            "A woman in a local red dress is pouring flowers upwards.",
+            "Four girls in local dress throw flower petals in the air.",
+            "Local women scatter the flowers in the air.",
+            "A number of girls in local clothes are playing with Mohammedan flowers."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies5.jpg",
+        "prediction": "A crowd of people standing in front of a building.                                                        ",
+        "captions": [
+            "Men in black clothes are mourning.",
+            "A large crowd in black clothes are standing in regular queues.",
+            "A mourning ceremony in which many men are present in regular queues.",
+            "A large number of men in black clothes are kissing in an area."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies35.jpg",
+        "prediction": "A group of people sitting on top of a cake.                                                        ",
+        "captions": [
+            "The crowning ceremony of a woman among a number of men and women in that hall.",
+            "The king is crowning a lady in the celebration.",
+            "In the presence of the people, the king puts a crown on the queen's head.",
+            "A cloaked man puts a silver crown on a woman's head in a ceremony."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies93.png",
+        "prediction": "A group of men standing next to each other.                                                         ",
+        "captions": [
+            "Men in local clothes perform their local dance.",
+            "Four men in traditional clothes are dancing.",
+            "Four men in short white shirts and black vests are performing local dance.",
+            "A number of men in local costumes are dancing."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies34.jpg",
+        "prediction": "A man standing next to a lot of merchandise.                                                         ",
+        "captions": [
+            "There are mourning flags in the market and a boy is passing by with a cart.",
+            "The engraved inscription in the name of Imam Hossein. A. It is hanging over the door of the shop.",
+            "A man is carrying a cart in a market.",
+            "Black mourning flags are installed in the whole market."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies36.jpg",
+        "prediction": "A man cutting a cake on top of a table.                                                        ",
+        "captions": [
+            "A man pours tea into a tray in a space with red ribbons hanging from it.",
+            "A boy in black clothes is pouring tea into glasses in a tray.",
+            "A man is pouring tea into glasses.",
+            "A young man in a black dress stands under red ribbons and pours tea into glasses."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies55.jpg",
+        "prediction": "A group of people sitting on a park bench.                                                         ",
+        "captions": [
+            "A family that went to the park for fun.",
+            "A man in a mustard dress and blue pants is lying on the floor and three women are sitting.",
+            "Three women and one man are resting on the sidewalk.",
+            "Three women and one man who have come for a tour."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies13.jpg",
+        "prediction": "A group of people flying kites on a beach.                                                        ",
+        "captions": [
+            "Many people are playing kites on the beach.",
+            "The sky is full of colorful balloons.",
+            "Many people have gathered on the beach and are flying kites.",
+            "Many people have gathered to fly kites."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies59.jpg",
+        "prediction": "A group of people standing in front of a purple flower.                                                       ",
+        "captions": [
+            "A woman in a red dress is throwing flowers and leaves towards the sky.",
+            "Four girls are sitting among pink Mohammedan flowers.",
+            "Local women spread the flowers in the air.",
+            "Four girls in traditional clothes sit on the flowers and throw the petals in the air."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies92.png",
+        "prediction": "Two women sitting on a table with a camel.                                                         ",
+        "captions": [
+            "Two women in traditional clothes are sitting and spinning yarn.",
+            "Two women in local clothes, both of them are spinning cotton.",
+            "A woman with a white floral scarf and a red dress and a green vest is spinning.",
+            "Two elderly women in local clothes are spinning."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies4.jpg",
+        "prediction": "A man and woman are sitting at a table.                                                         ",
+        "captions": [
+            "A man takes a cup of tea from a tray in the hands of a woman.",
+            "During the courtship ceremony, a girl in a long dress offers tea to a man.",
+            "A lady with a blue scarf and flowered skirt is serving tea.",
+            "A girl in a blue scarf with a tray in her hand is welcoming the guests."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies49.jpg",
+        "prediction": "A crowd of people standing next to each other.                                                         ",
+        "captions": [
+            "Men in black with red headbands attend the ceremony.",
+            "A large number of men wearing black clothes and red headscarves are performing the mourning ceremony.",
+            "A traditional mourning ceremony is held with the presence of a large number of people.",
+            "A large crowd has gathered in a religious funeral."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies41.jpg",
+        "prediction": "A man sitting at a table full of food.                                                         ",
+        "captions": [
+            "A ceremony in which a number of men in black clothes carry trays of food.",
+            "In the mourning ceremony, food is placed on two large trays.",
+            "Men in black distribute two trays of food.",
+            "A lot of food in a tray that men in black clothes are distributing."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies11.jpg",
+        "prediction": "A woman standing next to a green cart.                                                          ",
+        "captions": [
+            "Two women are crossing a street covered with flags.",
+            "A woman in a black veil is arranging her scarf.",
+            "Two women with black tents pass in front of a place with black and green cloths.",
+            "Two women with tents pass in front of a place covered with black flags."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies8.jpg",
+        "prediction": "A person is holding a piece of paper.                                                          ",
+        "captions": [
+            "The bride and groom are sitting together and the bride is writing something.",
+            "A man is sitting next to a woman with a white veil while holding a bouquet of flowers.",
+            "A man in a gray suit and a brown shirt is holding a bouquet of flowers.",
+            "A woman in a white veil is sitting next to a man holding a bouquet of red flowers."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies20.jpg",
+        "prediction": "A table topped with bowls of flowers.                                                           ",
+        "captions": [
+            "There is a table full of small plates and books along with a sweet dish on the table.",
+            "Next to the table are two vases with colorful flowers and a container of sweets.",
+            "A table with dishes and mirrors decorated with flowers, hyacinths and sweets.",
+            "There are hyacinth flowers on the Haftsin table."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies58.jpg",
+        "prediction": "A group of people walking down a street.                                                          ",
+        "captions": [
+            "Groups of mourners mourn in the street using big drums.",
+            "A ceremony where men in black are playing drums and chains.",
+            "There is a funeral procession in a street and men and teenage boys beat drums or chains.",
+            "A teenage boy in a black dress and a red headband is playing a drum."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies21.jpg",
+        "prediction": "A man and woman standing next to a cake.                                                         ",
+        "captions": [
+            "The bride and groom are standing hand in hand behind the table full of flowers.",
+            "The bride and groom are holding hands next to the wedding table.",
+            "The bride in a white dress and the groom in a plaid coat are holding each other's hands.",
+            "A girl in a wedding dress holding a man's hands."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies71.png",
+        "prediction": "A man and a woman sitting next to each other.                                                        ",
+        "captions": [
+            "Petals are poured in front of a bride and groom with smiling faces.",
+            "A bride and groom are sitting together in the shrine and laughing.",
+            "A lady in a white cloak and a gentleman in a black coat are sitting together.",
+            "The bride and groom have a ceremony in a religious place."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies26.jpg",
+        "prediction": "A group of people standing next to a fence.                                                         ",
+        "captions": [
+            "The people of a village have come out of their houses and the women are wearing colorful clothes.",
+            "Many women have gathered together in colorful clothes.",
+            "Many men and women are in the village for the ceremony.",
+            "A large crowd of people in colorful and local clothes are dancing and having fun."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies25.jpg",
+        "prediction": "A group of people walking down a street.                                                          ",
+        "captions": [
+            "A group of men and women are dancing together.",
+            "Many men and women are performing rhythmic movements.",
+            "Kurdish men and women dance together in local costumes.",
+            "A group of men and women dance in green and brown clothes."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies64.jpg",
+        "prediction": "A man taking a picture of flowers on a table.                                                        ",
+        "captions": [
+            "A man takes a photo of a bouquet of colorful flowers with a mobile phone.",
+            "A man is taking pictures of colorful flowers with a mobile phone.",
+            "A man is photographing beautiful flowers with his cell phone.",
+            "A man is kneeling and taking a picture of a row of flowers with a mobile phone."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies52.jpg",
+        "prediction": "Two men cooking food in a large pot.                                                          ",
+        "captions": [
+            "A cook in white clothes is cooking rice.",
+            "A cook with a big spatula is lifting rice.",
+            "The man in white clothes removes rice from the pot with a spatula.",
+            "Two men are standing next to the pot and one of them is stirring the food."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies97.png",
+        "prediction": "A group of people standing around a stage.                                                          ",
+        "captions": [
+            "The traditional festival of the tribes is held in the amphitheater with the presence of many spectators.",
+            "A few men and women in local clothes are walking on the stage.",
+            "Actors in local costumes perform on stage.",
+            "A number of men and women in traditional clothes and colored handkerchiefs are performing the show."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies24.jpg",
+        "prediction": "A group of people standing around a table with food.                                                        ",
+        "captions": [
+            "Several women have extended the bowl of chocolate towards the boy in red.",
+            "A boy pours chocolate into the metal container of tent women.",
+            "A lot of women with colorful tents are standing in front of the boy.",
+            "Some women with colorful tents offer chocolates to children in the street."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies56.jpg",
+        "prediction": "A table full of food in front of people.                                                         ",
+        "captions": [
+            "Many trays full of food carried on men's shoulders.",
+            "Many people have placed trays full of food on their heads.",
+            "Many men carry trays full of food on their heads during the ceremony.",
+            "Mourners carry trays full of food on their heads."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies46.jpg",
+        "prediction": "A group of people playing with a horse.                                                          ",
+        "captions": [
+            "Men in local dress dance in a plain.",
+            "Men in local clothes are dancing and having fun.",
+            "The little boy in black traditional clothes is doing movements.",
+            "A man and a boy dance in a traditional ceremony."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies18.jpg",
+        "prediction": "A group of men walking down a street.                                                          ",
+        "captions": [
+            "Some men have large trays of food on their heads.",
+            "Men in uniform clothes are standing in the yard and carrying a tray.",
+            "A number of men in traditional clothes carry large trays on their heads.",
+            "A number of men in local clothes with trays on their heads."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies50.jpg",
+        "prediction": "A couple of people standing next to each other.                                                         ",
+        "captions": [
+            "Two little girls cover their faces with scarves for spooning.",
+            "Two children with covered faces holding dishes.",
+            "Two children put a scarf on their head and beat the pot with a spoon.",
+            "Two children have scarves on their heads and are holding pots and spoons."
+        ]
+    },
+    {
+        "image": "persian_images/ceremonies/ceremonies48.jpg",
+        "prediction": "A large group of people standing in the middle of a field.                                                      ",
+        "captions": [
+            "A large crowd gathered in a large area for the funeral ceremony.",
+            "A large number of people dressed in black have gathered for the mourning ceremony.",
+            "There is a rainbow in the sky and there is a religious mourning.",
+            "A large crowd of people in black clothes and green flags have gathered in a large area."
+        ]
+    }
+]

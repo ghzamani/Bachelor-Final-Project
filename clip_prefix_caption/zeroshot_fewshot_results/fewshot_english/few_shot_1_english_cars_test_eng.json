@@ -1,0 +1,903 @@
+[
+    {
+        "image": "persian_images/cars/cars44.jpg",
+        "prediction": "A yellow car parked in a parking lot.                                                          ",
+        "captions": [
+            "The yellow car is parked in the corner of the yard.",
+            "An old yellow car parked in the parking lot.",
+            "A yellow car is parked in the parking lot of a house.",
+            "A yellow car is parked in the parking lot of the house."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars20.jpg",
+        "prediction": "A group of cars on a busy street.                                                          ",
+        "captions": [
+            "A number of cars are moving on a highway at sunset.",
+            "A lot of cars are driving in the evening.",
+            "Many cars are stuck in highway traffic in the evening.",
+            "A busy street at dusk with cars stopped in traffic."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars34.jpg",
+        "prediction": "A group of people riding motorcycles on a street.                                                         ",
+        "captions": [
+            "A man on the side of the street moves a car tire with a wheelbarrow.",
+            "A street where some pedestrians and some cars are passing.",
+            "A man in a black jacket is carrying two yellow tires on the wheel.",
+            "A street where cars, motorbikes and people travel."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars79.jpg",
+        "prediction": "A green car is parked on the side of the road.                                                       ",
+        "captions": [
+            "A police car driving in a place with palm trees.",
+            "A white car with green stickers on the side of the street.",
+            "A police car is parked on the street.",
+            "A police car is moving on the street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars46.jpg",
+        "prediction": "A car is stopped at a stop sign.                                                          ",
+        "captions": [
+            "A black car is crossing the street.",
+            "In a street full of cars and sloping, a car goes down.",
+            "A black SUV is on the green road.",
+            "A black car is moving in a street where many cars are parked."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars14.jpg",
+        "prediction": "A car parked on the side of a road.                                                         ",
+        "captions": [
+            "A white car is moving on an autumn road.",
+            "A white car is crossing the spiral road.",
+            "A white car is at the turn of a deserted forest road.",
+            "A white car is moving on a road."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars47.jpg",
+        "prediction": "A couple of cars driving down a street.                                                          ",
+        "captions": [
+            "A white car is moving on the street with tall trees.",
+            "A street with tall autumn trees on both sides where several cars are passing.",
+            "A narrow and autumn street that is wet from the rain and cars are moving in it.",
+            "A number of cars are crossing a street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars102.png",
+        "prediction": "A vintage car is parked on the grass.                                                          ",
+        "captions": [
+            "An old shiny cherry car with license plate is parked.",
+            "An old luxury car that is stored somewhere.",
+            "A very clean old red car is in the showroom.",
+            "An old cherry car is next to some other cars."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars100.png",
+        "prediction": "A group of people standing next to a car.                                                         ",
+        "captions": [
+            "A green car is parked and some boys and girls are walking on a red carpet.",
+            "A green car is displayed in an exhibition and people pass by it.",
+            "They put a green car in the exhibition for people to see.",
+            "A number of men and women are present at the exhibition to visit the cars."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars36.jpg",
+        "prediction": "A police car driving down the street.                                                           ",
+        "captions": [
+            "The police car is moving in the middle of the street.",
+            "Three men are filming a police car on the street.",
+            "A police car with smoke rising from its wheels.",
+            "Smoke rises from a police car on the street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars88.jpg",
+        "prediction": "A car parked next to a parked car.                                                          ",
+        "captions": [
+            "A white Peugeot 206 is parked on the side of the street.",
+            "The white car is parked under the tree.",
+            "A white car is parked on the side of the street.",
+            "A white car on the street with a black car behind it."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars77.jpg",
+        "prediction": "A group of people riding on the back of a bus.                                                       ",
+        "captions": [
+            "People are holding the Iranian flag and sitting on the roof of the bus.",
+            "A number of men sit on lined buses and wave flags.",
+            "A number of white buses on which several men are sitting are passing by.",
+            "Several buses on the road, some of which have flags on their roofs."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars2.jpg",
+        "prediction": "A street filled with cars and buses.                                                           ",
+        "captions": [
+            "A busy street where many cars are moving.",
+            "Many cars pass through a street with tall trees.",
+            "Two green buses are moving on the busy street.",
+            "Many cars are moving in a wide street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars66.jpg",
+        "prediction": "A car is stopped at a stop light.                                                          ",
+        "captions": [
+            "Several cars are moving in a street.",
+            "A number of cars are standing on a street behind a red light.",
+            "A black car is on the street behind a yellow car.",
+            "A number of cars have stopped on the street behind a red light."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars53.jpg",
+        "prediction": "A white car parked in front of a white building.                                                        ",
+        "captions": [
+            "A silver car is parked around the park.",
+            "A silver car is parked on the pavement.",
+            "A silver car is next to the park square.",
+            "A silver car has stopped by the gardens of the square."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars40.jpg",
+        "prediction": "Cars parked in a parking lot next to cars.                                                        ",
+        "captions": [
+            "Pride Nok Madadi is entering the square and passing in front of the bus.",
+            "Many cars drive on the street on a sunny day.",
+            "Cars and buses are moving around the square, and the mosque's garlands can be seen from afar.",
+            "A street where a number of cars are passing."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars38.jpg",
+        "prediction": "A parking lot with a lot of cars.                                                          ",
+        "captions": [
+            "In the background of the cars at sunset is a tower.",
+            "A tower is visible through the trees at sunset.",
+            "A number of cars are moving at the end of the day.",
+            "At sunset, the lights of the tall tower next to the street are lit."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars54.jpg",
+        "prediction": "Cars are traveling on a busy highway.                                                          ",
+        "captions": [
+            "A number of cars are passing under the bridge.",
+            "Cars drive on the highway and the highway is full of trees.",
+            "A number of cars are traveling on the highway that passes over that bridge.",
+            "A number of cars are passing through a street over which a bridge passes."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars96.jpg",
+        "prediction": "A street with lots of cars on the road.                                                         ",
+        "captions": [
+            "A number of cars crossing a street.",
+            "Cars are passing by the highway with tree branches hanging from the side.",
+            "A number of cars are moving on the highway.",
+            "A wide and quiet highway where cars are moving."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars99.png",
+        "prediction": "Two cars are parked next to each other.                                                          ",
+        "captions": [
+            "Six old cars are behind the fences in the exhibition.",
+            "Many exhibition cars are parked together.",
+            "A number of cars have been exposed in an exhibition.",
+            "A number of cars parked next to each other."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars35.jpg",
+        "prediction": "Two cars are parked next to each other.                                                          ",
+        "captions": [
+            "A black car and a white car are on Park Street.",
+            "A white car and a black car are parked side by side on the street.",
+            "A black car and a white one are parked on the side of the street with a short distance from each other.",
+            "A white car and a black car are parked on the sidewalk of the street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars15.jpg",
+        "prediction": "A row of parked cars on a street.                                                          ",
+        "captions": [
+            "A street with tall trees and a number of cars parked on both sides.",
+            "A wet street full of autumn leaves with cars parked on both sides.",
+            "A number of cars are parked on the street with leaves on the ground.",
+            "A narrow and autumnal street with cars parked on both sides."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars70.jpg",
+        "prediction": "A couple of cars parked on the side of a road.                                                       ",
+        "captions": [
+            "The yellow leaves of the trees have fallen on the ground.",
+            "A narrow and autumn alley where several cars are parked.",
+            "An alley where several cars are parked and the floor of the alley is covered with leaves.",
+            "Trees cover the alley with their autumn leaves."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars83.jpg",
+        "prediction": "A group of people walking down the street.                                                          ",
+        "captions": [
+            "A white car whose occupants are looking at shops.",
+            "Citizens have gathered in a cobbled street at night.",
+            "There are small food cafes on both sides of the paved street.",
+            "A street where a number of cars are passing."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars52.jpg",
+        "prediction": "A view of a street filled with cars.                                                          ",
+        "captions": [
+            "Many cars can be seen in the side mirror of the car.",
+            "The image of a queue of cars stuck in traffic can be seen in the car mirror.",
+            "The side mirror of a car on a narrow road shows other cars.",
+            "The sunset and cars can be seen in the car mirror."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars25.jpg",
+        "prediction": "A man standing next to a parked car.                                                          ",
+        "captions": [
+            "An orange car with bright lights is parked in the parking lot next to other cars.",
+            "A man in a cream suit is standing next to an orange car.",
+            "Many cars are parked in a parking lot and two men get into the car.",
+            "An orange car with bright lights is in a parking lot."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars105.jpeg",
+        "prediction": "A couple of cars parked next to each other.                                                         ",
+        "captions": [
+            "Some silver and white cars are parked on the side of the street.",
+            "Cars are parked one behind the other in an alley.",
+            "A number of cars are parked on the side of the street and under the shade of trees.",
+            "A street with a number of cars parked on both sides."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars61.jpg",
+        "prediction": "Cars are parked on the side of the road.                                                        ",
+        "captions": [
+            "There are many black and white cars in the street traffic.",
+            "Traffic on the street has stopped cars.",
+            "The white car is moving at a low speed on the street.",
+            "A wide and busy street where cars are moving."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars26.jpg",
+        "prediction": "Several cars are parked in a parking lot.                                                          ",
+        "captions": [
+            "There are four cars in front of a store with a glass wall.",
+            "Several cars are visible in front of the shop.",
+            "Four cars are parked in front of a shop.",
+            "A number of black and white cars are parked in front of a shop."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars93.jpg",
+        "prediction": "A busy street filled with cars and buses.                                                          ",
+        "captions": [
+            "A busy street where many cars are moving.",
+            "The blue bus is moving on the street next to other cars.",
+            "A busy highway is seen with a number of flags.",
+            "A number of flags are installed on one side of the street where there is traffic."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars103.jpeg",
+        "prediction": "A car is parked in a parking lot.                                                          ",
+        "captions": [
+            "On the left side, a black car parked in front of the shop is open.",
+            "A black car is standing in front of a shop and one of its doors is open.",
+            "The door of the black car parked in front of the shop is open.",
+            "A black car is being repaired."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars94.jpg",
+        "prediction": "A group of cars driving down a road.                                                          ",
+        "captions": [
+            "The white Peugeot Pars is moving between the lines of the street.",
+            "A street where a number of cars are passing by.",
+            "A white car passes through a street covered with tall trees.",
+            "A street where a number of cars are parked and some are driving."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars75.jpg",
+        "prediction": "A couple of cars sitting on the side of a road.                                                       ",
+        "captions": [
+            "There are strong plantain trees on both sides of the street.",
+            "A street where a number of cars are parked.",
+            "A white car is parked under the tree.",
+            "Cars are parked on both sides of an autumn street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars24.jpg",
+        "prediction": "A truck parked on the side of the road.                                                         ",
+        "captions": [
+            "A white car parked on the side of the street.",
+            "The yellow leaves of the tree have fallen on the white car.",
+            "A white car full of autumn leaves.",
+            "An old car is parked in an autumn street and autumn leaves have fallen on it."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars51.jpg",
+        "prediction": "A man standing next to a car in a parking lot.                                                       ",
+        "captions": [
+            "A square where a number of men and women are standing and some cars are moving.",
+            "Several people are standing on a street in a mountainous area.",
+            "A bronze statue has been placed in the square and several people are standing in front of it.",
+            "There is a statue at the entrance of a hiking trail."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars62.jpg",
+        "prediction": "A small car parked on the side of a road.                                                        ",
+        "captions": [
+            "A white car with bright lights is parked in the middle of the street.",
+            "A white car with its tail lights on.",
+            "A white car is parked in a street with thick trees.",
+            "A white car with bright lights is standing in a quiet street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars9.jpg",
+        "prediction": "A man is standing next to a car.                                                          ",
+        "captions": [
+            "A man standing next to an orange car on the side of the street.",
+            "An orange car is parked on the street and a man in a suit is cleaning it.",
+            "A driver wearing a coat is cleaning his car.",
+            "A man is standing on the street next to an orange car."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars31.jpg",
+        "prediction": "A car is parked on the side of the road.                                                        ",
+        "captions": [
+            "A silver car parked on the street.",
+            "A cream-colored car is parked on the side of the street.",
+            "A car is parked in front of a store.",
+            "A silver car is parked on the paved street and next to the sidewalk."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars17.jpg",
+        "prediction": "A couple of cars driving down a road.                                                          ",
+        "captions": [
+            "The silver car is moving ahead of the white car.",
+            "A street where many cars are moving.",
+            "A street where cars are moving and the mountain can be seen behind.",
+            "The landscape of the street is full of cars, high mountains covered with snow."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars43.jpg",
+        "prediction": "A highway filled with lots of cars.                                                           ",
+        "captions": [
+            "Cars are stuck in long traffic on the street.",
+            "There are many cars in five lines of traffic on the highway.",
+            "The highway is full of cars stuck in traffic.",
+            "Many cars enter highway traffic from two streets."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars72.jpg",
+        "prediction": "A car is driving down the road.                                                           ",
+        "captions": [
+            "A white car is parked on the street under the yellow leaves of a tree.",
+            "A white car is parked on a street under a tree with yellow leaves.",
+            "A white car is parked under a tree.",
+            "The yellow autumn leaves of the trees can be seen in the street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars42.jpg",
+        "prediction": "A bunch of cars parked in a parking lot.                                                         ",
+        "captions": [
+            "Many cars are piled up in the parking lot.",
+            "Many cars are stacked on top of each other.",
+            "A lot of worn out cars on top of each other in a yard.",
+            "A lot of wrecked cars are piled up."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars65.jpg",
+        "prediction": "A car is parked on the side of the road.                                                        ",
+        "captions": [
+            "An old and orange car is parked on the side of the street.",
+            "An orange car with flat tires is parked on the side of the street.",
+            "An orange car is parked on the side of the street and under the shade of a tree.",
+            "An orange car with flat tires is on the side of Park Street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars30.jpg",
+        "prediction": "Two cars parked on the side of a road.                                                         ",
+        "captions": [
+            "There are several cars parked in a narrow alley in autumn.",
+            "A big tree whose yellow leaves are falling.",
+            "A big tree whose yellow leaves are falling.",
+            "Fallen leaves from the trees cover the street.",
+            "A narrow alley covered with yellow leaves of trees."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars50.jpg",
+        "prediction": "A view of a city filled with cars.                                                          ",
+        "captions": [
+            "A lot of cars are driving on the highway.",
+            "Many cars are traveling on a highway.",
+            "A busy highway with an underpass where cars are moving.",
+            "The entrance and exit of a tunnel where many cars are moving."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars86.jpg",
+        "prediction": "A view of a highway with cars on the road.                                                        ",
+        "captions": [
+            "Many cars are crossing the highway.",
+            "Cars cross the freeway under the aerial bridge.",
+            "A quiet street where cars are moving from both sides.",
+            "Many cars are driving on both sides of the street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars95.jpg",
+        "prediction": "A car is parked next to a parking meter.                                                         ",
+        "captions": [
+            "A white car is punctured and its wheels are replaced with bricks.",
+            "The tires of the white car have been removed and stones have been placed under it.",
+            "A white car without tires is parked on the side of the street.",
+            "A white car without wheels is parked on the side of the street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars1.jpg",
+        "prediction": "A car is traveling down the street.                                                           ",
+        "captions": [
+            "A street where a number of cars are moving.",
+            "Cars are moving in a street with tall buildings.",
+            "There is a tower on the left side of the street with many floors.",
+            "A car without a roof is moving next to several other cars on the street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars41.jpg",
+        "prediction": "A man is sitting on the side of the road.                                                        ",
+        "captions": [
+            "A triangular warning sign is placed in the middle of the street.",
+            "The danger sign is placed on the ground next to the leaves.",
+            "Two men are talking in front of a car and several cars have stopped.",
+            "There is a warning sign on the asphalt of the street and two men are standing behind it."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars87.jpg",
+        "prediction": "A couple of parked vehicles parked on the sidewalk.                                                         ",
+        "captions": [
+            "A street that is wet with rain.",
+            "A tall tree in the wet alley.",
+            "A rainy and narrow street where several cars are parked.",
+            "A number of cars are parked in a rainy alley."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars29.jpg",
+        "prediction": "A car is parked on the side of the road.                                                        ",
+        "captions": [
+            "A purple car is parked on the side of the street in front of the door of the house.",
+            "A purple car is parked in an alley.",
+            "A purple car is parked in front of the white door.",
+            "A purple car parked in front of a house."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars81.jpg",
+        "prediction": "Cars are parked on the side of the road.                                                        ",
+        "captions": [
+            "Many different cars are driving in the square.",
+            "Many cars are driving irregularly in the square.",
+            "Many cars are driving through the intersection.",
+            "In a field, cars move in different directions."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars12.jpg",
+        "prediction": "A row of parked cars on a city street.                                                         ",
+        "captions": [
+            "A narrow and rainy street with cars parked on one side.",
+            "Several cars are parked on the side of the street with tall trees.",
+            "The color of the leaves of tall trees has turned yellow and orange.",
+            "A street where a number of cars are parked."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars39.jpg",
+        "prediction": "A view of a car driving down a highway.                                                         ",
+        "captions": [
+            "A girl takes a photo of two city tunnel routes with a mobile phone.",
+            "A woman in a black dress is photographing cars in traffic.",
+            "A woman takes a picture of the highway from the top of the bridge.",
+            "A girl in a black dress is taking a picture at the entrance of a tunnel."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars56.jpg",
+        "prediction": "A couple of cars parked in front of a building.                                                        ",
+        "captions": [
+            "A white SUV is parked on the side of the street.",
+            "There are green trees in front of some buildings on the side of the street.",
+            "Blue sky and a narrow street where cars are parked on both sides.",
+            "An alley with green trees where a number of cars are parked."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars89.jpg",
+        "prediction": "A car is parked on the side of the road.                                                        ",
+        "captions": [
+            "A blue car is parked on the side of the street in front of the bridge and next to the public telephone.",
+            "A blue car is parked on the street next to the bridge.",
+            "A blue car with yellow lights is parked on the side of the street.",
+            "A blue car parked next to a pay phone."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars85.jpg",
+        "prediction": "A car is stopped at a traffic light.                                                          ",
+        "captions": [
+            "A white and black car that is moving.",
+            "A black car and a white car can be seen from the car mirror.",
+            "A white car and a black car are crossing the street.",
+            "A black and a white car can be seen from the window of a car."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars71.jpg",
+        "prediction": "A couple of people working on a car.                                                          ",
+        "captions": [
+            "The repairman in blue clothes and black pants is repairing the car.",
+            "A repair shop where men in work clothes repair cars.",
+            "Several cars are lined up for repair.",
+            "A number of cars in an area that several men are repairing."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars13.jpg",
+        "prediction": "A couple of cars on a city street.                                                          ",
+        "captions": [
+            "A street where a number of cars are passing.",
+            "There are two tall buildings with dome roofs on the side of the street.",
+            "Cars are moving in a street with two tall and dome-shaped buildings.",
+            "There are two large towers with round roofs on the street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars80.jpg",
+        "prediction": "A white car parked in a parking lot.                                                          ",
+        "captions": [
+            "A silver car is parked in front of the door of a house.",
+            "A silver car is parked in the rain in front of the building.",
+            "A rainy street where a gray car is parked.",
+            "A car is parked in front of a brick building and under two trees."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars84.jpg",
+        "prediction": "A group of cars driving down a street.                                                          ",
+        "captions": [
+            "A white car approaches the pedestrian lane.",
+            "A wide street shaded by trees.",
+            "A number of cars are moving in a street covered with tree branches.",
+            "Two cars have stopped next to a pedestrian lane."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars106.jpeg",
+        "prediction": "A car that has been hit by a car.                                                         ",
+        "captions": [
+            "A white car was damaged in an accident.",
+            "A white car with a damaged door is on the side of the street.",
+            "A white car crashed and parked on the side of the street.",
+            "A white car that has an accident is moving down a street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars8.jpg",
+        "prediction": "A car is being towed by a truck.                                                          ",
+        "captions": [
+            "The traffic police is watching and monitoring the crane and the car.",
+            "A policeman supervises the transportation of a white car.",
+            "A man stands and a crane pulls a car.",
+            "A blue car is carrying a white car and a man is looking at it."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars23.jpg",
+        "prediction": "A crowded highway filled with lots of cars.                                                          ",
+        "captions": [
+            "Many cars are stuck on both sides of the highway in heavy traffic.",
+            "A street full of cars stuck in traffic.",
+            "Many cars are stuck in traffic on the highway, which has flags on both sides.",
+            "Busy and high-traffic highway in the evening where cars hardly move."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars91.jpg",
+        "prediction": "A person walking down the street in the snow.                                                         ",
+        "captions": [
+            "Two yellow taxi cars and a man in black clothes are crossing the street on a snowy day.",
+            "In the rainy weather, taxis are moving and a man is walking.",
+            "Two yellow cars are driving in snowy weather.",
+            "A man and two yellow taxis are on the street under the snow."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars16.jpg",
+        "prediction": "A couple of motorcycles parked in front of a store.                                                        ",
+        "captions": [
+            "Two motorcycles are parked on the sidewalk facing the shops.",
+            "Two motorcycles are parked on the sidewalk and in front of the shops.",
+            "Two motorbikes are parked in front of the car showroom.",
+            "A car in a shop can be seen from the sidewalk."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars28.jpg",
+        "prediction": "A bunch of cars are parked in a parking lot.                                                        ",
+        "captions": [
+            "In a parking lot, a crane carries many cars.",
+            "A number of trucks carrying cars.",
+            "A few trailers carrying a large number of cars.",
+            "In a parking lot, several trucks are busy moving many cars."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars74.jpg",
+        "prediction": "A group of cars driving down a busy street.                                                         ",
+        "captions": [
+            "The blue advertisement board is installed on one of the two overpasses of the street.",
+            "It is a street with a number of cars and two overpasses.",
+            "Many cars are passing under the bridge.",
+            "A wide highway that cars pass on both sides."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars73.jpg",
+        "prediction": "A group of parked cars in a parking lot.                                                         ",
+        "captions": [
+            "There is a parking lot of many cars.",
+            "A crowded parking lot where men look for their cars.",
+            "Many cars and several men can be seen.",
+            "A parking lot full of parked cars and people can be seen next to them."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars82.jpg",
+        "prediction": "A yellow car is parked on the side of the road.                                                       ",
+        "captions": [
+            "A yellow taxi is moving on the street.",
+            "A yellow taxi with an inscription on its rear window is crossing the street.",
+            "A yellow taxi car with a text written on its window is in traffic.",
+            "Sentences are written on the rear window of a yellow car."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars98.jpg",
+        "prediction": "A white car is parked next to a white car.                                                        ",
+        "captions": [
+            "Workers prepare the white car in the factory.",
+            "A white car with an open door is in a car factory.",
+            "A white car with bright lights, with a number of men in blue clothes standing next to it.",
+            "A man in a blue suit tests a white car."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars10.jpg",
+        "prediction": "A man is riding a motorcycle on a sidewalk.                                                         ",
+        "captions": [
+            "A gray car is parked near the no parking sign.",
+            "A car has stopped on the side of the street next to the no parking sign.",
+            "In a neighborhood, several shops are placed together and two men are moving.",
+            "A silver car is parked on the side of the street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars6.jpg",
+        "prediction": "A couple of cars driving down a road.                                                          ",
+        "captions": [
+            "A road where a number of cars are moving.",
+            "A silver car is crossing the road.",
+            "A foggy road where few cars travel.",
+            "On both sides of the road are mountains covered with forest."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars59.jpg",
+        "prediction": "A man sitting on the back of a car.                                                         ",
+        "captions": [
+            "A green car with a driver goes into the crane.",
+            "A green car is being loaded onto a truck.",
+            "A green car drives up to the car.",
+            "A green car is going on the trolley."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars60.jpg",
+        "prediction": "A couple of cars driving down a street.                                                          ",
+        "captions": [
+            "Two white cars and one yellow car are parked on the street next to a historical castle.",
+            "Yellow Pride taxi is parked under the tree.",
+            "There are several cars parked under an old castle.",
+            "A few cars are parked in the lower area of ​​the old castle."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars37.jpg",
+        "prediction": "A group of cars driving down the road.                                                          ",
+        "captions": [
+            "A street covered with yellow trees and cars passing by.",
+            "A yellow taxi is moving on a street with tall trees.",
+            "On a street with lots of trees, cars are moving from both sides.",
+            "Tall autumn trees are located on both sides of a street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars4.jpg",
+        "prediction": "A group of cars driving down a highway.                                                          ",
+        "captions": [
+            "A highway where cars and buses are passing.",
+            "The blue bus is moving to the right on the highway.",
+            "A highway where several cars and a bus move.",
+            "The roads branching off the highway are marked with five big green signs."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars78.jpg",
+        "prediction": "A row of white police cars lined up next to each other.                                                      ",
+        "captions": [
+            "White cars with red lights are parked in an area.",
+            "White cars are parked in a row.",
+            "A large number of similar cars are parked together.",
+            "White cars with orange lights on the roof are parked side by side."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars19.jpg",
+        "prediction": "A view of a building covered in snow.                                                          ",
+        "captions": [
+            "Trees covered with snow and a white car parked in front of a house.",
+            "The snow on the tree has caused the branches to fall.",
+            "A snowy day in a street with tall trees whose branches are full of snow.",
+            "The trees in front of a house are covered with white snow."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars58.jpg",
+        "prediction": "A view of a city filled with lots of cars.                                                        ",
+        "captions": [
+            "A street where several towers can be seen.",
+            "Trees with colorful autumn leaves cover both sides of the street.",
+            "The trees with orange leaves are on the right side of the street full of cars.",
+            "Top view of highway with autumn trees and moving cars."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars45.jpg",
+        "prediction": "A group of people standing in a parking lot.                                                         ",
+        "captions": [
+            "Many cars are parked in regular queues in the parking lot.",
+            "A man in a blue shirt and black pants is holding an umbrella on his head.",
+            "In a parking lot, several people are walking towards their car and a man is standing with an umbrella.",
+            "A man with a red umbrella on his head is crossing a parking lot of cars."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars76.jpg",
+        "prediction": "A group of cars on a busy street.                                                          ",
+        "captions": [
+            "Some cars are crossing the street and some are parked around the street.",
+            "Cars are moving in a wide street with trees on both sides.",
+            "The street leads to a square with green trees.",
+            "A number of cars are parked on both sides of the street under the trees."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars57.jpg",
+        "prediction": "A motorcycle is parked next to a car.                                                          ",
+        "captions": [
+            "A man riding a motorbike is looking at the cars at the exhibition.",
+            "A man on a motorcycle looks at the exhibition of luxury cars.",
+            "A motorcycle man stands in front of the car showroom and looks at the cars.",
+            "A man in a white dress riding a motorcycle is watching the cars inside the showroom."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars69.jpg",
+        "prediction": "A couple of cars parked on the side of a road.                                                       ",
+        "captions": [
+            "A narrow alley with several parked cars.",
+            "The yellow and orange leaves of the trees have fallen on the ground of the street.",
+            "Autumn leaves have fallen on the ground in a narrow alley.",
+            "On an autumn day, a number of cars are parked in an alley."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars18.jpg",
+        "prediction": "A woman walking down a street next to a parking meter.                                                       ",
+        "captions": [
+            "A lady with a red backpack is standing in the middle of a green and quiet street.",
+            "A girl with a red backpack standing in the middle of the street between parked cars.",
+            "A woman in a cream dress and a red bag is standing in the middle of the street.",
+            "A woman is standing in the middle of a narrow street."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars33.jpg",
+        "prediction": "A couple of cars driving down a street.                                                          ",
+        "captions": [
+            "A few wet cars are parked on the side of the street.",
+            "Cars are parked on the wet and rainy street.",
+            "On an autumn day, a number of cars are parked on the side of the street.",
+            "A street with yellow trees where a number of cars are parked."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars67.jpg",
+        "prediction": "A couple of cars parked in a parking lot.                                                         ",
+        "captions": [
+            "A white car is parked facing the green environment.",
+            "A white car under a tree whose leaves are falling.",
+            "Cars are parked next to a park with yellow autumn trees.",
+            "Two white cars have stopped next to a space with autumn trees."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars49.jpg",
+        "prediction": "A group of cars driving down a snowy road.                                                         ",
+        "captions": [
+            "A wet two-way street where cars move.",
+            "Cars crossing the street in winter.",
+            "The yellow taxi is moving in the rainy weather.",
+            "A bus and some cars are driving on the street under the snow."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars48.jpg",
+        "prediction": "Cars are traveling down the road on a sunny day.                                                       ",
+        "captions": [
+            "Several cars drive in a wide street in autumn.",
+            "Cars are passing through a street surrounded by autumn trees.",
+            "Tall autumn trees are on both sides of the street and cars are driving.",
+            "A white car is crossing the street with trees with orange leaves."
+        ]
+    },
+    {
+        "image": "persian_images/cars/cars64.jpg",
+        "prediction": "A street filled with cars and buses.                                                           ",
+        "captions": [
+            "Many yellow taxis are crossing the pedestrian lane.",
+            "A busy street where taxis are passing.",
+            "There are many taxis moving on a street.",
+            "Yellow taxis are moving in a wide street."
+        ]
+    }
+]
