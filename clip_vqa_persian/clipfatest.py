@@ -34,4 +34,5 @@ def test(model, generator, classes, label_to_index):
             correct_answers = torch.sum((labels == predictions))
             accuracy += correct_answers
     accuracy = accuracy / len(generator.dataset)
-    print(accuracy)
+    print(label_to_index)
+    print("accuracy: ", accuracy)

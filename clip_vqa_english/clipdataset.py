@@ -26,6 +26,7 @@ def create_dataset_from_json(path_to_json, shots=None):
     with open(path_to_json, encoding="utf-8") as f:
         data = json.load(f)
     classes = list(set([d["answer"] for d in data]))
+    print(f"**number of classes: {len(classes)}")
     label_to_index = {k: v for v, k in enumerate(classes)}
     for i in range(len(data)):
         data[i]["class"] = label_to_index[data[i]["answer"]]
@@ -96,6 +97,7 @@ class VQADataset(Dataset):
         # self.labels = labels
         # self.list_IDs = list_IDs
         self.prompt = prompt
+        print("**Prompt is:", self.prompt)
         self.data = data
         self.images = [PIL.Image.open(image_folder + x["image"]) for x in self.data]
         self.classes = classes

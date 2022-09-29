@@ -30,9 +30,9 @@ def test(model, generator, classes, label_to_index):
             predictions = torch.tensor(predictions)
             print("labels: ", labels)
             print("predictions: ", predictions)
-            print(classes)
-            print(label_to_index)
+            # print(classes)
             correct_answers = torch.sum((labels == predictions))
             accuracy += correct_answers
     accuracy = accuracy / len(generator.dataset)
-    print(accuracy)
+    print(label_to_index)
+    print("accuracy: ", accuracy)
