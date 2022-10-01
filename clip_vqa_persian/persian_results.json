@@ -1,0 +1,4 @@
+{"پرسش:[Q] پاسخ:[A]": {"fewshot_1": 0.0332, "fewshot_2": 0.0346, "fewshot_4": 0.0346, "fewshot_8": 0.0346, "fewshot_16": 0.0346, "zero_shot": 0.0332},
+"[Q] [A]": {"fewshot_1": 0.0470, "fewshot_2": 0.0456, "fewshot_4": 0.0470, "fewshot_8": 0.0470, "fewshot_16": 0.0456, "zero_shot": 0.0470},
+"[A] پاسخ [Q] است.": {"fewshot_1": 0.0360, "fewshot_2": 0.0360, "fewshot_4": 0.0360, "fewshot_8": 0.0373, "fewshot_16": 0.0360, "zero_shot": 0.0360}
+}
