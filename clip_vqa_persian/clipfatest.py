@@ -6,16 +6,16 @@ from torch.cuda.amp import autocast
 import multiprocessing
 import gc
 import os
-# from clipfadataset import test_generator#, test_ds
+from clipfadataset import prompt
 from tqdm import tqdm
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-def test(model, generator, classes, label_to_index):
+def test(model, generator, classes, data, label_to_index):
     model = model.to(device)
     accuracy = 0
     with torch.no_grad():
-        for images, texts, masks, labels in tqdm(generator):
+        for images, texts, masks, labels, index in tqdm(generator):
             image_features = model.get_image_features(pixel_values = images)
             predictions = []
             print()
@@ -29,8 +29,12 @@ def test(model, generator, classes, label_to_index):
                 predictions.append(torch.argmax(similarity[0]))
             
             predictions = torch.tensor(predictions)
-            print("labels: ", labels)
-            print("predictions: ", predictions)
+            for i in range(len(labels)):
+                print("Image:", data[index[i]]["image"])
+                print("true prompt:", prompt.replace("[Q]", data[index[i]]["question"]).replace("[A]", classes[labels[i]]))
+                print("pred prompt:", prompt.replace("[Q]", data[index[i]]["question"]).replace("[A]", classes[predictions[i]]))
+            # print("labels: ", labels)
+            # print("predictions: ", predictions)
             correct_answers = torch.sum((labels == predictions))
             accuracy += correct_answers
     accuracy = accuracy / len(generator.dataset)

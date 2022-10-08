@@ -6,7 +6,7 @@ from transformers import AutoTokenizer, CLIPFeatureExtractor
 import PIL
 import random
 
-prompt = "Retrieve [A] from [Q]"
+prompt = "Question: [Q] Answer: [A]"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Define hyperparameters
@@ -111,7 +111,7 @@ class VQADataset(Dataset):
         q = self.data[index]["question"]
         q = self.prompt.replace("[Q]", q)
         y = self.data[index]["class"]
-        return (img, q, y)
+        return (img, q, y, index)
 
     def preprocess_data_with_classes(self, b):
         # b is the list of tuples of length batch_size
@@ -122,7 +122,7 @@ class VQADataset(Dataset):
         # out = [torch.nn.functional.pad(t,(0, 0, 0,max_len-len(t)),mode='constant',value=0) for t in v]
 
         text_list = []
-        for _, question, _ in b :
+        for _, question, _, _ in b :
             texts = [question.replace("[A]", c) for c in self.classes]
             text_list.extend(texts)
         #shape of tokens = (classes * batch_size, padding)
@@ -143,7 +143,8 @@ class VQADataset(Dataset):
         return (images.to(device),
                 input_ids.to(device),
                 attention_mask.to(device),
-                torch.stack([torch.tensor(t[2]) for t in b])) 
+                torch.stack([torch.tensor(t[2]) for t in b]),
+                torch.stack([torch.tensor(t[3]) for t in b])) 
 
 
 
@@ -151,7 +152,7 @@ def create_test_generator(dataset_json_path, images_folder, batch_size):
     classes, data, label_to_index = create_dataset_from_json(dataset_json_path)
     test_set = VQADataset(data, images_folder,classes)
     test_generator = DataLoader(test_set, batch_size=batch_size, collate_fn=test_set.preprocess_data_with_classes, shuffle=True)
-    return classes, label_to_index, test_generator
+    return classes, label_to_index, test_generator, data
 
 def create_train_dataset(dataset_json_path, images_folder, shots):
     classes, data, label_to_index = create_dataset_from_json(dataset_json_path, shots)

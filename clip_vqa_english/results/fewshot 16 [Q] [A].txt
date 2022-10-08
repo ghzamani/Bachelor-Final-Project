@@ -1,0 +1,2202 @@
+**number of classes: 188
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:310: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 16
+  Num Epochs = 5
+  Instantaneous batch size per device = 40
+  Total train batch size (w. parallel, distributed & accumulation) = 40
+  Gradient Accumulation steps = 1
+  Total optimization steps = 5
+100% 5/5 [00:03<00:00,  1.91it/s]
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+{'train_runtime': 3.5765, 'train_samples_per_second': 22.368, 'train_steps_per_second': 1.398, 'train_loss': 1.6429895401000976, 'epoch': 5.0}
+100% 5/5 [00:03<00:00,  1.40it/s]
+***** Running Evaluation *****
+  Num examples = 16
+  Batch size = 40
+  0% 0/1 [00:00<?, ?it/s]/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+100% 1/1 [00:00<00:00, 311.52it/s]
+{'eval_loss': 1.2938467264175415, 'eval_accuracy': 0.0, 'eval_precision': 0.0, 'eval_recall': 0.0, 'eval_f1': 0.0, 'eval_runtime': 0.1728, 'eval_samples_per_second': 92.583, 'eval_steps_per_second': 5.786, 'epoch': 5.0}
+Configuration saved in clip-eng_few_shot-5/config.json
+Model weights saved in clip-eng_few_shot-5/pytorch_model.bin
+**number of classes: 188
+**Prompt is: [Q] [A]
+  0% 0/19 [00:00<?, ?it/s]Image: persian_images/food/food27.jpg
+true prompt: What is the drink bottle on the table? Dough
+pred prompt: What is the drink bottle on the table? Iran
+Image: persian_images/ashkhas/ashkhas47.jpg
+true prompt: How many men do you see in the picture? four
+pred prompt: How many men do you see in the picture? chador
+Image: persian_images/outdoor/dasti/dasti3.jpg
+true prompt: Is there a green car in the picture? Yes
+pred prompt: Is there a green car in the picture? Iran
+Image: persian_images/indoor/indoor17.jpg
+true prompt: Is the layout of this gallery traditional? no
+pred prompt: Is the layout of this gallery traditional? Exhibition
+Image: persian_images/food/food16.jpg
+true prompt: Is there two kebab skewers in the dish? Yes
+pred prompt: Is there two kebab skewers in the dish? charcoal
+Image: persian_images/ashkhas/ashkhas43.jpg
+true prompt: Does anyone sell lips? Yes
+pred prompt: Does anyone sell lips? Iran
+Image: persian_images/cars/cars90.jpg
+true prompt: What season of the year does the picture you see show? winter
+pred prompt: What season of the year does the picture you see show? Iran
+Image: persian_images/cars/cars23.jpg
+true prompt: What can be seen on the side of the highway? Flag
+pred prompt: What can be seen on the side of the highway? Iran
+Image: persian_images/outdoor/dasti/dasti50.jpg
+true prompt: What season of the year is the picture? winter
+pred prompt: What season of the year is the picture? Mountaineering
+Image: persian_images/sport/sport20.jpg
+true prompt: What is the gender of the people in the picture? male
+pred prompt: What is the gender of the people in the picture? Volleyball
+Image: persian_images/sport/sport76.jpg
+true prompt: Are both players from the same team? no
+pred prompt: Are both players from the same team? basketball
+Image: persian_images/cars/cars67.jpg
+true prompt: Is the car parked in front of the green space? Yes
+pred prompt: Is the car parked in front of the green space? Fall
+Image: persian_images/ceremonies/ceremonies80.png
+true prompt: What color are the flowers on the right side of the picture? pink
+pred prompt: What color are the flowers on the right side of the picture? Congregational Prayer
+Image: persian_images/ashkhas/ashkhas12.jpg
+true prompt: In which hand is the ring in the picture? Right
+pred prompt: In which hand is the ring in the picture? Iran
+Image: persian_images/ashkhas/ashkhas61.jpg
+true prompt: Is the material of the wall in the picture marble? no
+pred prompt: Is the material of the wall in the picture marble? Iran
+Image: persian_images/food/food65.jpg
+true prompt: How many eggs are there in the picture? two
+pred prompt: How many eggs are there in the picture? Traditional restaurant
+Image: persian_images/cars/cars82.jpg
+true prompt: What color is the car on the right? yellow
+pred prompt: What color is the car on the right? Iran
+Image: persian_images/outdoor/ethnic/ethnic10.png
+true prompt: Does the picture show the desert? no
+pred prompt: Does the picture show the desert? Mountaineering
+Image: persian_images/indoor/indoor1.jpg
+true prompt: Does the floor of the gallery have carpet? no
+pred prompt: Does the floor of the gallery have carpet? manto
+Image: persian_images/outdoor/dasti/dasti32.jpg
+true prompt: What is the color of the benches on the left side of the picture? Blue
+pred prompt: What is the color of the benches on the left side of the picture? Street cafes
+Image: persian_images/outdoor/modern/modern11.jpg
+true prompt: Is the person wearing the black and white coat sitting? Yes
+pred prompt: Is the person wearing the black and white coat sitting? Traditional restaurant
+Image: persian_images/cars/cars3.jpg
+true prompt: What color is the shop sign? Blue
+pred prompt: What color is the shop sign? Iran
+Image: persian_images/indoor/indoor48.jpg
+true prompt: What color is the bent man's clothes? black and blue
+pred prompt: What color is the bent man's clothes? Iran
+Image: persian_images/ceremonies/ceremonies91.png
+true prompt: Have they put the food on the table? no
+pred prompt: Have they put the food on the table? Congregational Prayer
+Image: persian_images/food/food60.jpg
+true prompt: Are the scabs square? no
+pred prompt: Are the scabs square? Eggplant crust
+Image: persian_images/cars/cars21.jpg
+true prompt: How many people are crossing the street? Zero
+pred prompt: How many people are crossing the street? Leaves of trees
+Image: persian_images/indoor/indoor2.jpg
+true prompt: Is the window size large? Yes
+pred prompt: Is the window size large? Carpet
+Image: persian_images/sport/sport28.jpg
+true prompt: How many water bottles are there in this picture? One
+pred prompt: How many water bottles are there in this picture? Throwing an arrow
+Image: persian_images/cars/cars73.jpg
+true prompt: Where is the electric pole in the picture? Center
+pred prompt: Where is the electric pole in the picture? Car exhibition
+Image: persian_images/ashkhas/ashkhas70.jpg
+true prompt: Is the woman on the left young? no
+pred prompt: Is the woman on the left young? Iran
+Image: persian_images/outdoor/ethnic/ethnic4.jpg
+true prompt: Is the child wearing shorts? no
+pred prompt: Is the child wearing shorts? Exhibition
+Image: persian_images/ashkhas/ashkhas14.jpg
+true prompt: How many boys do you see in the picture? four
+pred prompt: How many boys do you see in the picture? chador
+Image: persian_images/indoor/indoor55.jpg
+true prompt: How many people are there in the picture? Much
+pred prompt: How many people are there in the picture? Traditional restaurant
+Image: persian_images/outdoor/dasti/dasti39.jpg
+true prompt: What does a woman wear? chador
+pred prompt: What does a woman wear? shepherd
+Image: persian_images/sport/sport96.png
+true prompt: What is the gender of the people in the picture? Female
+pred prompt: What is the gender of the people in the picture? Boating
+Image: persian_images/indoor/indoor68.jpg
+true prompt: Do the windows have curtains? Yes
+pred prompt: Do the windows have curtains? Iran
+Image: persian_images/sport/sport33.jpg
+true prompt: Is there a flag on the weightlifter's uniform? Yes
+pred prompt: Is there a flag on the weightlifter's uniform? Iran
+Image: persian_images/ceremonies/ceremonies13.jpg
+true prompt: Do people have fun alone? no
+pred prompt: Do people have fun alone? Kite
+Image: persian_images/outdoor/ethnic/ethnic8.png
+true prompt: How many balloons are there on the car in the picture? two
+pred prompt: How many balloons are there on the car in the picture? Iran
+Image: persian_images/food/food7.jpg
+true prompt: Are there beans in the food? Yes
+pred prompt: Are there beans in the food? Iran
+  5% 1/19 [00:13<04:05, 13.62s/it]Image: persian_images/ceremonies/ceremonies30.jpg
+true prompt: What color are men's clothes? Black
+pred prompt: What color are men's clothes? Iran
+Image: persian_images/food/food31.jpg
+true prompt: What is chopped next to the tomatoes? Avocado
+pred prompt: What is chopped next to the tomatoes? hexagon
+Image: persian_images/ceremonies/ceremonies22.jpg
+true prompt: Is the clothes of the people in the picture local or official? local
+pred prompt: Is the clothes of the people in the picture local or official? Congregational Prayer
+Image: persian_images/food/food57.jpg
+true prompt: Are there spoons and forks in the picture? no
+pred prompt: Are there spoons and forks in the picture? Eggplant crust
+Image: persian_images/cars/cars13.jpg
+true prompt: Do cars drive in one lane? no
+pred prompt: Do cars drive in one lane? Iran
+Image: persian_images/food/food15.jpg
+true prompt: Is the food plate metal? no
+pred prompt: Is the food plate metal? pasta
+Image: persian_images/outdoor/modern/modern5.jpg
+true prompt: Which side of the highway is the green sign? Right
+pred prompt: Which side of the highway is the green sign? Street cafes
+Image: persian_images/ceremonies/ceremonies24.jpg
+true prompt: What color is the boy's clothes? Red
+pred prompt: What color is the boy's clothes? food distribution
+Image: persian_images/indoor/indoor34.jpg
+true prompt: Do you see a bird in the picture? no
+pred prompt: Do you see a bird in the picture? Iran
+Image: persian_images/sport/sport64.jpg
+true prompt: What is the gender of the people in the picture? Man
+pred prompt: What is the gender of the people in the picture? shooting
+Image: persian_images/indoor/indoor14.jpg
+true prompt: Is there an escalator in the photo? Yes
+pred prompt: Is there an escalator in the photo? shopping center
+Image: persian_images/sport/sport75.jpg
+true prompt: Is the stadium monitor on? no
+pred prompt: Is the stadium monitor on? weightlifting
+Image: persian_images/outdoor/modern/modern28.png
+true prompt: What color is the building in the picture? white
+pred prompt: What color is the building in the picture? Iran
+Image: persian_images/sport/sport69.jpg
+true prompt: What color are the seats in the stadium? white
+pred prompt: What color are the seats in the stadium? Iran
+Image: persian_images/food/food61.jpg
+true prompt: Does this food have stew? Yes
+pred prompt: Does this food have stew? Iran
+Image: persian_images/food/food14.jpg
+true prompt: Is the food spilled on the plate? no
+pred prompt: Is the food spilled on the plate? Travel tent
+Image: persian_images/cars/cars16.jpg
+true prompt: Are there leaves in the picture? Yes
+pred prompt: Are there leaves in the picture? repair shop
+Image: persian_images/outdoor/dasti/dasti64.jpg
+true prompt: Is the shadow of the trees in the water? Yes
+pred prompt: Is the shadow of the trees in the water? Traditional restaurant
+Image: persian_images/indoor/indoor15.jpg
+true prompt: Are all parts of the image engraved? Yes
+pred prompt: Are all parts of the image engraved? Iran
+Image: persian_images/cars/cars51.jpg
+true prompt: What gender is the statue in the middle of the square? copper
+pred prompt: What gender is the statue in the middle of the square? Iran
+Image: persian_images/cars/cars20.jpg
+true prompt: what time of day is it sunset
+pred prompt: what time of day is it Iran
+Image: persian_images/outdoor/dasti/dasti44.jpg
+true prompt: Can you see the light pole in the picture? Yes
+pred prompt: Can you see the light pole in the picture? Iran
+Image: persian_images/food/food42.jpg
+true prompt: Where is the coal in the picture? under the dish
+pred prompt: Where is the coal in the picture? Celery stew
+Image: persian_images/ceremonies/ceremonies71.png
+true prompt: Is the bride wearing a white veil? Yes
+pred prompt: Is the bride wearing a white veil? Iran
+Image: persian_images/sport/sport32.jpg
+true prompt: Two female athletes don't have hijab? no
+pred prompt: Two female athletes don't have hijab? to dance
+Image: persian_images/outdoor/modern/modern10.jpg
+true prompt: How many blue cars are there in the picture? One
+pred prompt: How many blue cars are there in the picture? chador
+Image: persian_images/cars/cars46.jpg
+true prompt: Is someone crossing the street? no
+pred prompt: Is someone crossing the street? Parking
+Image: persian_images/indoor/indoor19.jpg
+true prompt: Is this a restaurant? no
+pred prompt: Is this a restaurant? Iran
+Image: persian_images/indoor/indoor82.jpg
+true prompt: Does the floor have a carpet? Yes
+pred prompt: Does the floor have a carpet? chador
+Image: persian_images/sport/sport47.jpg
+true prompt: What sports are the people in the picture doing? Volleyball
+pred prompt: What sports are the people in the picture doing? Volleyball
+Image: persian_images/indoor/indoor90.jpg
+true prompt: What are the colored windows on the wooden door? hexagon
+pred prompt: What are the colored windows on the wooden door? rug
+Image: persian_images/ashkhas/ashkhas23.jpg
+true prompt: How many people are depicted in the painting on the wall? One
+pred prompt: How many people are depicted in the painting on the wall? picking flowers
+Image: persian_images/cars/cars92.jpg
+true prompt: How many cars are there in the picture? One
+pred prompt: How many cars are there in the picture? carpet weaving
+Image: persian_images/ashkhas/ashkhas15.jpg
+true prompt: What animal is behind the girl? Donkey
+pred prompt: What animal is behind the girl? chador
+Image: persian_images/food/food94.jpg
+true prompt: How many forks are there in the picture? One
+pred prompt: How many forks are there in the picture? Iran
+Image: persian_images/ceremonies/ceremonies96.png
+true prompt: Are there many people on this street? Yes
+pred prompt: Are there many people on this street? Stadium
+Image: persian_images/sport/sport68.jpg
+true prompt: What sport are the people in the picture doing? Boating
+pred prompt: What sport are the people in the picture doing? Boating
+Image: persian_images/ashkhas/ashkhas78.jpg
+true prompt: What are the roofs like? a dome
+pred prompt: What are the roofs like? Iran
+Image: persian_images/sport/sport11.jpg
+true prompt: Do you see the audience in the picture? Yes
+pred prompt: Do you see the audience in the picture? Volleyball
+Image: persian_images/ceremonies/ceremonies86.png
+true prompt: What gender are the people in the picture? Man
+pred prompt: What gender are the people in the picture? to dance
+ 11% 2/19 [00:27<03:57, 13.98s/it]Image: persian_images/ashkhas/ashkhas90.jpg
+true prompt: What gender is the person in the picture? Female
+pred prompt: What gender is the person in the picture? Happiness
+Image: persian_images/outdoor/ethnic/ethnic3.jpg
+true prompt: Is kiwi on a tree or a bush? Tree
+pred prompt: Is kiwi on a tree or a bush? food distribution
+Image: persian_images/outdoor/dasti/dasti57.jpg
+true prompt: Is there a canopy above the walls? Yes
+pred prompt: Is there a canopy above the walls? Iran
+Image: persian_images/ceremonies/ceremonies74.png
+true prompt: How many men are there in the picture? four
+pred prompt: How many men are there in the picture? Iran
+Image: persian_images/outdoor/dasti/dasti52.jpg
+true prompt: How many men are crossing the street? two
+pred prompt: How many men are crossing the street? Traditional restaurant
+Image: persian_images/indoor/indoor9.jpg
+true prompt: How many monitors are there in the picture? One
+pred prompt: How many monitors are there in the picture? shopping center
+Image: persian_images/cars/cars65.jpg
+true prompt: Where is the trash can in the picture? Right
+pred prompt: Where is the trash can in the picture? Iran
+Image: persian_images/indoor/indoor28.jpg
+true prompt: What are the walls made of? Mirrors
+pred prompt: What are the walls made of? Iran
+Image: persian_images/ceremonies/ceremonies75.png
+true prompt: What animal is in the picture? Horse
+pred prompt: What animal is in the picture? Iran
+Image: persian_images/outdoor/modern/modern8.jpg
+true prompt: How many yellow taxis are in the picture? two
+pred prompt: How many yellow taxis are in the picture? Leaves of trees
+Image: persian_images/indoor/indoor12.jpg
+true prompt: Is the floor of the room carpetless? no
+pred prompt: Is the floor of the room carpetless? Iran
+Image: persian_images/outdoor/dasti/dasti38.jpg
+true prompt: How many boats are in the lake? Zero
+pred prompt: How many boats are in the lake? Iran
+Image: persian_images/ceremonies/ceremonies88.png
+true prompt: Are people performing special ceremonies? Yes
+pred prompt: Are people performing special ceremonies? picking flowers
+Image: persian_images/outdoor/modern/modern33.png
+true prompt: What time of day does the picture show? the night
+pred prompt: What time of day does the picture show? Iran
+Image: persian_images/food/food9.jpg
+true prompt: What is used to decorate the cake? vegetable
+pred prompt: What is used to decorate the cake? Eggplant crust
+Image: persian_images/indoor/indoor74.jpg
+true prompt: How many spectators? Much
+pred prompt: How many spectators? Iran
+Image: persian_images/cars/cars50.jpg
+true prompt: How many motorcycles are there in the underpass? One
+pred prompt: How many motorcycles are there in the underpass? Iran
+Image: persian_images/sport/sport4.jpg
+true prompt: In which hand does the athlete hold the spear? Right
+pred prompt: In which hand does the athlete hold the spear? Javelin
+Image: persian_images/sport/sport98.png
+true prompt: Is the game environment closed? Yes
+pred prompt: Is the game environment closed? Olympic
+Image: persian_images/outdoor/dasti/dasti40.jpg
+true prompt: What does the man do? shepherd
+pred prompt: What does the man do? shepherd
+Image: persian_images/sport/sport13.jpg
+true prompt: Is the athlete male or female? Female
+pred prompt: Is the athlete male or female? under the dish
+Image: persian_images/outdoor/modern/modern22.jpg
+true prompt: Is it the street in the picture? no
+pred prompt: Is it the street in the picture? Mountaineering
+Image: persian_images/indoor/indoor63.jpg
+true prompt: How many chairs are there in the room? Much
+pred prompt: How many chairs are there in the room? Iran
+Image: persian_images/cars/cars19.jpg
+true prompt: What color is the car? white
+pred prompt: What color is the car? winter
+Image: persian_images/ashkhas/ashkhas56.jpg
+true prompt: What did the men wear? T-shirt
+pred prompt: What did the men wear? Sea
+Image: persian_images/cars/cars98.jpg
+true prompt: Is the man standing in front of the car bald? no
+pred prompt: Is the man standing in front of the car bald? hexagon
+Image: persian_images/outdoor/dasti/dasti8.jpg
+true prompt: What is the gender of the child you see in the picture? Girl
+pred prompt: What is the gender of the child you see in the picture? Market
+Image: persian_images/ashkhas/ashkhas53.jpg
+true prompt: Do you see the basket in the picture? Yes
+pred prompt: Do you see the basket in the picture? Iran
+Image: persian_images/cars/cars2.jpg
+true prompt: What color is the circular sign on the right side of the street? Blue
+pred prompt: What color is the circular sign on the right side of the street? Iran
+Image: persian_images/food/food10.jpg
+true prompt: How many dishes can be seen in the picture? two
+pred prompt: How many dishes can be seen in the picture? Iran
+Image: persian_images/ceremonies/ceremonies58.jpg
+true prompt: What do people do on the left side of the street? to chain
+pred prompt: What do people do on the left side of the street? Iran
+Image: persian_images/food/food71.jpg
+true prompt: How many spoons are there in the picture? One
+pred prompt: How many spoons are there in the picture? chador
+Image: persian_images/ceremonies/ceremonies79.png
+true prompt: Have they poured chocolate on the cake? Yes
+pred prompt: Have they poured chocolate on the cake? Iran
+Image: persian_images/ceremonies/ceremonies14.jpg
+true prompt: Where is this religious mourning? shrine
+pred prompt: Where is this religious mourning? Iran
+Image: persian_images/indoor/indoor57.jpg
+true prompt: What is the material of the TV table? Wood
+pred prompt: What is the material of the TV table? rug
+Image: persian_images/ashkhas/ashkhas21.jpg
+true prompt: What animal is in the picture? camel
+pred prompt: What animal is in the picture? manto
+Image: persian_images/indoor/indoor71.jpg
+true prompt: What color are the tiles inside the pool? Blue
+pred prompt: What color are the tiles inside the pool? Iran
+Image: persian_images/food/food29.jpg
+true prompt: Do you see a dish of vegetables in the picture? no
+pred prompt: Do you see a dish of vegetables in the picture? Iran
+Image: persian_images/sport/sport71.jpg
+true prompt: What is under the feet of the people in the picture? grass
+pred prompt: What is under the feet of the people in the picture? chador
+Image: persian_images/ashkhas/ashkhas55.jpg
+true prompt: Are the two people who throw the flowers women? no
+pred prompt: Are the two people who throw the flowers women? Market
+ 16% 3/19 [00:42<03:46, 14.15s/it]Image: persian_images/cars/cars45.jpg
+true prompt: What is the weather like? Sunny
+pred prompt: What is the weather like? Parking
+Image: persian_images/food/food79.jpg
+true prompt: Is the shadow on the top or bottom of the cake? Top
+pred prompt: Is the shadow on the top or bottom of the cake? Orange
+Image: persian_images/outdoor/modern/modern24.jpg
+true prompt: What color are the fences in the picture? Green
+pred prompt: What color are the fences in the picture? Street cafes
+Image: persian_images/sport/sport79.jpg
+true prompt: How many men are wearing red clothes? five
+pred prompt: How many men are wearing red clothes? Iran
+Image: persian_images/food/food39.jpg
+true prompt: What is next to the dish? Bread
+pred prompt: What is next to the dish? manto
+Image: persian_images/indoor/indoor13.jpg
+true prompt: What gender are the people in the picture? male
+pred prompt: What gender are the people in the picture? shopping center
+Image: persian_images/sport/sport43.jpg
+true prompt: How many players are there in the picture? two
+pred prompt: How many players are there in the picture? Iran
+Image: persian_images/outdoor/ethnic/ethnic2.jpg
+true prompt: How many trees are there? Much
+pred prompt: How many trees are there? Iran
+Image: persian_images/ashkhas/ashkhas9.jpg
+true prompt: Is the minibus white? no
+pred prompt: Is the minibus white? Iran
+Image: persian_images/cars/cars75.jpg
+true prompt: How many cars are moving on the street? One
+pred prompt: How many cars are moving on the street? Iran
+Image: persian_images/ashkhas/ashkhas31.jpg
+true prompt: On which side of the picture is the woman wearing glasses? Right
+pred prompt: On which side of the picture is the woman wearing glasses? Iran
+Image: persian_images/outdoor/dasti/dasti22.jpg
+true prompt: How many men in striped clothes are there in the picture? One
+pred prompt: How many men in striped clothes are there in the picture? Traditional restaurant
+Image: persian_images/cars/cars32.jpg
+true prompt: What is on the roof of the parking lot? Lamp
+pred prompt: What is on the roof of the parking lot? manto
+Image: persian_images/outdoor/dasti/dasti21.jpg
+true prompt: Is there a palm tree in the picture? Yes
+pred prompt: Is there a palm tree in the picture? Iran
+Image: persian_images/sport/sport46.jpg
+true prompt: What sports are the people in the picture doing? Ski
+pred prompt: What sports are the people in the picture doing? Ski
+Image: persian_images/cars/cars55.jpg
+true prompt: Are the cars moving on the mountain road? Yes
+pred prompt: Are the cars moving on the mountain road? Iran
+Image: persian_images/ashkhas/ashkhas39.jpg
+true prompt: What is the person's gender? Man
+pred prompt: What is the person's gender? Market
+Image: persian_images/sport/sport52.jpg
+true prompt: What color is the athlete's clothes? Green
+pred prompt: What color is the athlete's clothes? Iran
+Image: persian_images/ashkhas/ashkhas75.jpg
+true prompt: What gender is the person in the picture? Female
+pred prompt: What gender is the person in the picture? carpet weaving
+Image: persian_images/ashkhas/ashkhas83.jpg
+true prompt: How many girls are visible in the picture? One
+pred prompt: How many girls are visible in the picture? In front of the bride and groom
+Image: persian_images/indoor/indoor79.jpg
+true prompt: What is the color of carpets? Red
+pred prompt: What is the color of carpets? Iran
+Image: persian_images/food/food87.jpg
+true prompt: What gender is the disc placed on the surface? Rock
+pred prompt: What gender is the disc placed on the surface? Chicken
+Image: persian_images/ashkhas/ashkhas46.jpg
+true prompt: What is the gender of the child standing next to the animal? Boy
+pred prompt: What is the gender of the child standing next to the animal? chador
+Image: persian_images/cars/cars64.jpg
+true prompt: Was the picture taken at night? no
+pred prompt: Was the picture taken at night? Iran
+Image: persian_images/food/food100.jpg
+true prompt: Do you see the pickle in the sandwich? Yes
+pred prompt: Do you see the pickle in the sandwich? Iran
+Image: persian_images/ceremonies/ceremonies16.jpg
+true prompt: Is there a fork in the picture? no
+pred prompt: Is there a fork in the picture? Iran
+Image: persian_images/sport/sport65.jpg
+true prompt: Do you see a woman in the picture? no
+pred prompt: Do you see a woman in the picture? Javelin
+Image: persian_images/cars/cars44.jpg
+true prompt: where is the car Parking
+pred prompt: where is the car yellow
+Image: persian_images/outdoor/modern/modern4.jpg
+true prompt: Is the number of windows in buildings too few or too many? Much
+pred prompt: Is the number of windows in buildings too few or too many? Leaves of trees
+Image: persian_images/sport/sport2.jpg
+true prompt: Does the man have a ring? Yes
+pred prompt: Does the man have a ring? Javelin
+Image: persian_images/ashkhas/ashkhas29.jpg
+true prompt: Is the hair of the girl in the picture completely clear? no
+pred prompt: Is the hair of the girl in the picture completely clear? Iran
+Image: persian_images/ceremonies/ceremonies100.png
+true prompt: What activities are people doing? Dance
+pred prompt: What activities are people doing? Iran
+Image: persian_images/food/food44.jpg
+true prompt: How many Berber breads are in the picture? One
+pred prompt: How many Berber breads are in the picture? Horse
+Image: persian_images/cars/cars40.jpg
+true prompt: Was the photo taken at night? no
+pred prompt: Was the photo taken at night? Iran
+Image: persian_images/ashkhas/ashkhas81.jpg
+true prompt: How many breads are on the table? One
+pred prompt: How many breads are on the table? Iran
+Image: persian_images/sport/sport88.jpg
+true prompt: What gender is the person in the picture? Man
+pred prompt: What gender is the person in the picture? Pool
+Image: persian_images/cars/cars85.jpg
+true prompt: On which side of the picture are the trees? Left
+pred prompt: On which side of the picture are the trees? Car Mirror
+Image: persian_images/sport/sport85.jpg
+true prompt: Is the gender of all the people in the picture male? no
+pred prompt: Is the gender of all the people in the picture male? Javelin
+Image: persian_images/outdoor/dasti/dasti33.jpg
+true prompt: What can be seen at the end of the picture? Mountain
+pred prompt: What can be seen at the end of the picture? Mountain
+Image: persian_images/ashkhas/ashkhas16.jpg
+true prompt: What's in the metal tray? Sherbet
+pred prompt: What's in the metal tray? Iran
+ 21% 4/19 [00:57<03:36, 14.41s/it]Image: persian_images/food/food21.jpg
+true prompt: Is it in a candy dish? Yes
+pred prompt: Is it in a candy dish? pasta
+Image: persian_images/ceremonies/ceremonies35.jpg
+true prompt: What events have people participated in? Coronation
+pred prompt: What events have people participated in? Coronation
+Image: persian_images/cars/cars29.jpg
+true prompt: Is the tree visible in the picture? Yes
+pred prompt: Is the tree visible in the picture? Car exhibition
+Image: persian_images/ceremonies/ceremonies76.png
+true prompt: What color is the shirt of people wearing black vests? orange
+pred prompt: What color is the shirt of people wearing black vests? Orange
+Image: persian_images/indoor/indoor89.jpg
+true prompt: Does the image show the atmosphere of a mosque? no
+pred prompt: Does the image show the atmosphere of a mosque? Traditional restaurant
+Image: persian_images/cars/cars56.jpg
+true prompt: Are there clouds in the sky? Yes
+pred prompt: Are there clouds in the sky? Iran
+Image: persian_images/outdoor/dasti/dasti41.jpg
+true prompt: What are people doing on the carpet? pray
+pred prompt: What are people doing on the carpet? Congregational Prayer
+Image: persian_images/cars/cars81.jpg
+true prompt: Is the street quiet? no
+pred prompt: Is the street quiet? Parking
+Image: persian_images/ashkhas/ashkhas74.jpg
+true prompt: Are the woman's eyes closed? no
+pred prompt: Are the woman's eyes closed? Iran
+Image: persian_images/ashkhas/ashkhas3.jpg
+true prompt: What is on the plate in the picture? watermelon
+pred prompt: What is on the plate in the picture? carpet weaving
+Image: persian_images/outdoor/ethnic/ethnic7.png
+true prompt: How many red balloons are in the picture? four
+pred prompt: How many red balloons are in the picture? food distribution
+Image: persian_images/outdoor/dasti/dasti17.jpg
+true prompt: What is the man doing? reading newspaper
+pred prompt: What is the man doing? carpet weaving
+Image: persian_images/ashkhas/ashkhas64.jpg
+true prompt: What clothes are the girls? local clothes
+pred prompt: What clothes are the girls? Iran
+Image: persian_images/sport/sport41.jpg
+true prompt: Is the gate visible in the picture? Yes
+pred prompt: Is the gate visible in the picture? Iran
+Image: persian_images/ashkhas/ashkhas93.jpg
+true prompt: How many pots are there in the picture? two
+pred prompt: How many pots are there in the picture? Iran
+Image: persian_images/outdoor/dasti/dasti5.jpg
+true prompt: Is the view of the left wall made of stone? Yes
+pred prompt: Is the view of the left wall made of stone? Traditional restaurant
+Image: persian_images/outdoor/dasti/dasti47.jpg
+true prompt: What color are the leaves of the trees in the picture? Green
+pred prompt: What color are the leaves of the trees in the picture? Iran
+Image: persian_images/sport/sport8.jpg
+true prompt: What gender are the people in the picture? female
+pred prompt: What gender are the people in the picture? Volleyball
+Image: persian_images/ceremonies/ceremonies26.jpg
+true prompt: Are there clouds in the sky? Yes
+pred prompt: Are there clouds in the sky? food distribution
+Image: persian_images/indoor/indoor54.jpg
+true prompt: How many carts are there in the picture? two
+pred prompt: How many carts are there in the picture? Street cafes
+Image: persian_images/food/food96.jpg
+true prompt: What color is the plate? Black
+pred prompt: What color is the plate? Iran
+Image: persian_images/outdoor/dasti/dasti68.jpg
+true prompt: How many men are there in this picture? two
+pred prompt: How many men are there in this picture? Iran
+Image: persian_images/cars/cars104.jpeg
+true prompt: Are the cars in the picture blue? no
+pred prompt: Are the cars in the picture blue? manto
+Image: persian_images/sport/sport49.jpg
+true prompt: What is the color of the clothes of the person who holds the weight above his head? Black
+pred prompt: What is the color of the clothes of the person who holds the weight above his head? weightlifting
+Image: persian_images/sport/sport9.jpg
+true prompt: What place is the picture about? Sea
+pred prompt: What place is the picture about? Iran
+Image: persian_images/outdoor/dasti/dasti63.jpg
+true prompt: Is anyone in the water? Yes
+pred prompt: Is anyone in the water? Mountaineering
+Image: persian_images/sport/sport72.jpg
+true prompt: What sport are the two women playing? Mountaineering
+pred prompt: What sport are the two women playing? Mountaineering
+Image: persian_images/cars/cars80.jpg
+true prompt: How many windows does the house have? four
+pred prompt: How many windows does the house have? Iran
+Image: persian_images/sport/sport97.png
+true prompt: Are rowers women? Yes
+pred prompt: Are rowers women? Semicircular
+Image: persian_images/ashkhas/ashkhas19.jpg
+true prompt: What gender are people? female
+pred prompt: What gender are people? Iran
+Image: persian_images/cars/cars5.jpg
+true prompt: What color is the horizontal strip drawn on the body of white cars? orange
+pred prompt: What color is the horizontal strip drawn on the body of white cars? Orange
+Image: persian_images/food/food36.jpg
+true prompt: How many forks are in the picture? two
+pred prompt: How many forks are in the picture? Iran
+Image: persian_images/outdoor/modern/modern14.jpg
+true prompt: What fruits do you see in the picture? Watermelon and melon
+pred prompt: What fruits do you see in the picture? Market
+Image: persian_images/ceremonies/ceremonies81.png
+true prompt: What is seen in the sky? Kite
+pred prompt: What is seen in the sky? Kite
+Image: persian_images/sport/sport12.jpg
+true prompt: Is the leg cloth color of all the horses in the picture red? no
+pred prompt: Is the leg cloth color of all the horses in the picture red? Throwing an arrow
+Image: persian_images/cars/cars6.jpg
+true prompt: Can you see the forest in the picture? Yes
+pred prompt: Can you see the forest in the picture? Iran
+Image: persian_images/food/food52.jpg
+true prompt: Besides saffron, what is on rice? Chicken
+pred prompt: Besides saffron, what is on rice? Chicken
+Image: persian_images/indoor/indoor47.jpg
+true prompt: where is here? Traditional restaurant
+pred prompt: where is here? Traditional restaurant
+Image: persian_images/cars/cars61.jpg
+true prompt: On which side of the street are the written fabrics installed? Center
+pred prompt: On which side of the street are the written fabrics installed? Iran
+Image: persian_images/outdoor/modern/modern30.png
+true prompt: What color are the pants of the man who is looking at the painting on the wall? Black
+pred prompt: What color are the pants of the man who is looking at the painting on the wall? Iran
+ 26% 5/19 [01:12<03:26, 14.75s/it]Image: persian_images/ceremonies/ceremonies55.jpg
+true prompt: What is the name of the device on the grass? picnic gas
+pred prompt: What is the name of the device on the grass? Street cafes
+Image: persian_images/food/food55.jpg
+true prompt: Do you see the spoon in the picture? Yes
+pred prompt: Do you see the spoon in the picture? vegetable
+Image: persian_images/food/food81.jpg
+true prompt: Is the food decorated? Yes
+pred prompt: Is the food decorated? Iran
+Image: persian_images/sport/sport59.jpg
+true prompt: Do athletes wear hats? Yes
+pred prompt: Do athletes wear hats? Karate
+Image: persian_images/sport/sport70.jpg
+true prompt: What gender is the person in the picture? Female
+pred prompt: What gender is the person in the picture? Throwing an arrow
+Image: persian_images/cars/cars39.jpg
+true prompt: Is this place an alley? no
+pred prompt: Is this place an alley? Car Mirror
+Image: persian_images/food/food2.jpg
+true prompt: How many triangular sweets are in the box? five
+pred prompt: How many triangular sweets are in the box? Iran
+Image: persian_images/ashkhas/ashkhas54.jpg
+true prompt: How many flags do you see in the picture? Three
+pred prompt: How many flags do you see in the picture? chador
+Image: persian_images/indoor/indoor83.jpg
+true prompt: Is the architecture of this library traditional? no
+pred prompt: Is the architecture of this library traditional? green
+Image: persian_images/indoor/indoor5.jpg
+true prompt: How many escalators do you see in the picture? two
+pred prompt: How many escalators do you see in the picture? shopping center
+Image: persian_images/cars/cars101.png
+true prompt: Where are the cars? Museum
+pred prompt: Where are the cars? Car exhibition
+Image: persian_images/ceremonies/ceremonies7.jpg
+true prompt: What do women wear? manto
+pred prompt: What do women wear? picnic gas
+Image: persian_images/sport/sport54.jpg
+true prompt: Are all the women in their cover art the same? no
+pred prompt: Are all the women in their cover art the same? Iran
+Image: persian_images/sport/sport94.png
+true prompt: How many horses are seen in the picture? two
+pred prompt: How many horses are seen in the picture? Javelin
+Image: persian_images/outdoor/dasti/dasti6.jpg
+true prompt: How many horses are there in the picture? One
+pred prompt: How many horses are there in the picture? Javelin
+Image: persian_images/outdoor/modern/modern3.jpg
+true prompt: Is the image during the day or night? the night
+pred prompt: Is the image during the day or night? Iran
+Image: persian_images/indoor/indoor80.jpg
+true prompt: What place is this? shopping center
+pred prompt: What place is this? shopping center
+Image: persian_images/food/food80.jpg
+true prompt: What food do you see in the picture? Celery stew
+pred prompt: What food do you see in the picture? bottom of the pot
+Image: persian_images/sport/sport5.jpg
+true prompt: The colors of the athlete's clothes are symbols of the flag of which country? Iran
+pred prompt: The colors of the athlete's clothes are symbols of the flag of which country? gable
+Image: persian_images/indoor/indoor66.jpg
+true prompt: What is the shape of the top of the windows? Semicircular
+pred prompt: What is the shape of the top of the windows? Traditional restaurant
+Image: persian_images/outdoor/dasti/dasti10.jpg
+true prompt: What is the gender of the people in the picture? Female
+pred prompt: What is the gender of the people in the picture? grass
+Image: persian_images/cars/cars47.jpg
+true prompt: What season of the year is it? Fall
+pred prompt: What season of the year is it? Iran
+Image: persian_images/sport/sport83.jpg
+true prompt: Is there any writing on the back of the person's clothes? Yes
+pred prompt: Is there any writing on the back of the person's clothes? shooting
+Image: persian_images/ceremonies/ceremonies38.jpg
+true prompt: What are the women doing? stomping
+pred prompt: What are the women doing? chador
+Image: persian_images/ceremonies/ceremonies25.jpg
+true prompt: What are men and women doing? Dance
+pred prompt: What are men and women doing? carpet weaving
+Image: persian_images/sport/sport51.jpg
+true prompt: What color is the scarf of female athletes wearing red clothes? white
+pred prompt: What color is the scarf of female athletes wearing red clothes? Volleyball
+Image: persian_images/cars/cars26.jpg
+true prompt: Do all cars have license plates? no
+pred prompt: Do all cars have license plates? chador
+Image: persian_images/ashkhas/ashkhas79.jpg
+true prompt: What is the gender of the two front people in the picture? female
+pred prompt: What is the gender of the two front people in the picture? scarf
+Image: persian_images/cars/cars74.jpg
+true prompt: How many taxis are on the street? two
+pred prompt: How many taxis are on the street? Iran
+Image: persian_images/outdoor/dasti/dasti61.jpg
+true prompt: Does the house have modern architecture? no
+pred prompt: Does the house have modern architecture? Iran
+Image: persian_images/ceremonies/ceremonies9.jpg
+true prompt: where is the little girl Exhibition
+pred prompt: where is the little girl Exhibition
+Image: persian_images/indoor/indoor27.jpg
+true prompt: What gender is the person in the picture? Female
+pred prompt: What gender is the person in the picture? Iran
+Image: persian_images/ceremonies/ceremonies53.jpg
+true prompt: What is the family doing? Disport
+pred prompt: What is the family doing? Iran
+Image: persian_images/ceremonies/ceremonies57.jpg
+true prompt: Where is the big flag in the picture? Right
+pred prompt: Where is the big flag in the picture? Iran
+Image: persian_images/food/food54.jpg
+true prompt: What food is in the picture? pasta
+pred prompt: What food is in the picture? pasta
+Image: persian_images/outdoor/dasti/dasti1.jpg
+true prompt: What color is the sky? Blue
+pred prompt: What color is the sky? Iran
+Image: persian_images/outdoor/dasti/dasti7.jpg
+true prompt: On which side of the street is the house with an air conditioner on the roof located? Left
+pred prompt: On which side of the street is the house with an air conditioner on the roof located? manto
+Image: persian_images/indoor/indoor33.jpg
+true prompt: What color is the roof? orange
+pred prompt: What color is the roof? Street cafes
+Image: persian_images/ashkhas/ashkhas13.jpg
+true prompt: Is there a sheep in the photo? Yes
+pred prompt: Is there a sheep in the photo? Happiness
+Image: persian_images/ceremonies/ceremonies6.jpg
+true prompt: What color is the dress of the child in his father's arms on the left side of the picture? Blue
+pred prompt: What color is the dress of the child in his father's arms on the left side of the picture? Traditional restaurant
+ 32% 6/19 [01:27<03:14, 14.96s/it]Image: persian_images/food/food66.jpg
+true prompt: Is the salad in a smaller bowl? Yes
+pred prompt: Is the salad in a smaller bowl? Iran
+Image: persian_images/food/food32.jpg
+true prompt: How many plates of food are there in the picture? One
+pred prompt: How many plates of food are there in the picture? Iran
+Image: persian_images/ashkhas/ashkhas71.jpg
+true prompt: What are the jars made of? pottery
+pred prompt: What are the jars made of? Iran
+Image: persian_images/indoor/indoor50.jpg
+true prompt: Are the walls mirrored? Yes
+pred prompt: Are the walls mirrored? Congregational Prayer
+Image: persian_images/cars/cars100.png
+true prompt: Are all people male? no
+pred prompt: Are all people male? Car exhibition
+Image: persian_images/food/food91.jpg
+true prompt: Is this food rice? Yes
+pred prompt: Is this food rice? green
+Image: persian_images/indoor/indoor20.jpg
+true prompt: Is this place a historical museum and bathhouse? Yes
+pred prompt: Is this place a historical museum and bathhouse? Iran
+Image: persian_images/cars/cars102.png
+true prompt: How many cars are there in the picture? Three
+pred prompt: How many cars are there in the picture? woolen
+Image: persian_images/food/food98.jpg
+true prompt: What color is the carpet? Red
+pred prompt: What color is the carpet? Traditional restaurant
+Image: persian_images/ceremonies/ceremonies63.jpg
+true prompt: What are the women doing? stomping
+pred prompt: What are the women doing? Congregational Prayer
+Image: persian_images/cars/cars10.jpg
+true prompt: What color is the car? Gray
+pred prompt: What color is the car? Iran
+Image: persian_images/ceremonies/ceremonies46.jpg
+true prompt: What is the dance of the people in the picture? Traditional
+pred prompt: What is the dance of the people in the picture? Mountain
+Image: persian_images/ashkhas/ashkhas11.jpg
+true prompt: How many men are there in the picture? two
+pred prompt: How many men are there in the picture? carpet weaving
+Image: persian_images/cars/cars53.jpg
+true prompt: What color is the car in the picture? silver
+pred prompt: What color is the car in the picture? silver
+Image: persian_images/ceremonies/ceremonies78.png
+true prompt: How many men in wigs are there in the picture? two
+pred prompt: How many men in wigs are there in the picture? Iran
+Image: persian_images/ceremonies/ceremonies34.jpg
+true prompt: Where was the picture taken? Market
+pred prompt: Where was the picture taken? Iran
+Image: persian_images/cars/cars7.jpg
+true prompt: What fell on the ground? Leaves of trees
+pred prompt: What fell on the ground? Iran
+Image: persian_images/outdoor/dasti/dasti14.jpg
+true prompt: What is the gender of the person in the picture? female
+pred prompt: What is the gender of the person in the picture? Iran
+Image: persian_images/indoor/indoor38.jpg
+true prompt: How many chandeliers are there in the room? two
+pred prompt: How many chandeliers are there in the room? gallery
+Image: persian_images/ashkhas/ashkhas22.jpg
+true prompt: What are stacked on the back of the man? Carpet
+pred prompt: What are stacked on the back of the man? carpet weaving
+Image: persian_images/food/food95.jpg
+true prompt: How many dishes are there in the picture? Three
+pred prompt: How many dishes are there in the picture? picking flowers
+Image: persian_images/food/food3.jpg
+true prompt: Are there peas in the picture? Yes
+pred prompt: Are there peas in the picture? Traditional
+Image: persian_images/food/food5.jpg
+true prompt: Is the table simple? no
+pred prompt: Is the table simple? picking flowers
+Image: persian_images/cars/cars15.jpg
+true prompt: Does the picture show the autumn season? Yes
+pred prompt: Does the picture show the autumn season? Street
+Image: persian_images/ceremonies/ceremonies51.jpg
+true prompt: What are the women doing? Congregational Prayer
+pred prompt: What are the women doing? chador
+Image: persian_images/cars/cars62.jpg
+true prompt: Is the car light on? Yes
+pred prompt: Is the car light on? manto
+Image: persian_images/outdoor/dasti/dasti65.jpg
+true prompt: What season of the year does the picture show? winter
+pred prompt: What season of the year does the picture show? Iran
+Image: persian_images/food/food20.jpg
+true prompt: Are all the dishes on a larger tray? Yes
+pred prompt: Are all the dishes on a larger tray? chador
+Image: persian_images/food/food70.jpg
+true prompt: What is the name of the food in the dish? Barbecue
+pred prompt: What is the name of the food in the dish? Iran
+Image: persian_images/ceremonies/ceremonies90.png
+true prompt: How many men are there in the picture? two
+pred prompt: How many men are there in the picture? Congregational Prayer
+Image: persian_images/ceremonies/ceremonies85.png
+true prompt: Is this a wedding ceremony? no
+pred prompt: Is this a wedding ceremony? Iran
+Image: persian_images/sport/sport66.jpg
+true prompt: What color is the man wearing leggings? Navy blue
+pred prompt: What color is the man wearing leggings? Iran
+Image: persian_images/cars/cars96.jpg
+true prompt: On which side of the picture are the trees? Right
+pred prompt: On which side of the picture are the trees? Iran
+Image: persian_images/outdoor/dasti/dasti45.jpg
+true prompt: Is there a historical monument in the photo? Yes
+pred prompt: Is there a historical monument in the photo? Iran
+Image: persian_images/cars/cars43.jpg
+true prompt: What color are the upper fences of the higher street? Green
+pred prompt: What color are the upper fences of the higher street? Iran
+Image: persian_images/ceremonies/ceremonies62.jpg
+true prompt: What color is the table? Red
+pred prompt: What color is the table? Fall
+Image: persian_images/ashkhas/ashkhas25.jpg
+true prompt: What is the boy doing? picking flowers
+pred prompt: What is the boy doing? picking flowers
+Image: persian_images/indoor/indoor7.jpg
+true prompt: What is the shape of the roof of the place? a dome
+pred prompt: What is the shape of the roof of the place? Iran
+Image: persian_images/outdoor/dasti/dasti35.jpg
+true prompt: What color is the moving taxi? yellow
+pred prompt: What color is the moving taxi? Street cafes
+Image: persian_images/sport/sport6.jpg
+true prompt: What is the gender of the people in the picture? Female
+pred prompt: What is the gender of the people in the picture? Volleyball
+ 37% 7/19 [01:42<02:58, 14.88s/it]Image: persian_images/ceremonies/ceremonies73.png
+true prompt: How many dolls are in the picture? two
+pred prompt: How many dolls are in the picture? Flag
+Image: persian_images/food/food67.jpg
+true prompt: How many forks do you see in the picture? two
+pred prompt: How many forks do you see in the picture? Barbecue
+Image: persian_images/indoor/indoor93.jpg
+true prompt: Where is the lamp in the picture? Top
+pred prompt: Where is the lamp in the picture? Iran
+Image: persian_images/outdoor/dasti/dasti16.jpg
+true prompt: What is the shape of the roof of the house? gable
+pred prompt: What is the shape of the roof of the house? shepherd
+Image: persian_images/food/food92.jpg
+true prompt: Is there a roast chicken with rice in the tray? no
+pred prompt: Is there a roast chicken with rice in the tray? Iran
+Image: persian_images/outdoor/modern/modern26.jpg
+true prompt: What is the color of the flyover in the picture? white
+pred prompt: What is the color of the flyover in the picture? City
+Image: persian_images/sport/sport30.jpg
+true prompt: Is the person on the ground? no
+pred prompt: Is the person on the ground? Kite
+Image: persian_images/sport/sport53.jpg
+true prompt: What sports do athletes do? Ship
+pred prompt: What sports do athletes do? Iran
+Image: persian_images/ashkhas/ashkhas4.jpg
+true prompt: How many women are there in the picture with a veil? two
+pred prompt: How many women are there in the picture with a veil? Iran
+Image: persian_images/ashkhas/ashkhas87.jpg
+true prompt: How many charity boxes are visible in the picture? One
+pred prompt: How many charity boxes are visible in the picture? Barbecue
+Image: persian_images/food/food30.jpg
+true prompt: Have they decorated the yogurt? Yes
+pred prompt: Have they decorated the yogurt? Iran
+Image: persian_images/food/food89.jpg
+true prompt: Is there a filling inside the bell pepper? Yes
+pred prompt: Is there a filling inside the bell pepper? Prepare the dough
+Image: persian_images/indoor/indoor39.jpg
+true prompt: Can you see the lamp in the pictures? Yes
+pred prompt: Can you see the lamp in the pictures? shopping center
+Image: persian_images/indoor/indoor31.jpg
+true prompt: How many chairs are there in the picture? One
+pred prompt: How many chairs are there in the picture? rug
+Image: persian_images/ashkhas/ashkhas10.jpg
+true prompt: What color is the woman's mask? white
+pred prompt: What color is the woman's mask? Iran
+Image: persian_images/cars/cars38.jpg
+true prompt: Is there a tree in this picture? Yes
+pred prompt: Is there a tree in this picture? Iran
+Image: persian_images/indoor/indoor46.jpg
+true prompt: What is the shape of the ceiling of the room? a dome
+pred prompt: What is the shape of the ceiling of the room? chador
+Image: persian_images/outdoor/modern/modern7.jpg
+true prompt: What is the material of the riverside walls? Rock
+pred prompt: What is the material of the riverside walls? Iran
+Image: persian_images/food/food51.jpg
+true prompt: What is poured around the stew? potato
+pred prompt: What is poured around the stew? camel
+Image: persian_images/outdoor/dasti/dasti25.jpg
+true prompt: Are the tents located on the rocks? no
+pred prompt: Are the tents located on the rocks? chador
+Image: persian_images/indoor/indoor53.jpg
+true prompt: Is there a fire extinguisher in the picture? Yes
+pred prompt: Is there a fire extinguisher in the picture? Market
+Image: persian_images/cars/cars63.jpg
+true prompt: Are the cars the same color? Yes
+pred prompt: Are the cars the same color? Iran
+Image: persian_images/ceremonies/ceremonies83.png
+true prompt: How many people in the picture are wearing turtlenecks? One
+pred prompt: How many people in the picture are wearing turtlenecks? picking flowers
+Image: persian_images/cars/cars94.jpg
+true prompt: What is the gender of the person who is riding the motorcycle in blue? Man
+pred prompt: What is the gender of the person who is riding the motorcycle in blue? Leaves of trees
+Image: persian_images/outdoor/dasti/dasti60.jpg
+true prompt: What color are the carpets on the beds? Red
+pred prompt: What color are the carpets on the beds? Iran
+Image: persian_images/ashkhas/ashkhas28.jpg
+true prompt: Is the shop owner an old woman? no
+pred prompt: Is the shop owner an old woman? Iran
+Image: persian_images/indoor/indoor72.jpg
+true prompt: What is the material of the passage ground? Rock
+pred prompt: What is the material of the passage ground? shopping center
+Image: persian_images/indoor/indoor87.jpg
+true prompt: What gender are the people in the picture? Man
+pred prompt: What gender are the people in the picture? Bread
+Image: persian_images/ashkhas/ashkhas7.jpg
+true prompt: What is the color of the woman's dress? Black
+pred prompt: What is the color of the woman's dress? Mountaineering
+Image: persian_images/sport/sport26.jpg
+true prompt: What gender is the person in the picture? Girl
+pred prompt: What gender is the person in the picture? Olympic
+Image: persian_images/cars/cars95.jpg
+true prompt: Does the front car have tires? no
+pred prompt: Does the front car have tires? Iran
+Image: persian_images/food/food37.jpg
+true prompt: What is the type of vegetable basket? straw
+pred prompt: What is the type of vegetable basket? chador
+Image: persian_images/ceremonies/ceremonies84.png
+true prompt: What is the woman doing standing behind the table? food distribution
+pred prompt: What is the woman doing standing behind the table? food distribution
+Image: persian_images/ceremonies/ceremonies72.png
+true prompt: What are people doing? chest
+pred prompt: What are people doing? Iran
+Image: persian_images/ashkhas/ashkhas84.jpg
+true prompt: What color is the scarf of the girl you see in the picture? Blue
+pred prompt: What color is the scarf of the girl you see in the picture? Iran
+Image: persian_images/cars/cars78.jpg
+true prompt: What color is the tape on the cars? yellow
+pred prompt: What color is the tape on the cars? Iran
+Image: persian_images/indoor/indoor84.jpg
+true prompt: How many boxes do you see in the picture? One
+pred prompt: How many boxes do you see in the picture? rug
+Image: persian_images/outdoor/dasti/dasti23.jpg
+true prompt: Is the plastic in the trash can yellow? no
+pred prompt: Is the plastic in the trash can yellow? Iran
+Image: persian_images/food/food41.jpg
+true prompt: How many candles can be seen in the picture? two
+pred prompt: How many candles can be seen in the picture? Prepare the dough
+Image: persian_images/indoor/indoor100.jpg
+true prompt: Is the wall made of stone? no
+pred prompt: Is the wall made of stone? hookah
+ 42% 8/19 [01:57<02:43, 14.82s/it]Image: persian_images/food/food75.jpg
+true prompt: Is there any stone bread in the picture? Yes
+pred prompt: Is there any stone bread in the picture? chador
+Image: persian_images/indoor/indoor11.jpg
+true prompt: Is the image of a sky? no
+pred prompt: Is the image of a sky? carpet weaving
+Image: persian_images/food/food6.jpg
+true prompt: How many plates of food are there in the picture? One
+pred prompt: How many plates of food are there in the picture? Flag
+Image: persian_images/cars/cars89.jpg
+true prompt: Does the car have a number plate? Yes
+pred prompt: Does the car have a number plate? Iran
+Image: persian_images/ashkhas/ashkhas33.jpg
+true prompt: What is the gender of the person standing? Female
+pred prompt: What is the gender of the person standing? Iran
+Image: persian_images/outdoor/dasti/dasti67.jpg
+true prompt: Does this plain have only grass? no
+pred prompt: Does this plain have only grass? Iran
+Image: persian_images/outdoor/dasti/dasti54.jpg
+true prompt: Where is this place? the alley
+pred prompt: Where is this place? scarf
+Image: persian_images/ashkhas/ashkhas63.jpg
+true prompt: Does this vendor sell fruit? no
+pred prompt: Does this vendor sell fruit? Prepare the dough
+Image: persian_images/sport/sport18.jpg
+true prompt: What sport is the woman doing? weightlifting
+pred prompt: What sport is the woman doing? Iran
+Image: persian_images/sport/sport1.jpg
+true prompt: How does the woman on the left of the picture feel? Happiness
+pred prompt: How does the woman on the left of the picture feel? Ski
+Image: persian_images/sport/sport99.png
+true prompt: What gender are rowers? female
+pred prompt: What gender are rowers? Iran
+Image: persian_images/indoor/indoor35.jpg
+true prompt: Is it mirrored on the white walls? Yes
+pred prompt: Is it mirrored on the white walls? a dome
+Image: persian_images/sport/sport38.jpg
+true prompt: What color is the athlete wearing a blue suit? Black
+pred prompt: What color is the athlete wearing a blue suit? Iran
+Image: persian_images/sport/sport73.jpg
+true prompt: What color are the man's shoes? white
+pred prompt: What color are the man's shoes? weightlifting
+Image: persian_images/sport/sport62.jpg
+true prompt: How many people are there in the picture? One
+pred prompt: How many people are there in the picture? Olympic
+Image: persian_images/outdoor/dasti/dasti69.jpg
+true prompt: On which side of the picture is the sea? Left
+pred prompt: On which side of the picture is the sea? manto
+Image: persian_images/ashkhas/ashkhas80.jpg
+true prompt: Are these musicians different? Yes
+pred prompt: Are these musicians different? Iran
+Image: persian_images/food/food40.jpg
+true prompt: Does not have potato stew? no
+pred prompt: Does not have potato stew? winter
+Image: persian_images/cars/cars33.jpg
+true prompt: What place does the picture show? Street
+pred prompt: What place does the picture show? Fall
+Image: persian_images/ceremonies/ceremonies40.jpg
+true prompt: What gender are the people in the picture? male
+pred prompt: What gender are the people in the picture? Iran
+Image: persian_images/ashkhas/ashkhas59.jpg
+true prompt: What is inside the box on the left? Pickle
+pred prompt: What is inside the box on the left? Market
+Image: persian_images/ashkhas/ashkhas48.jpg
+true prompt: Is the food in a glass container? no
+pred prompt: Is the food in a glass container? chador
+Image: persian_images/ceremonies/ceremonies68.jpg
+true prompt: Are the women dancing in the picture? no
+pred prompt: Are the women dancing in the picture? Iran
+Image: persian_images/food/food76.jpg
+true prompt: How many peppers are there in the dish? Seven
+pred prompt: How many peppers are there in the dish? Iran
+Image: persian_images/ashkhas/ashkhas1.jpg
+true prompt: Where is the woman standing? At
+pred prompt: Where is the woman standing? chador
+Image: persian_images/food/food35.jpg
+true prompt: On which side of the picture is the pot? Right
+pred prompt: On which side of the picture is the pot? Iran
+Image: persian_images/food/food22.jpg
+true prompt: What is food mostly made of? Rice
+pred prompt: What is food mostly made of? Iran
+Image: persian_images/sport/sport90.png
+true prompt: What are the women wearing? Scarf
+pred prompt: What are the women wearing? Throwing an arrow
+Image: persian_images/indoor/indoor24.jpg
+true prompt: What model is the roof in the picture? a dome
+pred prompt: What model is the roof in the picture? Iran
+Image: persian_images/ceremonies/ceremonies5.jpg
+true prompt: Is there a carpet in the picture? Yes
+pred prompt: Is there a carpet in the picture? Congregational Prayer
+Image: persian_images/outdoor/dasti/dasti9.jpg
+true prompt: What is in the woman's left hand? Bag
+pred prompt: What is in the woman's left hand? Umbrella
+Image: persian_images/outdoor/dasti/dasti37.jpg
+true prompt: What is the person in the picture doing? Sweeping
+pred prompt: What is the person in the picture doing? carpet weaving
+Image: persian_images/ashkhas/ashkhas88.jpg
+true prompt: How many sewing machines are there in the room? One
+pred prompt: How many sewing machines are there in the room? Iran
+Image: persian_images/ceremonies/ceremonies27.jpg
+true prompt: How many lights are there in the picture? Three
+pred prompt: How many lights are there in the picture? chador
+Image: persian_images/cars/cars36.jpg
+true prompt: What is the dominant color of the car? white
+pred prompt: What is the dominant color of the car? Fire
+Image: persian_images/cars/cars60.jpg
+true prompt: Is there a sea in the picture? no
+pred prompt: Is there a sea in the picture? Iran
+Image: persian_images/ashkhas/ashkhas42.jpg
+true prompt: How many women are there in the picture? Three
+pred prompt: How many women are there in the picture? local clothes
+Image: persian_images/sport/sport84.jpg
+true prompt: What sport is the person in the picture doing? basketball
+pred prompt: What sport is the person in the picture doing? basketball
+Image: persian_images/ashkhas/ashkhas52.jpg
+true prompt: What is in the hand of the boy standing on the left? hookah
+pred prompt: What is in the hand of the boy standing on the left? Iran
+Image: persian_images/cars/cars76.jpg
+true prompt: Are the brake lights of all the cars in the picture on? no
+pred prompt: Are the brake lights of all the cars in the picture on? Iran
+ 47% 9/19 [02:11<02:27, 14.78s/it]Image: persian_images/outdoor/ethnic/ethnic5.jpg
+true prompt: Is the reflection of the boat in the water? Yes
+pred prompt: Is the reflection of the boat in the water? Iran
+Image: persian_images/ceremonies/ceremonies32.jpg
+true prompt: What are men and women doing? to dance
+pred prompt: What are men and women doing? Iran
+Image: persian_images/food/food45.jpg
+true prompt: How many loaves do you see? Three
+pred prompt: How many loaves do you see? Iran
+Image: persian_images/cars/cars31.jpg
+true prompt: Is the car in front of the store black? no
+pred prompt: Is the car in front of the store black? local clothes
+Image: persian_images/sport/sport23.jpg
+true prompt: What sport are the two athletes doing? Karate
+pred prompt: What sport are the two athletes doing? Iran
+Image: persian_images/ceremonies/ceremonies77.png
+true prompt: What is the color of the men's clothes in the picture? Black
+pred prompt: What is the color of the men's clothes in the picture? Iran
+Image: persian_images/outdoor/dasti/dasti2.jpg
+true prompt: Was the picture taken during the day? no
+pred prompt: Was the picture taken during the day? Street cafes
+Image: persian_images/indoor/indoor10.jpg
+true prompt: What color are the seats in the station? Blue
+pred prompt: What color are the seats in the station? Iran
+Image: persian_images/sport/sport50.jpg
+true prompt: What color is the sportswoman's underwear? Black
+pred prompt: What color is the sportswoman's underwear? Iran
+Image: persian_images/outdoor/dasti/dasti29.jpg
+true prompt: How many doors are there in the picture? One
+pred prompt: How many doors are there in the picture? Iran
+Image: persian_images/indoor/indoor16.jpg
+true prompt: Does the room have a carpet? no
+pred prompt: Does the room have a carpet? Iran
+Image: persian_images/sport/sport81.jpg
+true prompt: What kind of competition do two sports have? Ship
+pred prompt: What kind of competition do two sports have? gable
+Image: persian_images/ashkhas/ashkhas97.jpg
+true prompt: What is the man sitting on? rug
+pred prompt: What is the man sitting on? carpet weaving
+Image: persian_images/ashkhas/ashkhas6.jpg
+true prompt: How many faces are there in the picture? four
+pred prompt: How many faces are there in the picture? Iran
+Image: persian_images/outdoor/dasti/dasti42.jpg
+true prompt: is it sunny Yes
+pred prompt: is it sunny Iran
+Image: persian_images/ashkhas/ashkhas101.jpg
+true prompt: What color is the dress the girl is wearing? Green
+pred prompt: What color is the dress the girl is wearing? chador
+Image: persian_images/ashkhas/ashkhas62.jpg
+true prompt: What is the old man sitting on at the bottom of the picture? Carpet
+pred prompt: What is the old man sitting on at the bottom of the picture? hookah
+Image: persian_images/sport/sport48.jpg
+true prompt: Is the man in blue sitting on top of the man in red? no
+pred prompt: Is the man in blue sitting on top of the man in red? gable
+Image: persian_images/ashkhas/ashkhas35.jpg
+true prompt: What is the person in the picture doing? carpet weaving
+pred prompt: What is the person in the picture doing? carpet weaving
+Image: persian_images/sport/sport3.jpg
+true prompt: What color is the work knee brace? Black
+pred prompt: What color is the work knee brace? Javelin
+Image: persian_images/ceremonies/ceremonies8.jpg
+true prompt: What is the bride wearing? chador
+pred prompt: What is the bride wearing? reading newspaper
+Image: persian_images/cars/cars37.jpg
+true prompt: Is the street two-way? Yes
+pred prompt: Is the street two-way? Leaves of trees
+Image: persian_images/ceremonies/ceremonies52.jpg
+true prompt: How many men are there in the picture? Three
+pred prompt: How many men are there in the picture? pasta
+Image: persian_images/sport/sport77.jpg
+true prompt: What gender is the football field? grass
+pred prompt: What gender is the football field? Iran
+Image: persian_images/cars/cars71.jpg
+true prompt: Where does the picture show? repair shop
+pred prompt: Where does the picture show? repair shop
+Image: persian_images/ashkhas/ashkhas86.jpg
+true prompt: What color are the chairs? Blue
+pred prompt: What color are the chairs? chador
+Image: persian_images/food/food63.jpg
+true prompt: Is there a sauce dish next to the food? Yes
+pred prompt: Is there a sauce dish next to the food? Iran
+Image: persian_images/ceremonies/ceremonies64.jpg
+true prompt: How many men are there in the picture? One
+pred prompt: How many men are there in the picture? picking flowers
+Image: persian_images/indoor/indoor58.jpg
+true prompt: What is the shape of the skylight on the ceiling? Octagonal
+pred prompt: What is the shape of the skylight on the ceiling? Iran
+Image: persian_images/cars/cars12.jpg
+true prompt: Is there a car passing by? no
+pred prompt: Is there a car passing by? Iran
+Image: persian_images/ceremonies/ceremonies92.png
+true prompt: Do these two women work with sewing machines? no
+pred prompt: Do these two women work with sewing machines? Iran
+Image: persian_images/indoor/indoor32.jpg
+true prompt: Is the woman wearing a black veil? no
+pred prompt: Is the woman wearing a black veil? carpet weaving
+Image: persian_images/ceremonies/ceremonies54.jpg
+true prompt: What color is the dress of the man in mourning? Black
+pred prompt: What color is the dress of the man in mourning? Iran
+Image: persian_images/cars/cars4.jpg
+true prompt: How many green signs do you see? five
+pred prompt: How many green signs do you see? Iran
+Image: persian_images/cars/cars54.jpg
+true prompt: How many bridges are there in the picture? One
+pred prompt: How many bridges are there in the picture? shopping center
+Image: persian_images/food/food82.jpg
+true prompt: How many spoons can be seen in the picture? One
+pred prompt: How many spoons can be seen in the picture? Rice
+Image: persian_images/outdoor/dasti/dasti31.jpg
+true prompt: What is used to create the shadow? Umbrella
+pred prompt: What is used to create the shadow? Umbrella
+Image: persian_images/food/food90.jpg
+true prompt: What's on the food? bottom of the pot
+pred prompt: What's on the food? Eggplant crust
+Image: persian_images/cars/cars57.jpg
+true prompt: Where is the man standing in front of? Car exhibition
+pred prompt: Where is the man standing in front of? repair shop
+Image: persian_images/outdoor/dasti/dasti62.jpg
+true prompt: What is the color of the clothes of the person you see in the picture? white
+pred prompt: What is the color of the clothes of the person you see in the picture? Market
+ 53% 10/19 [02:26<02:13, 14.81s/it]Image: persian_images/ceremonies/ceremonies10.jpg
+true prompt: Is there a heater in the room? no
+pred prompt: Is there a heater in the room? Iran
+Image: persian_images/food/food49.jpg
+true prompt: Is there radish in the dish? Yes
+pred prompt: Is there radish in the dish? Iran
+Image: persian_images/outdoor/modern/modern9.jpg
+true prompt: What can be seen in the central space of the square? Pool
+pred prompt: What can be seen in the central space of the square? Iran
+Image: persian_images/ceremonies/ceremonies65.jpg
+true prompt: What are the eggs made of? pottery
+pred prompt: What are the eggs made of? carpet weaving
+Image: persian_images/outdoor/ethnic/ethnic1.jpg
+true prompt: How many men are there in the picture? One
+pred prompt: How many men are there in the picture? local clothes
+Image: persian_images/food/food24.jpg
+true prompt: How many slices of baklava are in the tray? twelve
+pred prompt: How many slices of baklava are in the tray? Olympic
+Image: persian_images/sport/sport37.jpg
+true prompt: What color are the writings on the back of the players' uniforms? white
+pred prompt: What color are the writings on the back of the players' uniforms? Iran
+Image: persian_images/food/food25.jpg
+true prompt: What food is on the plate? Eggplant crust
+pred prompt: What food is on the plate? chador
+Image: persian_images/cars/cars86.jpg
+true prompt: What color are the fences on the wall? Green
+pred prompt: What color are the fences on the wall? Car Mirror
+Image: persian_images/food/food78.jpg
+true prompt: What is the design of the fabric under the food? Stripes
+pred prompt: What is the design of the fabric under the food? Iran
+Image: persian_images/ashkhas/ashkhas69.jpg
+true prompt: What gender is the person in the picture? Female
+pred prompt: What gender is the person in the picture? carpet weaving
+Image: persian_images/outdoor/modern/modern15.jpg
+true prompt: What is the most color in the picture? Green
+pred prompt: What is the most color in the picture? Iran
+Image: persian_images/sport/sport92.png
+true prompt: What vehicle is there in the picture besides a bicycle? Machine
+pred prompt: What vehicle is there in the picture besides a bicycle? to dance
+Image: persian_images/outdoor/dasti/dasti12.jpg
+true prompt: What color is the coat of the woman who plays with the ball? Black
+pred prompt: What color is the coat of the woman who plays with the ball? picnic gas
+Image: persian_images/ceremonies/ceremonies33.jpg
+true prompt: What is behind the person? Fire
+pred prompt: What is behind the person? Fire
+Image: persian_images/sport/sport27.jpg
+true prompt: How many people from the right have glasses? the first
+pred prompt: How many people from the right have glasses? Olympic
+Image: persian_images/outdoor/dasti/dasti53.jpg
+true prompt: What color is the glove of the man coming from the front? orange
+pred prompt: What color is the glove of the man coming from the front? Iran
+Image: persian_images/indoor/indoor36.jpg
+true prompt: On which side of the picture do you see the carpet? both sides
+pred prompt: On which side of the picture do you see the carpet? Iran
+Image: persian_images/cars/cars9.jpg
+true prompt: What is the man standing next to? Machine
+pred prompt: What is the man standing next to? Car Mirror
+Image: persian_images/sport/sport39.jpg
+true prompt: Is there a red chair in the picture? Yes
+pred prompt: Is there a red chair in the picture? basketball
+Image: persian_images/ashkhas/ashkhas45.jpg
+true prompt: What are people looking at in the picture? shoe
+pred prompt: What are people looking at in the picture? chador
+Image: persian_images/indoor/indoor56.jpg
+true prompt: Are the walls painted? Yes
+pred prompt: Are the walls painted? Iran
+Image: persian_images/sport/sport80.jpg
+true prompt: What sport is it? shooting
+pred prompt: What sport is it? shooting
+Image: persian_images/ceremonies/ceremonies17.jpg
+true prompt: Are old men's clothes local or formal? local
+pred prompt: Are old men's clothes local or formal? Congregational Prayer
+Image: persian_images/cars/cars28.jpg
+true prompt: Is the parking lot full? no
+pred prompt: Is the parking lot full? At
+Image: persian_images/outdoor/dasti/dasti20.jpg
+true prompt: What time of day does the picture show? the night
+pred prompt: What time of day does the picture show? Iran
+Image: persian_images/indoor/indoor44.jpg
+true prompt: Does this restaurant have pots? Yes
+pred prompt: Does this restaurant have pots? Iran
+Image: persian_images/indoor/indoor75.jpg
+true prompt: What gender is the person in the picture? Female
+pred prompt: What gender is the person in the picture? Congregational Prayer
+Image: persian_images/cars/cars83.jpg
+true prompt: Where are people browsing? Street cafes
+pred prompt: Where are people browsing? Street cafes
+Image: persian_images/food/food48.jpg
+true prompt: What fruit is the salad decorated with? carrot
+pred prompt: What fruit is the salad decorated with? Iran
+Image: persian_images/food/food72.jpg
+true prompt: How many spoons do you see in the picture? One
+pred prompt: How many spoons do you see in the picture? Eggplant crust
+Image: persian_images/ceremonies/ceremonies43.jpg
+true prompt: What is the person in the picture jumping over? Fire
+pred prompt: What is the person in the picture jumping over? Fire
+Image: persian_images/ashkhas/ashkhas36.jpg
+true prompt: Is the person wearing the tray young? no
+pred prompt: Is the person wearing the tray young? Iran
+Image: persian_images/ceremonies/ceremonies11.jpg
+true prompt: How many cages full of flowers are there in the picture? two
+pred prompt: How many cages full of flowers are there in the picture? chador
+Image: persian_images/outdoor/dasti/dasti11.jpg
+true prompt: How many motorcycles are on the street? Much
+pred prompt: How many motorcycles are on the street? Iran
+Image: persian_images/indoor/indoor91.jpg
+true prompt: Are the roof pillars iron? no
+pred prompt: Are the roof pillars iron? Traditional restaurant
+Image: persian_images/outdoor/dasti/dasti48.jpg
+true prompt: Are these houses new? no
+pred prompt: Are these houses new? Iran
+Image: persian_images/ceremonies/ceremonies87.png
+true prompt: What color is the dome? golden
+pred prompt: What color is the dome? Iran
+Image: persian_images/ceremonies/ceremonies19.jpg
+true prompt: What is the gender of the person holding the tray? female
+pred prompt: What is the gender of the person holding the tray? chador
+Image: persian_images/cars/cars97.jpg
+true prompt: Cars moving on a mountain road? no
+pred prompt: Cars moving on a mountain road? Street cafes
+ 58% 11/19 [02:41<01:59, 14.90s/it]Image: persian_images/indoor/indoor51.jpg
+true prompt: What is the shape of the roof of the restaurant? a dome
+pred prompt: What is the shape of the roof of the restaurant? chador
+Image: persian_images/indoor/indoor99.jpg
+true prompt: Which side of the picture is the clock? Center
+pred prompt: Which side of the picture is the clock? Iran
+Image: persian_images/food/food101.jpg
+true prompt: On which side of the picture is the cob dish? Left
+pred prompt: On which side of the picture is the cob dish? Barbecue
+Image: persian_images/food/food73.jpg
+true prompt: What color are the ice creams? yellow
+pred prompt: What color are the ice creams? wedding
+Image: persian_images/ashkhas/ashkhas30.jpg
+true prompt: What is the gender of the person you see in the picture? Girl
+pred prompt: What is the gender of the person you see in the picture? Iran
+Image: persian_images/ashkhas/ashkhas89.jpg
+true prompt: How many women with black veils are in the picture? One
+pred prompt: How many women with black veils are in the picture? food distribution
+Image: persian_images/cars/cars30.jpg
+true prompt: What season of the year is it? Fall
+pred prompt: What season of the year is it? Iran
+Image: persian_images/cars/cars35.jpg
+true prompt: Are both cars in the picture the same color? no
+pred prompt: Are both cars in the picture the same color? Iran
+Image: persian_images/ashkhas/ashkhas76.jpg
+true prompt: Does this old man sell food? no
+pred prompt: Does this old man sell food? Iran
+Image: persian_images/ceremonies/ceremonies69.jpg
+true prompt: What clothes do the women wear? local clothes
+pred prompt: What clothes do the women wear? In front of the bride and groom
+Image: persian_images/ceremonies/ceremonies18.jpg
+true prompt: Do men wear hats? Yes
+pred prompt: Do men wear hats? chador
+Image: persian_images/sport/sport93.png
+true prompt: What is in the hands of the riders? Wood
+pred prompt: What is in the hands of the riders? Horse
+Image: persian_images/cars/cars8.jpg
+true prompt: What color is the uniform of the traffic police? Black
+pred prompt: What color is the uniform of the traffic police? Iran
+Image: persian_images/sport/sport56.jpg
+true prompt: What is the gender of both people in the picture? Man
+pred prompt: What is the gender of both people in the picture? Olympic
+Image: persian_images/outdoor/dasti/dasti28.jpg
+true prompt: How many floors is the house on the right? two
+pred prompt: How many floors is the house on the right? chador
+Image: persian_images/outdoor/modern/modern21.jpg
+true prompt: Are the mountains covered with snow? no
+pred prompt: Are the mountains covered with snow? Iran
+Image: persian_images/cars/cars48.jpg
+true prompt: In which part of the picture are the cars that are going? Right
+pred prompt: In which part of the picture are the cars that are going? Leaves of trees
+Image: persian_images/food/food86.jpg
+true prompt: How many spoons are on the table? two
+pred prompt: How many spoons are on the table? Celery stew
+Image: persian_images/indoor/indoor41.jpg
+true prompt: What is in the middle of the complex downstairs? Machine
+pred prompt: What is in the middle of the complex downstairs? shopping center
+Image: persian_images/ceremonies/ceremonies98.png
+true prompt: How many men are playing instruments in the picture? One
+pred prompt: How many men are playing instruments in the picture? Iran
+Image: persian_images/ashkhas/ashkhas77.jpg
+true prompt: What gender is the taller person? Man
+pred prompt: What gender is the taller person? chador
+Image: persian_images/cars/cars17.jpg
+true prompt: Is there a pedestrian bridge in the picture? Yes
+pred prompt: Is there a pedestrian bridge in the picture? Iran
+Image: persian_images/outdoor/dasti/dasti13.jpg
+true prompt: What is on the edge of the pond? flower pot
+pred prompt: What is on the edge of the pond? Traditional restaurant
+Image: persian_images/outdoor/modern/modern18.jpg
+true prompt: How many tent people do you see in the picture? One
+pred prompt: How many tent people do you see in the picture? Iran
+Image: persian_images/food/food88.jpg
+true prompt: What food is in the dish? Barbecue
+pred prompt: What food is in the dish? Barbecue
+Image: persian_images/food/food17.jpg
+true prompt: What color are olives? Green
+pred prompt: What color are olives? Iran
+Image: persian_images/sport/sport14.jpg
+true prompt: What gender are the people in the picture? Female
+pred prompt: What gender are the people in the picture? Karate
+Image: persian_images/ashkhas/ashkhas94.jpg
+true prompt: Where is the girl standing in the picture? Center
+pred prompt: Where is the girl standing in the picture? chador
+Image: persian_images/outdoor/modern/modern17.jpg
+true prompt: Is there snow on the mountains? Yes
+pred prompt: Is there snow on the mountains? Iran
+Image: persian_images/indoor/indoor6.jpg
+true prompt: Is the upper glass of the windows colorless? no
+pred prompt: Is the upper glass of the windows colorless? Iran
+Image: persian_images/outdoor/dasti/dasti30.jpg
+true prompt: What is next to the man in blue? Travel tent
+pred prompt: What is next to the man in blue? Iran
+Image: persian_images/indoor/indoor81.jpg
+true prompt: What are the men doing? worship
+pred prompt: What are the men doing? Congregational Prayer
+Image: persian_images/ceremonies/ceremonies47.jpg
+true prompt: Does the lady have a veil on her head? Yes
+pred prompt: Does the lady have a veil on her head? Iran
+Image: persian_images/sport/sport34.jpg
+true prompt: What colors are the discs on the barbell? two
+pred prompt: What colors are the discs on the barbell? Volleyball
+Image: persian_images/food/food50.jpg
+true prompt: Is there only one dish in the picture? no
+pred prompt: Is there only one dish in the picture? Iran
+Image: persian_images/indoor/indoor43.jpg
+true prompt: where is this place gallery
+pred prompt: where is this place gallery
+Image: persian_images/outdoor/dasti/dasti43.jpg
+true prompt: What gender is the person wearing the hat? female
+pred prompt: What gender is the person wearing the hat? the alley
+Image: persian_images/indoor/indoor64.jpg
+true prompt: What does a woman wear? chador
+pred prompt: What does a woman wear? Congregational Prayer
+Image: persian_images/indoor/indoor62.jpg
+true prompt: Does the image represent a pilgrimage site? Yes
+pred prompt: Does the image represent a pilgrimage site? Iran
+Image: persian_images/sport/sport24.jpg
+true prompt: Do these people move in line? Yes
+pred prompt: Do these people move in line? Mountaineering
+ 63% 12/19 [02:56<01:43, 14.85s/it]Image: persian_images/food/food4.jpg
+true prompt: Are there lemons in the dish? Yes
+pred prompt: Are there lemons in the dish? Celery stew
+Image: persian_images/cars/cars18.jpg
+true prompt: What is the person's gender? female
+pred prompt: What is the person's gender? Iran
+Image: persian_images/sport/sport40.jpg
+true prompt: What do the players have in their hands? gloves
+pred prompt: What do the players have in their hands? Olympic
+Image: persian_images/ceremonies/ceremonies12.jpg
+true prompt: Is there a man in the picture? no
+pred prompt: Is there a man in the picture? chador
+Image: persian_images/ceremonies/ceremonies29.jpg
+true prompt: Are there many participants in this celebration? Yes
+pred prompt: Are there many participants in this celebration? druming
+Image: persian_images/cars/cars84.jpg
+true prompt: How many taxis are in the picture? One
+pred prompt: How many taxis are in the picture? Leaves of trees
+Image: persian_images/indoor/indoor8.jpg
+true prompt: What place does this picture show? Market
+pred prompt: What place does this picture show? Iran
+Image: persian_images/cars/cars105.jpeg
+true prompt: What color are the leaves of the trees in the picture? Green
+pred prompt: What color are the leaves of the trees in the picture? Parking
+Image: persian_images/ceremonies/ceremonies97.png
+true prompt: What gender is a person who smokes pecans? Female
+pred prompt: What gender is a person who smokes pecans? Congregational Prayer
+Image: persian_images/food/food99.jpg
+true prompt: What is the spoon made of? metal
+pred prompt: What is the spoon made of? Celery stew
+Image: persian_images/indoor/indoor37.jpg
+true prompt: What place is this? Museum
+pred prompt: What place is this? Glass
+Image: persian_images/ashkhas/ashkhas26.jpg
+true prompt: What is the man holding? Bread
+pred prompt: What is the man holding? Bread
+Image: persian_images/ceremonies/ceremonies20.jpg
+true prompt: Is the book next to the apple? no
+pred prompt: Is the book next to the apple? Congregational Prayer
+Image: persian_images/indoor/indoor30.jpg
+true prompt: How many carpets are in the room? two
+pred prompt: How many carpets are in the room? gallery
+Image: persian_images/ashkhas/ashkhas49.jpg
+true prompt: What is the type of old man's hat? woolen
+pred prompt: What is the type of old man's hat? Iran
+Image: persian_images/ceremonies/ceremonies37.jpg
+true prompt: What is being done in the picture? To tie
+pred prompt: What is being done in the picture? grass
+Image: persian_images/food/food46.jpg
+true prompt: What gender is the container in the picture? copper
+pred prompt: What gender is the container in the picture? Traditional restaurant
+Image: persian_images/outdoor/dasti/dasti59.jpg
+true prompt: Are there stairs in the picture? Yes
+pred prompt: Are there stairs in the picture? Market
+Image: persian_images/ceremonies/ceremonies21.jpg
+true prompt: What is this ceremony? wedding
+pred prompt: What is this ceremony? To tie
+Image: persian_images/indoor/indoor96.jpg
+true prompt: Do men wear clothes? no
+pred prompt: Do men wear clothes? Iran
+Image: persian_images/sport/sport10.jpg
+true prompt: What is the gender of the people you see in the picture? female
+pred prompt: What is the gender of the people you see in the picture? chador
+Image: persian_images/ashkhas/ashkhas38.jpg
+true prompt: How are women dressed? local clothes
+pred prompt: How are women dressed? Iran
+Image: persian_images/ashkhas/ashkhas73.jpg
+true prompt: How many women are in the picture? One
+pred prompt: How many women are in the picture? Market
+Image: persian_images/food/food23.jpg
+true prompt: What is the bowl made of? metal
+pred prompt: What is the bowl made of? chador
+Image: persian_images/cars/cars77.jpg
+true prompt: Are all the people on the buses? no
+pred prompt: Are all the people on the buses? Iran
+Image: persian_images/cars/cars27.jpg
+true prompt: Are motorcyclists men? Yes
+pred prompt: Are motorcyclists men? Iran
+Image: persian_images/outdoor/modern/modern25.jpg
+true prompt: Is the taxi in the picture? Yes
+pred prompt: Is the taxi in the picture? Iran
+Image: persian_images/sport/sport74.jpg
+true prompt: Does the man have a tie? Yes
+pred prompt: Does the man have a tie? chador
+Image: persian_images/ashkhas/ashkhas60.jpg
+true prompt: How does the man in the picture feel? Happy
+pred prompt: How does the man in the picture feel? picking flowers
+Image: persian_images/food/food53.jpg
+true prompt: What gender are the dishes in the picture? Plastic
+pred prompt: What gender are the dishes in the picture? Eggplant crust
+Image: persian_images/sport/sport95.png
+true prompt: What gender are the people in the picture? male
+pred prompt: What gender are the people in the picture? Olympic
+Image: persian_images/sport/sport58.jpg
+true prompt: Do women lift weights at the gym? no
+pred prompt: Do women lift weights at the gym? Javelin
+Image: persian_images/cars/cars25.jpg
+true prompt: How many cars can be seen in the picture? six
+pred prompt: How many cars can be seen in the picture? Orange
+Image: persian_images/outdoor/dasti/dasti55.jpg
+true prompt: How many half-finished buildings are in the picture? two
+pred prompt: How many half-finished buildings are in the picture? Congregational Prayer
+Image: persian_images/outdoor/dasti/dasti70.jpg
+true prompt: Is there a plant on the second floor of the building in the picture? Yes
+pred prompt: Is there a plant on the second floor of the building in the picture? Traditional restaurant
+Image: persian_images/outdoor/dasti/dasti56.jpg
+true prompt: Do women have trays on their heads? no
+pred prompt: Do women have trays on their heads? Mountaineering
+Image: persian_images/food/food18.jpg
+true prompt: Are there chopped tomatoes with the food? Yes
+pred prompt: Are there chopped tomatoes with the food? Iran
+Image: persian_images/indoor/indoor52.jpg
+true prompt: How many sofas are around the table? four
+pred prompt: How many sofas are around the table? Iran
+Image: persian_images/indoor/indoor88.jpg
+true prompt: What is on the ground? Carpet
+pred prompt: What is on the ground? chador
+Image: persian_images/food/food38.jpg
+true prompt: How many white dishes are there in the picture? Three
+pred prompt: How many white dishes are there in the picture? Iran
+ 68% 13/19 [03:11<01:29, 14.91s/it]Image: persian_images/food/food58.jpg
+true prompt: How many eggplants are there in the plate in front of the picture? two
+pred prompt: How many eggplants are there in the plate in front of the picture? Travel tent
+Image: persian_images/ashkhas/ashkhas72.jpg
+true prompt: What color is the woman's scarf? white
+pred prompt: What color is the woman's scarf? Iran
+Image: persian_images/sport/sport102.jpeg
+true prompt: What is the gender of the person in the picture? Man
+pred prompt: What is the gender of the person in the picture? Javelin
+Image: persian_images/ceremonies/ceremonies50.jpg
+true prompt: Is the baby's scarf on the right white and blue? no
+pred prompt: Is the baby's scarf on the right white and blue? Traditional restaurant
+Image: persian_images/food/food84.jpg
+true prompt: How many narrow waist bras are there in the picture? two
+pred prompt: How many narrow waist bras are there in the picture? Iran
+Image: persian_images/indoor/indoor29.jpg
+true prompt: Is there a table in the picture? Yes
+pred prompt: Is there a table in the picture? Iran
+Image: persian_images/indoor/indoor95.jpg
+true prompt: Are the audience scattered in the hall? Yes
+pred prompt: Are the audience scattered in the hall? Octagonal
+Image: persian_images/ashkhas/ashkhas66.jpg
+true prompt: How many people are wearing hats in the picture? Three
+pred prompt: How many people are wearing hats in the picture? gallery
+Image: persian_images/indoor/indoor22.jpg
+true prompt: Are the wall tiles patterned? Yes
+pred prompt: Are the wall tiles patterned? Iran
+Image: persian_images/ceremonies/ceremonies44.jpg
+true prompt: What is the gender of the people in the picture? Man
+pred prompt: What is the gender of the people in the picture? Iran
+Image: persian_images/sport/sport87.jpg
+true prompt: What is the lady riding? the boat
+pred prompt: What is the lady riding? Boating
+Image: persian_images/outdoor/dasti/dasti36.jpg
+true prompt: Do most people come to eat street food? Yes
+pred prompt: Do most people come to eat street food? Rock
+Image: persian_images/cars/cars103.jpeg
+true prompt: Is this a car show? no
+pred prompt: Is this a car show? Iran
+Image: persian_images/indoor/indoor40.jpg
+true prompt: Is the man standing red in his clothes? no
+pred prompt: Is the man standing red in his clothes? Stripes
+Image: persian_images/sport/sport101.png
+true prompt: How many bows do you see in the picture? One
+pred prompt: How many bows do you see in the picture? Javelin
+Image: persian_images/indoor/indoor61.jpg
+true prompt: How many projectors are there in this picture? One
+pred prompt: How many projectors are there in this picture? chador
+Image: persian_images/indoor/indoor86.jpg
+true prompt: Which chandelier is bigger in the picture? Center
+pred prompt: Which chandelier is bigger in the picture? carpet weaving
+Image: persian_images/outdoor/modern/modern29.png
+true prompt: How many old men are sitting on the bench near the carriage? two
+pred prompt: How many old men are sitting on the bench near the carriage? Iran
+Image: persian_images/ceremonies/ceremonies93.png
+true prompt: Are the clothes of the people in the picture local or official? local
+pred prompt: Are the clothes of the people in the picture local or official? to dance
+Image: persian_images/food/food43.jpg
+true prompt: What is the glass made of? Glass
+pred prompt: What is the glass made of? Eggplant crust
+Image: persian_images/ceremonies/ceremonies66.jpg
+true prompt: Is the person in the picture white? no
+pred prompt: Is the person in the picture white? Street cafes
+Image: persian_images/food/food62.jpg
+true prompt: What is the material of the pitcher? Glass
+pred prompt: What is the material of the pitcher? Traditional restaurant
+Image: persian_images/outdoor/dasti/dasti49.jpg
+true prompt: In which part of the picture is the woman with a blue shawl? Down
+pred prompt: In which part of the picture is the woman with a blue shawl? Traditional restaurant
+Image: persian_images/outdoor/modern/modern6.jpg
+true prompt: How many people are walking next to the child? two
+pred prompt: How many people are walking next to the child? Iran
+Image: persian_images/ceremonies/ceremonies99.png
+true prompt: What gender are the people in the picture? Man
+pred prompt: What gender are the people in the picture? to dance
+Image: persian_images/food/food93.jpg
+true prompt: What are the cobs grilled on? charcoal
+pred prompt: What are the cobs grilled on? Traditional
+Image: persian_images/cars/cars88.jpg
+true prompt: How many cars are in the picture? two
+pred prompt: How many cars are in the picture? Iran
+Image: persian_images/food/food34.jpg
+true prompt: Does the food that is pulled into the dish have pilaf? Yes
+pred prompt: Does the food that is pulled into the dish have pilaf? Rice
+Image: persian_images/outdoor/modern/modern12.jpg
+true prompt: Where does the picture show? Park
+pred prompt: Where does the picture show? Park
+Image: persian_images/indoor/indoor94.jpg
+true prompt: Are the facades of the walls stone? Yes
+pred prompt: Are the facades of the walls stone? Pool
+Image: persian_images/sport/sport82.jpg
+true prompt: What gender are people? female
+pred prompt: What gender are people? basketball
+Image: persian_images/indoor/indoor98.jpg
+true prompt: Is there a pond in the picture? Yes
+pred prompt: Is there a pond in the picture? shopping center
+Image: persian_images/ceremonies/ceremonies95.png
+true prompt: What is the gender of the person in the picture? female
+pred prompt: What is the gender of the person in the picture? Flag
+Image: persian_images/sport/sport44.jpg
+true prompt: Are the athletes in the picture wearing long sleeves? no
+pred prompt: Are the athletes in the picture wearing long sleeves? Volleyball
+Image: persian_images/sport/sport29.jpg
+true prompt: Which competition did the athlete participate in? Olympic
+pred prompt: Which competition did the athlete participate in? weightlifting
+Image: persian_images/ashkhas/ashkhas96.jpg
+true prompt: Which hand has the man raised? Right
+pred prompt: Which hand has the man raised? Iran
+Image: persian_images/ashkhas/ashkhas98.jpg
+true prompt: Did the old man smile? Yes
+pred prompt: Did the old man smile? carpet weaving
+Image: persian_images/ashkhas/ashkhas100.jpg
+true prompt: Is there a flag in the picture? Yes
+pred prompt: Is there a flag in the picture? Iran
+Image: persian_images/outdoor/modern/modern2.jpg
+true prompt: What is behind the cable car? City
+pred prompt: What is behind the cable car? Iran
+Image: persian_images/cars/cars14.jpg
+true prompt: Which side of the image is the shadow of the car? Left
+pred prompt: Which side of the image is the shadow of the car? Semicircular
+ 74% 14/19 [03:26<01:14, 14.90s/it]Image: persian_images/ashkhas/ashkhas85.jpg
+true prompt: Is the old man scared? no
+pred prompt: Is the old man scared? picking flowers
+Image: persian_images/outdoor/dasti/dasti58.jpg
+true prompt: What is going on in the picture on the ground? Water
+pred prompt: What is going on in the picture on the ground? Mountaineering
+Image: persian_images/sport/sport22.jpg
+true prompt: What is the gender of the person in the picture? Female
+pred prompt: What is the gender of the person in the picture? Stadium
+Image: persian_images/sport/sport78.jpg
+true prompt: What is the gender of the people in the picture? Female
+pred prompt: What is the gender of the people in the picture? shooting
+Image: persian_images/sport/sport15.jpg
+true prompt: Are female players without hijab? no
+pred prompt: Are female players without hijab? Volleyball
+Image: persian_images/cars/cars58.jpg
+true prompt: Is the sky in the picture sunny? no
+pred prompt: Is the sky in the picture sunny? Iran
+Image: persian_images/food/food74.jpg
+true prompt: What kind of food is in the picture? itch
+pred prompt: What kind of food is in the picture? chador
+Image: persian_images/ceremonies/ceremonies31.jpg
+true prompt: What does the man jump over? Fire
+pred prompt: What does the man jump over? Fire
+Image: persian_images/cars/cars59.jpg
+true prompt: What color is the car with the crane? Green
+pred prompt: What color is the car with the crane? Iran
+Image: persian_images/food/food47.jpg
+true prompt: Is there a spoon in the olive bowl? Yes
+pred prompt: Is there a spoon in the olive bowl? chador
+Image: persian_images/food/food11.jpg
+true prompt: Are the kebabs skewered? Yes
+pred prompt: Are the kebabs skewered? Traditional restaurant
+Image: persian_images/outdoor/dasti/dasti46.jpg
+true prompt: What is the gender of the people in the picture? Female
+pred prompt: What is the gender of the people in the picture? carpet weaving
+Image: persian_images/ashkhas/ashkhas68.jpg
+true prompt: What color is the sock that the girl is wearing with a green shawl? Green
+pred prompt: What color is the sock that the girl is wearing with a green shawl? black and blue
+Image: persian_images/indoor/indoor73.jpg
+true prompt: What does the woman in the picture look like? Worn
+pred prompt: What does the woman in the picture look like? Traditional restaurant
+Image: persian_images/indoor/indoor77.jpg
+true prompt: Are the ceiling and walls mirrored? Yes
+pred prompt: Are the ceiling and walls mirrored? Coronation
+Image: persian_images/ceremonies/ceremonies56.jpg
+true prompt: Are only men present at the ceremony? no
+pred prompt: Are only men present at the ceremony? food distribution
+Image: persian_images/ashkhas/ashkhas18.jpg
+true prompt: What color is the local dress of the girl? yellow
+pred prompt: What color is the local dress of the girl? Congregational Prayer
+Image: persian_images/outdoor/dasti/dasti4.jpg
+true prompt: What fruit does the tree have? no
+pred prompt: What fruit does the tree have? the alley
+Image: persian_images/cars/cars106.jpeg
+true prompt: On which side of the white car are the trees? Right
+pred prompt: On which side of the white car are the trees? Girl
+Image: persian_images/indoor/indoor4.jpg
+true prompt: What is spread on the floor? Carpet
+pred prompt: What is spread on the floor? carpet weaving
+Image: persian_images/food/food85.jpg
+true prompt: Is the chicken in the picture raw? no
+pred prompt: Is the chicken in the picture raw? Barbecue
+Image: persian_images/cars/cars72.jpg
+true prompt: Are the leaves of the trees green? no
+pred prompt: Are the leaves of the trees green? Iran
+Image: persian_images/outdoor/modern/modern27.jpg
+true prompt: How many mosque domes are there in the picture? One
+pred prompt: How many mosque domes are there in the picture? Iran
+Image: persian_images/outdoor/dasti/dasti26.jpg
+true prompt: How many benches are in the picture? One
+pred prompt: How many benches are in the picture? Umbrella
+Image: persian_images/ashkhas/ashkhas8.jpg
+true prompt: What are the people in the picture doing? pray
+pred prompt: What are the people in the picture doing? Congregational Prayer
+Image: persian_images/food/food13.jpg
+true prompt: Is it in our picture? Yes
+pred prompt: Is it in our picture? Eggplant crust
+Image: persian_images/cars/cars70.jpg
+true prompt: Is the alley narrow? Yes
+pred prompt: Is the alley narrow? Fall
+Image: persian_images/food/food12.jpg
+true prompt: What color are the rice? yellow
+pred prompt: What color are the rice? barberry
+Image: persian_images/ashkhas/ashkhas99.jpg
+true prompt: Are there both men and women in the picture? Yes
+pred prompt: Are there both men and women in the picture? Barbecue
+Image: persian_images/cars/cars68.jpg
+true prompt: How many cars are in front of the car showroom? four
+pred prompt: How many cars are in front of the car showroom? repair shop
+Image: persian_images/indoor/indoor45.jpg
+true prompt: Are these female players? no
+pred prompt: Are these female players? Iran
+Image: persian_images/ashkhas/ashkhas51.jpg
+true prompt: What color is the floor of the library? Red
+pred prompt: What color is the floor of the library? chador
+Image: persian_images/food/food59.jpg
+true prompt: Which side of the dish is the spoon and fork? Right
+pred prompt: Which side of the dish is the spoon and fork? Iran
+Image: persian_images/ashkhas/ashkhas32.jpg
+true prompt: Is there a tree in the picture? Yes
+pred prompt: Is there a tree in the picture? chador
+Image: persian_images/indoor/indoor49.jpg
+true prompt: Are the chairs in the middle of the room? no
+pred prompt: Are the chairs in the middle of the room? Iran
+Image: persian_images/outdoor/modern/modern23.jpg
+true prompt: what time of day is it sunset
+pred prompt: what time of day is it sunset
+Image: persian_images/sport/sport36.jpg
+true prompt: What sport does the man do? shooting
+pred prompt: What sport does the man do? shooting
+Image: persian_images/outdoor/modern/modern31.png
+true prompt: Is the street wide or narrow? wide
+pred prompt: Is the street wide or narrow? Octagonal
+Image: persian_images/outdoor/dasti/dasti27.jpg
+true prompt: What is the gender of the person you see in the picture? Female
+pred prompt: What is the gender of the person you see in the picture? Red
+Image: persian_images/cars/cars99.png
+true prompt: How many cars can be seen? six
+pred prompt: How many cars can be seen? Exhibition
+ 79% 15/19 [03:41<00:59, 14.99s/it]Image: persian_images/ashkhas/ashkhas5.jpg
+true prompt: Does the doctor treat the baby violently? no
+pred prompt: Does the doctor treat the baby violently? chador
+Image: persian_images/sport/sport86.jpg
+true prompt: What is the woman wearing? scarf
+pred prompt: What is the woman wearing? weightlifting
+Image: persian_images/ceremonies/ceremonies45.jpg
+true prompt: Are the worshipers women or men? Female
+pred prompt: Are the worshipers women or men? chador
+Image: persian_images/ceremonies/ceremonies2.jpg
+true prompt: What is in the hands of the girls? green
+pred prompt: What is in the hands of the girls? druming
+Image: persian_images/cars/cars66.jpg
+true prompt: Is there a flag in this picture? Yes
+pred prompt: Is there a flag in this picture? Parking
+Image: persian_images/food/food28.jpg
+true prompt: Are there green olives in the picture? Yes
+pred prompt: Are there green olives in the picture? Iran
+Image: persian_images/outdoor/dasti/dasti51.jpg
+true prompt: Where is the man with a yellow hat on his head in the picture? Left
+pred prompt: Where is the man with a yellow hat on his head in the picture? Tree
+Image: persian_images/sport/sport63.jpg
+true prompt: What is the person doing? Javelin
+pred prompt: What is the person doing? Javelin
+Image: persian_images/sport/sport25.jpg
+true prompt: What is the person doing? Throwing an arrow
+pred prompt: What is the person doing? Javelin
+Image: persian_images/outdoor/modern/modern19.jpg
+true prompt: Is anyone crossing the street? no
+pred prompt: Is anyone crossing the street? Leaves of trees
+Image: persian_images/indoor/indoor42.jpg
+true prompt: What is the shape of the roof of this place? a dome
+pred prompt: What is the shape of the roof of this place? Pool
+Image: persian_images/food/food68.jpg
+true prompt: Has food water been spilled in the dish? Yes
+pred prompt: Has food water been spilled in the dish? chador
+Image: persian_images/sport/sport91.png
+true prompt: What color is the clothes of the boy walking next to the bicycle in front of the picture? white
+pred prompt: What color is the clothes of the boy walking next to the bicycle in front of the picture? Congregational Prayer
+Image: persian_images/ashkhas/ashkhas92.jpg
+true prompt: What is the gender of the person sitting on the carpets? female
+pred prompt: What is the gender of the person sitting on the carpets? chador
+Image: persian_images/cars/cars1.jpg
+true prompt: How many black cars are moving on the right side of the street? Three
+pred prompt: How many black cars are moving on the right side of the street? Iran
+Image: persian_images/ashkhas/ashkhas65.jpg
+true prompt: Is the person who took the bread a man? Yes
+pred prompt: Is the person who took the bread a man? Iran
+Image: persian_images/ceremonies/ceremonies61.jpg
+true prompt: Is the candle lit? Yes
+pred prompt: Is the candle lit? Iran
+Image: persian_images/ceremonies/ceremonies89.png
+true prompt: where is the book In front of the bride and groom
+pred prompt: where is the book In front of the bride and groom
+Image: persian_images/sport/sport89.png
+true prompt: Are all the cyclists in the picture wearing helmets? Yes
+pred prompt: Are all the cyclists in the picture wearing helmets? Leaves of trees
+Image: persian_images/food/food83.jpg
+true prompt: Are there spoons and forks with the food? Yes
+pred prompt: Are there spoons and forks with the food? Celery stew
+Image: persian_images/sport/sport31.jpg
+true prompt: Does the man feel pain? Yes
+pred prompt: Does the man feel pain? gable
+Image: persian_images/outdoor/dasti/dasti18.jpg
+true prompt: How many boats are there in the picture? Seven
+pred prompt: How many boats are there in the picture? Iran
+Image: persian_images/indoor/indoor76.jpg
+true prompt: Is the layout of the restaurant traditional? no
+pred prompt: Is the layout of the restaurant traditional? wedding
+Image: persian_images/ashkhas/ashkhas40.jpg
+true prompt: What is the material of the windows? wooden
+pred prompt: What is the material of the windows? chador
+Image: persian_images/sport/sport100.png
+true prompt: What is the girl riding on? Horse
+pred prompt: What is the girl riding on? Iran
+Image: persian_images/food/food77.jpg
+true prompt: Does this dish have lentils? Yes
+pred prompt: Does this dish have lentils? Pickle
+Image: persian_images/outdoor/dasti/dasti15.jpg
+true prompt: How many people are crossing the crosswalk? two
+pred prompt: How many people are crossing the crosswalk? Iran
+Image: persian_images/indoor/indoor97.jpg
+true prompt: Is the person standing behind the counter a man? no
+pred prompt: Is the person standing behind the counter a man? Iran
+Image: persian_images/cars/cars93.jpg
+true prompt: Is there traffic on both sides of the highway? no
+pred prompt: Is there traffic on both sides of the highway? Iran
+Image: persian_images/sport/sport57.jpg
+true prompt: Where do people stand? Stadium
+pred prompt: Where do people stand? Iran
+Image: persian_images/ceremonies/ceremonies59.jpg
+true prompt: What color are the flowers? pink
+pred prompt: What color are the flowers? wedding
+Image: persian_images/indoor/indoor21.jpg
+true prompt: Do the walls have wallpaper? no
+pred prompt: Do the walls have wallpaper? carpet weaving
+Image: persian_images/indoor/indoor65.jpg
+true prompt: What is the hanging object in the picture? chandelier
+pred prompt: What is the hanging object in the picture? Iran
+Image: persian_images/cars/cars34.jpg
+true prompt: How many drones are in the picture? two
+pred prompt: How many drones are in the picture? Street
+Image: persian_images/indoor/indoor60.jpg
+true prompt: Is this a mosque? no
+pred prompt: Is this a mosque? shopping center
+Image: persian_images/sport/sport61.jpg
+true prompt: What sport does this picture show? basketball
+pred prompt: What sport does this picture show? chador
+Image: persian_images/outdoor/dasti/dasti66.jpg
+true prompt: How many windows are there in the picture? four
+pred prompt: How many windows are there in the picture? Iran
+Image: persian_images/ashkhas/ashkhas17.jpg
+true prompt: What is in the basket? Orange
+pred prompt: What is in the basket? Iran
+Image: persian_images/ceremonies/ceremonies67.jpg
+true prompt: What are people gathered around? chair
+pred prompt: What are people gathered around? Iran
+Image: persian_images/ceremonies/ceremonies23.jpg
+true prompt: What is on the man's head? Hat
+pred prompt: What is on the man's head? Congregational Prayer
+ 84% 16/19 [03:56<00:44, 15.00s/it]Image: persian_images/food/food19.jpg
+true prompt: Is it in a small salad bowl? Yes
+pred prompt: Is it in a small salad bowl? Eggplant crust
+Image: persian_images/ceremonies/ceremonies60.jpg
+true prompt: What are people doing? chaining
+pred prompt: What are people doing? Iran
+Image: persian_images/ceremonies/ceremonies42.jpg
+true prompt: What color are men's clothes? Black
+pred prompt: What color are men's clothes? Iran
+Image: persian_images/ceremonies/ceremonies70.png
+true prompt: How many girls are stomping around in lemon dresses? One
+pred prompt: How many girls are stomping around in lemon dresses? Iran
+Image: persian_images/outdoor/ethnic/ethnic6.png
+true prompt: What is on the ground? barberry
+pred prompt: What is on the ground? Iran
+Image: persian_images/ceremonies/ceremonies36.jpg
+true prompt: What is the man pouring into the glasses? Tea
+pred prompt: What is the man pouring into the glasses? Top
+Image: persian_images/ashkhas/ashkhas24.jpg
+true prompt: Is the woman standing in the picture? no
+pred prompt: Is the woman standing in the picture? Market
+Image: persian_images/ashkhas/ashkhas95.jpg
+true prompt: How many men do you see in this picture? two
+pred prompt: How many men do you see in this picture? Iran
+Image: persian_images/food/food97.jpg
+true prompt: Is the stew pot smaller than the rice pot? no
+pred prompt: Is the stew pot smaller than the rice pot? Celery stew
+Image: persian_images/food/food69.jpg
+true prompt: What does the dish with eggplant curd look like? oval
+pred prompt: What does the dish with eggplant curd look like? Iran
+Image: persian_images/ceremonies/ceremonies28.jpg
+true prompt: How many men can be seen in the picture? Zero
+pred prompt: How many men can be seen in the picture? chador
+Image: persian_images/indoor/indoor85.jpg
+true prompt: Are the lights off in this place? no
+pred prompt: Are the lights off in this place? Iran
+Image: persian_images/ceremonies/ceremonies3.jpg
+true prompt: What is behind the girl? Fire
+pred prompt: What is behind the girl? Iran
+Image: persian_images/outdoor/modern/modern13.jpg
+true prompt: What color is the roof of the building on the right? yellow
+pred prompt: What color is the roof of the building on the right? picking flowers
+Image: persian_images/indoor/indoor70.jpg
+true prompt: Which side of the picture is the white board with the shape and text? Right
+pred prompt: Which side of the picture is the white board with the shape and text? Street cafes
+Image: persian_images/ashkhas/ashkhas67.jpg
+true prompt: What are women doing? clap
+pred prompt: What are women doing? to dance
+Image: persian_images/food/food8.jpg
+true prompt: Is the food cut? Yes
+pred prompt: Is the food cut? Eggplant crust
+Image: persian_images/ceremonies/ceremonies15.jpg
+true prompt: What do boys do on the street? druming
+pred prompt: What do boys do on the street? druming
+Image: persian_images/cars/cars42.jpg
+true prompt: Are the cars safe? no
+pred prompt: Are the cars safe? Congregational Prayer
+Image: persian_images/sport/sport67.jpg
+true prompt: Is the athlete's hair obvious? no
+pred prompt: Is the athlete's hair obvious? Iran
+Image: persian_images/ashkhas/ashkhas91.jpg
+true prompt: How many women have green shawls on their heads? five
+pred prompt: How many women have green shawls on their heads? Iran
+Image: persian_images/outdoor/dasti/dasti34.jpg
+true prompt: What is a woman's clothing? chador
+pred prompt: What is a woman's clothing? Leaves of trees
+Image: persian_images/sport/sport16.jpg
+true prompt: Do female athletes wear hijab? Yes
+pred prompt: Do female athletes wear hijab? Volleyball
+Image: persian_images/ceremonies/ceremonies1.jpg
+true prompt: How many brides in the picture have capes? two
+pred prompt: How many brides in the picture have capes? Iran
+Image: persian_images/ceremonies/ceremonies48.jpg
+true prompt: What is seen in the sky? Rainbow
+pred prompt: What is seen in the sky? Stadium
+Image: persian_images/cars/cars91.jpg
+true prompt: In which hand is the man holding the bag? Right
+pred prompt: In which hand is the man holding the bag? yellow
+Image: persian_images/ashkhas/ashkhas82.jpg
+true prompt: Do you see the black umbrella in the picture? Yes
+pred prompt: Do you see the black umbrella in the picture? Iran
+Image: persian_images/food/food64.jpg
+true prompt: What is the food in the dish? ash
+pred prompt: What is the food in the dish? green
+Image: persian_images/outdoor/dasti/dasti19.jpg
+true prompt: How many domes are there in the picture? One
+pred prompt: How many domes are there in the picture? Iran
+Image: persian_images/sport/sport45.jpg
+true prompt: What is the gender of the person holding the ball? female
+pred prompt: What is the gender of the person holding the ball? Iran
+Image: persian_images/cars/cars52.jpg
+true prompt: Where is the sunset in the picture? Car Mirror
+pred prompt: Where is the sunset in the picture? Car Mirror
+Image: persian_images/ceremonies/ceremonies82.png
+true prompt: What is the gender of the person behind the table? Man
+pred prompt: What is the gender of the person behind the table? Iran
+Image: persian_images/sport/sport19.jpg
+true prompt: What gender is the person in the picture? Female
+pred prompt: What gender is the person in the picture? Iran
+Image: persian_images/indoor/indoor23.jpg
+true prompt: How many big white vases are there? two
+pred prompt: How many big white vases are there? shopping center
+Image: persian_images/sport/sport7.jpg
+true prompt: Is the man black? no
+pred prompt: Is the man black? Olympic
+Image: persian_images/indoor/indoor25.jpg
+true prompt: What gender is the person in the picture? Female
+pred prompt: What gender is the person in the picture? Iran
+Image: persian_images/ashkhas/ashkhas41.jpg
+true prompt: How many girls are in the picture? two
+pred prompt: How many girls are in the picture? Iran
+Image: persian_images/ceremonies/ceremonies94.png
+true prompt: What is the man in front of the picture waving in the air? the cloth
+pred prompt: What is the man in front of the picture waving in the air? Iran
+Image: persian_images/food/food33.jpg
+true prompt: Is the plate round? Yes
+pred prompt: Is the plate round? Orange
+Image: persian_images/outdoor/modern/modern1.jpg
+true prompt: How many no-entry signs are there in the picture? One
+pred prompt: How many no-entry signs are there in the picture? Street
+ 89% 17/19 [04:11<00:29, 14.99s/it]Image: persian_images/outdoor/modern/modern32.png
+true prompt: Is the sky blue in the picture? Yes
+pred prompt: Is the sky blue in the picture? Iran
+Image: persian_images/cars/cars49.jpg
+true prompt: How is the weather? snowy
+pred prompt: How is the weather? Iran
+Image: persian_images/cars/cars69.jpg
+true prompt: Is the light pole in the middle of the street? no
+pred prompt: Is the light pole in the middle of the street? manto
+Image: persian_images/outdoor/ethnic/ethnic9.png
+true prompt: What are houses built on? Hill
+pred prompt: What are houses built on? chador
+Image: persian_images/ceremonies/ceremonies4.jpg
+true prompt: How many women are there in the picture? One
+pred prompt: How many women are there in the picture? Iran
+Image: persian_images/sport/sport55.jpg
+true prompt: What color is the Iranian team player wearing? white
+pred prompt: What color is the Iranian team player wearing? basketball
+Image: persian_images/food/food26.jpg
+true prompt: Are there any vegetables in the photo? Yes
+pred prompt: Are there any vegetables in the photo? Chicken
+Image: persian_images/indoor/indoor67.jpg
+true prompt: What color is the top of the bed? Red
+pred prompt: What color is the top of the bed? Traditional
+Image: persian_images/ceremonies/ceremonies49.jpg
+true prompt: What color are people with headscarves? Red
+pred prompt: What color are people with headscarves? Iran
+Image: persian_images/ashkhas/ashkhas44.jpg
+true prompt: What is the gender of the person sitting on the wooden chair? Girl
+pred prompt: What is the gender of the person sitting on the wooden chair? Iran
+Image: persian_images/sport/sport17.jpg
+true prompt: How many girls do you see in the picture? two
+pred prompt: How many girls do you see in the picture? Iran
+Image: persian_images/indoor/indoor78.jpg
+true prompt: Do the windows have curtains? no
+pred prompt: Do the windows have curtains? Traditional
+Image: persian_images/indoor/indoor3.jpg
+true prompt: How many stools can be seen in the picture? two
+pred prompt: How many stools can be seen in the picture? Stripes
+Image: persian_images/ashkhas/ashkhas57.jpg
+true prompt: What is the man doing? Prepare the dough
+pred prompt: What is the man doing? carpet weaving
+Image: persian_images/cars/cars79.jpg
+true prompt: What is the weather like? Sunny
+pred prompt: What is the weather like? Iran
+Image: persian_images/cars/cars22.jpg
+true prompt: Is there a tree in the picture? Yes
+pred prompt: Is there a tree in the picture? Iran
+Image: persian_images/ashkhas/ashkhas34.jpg
+true prompt: What is the old man's job? Shoemaker
+pred prompt: What is the old man's job? pottery
+Image: persian_images/outdoor/modern/modern16.jpg
+true prompt: Is there a boat in the picture? Yes
+pred prompt: Is there a boat in the picture? chador
+Image: persian_images/sport/sport21.jpg
+true prompt: What gender is the person in the picture? Girl
+pred prompt: What gender is the person in the picture? weightlifting
+Image: persian_images/sport/sport42.jpg
+true prompt: What sports are men doing? Volleyball
+pred prompt: What sports are men doing? Volleyball
+Image: persian_images/food/food56.jpg
+true prompt: Are the plates of both dishes the same color? no
+pred prompt: Are the plates of both dishes the same color? Eggplant crust
+Image: persian_images/cars/cars11.jpg
+true prompt: Do cars have license plates? no
+pred prompt: Do cars have license plates? chador
+Image: persian_images/ceremonies/ceremonies41.jpg
+true prompt: What is the gender of the people in the picture? male
+pred prompt: What is the gender of the people in the picture? Iran
+Image: persian_images/ashkhas/ashkhas2.jpg
+true prompt: What gender are the people in the picture? Man
+pred prompt: What gender are the people in the picture? chador
+Image: persian_images/cars/cars24.jpg
+true prompt: Which side of the white paper installed on the car window is white? Left
+pred prompt: Which side of the white paper installed on the car window is white? Iran
+Image: persian_images/outdoor/dasti/dasti24.jpg
+true prompt: What color is the roof of the building? Brown
+pred prompt: What color is the roof of the building? Leaves of trees
+Image: persian_images/indoor/indoor26.jpg
+true prompt: How many mirrors are in the picture? two
+pred prompt: How many mirrors are in the picture? Traditional restaurant
+Image: persian_images/cars/cars41.jpg
+true prompt: How many people are there in the picture? two
+pred prompt: How many people are there in the picture? Iran
+Image: persian_images/food/food1.jpg
+true prompt: What color is the pasta dish? Dark Blue
+pred prompt: What color is the pasta dish? Orange
+Image: persian_images/ashkhas/ashkhas50.jpg
+true prompt: What color is the collar of the woman in the picture? Brown
+pred prompt: What color is the collar of the woman in the picture? Iran
+Image: persian_images/outdoor/modern/modern20.jpg
+true prompt: Is there a tree in the picture? Yes
+pred prompt: Is there a tree in the picture? Iran
+Image: persian_images/sport/sport35.jpg
+true prompt: How many boats can be seen in the picture? two
+pred prompt: How many boats can be seen in the picture? Javelin
+Image: persian_images/sport/sport60.jpg
+true prompt: How many men are wearing coats in the picture? One
+pred prompt: How many men are wearing coats in the picture? Karate
+Image: persian_images/ashkhas/ashkhas58.jpg
+true prompt: Are there three men in the picture? no
+pred prompt: Are there three men in the picture? Iran
+Image: persian_images/indoor/indoor92.jpg
+true prompt: What is the dominant color of carpets? Red
+pred prompt: What is the dominant color of carpets? Iran
+Image: persian_images/ashkhas/ashkhas20.jpg
+true prompt: What color is the flower in the boy's hand? white
+pred prompt: What color is the flower in the boy's hand? wedding
+Image: persian_images/cars/cars87.jpg
+true prompt: How many trash cans? One
+pred prompt: How many trash cans? Iran
+Image: persian_images/ashkhas/ashkhas37.jpg
+true prompt: Is the person in the picture a man? no
+pred prompt: Is the person in the picture a man? Iran
+Image: persian_images/indoor/indoor18.jpg
+true prompt: Are all the people in the picture wearing black? no
+pred prompt: Are all the people in the picture wearing black? Traditional restaurant
+Image: persian_images/indoor/indoor69.jpg
+true prompt: What is the woman in the picture wearing? chador
+pred prompt: What is the woman in the picture wearing? Iran
+ 95% 18/19 [04:26<00:14, 14.90s/it]Image: persian_images/indoor/indoor59.jpg
+true prompt: Is someone crossing the street? no
+pred prompt: Is someone crossing the street? a dome
+Image: persian_images/ceremonies/ceremonies39.jpg
+true prompt: How many people do you see in the picture? Much
+pred prompt: How many people do you see in the picture? Fire
+Image: persian_images/ashkhas/ashkhas27.jpg
+true prompt: Which of the people in the picture does not have a mustache? Right
+pred prompt: Which of the people in the picture does not have a mustache? Iran
+100% 19/19 [04:27<00:00, 14.08s/it]
+{'Orange': 0, 'six': 1, 'chair': 2, 'Dough': 3, 'scarf': 4, 'Olympic': 5, 'Center': 6, 'repair shop': 7, 'Zero': 8, 'sunset': 9, 'Down': 10, 'Black': 11, 'Water': 12, 'Much': 13, 'Semicircular': 14, 'wedding': 15, 'wooden': 16, 'Sea': 17, 'Kite': 18, 'Wood': 19, 'camel': 20, 'Parking': 21, 'Flag': 22, 'vegetable': 23, 'Ship': 24, 'Disport': 25, 'Blue': 26, 'local clothes': 27, 'Barbecue': 28, 'no': 29, 'food distribution': 30, 'local': 31, 'green': 32, 'Karate': 33, 'T-shirt': 34, 'Carpet': 35, 'chest': 36, 'shooting': 37, 'watermelon': 38, 'silver': 39, 'Traditional': 40, 'Stripes': 41, 'Horse': 42, 'a dome': 43, 'four': 44, 'Gray': 45, 'City': 46, 'Scarf': 47, 'chaining': 48, 'two': 49, 'carrot': 50, 'under the dish': 51, 'Street': 52, 'Eggplant crust': 53, 'Happy': 54, 'the alley': 55, 'Left': 56, 'gable': 57, 'Coronation': 58, 'male': 59, 'Three': 60, 'five': 61, 'Man': 62, 'Iran': 63, 'Top': 64, 'basketball': 65, 'the boat': 66, 'worship': 67, 'Rice': 68, 'Plastic': 69, 'Mountaineering': 70, 'Market': 71, 'white': 72, 'Mirrors': 73, 'shoe': 74, 'Navy blue': 75, 'yellow': 76, 'Female': 77, 'Exhibition': 78, 'winter': 79, 'Worn': 80, 'Octagonal': 81, 'Bag': 82, 'orange': 83, 'In front of the bride and groom': 84, 'Avocado': 85, 'Glass': 86, 'Tea': 87, 'hookah': 88, 'Rainbow': 89, 'Congregational Prayer': 90, 'Girl': 91, 'One': 92, 'Sweeping': 93, 'Seven': 94, 'pottery': 95, 'Sunny': 96, 'shepherd': 97, 'ash': 98, 'straw': 99, 'Machine': 100, 'druming': 101, 'metal': 102, 'Javelin': 103, 'itch': 104, 'the night': 105, 'pasta': 106, 'gallery': 107, 'Museum': 108, 'Dance': 109, 'stomping': 110, 'Hill': 111, 'pink': 112, 'Pickle': 113, 'Prepare the dough': 114, 'hexagon': 115, 'Car Mirror': 116, 'shrine': 117, 'Bread': 118, 'shopping center': 119, 'flower pot': 120, 'gloves': 121, 'bottom of the pot': 122, 'Volleyball': 123, 'female': 124, 'Shoemaker': 125, 'grass': 126, 'weightlifting': 127, 'snowy': 128, 'to chain': 129, 'twelve': 130, 'Pool': 131, 'oval': 132, 'Street cafes': 133, 'Car exhibition': 134, 'reading newspaper': 135, 'copper': 136, 'Boy': 137, 'Rock': 138, 'To tie': 139, 'Donkey': 140, 'At': 141, 'Sherbet': 142, 'charcoal': 143, 'carpet weaving': 144, 'Red': 145, 'Traditional restaurant': 146, 'Hat': 147, 'pray': 148, 'woolen': 149, 'Brown': 150, 'Chicken': 151, 'picnic gas': 152, 'manto': 153, 'rug': 154, 'Green': 155, 'the first': 156, 'Watermelon and melon': 157, 'Tree': 158, 'Throwing an arrow': 159, 'Fall': 160, 'to dance': 161, 'Happiness': 162, 'both sides': 163, 'Park': 164, 'Yes': 165, 'Ski': 166, 'clap': 167, 'Umbrella': 168, 'chador': 169, 'Celery stew': 170, 'potato': 171, 'black and blue': 172, 'Leaves of trees': 173, 'the cloth': 174, 'Fire': 175, 'Boating': 176, 'Mountain': 177, 'wide': 178, 'Stadium': 179, 'Lamp': 180, 'barberry': 181, 'Dark Blue': 182, 'picking flowers': 183, 'Right': 184, 'golden': 185, 'chandelier': 186, 'Travel tent': 187}
+accuracy:  tensor(0.0498)

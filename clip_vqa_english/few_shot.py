@@ -38,8 +38,8 @@ def main():
     model = get_model(args.model_weights)
     _ , _ , training_set = create_train_dataset(args.train_data, args.image_path, args.shots)
     model = train(model, training_set, args.epochs, args.prefix, args.lr, args.bs)
-    classes, label_to_index, test_generator = create_test_generator(args.test_data, args.image_path, args.bs)
-    test(model, test_generator, classes, label_to_index)
+    classes, label_to_index, test_generator, data = create_test_generator(args.test_data, args.image_path, args.bs)
+    test(model, test_generator, classes, data, label_to_index)
 
 #     prefix_length = args.prefix_length
 #     dataset = ClipCocoDataset(args.train_data, prefix_length, normalize_prefix=args.normalize_prefix, is_eng=(args.language == "english"), shots_count=args.shots)

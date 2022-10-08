@@ -1,0 +1,2223 @@
+**number of classes: 192
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:310: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 16
+  Num Epochs = 5
+  Instantaneous batch size per device = 40
+  Total train batch size (w. parallel, distributed & accumulation) = 40
+  Gradient Accumulation steps = 1
+  Total optimization steps = 5
+100% 5/5 [00:04<00:00,  1.63it/s]
+
+Training completed. Do not forget to share your model on huggingface.co/models =)
+
+
+{'train_runtime': 4.0523, 'train_samples_per_second': 19.742, 'train_steps_per_second': 1.234, 'train_loss': 1.2481204986572265, 'epoch': 5.0}
+100% 5/5 [00:04<00:00,  1.23it/s]
+***** Running Evaluation *****
+  Num examples = 16
+  Batch size = 40
+  0% 0/1 [00:00<?, ?it/s]/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+100% 1/1 [00:00<00:00, 299.46it/s]
+{'eval_loss': 1.0913057327270508, 'eval_accuracy': 0.0, 'eval_precision': 0.0, 'eval_recall': 0.0, 'eval_f1': 0.0, 'eval_runtime': 0.1954, 'eval_samples_per_second': 81.901, 'eval_steps_per_second': 5.119, 'epoch': 5.0}
+Configuration saved in clip-persian_few_shot-5-text/config.json
+Model weights saved in clip-persian_few_shot-5-text/pytorch_model.bin
+Configuration saved in clip-persian_few_shot-5-vision/config.json
+Model weights saved in clip-persian_few_shot-5-vision/pytorch_model.bin
+**number of classes: 192
+**Prompt is: [Q] [A]
+  0% 0/19 [00:00<?, ?it/s]
+Image: persian_images/food/food27.jpg
+true prompt: بطری نوشیدنی روی میز چیست؟ دوغ
+pred prompt: بطری نوشیدنی روی میز چیست؟ کوه
+Image: persian_images/ashkhas/ashkhas47.jpg
+true prompt: چند مرد در تصویر می بینید؟ چهار
+pred prompt: چند مرد در تصویر می بینید؟ لباس محلی
+Image: persian_images/outdoor/dasti/dasti3.jpg
+true prompt: آیا در تصویر ماشین سبز رنگ وجود دارد؟ بله
+pred prompt: آیا در تصویر ماشین سبز رنگ وجود دارد؟ کافه‌های خیابانی
+Image: persian_images/indoor/indoor17.jpg
+true prompt: آیا چیدمان این گالری سنتی است؟ خیر
+pred prompt: آیا چیدمان این گالری سنتی است؟ مرکز خرید
+Image: persian_images/food/food16.jpg
+true prompt: در ظرف دو سیخ کباب است؟ بله
+pred prompt: در ظرف دو سیخ کباب است؟ چیدن گل
+Image: persian_images/ashkhas/ashkhas43.jpg
+true prompt: آیا شخص لبو می فروشد؟ بله
+pred prompt: آیا شخص لبو می فروشد؟ بازار
+Image: persian_images/cars/cars90.jpg
+true prompt: تصویری که می بینید چه فصلی از سال را نشان میدهد؟ زمستان
+pred prompt: تصویری که می بینید چه فصلی از سال را نشان میدهد؟ پارکینگ
+Image: persian_images/cars/cars23.jpg
+true prompt: کنار بزرگراه چه چیزی دیده می‌شود؟ پرچم
+pred prompt: کنار بزرگراه چه چیزی دیده می‌شود؟ نمایشگاه ماشین
+Image: persian_images/outdoor/dasti/dasti50.jpg
+true prompt: تصویر مربوط به چه فصلی از سال است؟ زمستان
+pred prompt: تصویر مربوط به چه فصلی از سال است؟ اسکی
+Image: persian_images/sport/sport20.jpg
+true prompt: جنسیت افراد در تصویر چیست؟ مذکر
+pred prompt: جنسیت افراد در تصویر چیست؟ والیبال
+Image: persian_images/sport/sport76.jpg
+true prompt: هر دو بازیکن از یک تیم هستند؟ خیر
+pred prompt: هر دو بازیکن از یک تیم هستند؟ بسکتبال
+Image: persian_images/cars/cars67.jpg
+true prompt: ماشین جلوی فضای سبز پارک کرده است؟ بله
+pred prompt: ماشین جلوی فضای سبز پارک کرده است؟ برگ درختان
+Image: persian_images/ceremonies/ceremonies80.png
+true prompt: گل‌هایی که در سمت راست تصویر دیده می‌شود چه رنگی هستند؟ صورتی
+pred prompt: گل‌هایی که در سمت راست تصویر دیده می‌شود چه رنگی هستند؟ جلوی عروس و داماد
+Image: persian_images/ashkhas/ashkhas12.jpg
+true prompt: انگشتر در کدام دست شخص در تصویر قرار دارد؟ راست
+pred prompt: انگشتر در کدام دست شخص در تصویر قرار دارد؟ بازار
+Image: persian_images/ashkhas/ashkhas61.jpg
+true prompt: آیا جنس دیوار موجود در تصویر از سنگ مرمر است؟ خیر
+pred prompt: آیا جنس دیوار موجود در تصویر از سنگ مرمر است؟ مرد
+Image: persian_images/food/food65.jpg
+true prompt: چند تخم مرغ در تصویر وجود دارد؟ دو
+pred prompt: چند تخم مرغ در تصویر وجود دارد؟ خورش کرفس
+Image: persian_images/cars/cars82.jpg
+true prompt: ماشین سمت راست چه رنگی است؟ زرد
+pred prompt: ماشین سمت راست چه رنگی است؟ مقنعه
+Image: persian_images/outdoor/ethnic/ethnic10.png
+true prompt: آیا تصویر بیابان را نشان می دهد؟ خیر
+pred prompt: آیا تصویر بیابان را نشان می دهد؟ برگ درختان
+Image: persian_images/indoor/indoor1.jpg
+true prompt: کف گالری فرش دارد؟ خیر
+pred prompt: کف گالری فرش دارد؟ کوچه
+Image: persian_images/outdoor/dasti/dasti32.jpg
+true prompt: رنگ نیمکت های سمت چپ تصویر چه رنگی است؟ آبی
+pred prompt: رنگ نیمکت های سمت چپ تصویر چه رنگی است؟ قایق
+Image: persian_images/outdoor/modern/modern11.jpg
+true prompt: آیا شخصی که مانتو سفید مشکی پوشیده نشسته است؟ بله
+pred prompt: آیا شخصی که مانتو سفید مشکی پوشیده نشسته است؟ گاز پیک نیک
+Image: persian_images/cars/cars3.jpg
+true prompt: تابلوی مغازه چه رنگی است؟ آبی
+pred prompt: تابلوی مغازه چه رنگی است؟ ماشین
+Image: persian_images/indoor/indoor48.jpg
+true prompt: لباس مردی که خم شده چه رنگی است؟ مشکی و آبی
+pred prompt: لباس مردی که خم شده چه رنگی است؟ گنبدی
+Image: persian_images/ceremonies/ceremonies91.png
+true prompt: غذا را روی میز چیده‌اند؟ خیر
+pred prompt: غذا را روی میز چیده‌اند؟ پایکوبی
+Image: persian_images/food/food60.jpg
+true prompt: آیا دلمه ها مربعی شکلند؟ خیر
+pred prompt: آیا دلمه ها مربعی شکلند؟ کیف
+Image: persian_images/cars/cars21.jpg
+true prompt: چند نفر در حال عبور از خیابان هستند؟ صفر
+pred prompt: چند نفر در حال عبور از خیابان هستند؟ درخت
+Image: persian_images/indoor/indoor2.jpg
+true prompt: آیا اندازه پنجره بزرگ است؟ بله
+pred prompt: آیا اندازه پنجره بزرگ است؟ روزنامه خواندن
+Image: persian_images/sport/sport28.jpg
+true prompt: در این تصویر چند عدد بطری آب وجود دارد؟ یک
+pred prompt: در این تصویر چند عدد بطری آب وجود دارد؟ کاراته
+Image: persian_images/cars/cars73.jpg
+true prompt: تیر برق کجای تصویر قرار دارد؟ وسط
+pred prompt: تیر برق کجای تصویر قرار دارد؟ نمایشگاه ماشین
+Image: persian_images/ashkhas/ashkhas70.jpg
+true prompt: آیا زن سمت چپ جوان است؟ خیر
+pred prompt: آیا زن سمت چپ جوان است؟ عبادت
+Image: persian_images/outdoor/ethnic/ethnic4.jpg
+true prompt: کودک شلوارک پوشیده؟ خیر
+pred prompt: کودک شلوارک پوشیده؟ چوپانی
+Image: persian_images/ashkhas/ashkhas14.jpg
+true prompt: چند پسر در تصویر می بینید؟ چهار
+pred prompt: چند پسر در تصویر می بینید؟ نماز جماعت
+Image: persian_images/indoor/indoor55.jpg
+true prompt: چند نفر در عکس وجود دارد؟ زیاد
+pred prompt: چند نفر در عکس وجود دارد؟ رستوران سنتی
+Image: persian_images/outdoor/dasti/dasti39.jpg
+true prompt: زن چه پوششی دارد؟ چادر
+pred prompt: زن چه پوششی دارد؟ برفی
+Image: persian_images/sport/sport96.png
+true prompt: جنسیت افراد در تصویر چیست؟ زن
+pred prompt: جنسیت افراد در تصویر چیست؟ قایق
+Image: persian_images/indoor/indoor68.jpg
+true prompt: آیا پنجره ها پرده دارند؟ بله
+pred prompt: آیا پنجره ها پرده دارند؟ مشکی و آبی
+Image: persian_images/sport/sport33.jpg
+true prompt: آیا روی لباس وزنه بردار پرچم است؟ بله
+pred prompt: آیا روی لباس وزنه بردار پرچم است؟ کاراته
+Image: persian_images/ceremonies/ceremonies13.jpg
+true prompt: آیا افراد به تنهایی تفریح می‌کنند؟ خیر
+pred prompt: آیا افراد به تنهایی تفریح می‌کنند؟ بادبادک
+Image: persian_images/outdoor/ethnic/ethnic8.png
+true prompt: چند بادکنک روی ماشینی که در تصویر می بینید وجود دارد؟ دو
+pred prompt: چند بادکنک روی ماشینی که در تصویر می بینید وجود دارد؟ سبزی
+Image: persian_images/food/food7.jpg
+true prompt: آیا در غذا لوبیا وجود دارد؟ بله
+pred prompt: آیا در غذا لوبیا وجود دارد؟ سرمه‌ای
+  5% 1/19 [00:24<07:24, 24.68s/it]
+Image: persian_images/ceremonies/ceremonies30.jpg
+true prompt: لباس مردان چه رنگی‌ست؟ مشکی
+pred prompt: لباس مردان چه رنگی‌ست؟ مرد
+Image: persian_images/food/food31.jpg
+true prompt: کنار گوجه ها چه چیزی خرد شده است؟ آووکادو
+pred prompt: کنار گوجه ها چه چیزی خرد شده است؟ خورش کرفس
+Image: persian_images/ceremonies/ceremonies22.jpg
+true prompt: لباسی که تن افراد تصویر هست محلی است یا رسمی؟ محلی
+pred prompt: لباسی که تن افراد تصویر هست محلی است یا رسمی؟ طبل زدن
+Image: persian_images/food/food57.jpg
+true prompt: در عکس قاشق و چنگال وجود دارد؟ خیر
+pred prompt: در عکس قاشق و چنگال وجود دارد؟ خورش کرفس
+Image: persian_images/cars/cars13.jpg
+true prompt: خودروها در یک خط می رانند؟ خیر
+pred prompt: خودروها در یک خط می رانند؟ کافه‌های خیابانی
+Image: persian_images/food/food15.jpg
+true prompt: بشقاب غذا فلزی است؟ خیر
+pred prompt: بشقاب غذا فلزی است؟ خورش کرفس
+Image: persian_images/outdoor/modern/modern5.jpg
+true prompt: تابلوی سبز کدام طرف اتوبان است؟ راست
+pred prompt: تابلوی سبز کدام طرف اتوبان است؟ کافه‌های خیابانی
+Image: persian_images/ceremonies/ceremonies24.jpg
+true prompt: لباس پسر بچه چه رنگی است؟ قرمز
+pred prompt: لباس پسر بچه چه رنگی است؟ رستوران سنتی
+Image: persian_images/indoor/indoor34.jpg
+true prompt: آیا در عکس پرنده می بینید؟ خیر
+pred prompt: آیا در عکس پرنده می بینید؟ گنبدی
+Image: persian_images/sport/sport64.jpg
+true prompt: جنسیت افراد موجود در تصویر چیست؟ مرد
+pred prompt: جنسیت افراد موجود در تصویر چیست؟ کاراته
+Image: persian_images/indoor/indoor14.jpg
+true prompt: آیا در عکس پله برقی وجود دارد؟ بله
+pred prompt: آیا در عکس پله برقی وجود دارد؟ مرکز خرید
+Image: persian_images/sport/sport75.jpg
+true prompt: مانیتور ورزشگاه روشن است؟ خیر
+pred prompt: مانیتور ورزشگاه روشن است؟ کاراته
+Image: persian_images/outdoor/modern/modern28.png
+true prompt: ساختمانی که در تصویر وجود دارد چه رنگی است؟ سفید
+pred prompt: ساختمانی که در تصویر وجود دارد چه رنگی است؟ پارکینگ
+Image: persian_images/sport/sport69.jpg
+true prompt: صندلی های ورزشگاه چه رنگی است؟ سفید
+pred prompt: صندلی های ورزشگاه چه رنگی است؟ والیبال
+Image: persian_images/food/food61.jpg
+true prompt: آیا این غذا خورش دارد؟ بله
+pred prompt: آیا این غذا خورش دارد؟ زیر ظرف
+Image: persian_images/food/food14.jpg
+true prompt: آیا غذا در بشقاب ریخته شده است؟ خیر
+pred prompt: آیا غذا در بشقاب ریخته شده است؟ سرمه‌ای
+Image: persian_images/cars/cars16.jpg
+true prompt: آیا در تصویر برگ درخت وجود دارد؟ بله
+pred prompt: آیا در تصویر برگ درخت وجود دارد؟ کافه‌های خیابانی
+Image: persian_images/outdoor/dasti/dasti64.jpg
+true prompt: آیا سایه درختان در آب افتاده است؟ بله
+pred prompt: آیا سایه درختان در آب افتاده است؟ رستوران سنتی
+Image: persian_images/indoor/indoor15.jpg
+true prompt: آیا همه بخش‌های تصویر نقش و نگار دارد؟ بله
+pred prompt: آیا همه بخش‌های تصویر نقش و نگار دارد؟ لوستر
+Image: persian_images/cars/cars51.jpg
+true prompt: مجسمه در وسط میدان از چه جنسی است؟ مس
+pred prompt: مجسمه در وسط میدان از چه جنسی است؟ کوه
+Image: persian_images/cars/cars20.jpg
+true prompt: چه وقت روز است؟ غروب
+pred prompt: چه وقت روز است؟ شهر
+Image: persian_images/outdoor/dasti/dasti44.jpg
+true prompt: آیا تیر چراغ برق در تصویر دیده می‌شود؟ بله
+pred prompt: آیا تیر چراغ برق در تصویر دیده می‌شود؟ سنگ
+Image: persian_images/food/food42.jpg
+true prompt: در تصویر ذغال کجا قرار دارد؟ زیر ظرف
+pred prompt: در تصویر ذغال کجا قرار دارد؟ زیر ظرف
+Image: persian_images/ceremonies/ceremonies71.png
+true prompt: عروس چادر سفید پوشیده؟ بله
+pred prompt: عروس چادر سفید پوشیده؟ هندوانه و خربزه
+Image: persian_images/sport/sport32.jpg
+true prompt: دو زن ورزشکار حجاب ندارند؟ خیر
+pred prompt: دو زن ورزشکار حجاب ندارند؟ چمن
+Image: persian_images/outdoor/modern/modern10.jpg
+true prompt: چند ماشین آبی رنگ در تصویر وجود دارد؟ یک
+pred prompt: چند ماشین آبی رنگ در تصویر وجود دارد؟ حرم
+Image: persian_images/cars/cars46.jpg
+true prompt: آیا فردی از خیابان عبور می کند؟ خیر
+pred prompt: آیا فردی از خیابان عبور می کند؟ ماشین
+Image: persian_images/indoor/indoor19.jpg
+true prompt: آیا اینجا یک رستوران است؟ خیر
+pred prompt: آیا اینجا یک رستوران است؟ نماز جماعت
+Image: persian_images/indoor/indoor82.jpg
+true prompt: آیا زمین فرش دارد؟ بله
+pred prompt: آیا زمین فرش دارد؟ لوستر
+Image: persian_images/sport/sport47.jpg
+true prompt: افراد در تصویر چه ورزشی می‌کنند؟ والیبال
+pred prompt: افراد در تصویر چه ورزشی می‌کنند؟ والیبال
+Image: persian_images/indoor/indoor90.jpg
+true prompt: پنجره های رنگی روی در چوبی چه شکلی هستند؟ شش ضلعی
+pred prompt: پنجره های رنگی روی در چوبی چه شکلی هستند؟ جلوی عروس و داماد
+Image: persian_images/ashkhas/ashkhas23.jpg
+true prompt: در تابلوی روی دیوار تصویر چند شخص کشیده شده است؟ یک
+pred prompt: در تابلوی روی دیوار تصویر چند شخص کشیده شده است؟ چیدن گل
+Image: persian_images/cars/cars92.jpg
+true prompt: چند ماشین در تصویر وجود دارد؟ یک
+pred prompt: چند ماشین در تصویر وجود دارد؟ حصیری
+Image: persian_images/ashkhas/ashkhas15.jpg
+true prompt: چه حیوانی پشت دختر وجود دارد؟ الاغ
+pred prompt: چه حیوانی پشت دختر وجود دارد؟ مانتو
+Image: persian_images/food/food94.jpg
+true prompt: چند عدد چنگال در تصویر وجود دارد؟ یک
+pred prompt: چند عدد چنگال در تصویر وجود دارد؟ چیدن گل
+Image: persian_images/ceremonies/ceremonies96.png
+true prompt: آیا مردم زیادی در این خیابان حضور دارند؟ بله
+pred prompt: آیا مردم زیادی در این خیابان حضور دارند؟ طبل زدن
+Image: persian_images/sport/sport68.jpg
+true prompt: افراد در تصویر مشغول چه ورزشی هستند؟ قایقرانی
+pred prompt: افراد در تصویر مشغول چه ورزشی هستند؟ قایق
+Image: persian_images/ashkhas/ashkhas78.jpg
+true prompt: پشت بام ها به چه شکلی است؟ گنبدی
+pred prompt: پشت بام ها به چه شکلی است؟ مانتو
+Image: persian_images/sport/sport11.jpg
+true prompt: آیا در تصویر تماشاچی مشاهده می کنید؟ بله
+pred prompt: آیا در تصویر تماشاچی مشاهده می کنید؟ والیبال
+Image: persian_images/ceremonies/ceremonies86.png
+true prompt: افراد درتصویر چه جنسیتی دارند؟ مرد
+pred prompt: افراد درتصویر چه جنسیتی دارند؟ طبل زدن
+ 11% 2/19 [00:50<07:10, 25.32s/it]
+Image: persian_images/ashkhas/ashkhas90.jpg
+true prompt: شخص در تصویر چه جنسیتی دارد؟ زن
+pred prompt: شخص در تصویر چه جنسیتی دارد؟ هندوانه و خربزه
+Image: persian_images/outdoor/ethnic/ethnic3.jpg
+true prompt: کیوی روی درخت است یا بوته؟ درخت
+pred prompt: کیوی روی درخت است یا بوته؟ برگ درختان
+Image: persian_images/outdoor/dasti/dasti57.jpg
+true prompt: آیا بالای دیوارها سایبان است؟ بله
+pred prompt: آیا بالای دیوارها سایبان است؟ حوض
+Image: persian_images/ceremonies/ceremonies74.png
+true prompt: در تصویر چند مرد وجود دارد؟ چهار
+pred prompt: در تصویر چند مرد وجود دارد؟ پایکوبی
+Image: persian_images/outdoor/dasti/dasti52.jpg
+true prompt: چند مرد در حال عبور از کوچه هستند؟ دو
+pred prompt: چند مرد در حال عبور از کوچه هستند؟ لوستر
+Image: persian_images/indoor/indoor9.jpg
+true prompt: در تصویر چند مانیتور وجود دارد؟ یک
+pred prompt: در تصویر چند مانیتور وجود دارد؟ مرکز خرید
+Image: persian_images/cars/cars65.jpg
+true prompt: سطل زباله در کجای تصویر قرار دارد؟ راست
+pred prompt: سطل زباله در کجای تصویر قرار دارد؟ ماشین
+Image: persian_images/indoor/indoor28.jpg
+true prompt: جنس دیوارها از چیست؟ آینه‌کاری
+pred prompt: جنس دیوارها از چیست؟ شب
+Image: persian_images/ceremonies/ceremonies75.png
+true prompt: چه حیوانی در تصویر وجود دارد؟ اسب
+pred prompt: چه حیوانی در تصویر وجود دارد؟ پایکوبی
+Image: persian_images/outdoor/modern/modern8.jpg
+true prompt: چند تاکسی زرد در تصویر است؟ دو
+pred prompt: چند تاکسی زرد در تصویر است؟ خیابان
+Image: persian_images/indoor/indoor12.jpg
+true prompt: کف اتاق بدون فرش است؟ خیر
+pred prompt: کف اتاق بدون فرش است؟ گنبدی
+Image: persian_images/outdoor/dasti/dasti38.jpg
+true prompt: چند قایق در دریاچه است؟ صفر
+pred prompt: چند قایق در دریاچه است؟ شهر
+Image: persian_images/ceremonies/ceremonies88.png
+true prompt: آیا مردم در حال اجرای مراسم خاصی هستند؟ بله
+pred prompt: آیا مردم در حال اجرای مراسم خاصی هستند؟ جارو زدن
+Image: persian_images/outdoor/modern/modern33.png
+true prompt: تصویر چه زمانی از شبانه روز را نشان می دهد؟ شب
+pred prompt: تصویر چه زمانی از شبانه روز را نشان می دهد؟ کافه‌های خیابانی
+Image: persian_images/food/food9.jpg
+true prompt: از چه چیزی برای تزیین کوکو استفاده شده است؟ سبزی
+pred prompt: از چه چیزی برای تزیین کوکو استفاده شده است؟ دلمه ی بادمجان
+Image: persian_images/indoor/indoor74.jpg
+true prompt: تعداد تماشاچیان چقدر است؟ زیاد
+pred prompt: تعداد تماشاچیان چقدر است؟ موزه
+Image: persian_images/cars/cars50.jpg
+true prompt: چند موتور سیکلت در زیرگذر وجود دارد؟ یک
+pred prompt: چند موتور سیکلت در زیرگذر وجود دارد؟ کشتی
+Image: persian_images/sport/sport4.jpg
+true prompt: ورزشکار نیزه را در کدام دستش گرفته است؟ راست
+pred prompt: ورزشکار نیزه را در کدام دستش گرفته است؟ پایکوبی
+Image: persian_images/sport/sport98.png
+true prompt: آیا محیط بازی سر بسته است؟ بله
+pred prompt: آیا محیط بازی سر بسته است؟ والیبال
+Image: persian_images/outdoor/dasti/dasti40.jpg
+true prompt: مرد چه کار می کند؟ چوپانی
+pred prompt: مرد چه کار می کند؟ چوپانی
+Image: persian_images/sport/sport13.jpg
+true prompt: ورزشکار مرد است یا زن؟ زن
+pred prompt: ورزشکار مرد است یا زن؟ پرتاب نیزه
+Image: persian_images/outdoor/modern/modern22.jpg
+true prompt: آیا در تصویر خیابان است؟ خیر
+pred prompt: آیا در تصویر خیابان است؟ گنبدی
+Image: persian_images/indoor/indoor63.jpg
+true prompt: چند صندلی در اتاق دیده می‌شود؟ زیاد
+pred prompt: چند صندلی در اتاق دیده می‌شود؟ عبادت
+Image: persian_images/cars/cars19.jpg
+true prompt: ماشین چه رنگی است؟ سفید
+pred prompt: ماشین چه رنگی است؟ درخت
+Image: persian_images/ashkhas/ashkhas56.jpg
+true prompt: مردها چه لباسی پوشیدند؟ تی‌شرت
+pred prompt: مردها چه لباسی پوشیدند؟ دریا
+Image: persian_images/cars/cars98.jpg
+true prompt: آیا مردی که در جلوی ماشین ایستاده کچل است؟ خیر
+pred prompt: آیا مردی که در جلوی ماشین ایستاده کچل است؟ نمایشگاه ماشین
+Image: persian_images/outdoor/dasti/dasti8.jpg
+true prompt: جنسیت کودکی که در تصویر می بینید چیست؟ دختر
+pred prompt: جنسیت کودکی که در تصویر می بینید چیست؟ بازار
+Image: persian_images/ashkhas/ashkhas53.jpg
+true prompt: آیا در تصویر سبد می بینید؟ بله
+pred prompt: آیا در تصویر سبد می بینید؟ سبزی
+Image: persian_images/cars/cars2.jpg
+true prompt: تابلوی دایره‌ای شکل سمت راست خیابان چه رنگی است؟ آبی
+pred prompt: تابلوی دایره‌ای شکل سمت راست خیابان چه رنگی است؟ زمستان
+Image: persian_images/food/food10.jpg
+true prompt: چند ظرف در تصویر دیده می‌شود؟ دو
+pred prompt: چند ظرف در تصویر دیده می‌شود؟ زیر ظرف
+Image: persian_images/ceremonies/ceremonies58.jpg
+true prompt: افراد در سمت چپ خیابان چه کاری می‌کنند؟ زنجیر زدن
+pred prompt: افراد در سمت چپ خیابان چه کاری می‌کنند؟ طبل زدن
+Image: persian_images/food/food71.jpg
+true prompt: چند قاشق در تصویر وجود دارد؟ یک
+pred prompt: چند قاشق در تصویر وجود دارد؟ خورش کرفس
+Image: persian_images/ceremonies/ceremonies79.png
+true prompt: آیا روی کیک شکلات ریخته‌اند؟ بله
+pred prompt: آیا روی کیک شکلات ریخته‌اند؟ بازار
+Image: persian_images/ceremonies/ceremonies14.jpg
+true prompt: این عزاداری مذهبی در کجاست؟ حرم
+pred prompt: این عزاداری مذهبی در کجاست؟ مشکی و آبی
+Image: persian_images/indoor/indoor57.jpg
+true prompt: جنس میز تلویزیون از چیست؟ چوب
+pred prompt: جنس میز تلویزیون از چیست؟ مشکی و آبی
+Image: persian_images/ashkhas/ashkhas21.jpg
+true prompt: در تصویر چه حیوانی وجود دارد؟ شتر
+pred prompt: در تصویر چه حیوانی وجود دارد؟ پایکوبی
+Image: persian_images/indoor/indoor71.jpg
+true prompt: کاشی های داخل حوض چه رنگی‌ست؟ آبی
+pred prompt: کاشی های داخل حوض چه رنگی‌ست؟ گنبدی
+Image: persian_images/food/food29.jpg
+true prompt: آیا یک ظرف از سبزی در شکل می‌بینید؟ خیر
+pred prompt: آیا یک ظرف از سبزی در شکل می‌بینید؟ آش
+Image: persian_images/sport/sport71.jpg
+true prompt: زیر پای افراد در تصویر چه چیزی وجود دارد؟ چمن
+pred prompt: زیر پای افراد در تصویر چه چیزی وجود دارد؟ ورزشگاه
+Image: persian_images/ashkhas/ashkhas55.jpg
+true prompt: دو نفری که گل‌ها را می‌ریزند زن هستند؟ خیر
+pred prompt: دو نفری که گل‌ها را می‌ریزند زن هستند؟ چوپانی
+ 16% 3/19 [01:17<06:59, 26.22s/it]
+Image: persian_images/cars/cars45.jpg
+true prompt: وضعیت هوا به چه صورت است؟ آفتابی
+pred prompt: وضعیت هوا به چه صورت است؟ چتر
+Image: persian_images/food/food79.jpg
+true prompt: سایه روی قسمت بالای شیرینی افتاده است یا پایین؟ بالا
+pred prompt: سایه روی قسمت بالای شیرینی افتاده است یا پایین؟ سفال
+Image: persian_images/outdoor/modern/modern24.jpg
+true prompt: نرده های در تصویر چه رنگی هستند؟ سبز
+pred prompt: نرده های در تصویر چه رنگی هستند؟ پارک
+Image: persian_images/sport/sport79.jpg
+true prompt: چند مرد لباس قرمز پوشیده اند؟ پنج
+pred prompt: چند مرد لباس قرمز پوشیده اند؟ ورزشگاه
+Image: persian_images/food/food39.jpg
+true prompt: کنار ظرف چه چیزی قرار گرفته است؟ نان
+pred prompt: کنار ظرف چه چیزی قرار گرفته است؟ نان
+Image: persian_images/indoor/indoor13.jpg
+true prompt: افراد در تصویر چه جنسیتی دارند؟ مذکر
+pred prompt: افراد در تصویر چه جنسیتی دارند؟ مرکز خرید
+Image: persian_images/sport/sport43.jpg
+true prompt: چند بازیکن در تصویر وجود دارد؟ دو
+pred prompt: چند بازیکن در تصویر وجود دارد؟ زنجیر زنی
+Image: persian_images/outdoor/ethnic/ethnic2.jpg
+true prompt: چه تعداد درخت وجود دارد؟ زیاد
+pred prompt: چه تعداد درخت وجود دارد؟ گنبدی
+Image: persian_images/ashkhas/ashkhas9.jpg
+true prompt: مینی‌بوس سفید رنگ است؟ خیر
+pred prompt: مینی‌بوس سفید رنگ است؟ زن
+Image: persian_images/cars/cars75.jpg
+true prompt: چند ماشین در خیابان در حال حرکت هستند؟ یک
+pred prompt: چند ماشین در خیابان در حال حرکت هستند؟ مونث
+Image: persian_images/ashkhas/ashkhas31.jpg
+true prompt: زنی که عینک دارد در کدام سمت تصویر است؟ راست
+pred prompt: زنی که عینک دارد در کدام سمت تصویر است؟ جلوی عروس و داماد
+Image: persian_images/outdoor/dasti/dasti22.jpg
+true prompt: چند مرد با لباس راه راه در تصویر وجود دارد؟ یک
+pred prompt: چند مرد با لباس راه راه در تصویر وجود دارد؟ رستوران سنتی
+Image: persian_images/cars/cars32.jpg
+true prompt: چه چیزی در سقف پارکینگ وجود دارد؟ لامپ
+pred prompt: چه چیزی در سقف پارکینگ وجود دارد؟ مشکی
+Image: persian_images/outdoor/dasti/dasti21.jpg
+true prompt: آیا درخت نخل در عکس وجود دارد؟ بله
+pred prompt: آیا درخت نخل در عکس وجود دارد؟ خیابان
+Image: persian_images/sport/sport46.jpg
+true prompt: افراد در تصویر چه ورزشی می‌کنند؟ اسکی
+pred prompt: افراد در تصویر چه ورزشی می‌کنند؟ اسکی
+Image: persian_images/cars/cars55.jpg
+true prompt: آیا ماشین ها در جاده کوهستانی در حال حرکتند؟ بله
+pred prompt: آیا ماشین ها در جاده کوهستانی در حال حرکتند؟ نمایشگاه
+Image: persian_images/ashkhas/ashkhas39.jpg
+true prompt: جنسیت شخص چیست؟ مرد
+pred prompt: جنسیت شخص چیست؟ رستوران سنتی
+Image: persian_images/sport/sport52.jpg
+true prompt: لباس ورزش‌کار چه رنگیه؟ سبز
+pred prompt: لباس ورزش‌کار چه رنگیه؟ وزنه برداری
+Image: persian_images/ashkhas/ashkhas75.jpg
+true prompt: شخص موجود در تصویر چه جنسیتی دارد؟ زن
+pred prompt: شخص موجود در تصویر چه جنسیتی دارد؟ عبادت
+Image: persian_images/ashkhas/ashkhas83.jpg
+true prompt: چند دختر در تصویر مشخص است؟ یک
+pred prompt: چند دختر در تصویر مشخص است؟ مرد
+Image: persian_images/indoor/indoor79.jpg
+true prompt: رنگ فرش های پهن شده چیست؟ قرمز
+pred prompt: رنگ فرش های پهن شده چیست؟ گنبدی
+Image: persian_images/food/food87.jpg
+true prompt: دیس روی سطح با چه جنسی گذاشته شده است؟ سنگ
+pred prompt: دیس روی سطح با چه جنسی گذاشته شده است؟ خورش کرفس
+Image: persian_images/ashkhas/ashkhas46.jpg
+true prompt: جنسیت کودکی که کنار حیوان ایستاده است چیست؟ پسر
+pred prompt: جنسیت کودکی که کنار حیوان ایستاده است چیست؟ قایقرانی
+Image: persian_images/cars/cars64.jpg
+true prompt: آیا تصویر در شب گرفته شده است؟ خیر
+pred prompt: آیا تصویر در شب گرفته شده است؟ خیابان
+Image: persian_images/food/food100.jpg
+true prompt: آیا خیار شور درون ساندویچ می‌بینید؟ بله
+pred prompt: آیا خیار شور درون ساندویچ می‌بینید؟ طبل زدن
+Image: persian_images/ceremonies/ceremonies16.jpg
+true prompt: آیا در تصویر چنگال وجود دارد؟ خیر
+pred prompt: آیا در تصویر چنگال وجود دارد؟ دستکش
+Image: persian_images/sport/sport65.jpg
+true prompt: آیا در تصویر زن می بینید؟ خیر
+pred prompt: آیا در تصویر زن می بینید؟ کاراته
+Image: persian_images/cars/cars44.jpg
+true prompt: ماشین کجا قرار دارد؟ پارکینگ
+pred prompt: ماشین کجا قرار دارد؟ نقره‌ای
+Image: persian_images/outdoor/modern/modern4.jpg
+true prompt: تعداد پنجره‌های ساختمان‌ها کم است یا زیاد؟ زیاد
+pred prompt: تعداد پنجره‌های ساختمان‌ها کم است یا زیاد؟ پارک
+Image: persian_images/sport/sport2.jpg
+true prompt: آیا مرد انگشتر دارد؟ بله
+pred prompt: آیا مرد انگشتر دارد؟ پرتاب نیزه
+Image: persian_images/ashkhas/ashkhas29.jpg
+true prompt: آیا موهای دختر درون تصویر کاملا معلوم است؟ خیر
+pred prompt: آیا موهای دختر درون تصویر کاملا معلوم است؟ هویج
+Image: persian_images/ceremonies/ceremonies100.png
+true prompt: اشخاص در حال انجام چه فعالیتی هستند؟ رقص
+pred prompt: اشخاص در حال انجام چه فعالیتی هستند؟ پایکوبی
+Image: persian_images/food/food44.jpg
+true prompt: چند نان بربری در عکس است؟ یک
+pred prompt: چند نان بربری در عکس است؟ نیم دایره
+Image: persian_images/cars/cars40.jpg
+true prompt: عکس در شب گرفته شده است؟ خیر
+pred prompt: عکس در شب گرفته شده است؟ خیابان
+Image: persian_images/ashkhas/ashkhas81.jpg
+true prompt: چند نان روی میز است؟ یک
+pred prompt: چند نان روی میز است؟ بازار
+Image: persian_images/sport/sport88.jpg
+true prompt: شخصی که در تصویر است چه جنسیتی دارد؟ مرد
+pred prompt: شخصی که در تصویر است چه جنسیتی دارد؟ والیبال
+Image: persian_images/cars/cars85.jpg
+true prompt: درخت ها در کدام سمت تصویر قرار دارند؟ چپ
+pred prompt: درخت ها در کدام سمت تصویر قرار دارند؟ آینه ماشین
+Image: persian_images/sport/sport85.jpg
+true prompt: جنسیت تمام افراد در تصویر مذکر است؟ خیر
+pred prompt: جنسیت تمام افراد در تصویر مذکر است؟ رقص
+Image: persian_images/outdoor/dasti/dasti33.jpg
+true prompt: در انتهای تصویر چه چیزی دیده می‌شود؟ کوه
+pred prompt: در انتهای تصویر چه چیزی دیده می‌شود؟ کوه
+Image: persian_images/ashkhas/ashkhas16.jpg
+true prompt: در سینی فلزی چه چیزی وجود دارد؟ شربت
+pred prompt: در سینی فلزی چه چیزی وجود دارد؟ خیابان
+ 21% 4/19 [01:45<06:39, 26.63s/it]
+Image: persian_images/food/food21.jpg
+true prompt: آیا در ظرف شیرینی است؟ بله
+pred prompt: آیا در ظرف شیرینی است؟ هویج
+Image: persian_images/ceremonies/ceremonies35.jpg
+true prompt: افراد در چه مراسمی شرکت کرده اند؟ تاج گذاری
+pred prompt: افراد در چه مراسمی شرکت کرده اند؟ تاج گذاری
+Image: persian_images/cars/cars29.jpg
+true prompt: آیا درخت در تصویر دیده می‌شود؟ بله
+pred prompt: آیا درخت در تصویر دیده می‌شود؟ آینه ماشین
+Image: persian_images/ceremonies/ceremonies76.png
+true prompt: پیراهن افرادی که جلیقه مشکی به تن دارند چه رنگی است؟ نارنجی
+pred prompt: پیراهن افرادی که جلیقه مشکی به تن دارند چه رنگی است؟ آتش
+Image: persian_images/indoor/indoor89.jpg
+true prompt: آیا تصویر فضای یک مسجد را نشان می دهد؟ خیر
+pred prompt: آیا تصویر فضای یک مسجد را نشان می دهد؟ لوستر
+Image: persian_images/cars/cars56.jpg
+true prompt: آیا در آسمان ابر وجود دارد؟ بله
+pred prompt: آیا در آسمان ابر وجود دارد؟ پارکینگ
+Image: persian_images/outdoor/dasti/dasti41.jpg
+true prompt: مردم روی فرش مشغول چه کاری هستند؟ نماز خواندن
+pred prompt: مردم روی فرش مشغول چه کاری هستند؟ گنبدی
+Image: persian_images/cars/cars81.jpg
+true prompt: خیابان خلوت است؟ خیر
+pred prompt: خیابان خلوت است؟ نمایشگاه ماشین
+Image: persian_images/ashkhas/ashkhas74.jpg
+true prompt: آیا چشمان زن بسته است؟ خیر
+pred prompt: آیا چشمان زن بسته است؟ طبل زدن
+Image: persian_images/ashkhas/ashkhas3.jpg
+true prompt: چه چیزی در بشقاب در تصویر وجود دارد؟ هندوانه
+pred prompt: چه چیزی در بشقاب در تصویر وجود دارد؟ چادر مسافرتی
+Image: persian_images/outdoor/ethnic/ethnic7.png
+true prompt: چندتا بادکنک قرمز در تصویر است؟ چهار
+pred prompt: چندتا بادکنک قرمز در تصویر است؟ ماشین
+Image: persian_images/outdoor/dasti/dasti17.jpg
+true prompt: مرد مشغول چه کاری است؟ روزنامه خواندن
+pred prompt: مرد مشغول چه کاری است؟ بازار
+Image: persian_images/ashkhas/ashkhas64.jpg
+true prompt: چه لباسی تن دخترها است؟ لباس محلی
+pred prompt: چه لباسی تن دخترها است؟ حرم
+Image: persian_images/sport/sport41.jpg
+true prompt: آیا دروازه در تصویر دیده می‌شود؟ بله
+pred prompt: آیا دروازه در تصویر دیده می‌شود؟ والیبال
+Image: persian_images/ashkhas/ashkhas93.jpg
+true prompt: چندتا گلدان در تصویر وجود دارد؟ دو
+pred prompt: چندتا گلدان در تصویر وجود دارد؟ زن
+Image: persian_images/outdoor/dasti/dasti5.jpg
+true prompt: آیا نمای دیوار سمت چپی از سنگ است؟ بله
+pred prompt: آیا نمای دیوار سمت چپی از سنگ است؟ سبزی
+Image: persian_images/outdoor/dasti/dasti47.jpg
+true prompt: برگ درختان در تصویر چه رنگی است؟ سبز
+pred prompt: برگ درختان در تصویر چه رنگی است؟ ماشین
+Image: persian_images/sport/sport8.jpg
+true prompt: افراد موجود در تصویر چه جنسیتی دارند؟ مونث
+pred prompt: افراد موجود در تصویر چه جنسیتی دارند؟ والیبال
+Image: persian_images/ceremonies/ceremonies26.jpg
+true prompt: آیا در آسمان ابر وجود دارد؟ بله
+pred prompt: آیا در آسمان ابر وجود دارد؟ بازار
+Image: persian_images/indoor/indoor54.jpg
+true prompt: در تصویر چند گاری وجود دارد؟ دو
+pred prompt: در تصویر چند گاری وجود دارد؟ بازار
+Image: persian_images/food/food96.jpg
+true prompt: بشقاب چه رنگی است؟ مشکی
+pred prompt: بشقاب چه رنگی است؟ دلمه ی بادمجان
+Image: persian_images/outdoor/dasti/dasti68.jpg
+true prompt: چند مرد در این تصویر وجود دارد؟ دو
+pred prompt: چند مرد در این تصویر وجود دارد؟ پرچم
+Image: persian_images/cars/cars104.jpeg
+true prompt: آیا رنگ ماشین های درون تصویر آبی است؟ خیر
+pred prompt: آیا رنگ ماشین های درون تصویر آبی است؟ مشکی و آبی
+Image: persian_images/sport/sport49.jpg
+true prompt: رنگ لباس شخصی که وزنه را بالای سر خود نگه داشته است چه رنگی است؟ مشکی
+pred prompt: رنگ لباس شخصی که وزنه را بالای سر خود نگه داشته است چه رنگی است؟ کاراته
+Image: persian_images/sport/sport9.jpg
+true prompt: تصویر مربوط به چه مکانی است؟ دریا
+pred prompt: تصویر مربوط به چه مکانی است؟ قایقرانی
+Image: persian_images/outdoor/dasti/dasti63.jpg
+true prompt: آیا کسی در آب است؟ بله
+pred prompt: آیا کسی در آب است؟ کوهنوردی
+Image: persian_images/sport/sport72.jpg
+true prompt: دو خانم در حال چه ورزشی هستند؟ کوهنوردی
+pred prompt: دو خانم در حال چه ورزشی هستند؟ برفی
+Image: persian_images/cars/cars80.jpg
+true prompt: خانه چند پنجره دارد؟ چهار
+pred prompt: خانه چند پنجره دارد؟ ماشین
+Image: persian_images/sport/sport97.png
+true prompt: قایق‌رانان زن هستند؟ بله
+pred prompt: قایق‌رانان زن هستند؟ پرتاب نیزه
+Image: persian_images/ashkhas/ashkhas19.jpg
+true prompt: افراد چه جنسیتی دارند؟ مونث
+pred prompt: افراد چه جنسیتی دارند؟ سنتی
+Image: persian_images/cars/cars5.jpg
+true prompt: نوار افقی رسم شده روی بدنه ماشین‌های سفید چه رنگی است؟ نارنجی
+pred prompt: نوار افقی رسم شده روی بدنه ماشین‌های سفید چه رنگی است؟ پایکوبی
+Image: persian_images/food/food36.jpg
+true prompt: چند عدد چنگال در تصویر است؟ دو
+pred prompt: چند عدد چنگال در تصویر است؟ خورش کرفس
+Image: persian_images/outdoor/modern/modern14.jpg
+true prompt: چه میوه هایی در تصویر می بینید؟ هندوانه و خربزه
+pred prompt: چه میوه هایی در تصویر می بینید؟ کافه‌های خیابانی
+Image: persian_images/ceremonies/ceremonies81.png
+true prompt: در آسمان چه چیزی دیده می‌شود؟ بادبادک
+pred prompt: در آسمان چه چیزی دیده می‌شود؟ بادبادک
+Image: persian_images/sport/sport12.jpg
+true prompt: رنگ پارچه ساق پای همه اسب های در تصویر قرمز است؟ خیر
+pred prompt: رنگ پارچه ساق پای همه اسب های در تصویر قرمز است؟ والیبال
+Image: persian_images/cars/cars6.jpg
+true prompt: آیا در تصویر جنگل دیده می‌شود؟ بله
+pred prompt: آیا در تصویر جنگل دیده می‌شود؟ ماشین
+Image: persian_images/food/food52.jpg
+true prompt: علاوه بر زعفران چه چیزی روی برنج است؟ مرغ
+pred prompt: علاوه بر زعفران چه چیزی روی برنج است؟ دلمه ی بادمجان
+Image: persian_images/indoor/indoor47.jpg
+true prompt: اینجا کجاست؟ رستوران سنتی
+pred prompt: اینجا کجاست؟ لوستر
+Image: persian_images/cars/cars61.jpg
+true prompt: پارچه‌های نوشته شده در کدام سمت خیابان نصب شده است؟ وسط
+pred prompt: پارچه‌های نوشته شده در کدام سمت خیابان نصب شده است؟ ماشین
+Image: persian_images/outdoor/modern/modern30.png
+true prompt: شلوار مردی که در حال تماشای نقاشی روی دیوار است چه رنگی است؟ سیاه
+pred prompt: شلوار مردی که در حال تماشای نقاشی روی دیوار است چه رنگی است؟ پسر
+ 26% 5/19 [02:11<06:12, 26.60s/it]
+Image: persian_images/ceremonies/ceremonies55.jpg
+true prompt: اسم وسیله ای که روی چمن است چیست؟ گاز پیک نیک
+pred prompt: اسم وسیله ای که روی چمن است چیست؟ کافه‌های خیابانی
+Image: persian_images/food/food55.jpg
+true prompt: آیا در تصویر قاشق می بینید؟ بله
+pred prompt: آیا در تصویر قاشق می بینید؟ دلمه ی بادمجان
+Image: persian_images/food/food81.jpg
+true prompt: آیا غذا تزئین شده است؟ بله
+pred prompt: آیا غذا تزئین شده است؟ گلدان
+Image: persian_images/sport/sport59.jpg
+true prompt: آیا ورزشکاران کلاه دارند؟ بله
+pred prompt: آیا ورزشکاران کلاه دارند؟ وزنه برداری
+Image: persian_images/sport/sport70.jpg
+true prompt: شخص در تصویر چه جنسیتی دارد؟ زن
+pred prompt: شخص در تصویر چه جنسیتی دارد؟ طبل زدن
+Image: persian_images/cars/cars39.jpg
+true prompt: این مکان یک کوچه است؟ خیر
+pred prompt: این مکان یک کوچه است؟ آینه ماشین
+Image: persian_images/food/food2.jpg
+true prompt: چند عدد شیرینی مثلثی شکل در جعبه است؟ پنج
+pred prompt: چند عدد شیرینی مثلثی شکل در جعبه است؟ خورش کرفس
+Image: persian_images/ashkhas/ashkhas54.jpg
+true prompt: چند پرچم در تصویر می بینید؟ سه
+pred prompt: چند پرچم در تصویر می بینید؟ دختر
+Image: persian_images/indoor/indoor83.jpg
+true prompt: معماری این کتابخانه سنتی است؟ خیر
+pred prompt: معماری این کتابخانه سنتی است؟ مرکز خرید
+Image: persian_images/indoor/indoor5.jpg
+true prompt: در تصویر چند پله برقی می بینید؟ دو
+pred prompt: در تصویر چند پله برقی می بینید؟ بازار
+Image: persian_images/cars/cars101.png
+true prompt: خودرو‌ها در چه مکانی هستند؟ موزه
+pred prompt: خودرو‌ها در چه مکانی هستند؟ سرمه‌ای
+Image: persian_images/ceremonies/ceremonies7.jpg
+true prompt: زن‌ها چه پوششی دارند؟ مانتو
+pred prompt: زن‌ها چه پوششی دارند؟ پارک
+Image: persian_images/sport/sport54.jpg
+true prompt: آیا همه زن های داخل تصویر پوشش آن ها مثل هم هست؟ خیر
+pred prompt: آیا همه زن های داخل تصویر پوشش آن ها مثل هم هست؟ گلدان
+Image: persian_images/sport/sport94.png
+true prompt: در تصویر چند اسب دیده می‌شود؟ دو
+pred prompt: در تصویر چند اسب دیده می‌شود؟ والیبال
+Image: persian_images/outdoor/dasti/dasti6.jpg
+true prompt: چند اسب در تصویر وجود دارد؟ یک
+pred prompt: چند اسب در تصویر وجود دارد؟ رقص
+Image: persian_images/outdoor/modern/modern3.jpg
+true prompt: تصویر در روز است یا شب؟ شب
+pred prompt: تصویر در روز است یا شب؟ مرکز
+Image: persian_images/indoor/indoor80.jpg
+true prompt: اینجا چه مکانی است؟ مرکز خرید
+pred prompt: اینجا چه مکانی است؟ مرکز خرید
+Image: persian_images/food/food80.jpg
+true prompt: چه غذایی در تصویر می بینید؟ خورش کرفس
+pred prompt: چه غذایی در تصویر می بینید؟ زیر ظرف
+Image: persian_images/sport/sport5.jpg
+true prompt: رنگ‌های لباس ورزشکار نماد پرچم چه کشوری است؟ ایران
+pred prompt: رنگ‌های لباس ورزشکار نماد پرچم چه کشوری است؟ کاراته
+Image: persian_images/indoor/indoor66.jpg
+true prompt: بالای پنجره‌ها چه شکلی است؟ نیم دایره
+pred prompt: بالای پنجره‌ها چه شکلی است؟ لوستر
+Image: persian_images/outdoor/dasti/dasti10.jpg
+true prompt: جنسیت افراد درون تصویر چیست؟ زن
+pred prompt: جنسیت افراد درون تصویر چیست؟ حوض
+Image: persian_images/cars/cars47.jpg
+true prompt: چه فصلی از سال است؟ پاییز
+pred prompt: چه فصلی از سال است؟ کوچه
+Image: persian_images/sport/sport83.jpg
+true prompt: آیا پشت لباس شخص نوشته وجود دارد؟ بله
+pred prompt: آیا پشت لباس شخص نوشته وجود دارد؟ کاراته
+Image: persian_images/ceremonies/ceremonies38.jpg
+true prompt: زنان در حال انجام چه کاری هستند؟ پایکوبی
+pred prompt: زنان در حال انجام چه کاری هستند؟ لباس محلی
+Image: persian_images/ceremonies/ceremonies25.jpg
+true prompt: زنان و مردان مشغول چه کاری هستند؟ رقص
+pred prompt: زنان و مردان مشغول چه کاری هستند؟ پایکوبی
+Image: persian_images/sport/sport51.jpg
+true prompt: روسری زنان ورزشکار با لباس قرمز چه رنگی است؟ سفید
+pred prompt: روسری زنان ورزشکار با لباس قرمز چه رنگی است؟ والیبال
+Image: persian_images/cars/cars26.jpg
+true prompt: آیا همه ماشین‌ها پلاک دارند؟ خیر
+pred prompt: آیا همه ماشین‌ها پلاک دارند؟ نمایشگاه ماشین
+Image: persian_images/ashkhas/ashkhas79.jpg
+true prompt: جنسیت دو نفر جلویی در تصویر چیست؟ مونث
+pred prompt: جنسیت دو نفر جلویی در تصویر چیست؟ کلاه
+Image: persian_images/cars/cars74.jpg
+true prompt: چند تاکسی در خیابان است؟ دو
+pred prompt: چند تاکسی در خیابان است؟ پارکینگ
+Image: persian_images/outdoor/dasti/dasti61.jpg
+true prompt: آیا خانه معماری مدرن دارد؟ خیر
+pred prompt: آیا خانه معماری مدرن دارد؟ حوض
+Image: persian_images/ceremonies/ceremonies9.jpg
+true prompt: دختربچه کجاست؟ نمایشگاه
+pred prompt: دختربچه کجاست؟ نمایشگاه
+Image: persian_images/indoor/indoor27.jpg
+true prompt: شخص درون تصویر چه جنسیتی دارد؟ زن
+pred prompt: شخص درون تصویر چه جنسیتی دارد؟ گنبدی
+Image: persian_images/ceremonies/ceremonies53.jpg
+true prompt: خانواده مشغول انجام چه کاری است؟ تفریح کردن
+pred prompt: خانواده مشغول انجام چه کاری است؟ چادر
+Image: persian_images/ceremonies/ceremonies57.jpg
+true prompt: پرچم بزرگ در کجای تصویر قرار دارد؟ راست
+pred prompt: پرچم بزرگ در کجای تصویر قرار دارد؟ پایکوبی
+Image: persian_images/food/food54.jpg
+true prompt: چه غذایی در تصویر است؟ ماکارونی
+pred prompt: چه غذایی در تصویر است؟ زیر ظرف
+Image: persian_images/outdoor/dasti/dasti1.jpg
+true prompt: آسمان چه رنگی است؟ آبی
+pred prompt: آسمان چه رنگی است؟ کوچه
+Image: persian_images/outdoor/dasti/dasti7.jpg
+true prompt: خانه‌ای که روی سقف آن کولر وجود دارد در کدام سمت کوچه قرار گرفته است؟ چپ
+pred prompt: خانه‌ای که روی سقف آن کولر وجود دارد در کدام سمت کوچه قرار گرفته است؟ شهر
+Image: persian_images/indoor/indoor33.jpg
+true prompt: سقف چه رنگی است؟ نارنجی
+pred prompt: سقف چه رنگی است؟ کافه‌های خیابانی
+Image: persian_images/ashkhas/ashkhas13.jpg
+true prompt: آیا در عکس گوسفند هم دیده می شود؟ بله
+pred prompt: آیا در عکس گوسفند هم دیده می شود؟ کاراته
+Image: persian_images/ceremonies/ceremonies6.jpg
+true prompt: در سمت چپ تصویر لباس کودکی که در بغل پدرش است چه رنگی است؟ آبی
+pred prompt: در سمت چپ تصویر لباس کودکی که در بغل پدرش است چه رنگی است؟ بازار
+ 32% 6/19 [02:38<05:47, 26.76s/it]
+Image: persian_images/food/food66.jpg
+true prompt: در کاسه کوچکتر سالاد است؟ بله
+pred prompt: در کاسه کوچکتر سالاد است؟ لوستر
+Image: persian_images/food/food32.jpg
+true prompt: چند بشقاب غذا در تصویر وجود دارد؟ یک
+pred prompt: چند بشقاب غذا در تصویر وجود دارد؟ قرمز
+Image: persian_images/ashkhas/ashkhas71.jpg
+true prompt: جنس کوزه ها از چیست؟ سفال
+pred prompt: جنس کوزه ها از چیست؟ کوچه
+Image: persian_images/indoor/indoor50.jpg
+true prompt: دیوار‌ها آینه کاری شده اند؟ بله
+pred prompt: دیوار‌ها آینه کاری شده اند؟ گنبدی
+Image: persian_images/cars/cars100.png
+true prompt: آیا همه افراد مرد هستند؟ خیر
+pred prompt: آیا همه افراد مرد هستند؟ نمایشگاه ماشین
+Image: persian_images/food/food91.jpg
+true prompt: آیا این غذا برنجی‌ست؟ بله
+pred prompt: آیا این غذا برنجی‌ست؟ سبزی
+Image: persian_images/indoor/indoor20.jpg
+true prompt: این مکان موزه و حمام تاریخی است؟ بله
+pred prompt: این مکان موزه و حمام تاریخی است؟ پایکوبی
+Image: persian_images/cars/cars102.png
+true prompt: چند ماشین در تصویر وجود دارد؟ سه
+pred prompt: چند ماشین در تصویر وجود دارد؟ طلایی
+Image: persian_images/food/food98.jpg
+true prompt: قالیچه چه رنگی‌ست؟ قرمز
+pred prompt: قالیچه چه رنگی‌ست؟ پخش غذا
+Image: persian_images/ceremonies/ceremonies63.jpg
+true prompt: زنان در حال انجام چه کاری هستند؟ پایکوبی
+pred prompt: زنان در حال انجام چه کاری هستند؟ پایکوبی
+Image: persian_images/cars/cars10.jpg
+true prompt: ماشین چه رنگی است؟ خاکستری
+pred prompt: ماشین چه رنگی است؟ کافه‌های خیابانی
+Image: persian_images/ceremonies/ceremonies46.jpg
+true prompt: رقص افراد درون تصویر چه نوعی است؟ سنتی
+pred prompt: رقص افراد درون تصویر چه نوعی است؟ طبل زدن
+Image: persian_images/ashkhas/ashkhas11.jpg
+true prompt: چند مرد در تصویر وجود دارد؟ دو
+pred prompt: چند مرد در تصویر وجود دارد؟ سفال
+Image: persian_images/cars/cars53.jpg
+true prompt: ماشینی که در تصویر است چه رنگی است؟ نقره‌ای
+pred prompt: ماشینی که در تصویر است چه رنگی است؟ مشکی و آبی
+Image: persian_images/ceremonies/ceremonies78.png
+true prompt: چند مرد با کلاه گیس در تصویر وجود دارد؟ دو
+pred prompt: چند مرد با کلاه گیس در تصویر وجود دارد؟ پایکوبی
+Image: persian_images/ceremonies/ceremonies34.jpg
+true prompt: تصویر از چه مکانی گرفته شده است؟ بازار
+pred prompt: تصویر از چه مکانی گرفته شده است؟ بازار
+Image: persian_images/cars/cars7.jpg
+true prompt: چه چیزی روی زمین ریخته است؟ برگ درختان
+pred prompt: چه چیزی روی زمین ریخته است؟ خیابان
+Image: persian_images/outdoor/dasti/dasti14.jpg
+true prompt: جنسیت شخص در تصویر چیست؟ مونث
+pred prompt: جنسیت شخص در تصویر چیست؟ گنبدی
+Image: persian_images/indoor/indoor38.jpg
+true prompt: چند چلچراغ در اتاق وجود دارد؟ دو
+pred prompt: چند چلچراغ در اتاق وجود دارد؟ گنبدی
+Image: persian_images/ashkhas/ashkhas22.jpg
+true prompt: پشت مرد چه چیزهایی روی هم قرار داده شده‌اند؟ فرش
+pred prompt: پشت مرد چه چیزهایی روی هم قرار داده شده‌اند؟ قالیچه
+Image: persian_images/food/food95.jpg
+true prompt: چند ظرف غذا داخل تصویر وجود دارد؟ سه
+pred prompt: چند ظرف غذا داخل تصویر وجود دارد؟ صورتی
+Image: persian_images/food/food3.jpg
+true prompt: آیا در تصویر نخود وجود دارد؟ بله
+pred prompt: آیا در تصویر نخود وجود دارد؟ خورش کرفس
+Image: persian_images/food/food5.jpg
+true prompt: آیا رومیزی ساده است؟ خیر
+pred prompt: آیا رومیزی ساده است؟ چیدن گل
+Image: persian_images/cars/cars15.jpg
+true prompt: آیا تصویر فصل پاییز را نشان می دهد؟ بله
+pred prompt: آیا تصویر فصل پاییز را نشان می دهد؟ خیابان
+Image: persian_images/ceremonies/ceremonies51.jpg
+true prompt: زن ها در حال چه کاری هستند؟ نماز جماعت
+pred prompt: زن ها در حال چه کاری هستند؟ شتر
+Image: persian_images/cars/cars62.jpg
+true prompt: آیا چراغ ماشین روشن است؟ بله
+pred prompt: آیا چراغ ماشین روشن است؟ سیب‌زمینی
+Image: persian_images/outdoor/dasti/dasti65.jpg
+true prompt: تصویر چه فصلی در سال را نشان می دهد؟ زمستان
+pred prompt: تصویر چه فصلی در سال را نشان می دهد؟ برفی
+Image: persian_images/food/food20.jpg
+true prompt: آیا تمام ظرف‌های غذا در سینی بزرگتری است؟ بله
+pred prompt: آیا تمام ظرف‌های غذا در سینی بزرگتری است؟ چهار
+Image: persian_images/food/food70.jpg
+true prompt: نام غذای داخل ظرف چیست؟ کباب
+pred prompt: نام غذای داخل ظرف چیست؟ دلمه ی بادمجان
+Image: persian_images/ceremonies/ceremonies90.png
+true prompt: در تصویر چند مرد وجود دارد؟ دو
+pred prompt: در تصویر چند مرد وجود دارد؟ نماز خواندن
+Image: persian_images/ceremonies/ceremonies85.png
+true prompt: آیا این مراسم جشن عروسی است؟ خیر
+pred prompt: آیا این مراسم جشن عروسی است؟ ماکارونی
+Image: persian_images/sport/sport66.jpg
+true prompt: لباس مردی که ساق دست پوشیده چه رنگی است؟ سرمه‌ای
+pred prompt: لباس مردی که ساق دست پوشیده چه رنگی است؟ بسکتبال
+Image: persian_images/cars/cars96.jpg
+true prompt: درخت ها در کدام سمت تصویر قرار دارند؟ راست
+pred prompt: درخت ها در کدام سمت تصویر قرار دارند؟ خیابان
+Image: persian_images/outdoor/dasti/dasti45.jpg
+true prompt: آیا در عکس یک بنای تاریخی است؟ بله
+pred prompt: آیا در عکس یک بنای تاریخی است؟ نیم دایره
+Image: persian_images/cars/cars43.jpg
+true prompt: نرده‌های بالایی خیابان بالاتر چه رنگی است؟ سبز
+pred prompt: نرده‌های بالایی خیابان بالاتر چه رنگی است؟ پارکینگ
+Image: persian_images/ceremonies/ceremonies62.jpg
+true prompt: رومیزی چه رنگی است؟ قرمز
+pred prompt: رومیزی چه رنگی است؟ سبزی
+Image: persian_images/ashkhas/ashkhas25.jpg
+true prompt: پسر مشغول انجام چه کاری است؟ چیدن گل
+pred prompt: پسر مشغول انجام چه کاری است؟ چیدن گل
+Image: persian_images/indoor/indoor7.jpg
+true prompt: سقف مکان چه شکلی است؟ گنبدی
+pred prompt: سقف مکان چه شکلی است؟ گنبدی
+Image: persian_images/outdoor/dasti/dasti35.jpg
+true prompt: تاکسی‌ در حال حرکت چه رنگی است؟ زرد
+pred prompt: تاکسی‌ در حال حرکت چه رنگی است؟ گلدان
+Image: persian_images/sport/sport6.jpg
+true prompt: جنسیت افراد موجود در تصویر چیست؟ زن
+pred prompt: جنسیت افراد موجود در تصویر چیست؟ والیبال
+ 37% 7/19 [03:05<05:22, 26.84s/it]
+Image: persian_images/ceremonies/ceremonies73.png
+true prompt: چند عروسک در تصویر است؟ دو
+pred prompt: چند عروسک در تصویر است؟ بادبادک
+Image: persian_images/food/food67.jpg
+true prompt: چندتا چنگال در تصویر می بینید؟ دو
+pred prompt: چندتا چنگال در تصویر می بینید؟ سبزی
+Image: persian_images/indoor/indoor93.jpg
+true prompt: لامپ در کجای تصویر قرار دارد؟ بالا
+pred prompt: لامپ در کجای تصویر قرار دارد؟ حرم
+Image: persian_images/outdoor/dasti/dasti16.jpg
+true prompt: سقف خانه ها چه شکلی است؟ شیروانی
+pred prompt: سقف خانه ها چه شکلی است؟ کوه
+Image: persian_images/food/food92.jpg
+true prompt: آیا در سینی جوجه کباب با برنج است؟ خیر
+pred prompt: آیا در سینی جوجه کباب با برنج است؟ چیدن گل
+Image: persian_images/outdoor/modern/modern26.jpg
+true prompt: رنگ پل هوایی که در تصویر وجود دارد چه رنگی است؟ سفید
+pred prompt: رنگ پل هوایی که در تصویر وجود دارد چه رنگی است؟ خیابان
+Image: persian_images/sport/sport30.jpg
+true prompt: آیا فرد روی زمین است؟ خیر
+pred prompt: آیا فرد روی زمین است؟ بادبادک
+Image: persian_images/sport/sport53.jpg
+true prompt: ورزشکاران چه ورزشی انجام می دهند؟ کشتی
+pred prompt: ورزشکاران چه ورزشی انجام می دهند؟ وزنه برداری
+Image: persian_images/ashkhas/ashkhas4.jpg
+true prompt: چند خانم با پوشش چادر در تصویر وجود دارند؟ دو
+pred prompt: چند خانم با پوشش چادر در تصویر وجود دارند؟ چتر
+Image: persian_images/ashkhas/ashkhas87.jpg
+true prompt: چند صندوق صدقات در تصویر مشخص است؟ یک
+pred prompt: چند صندوق صدقات در تصویر مشخص است؟ دلمه ی بادمجان
+Image: persian_images/food/food30.jpg
+true prompt: آیا ماست را تزئین کرده‌اند؟ بله
+pred prompt: آیا ماست را تزئین کرده‌اند؟ مرغ
+Image: persian_images/food/food89.jpg
+true prompt: آیا درون فلفل دلمه‌ای پر است؟ بله
+pred prompt: آیا درون فلفل دلمه‌ای پر است؟ هویج
+Image: persian_images/indoor/indoor39.jpg
+true prompt: آیا در تصاویر لامپ دیده می شود؟ بله
+pred prompt: آیا در تصاویر لامپ دیده می شود؟ مرکز خرید
+Image: persian_images/indoor/indoor31.jpg
+true prompt: چند صندلی در تصویر وجود دارد؟ یک
+pred prompt: چند صندلی در تصویر وجود دارد؟ شیروانی
+Image: persian_images/ashkhas/ashkhas10.jpg
+true prompt: مقنعه زن چه رنگی است؟ سفید
+pred prompt: مقنعه زن چه رنگی است؟ آینه‌کاری
+Image: persian_images/cars/cars38.jpg
+true prompt: آیا در این تصویر درخت وجود دارد؟ بله
+pred prompt: آیا در این تصویر درخت وجود دارد؟ آینه ماشین
+Image: persian_images/indoor/indoor46.jpg
+true prompt: سقف اتاق به چه شکل است؟ گنبدی
+pred prompt: سقف اتاق به چه شکل است؟ سنگ
+Image: persian_images/outdoor/modern/modern7.jpg
+true prompt: جنس دیواره های کنار رودخانه چیست؟ سنگ
+pred prompt: جنس دیواره های کنار رودخانه چیست؟ کوچه
+Image: persian_images/food/food51.jpg
+true prompt: دور خورش چه چیزی ریخته شده است؟ سیب‌زمینی
+pred prompt: دور خورش چه چیزی ریخته شده است؟ پرتقال
+Image: persian_images/outdoor/dasti/dasti25.jpg
+true prompt: چادرها روی صخره ها واقع شده اند؟ خیر
+pred prompt: چادرها روی صخره ها واقع شده اند؟ دریا
+Image: persian_images/indoor/indoor53.jpg
+true prompt: آیا در تصویر کپسول آتش نشانی وجود دارد؟ بله
+pred prompt: آیا در تصویر کپسول آتش نشانی وجود دارد؟ مشکی و آبی
+Image: persian_images/cars/cars63.jpg
+true prompt: آیا ماشین‌ها همرنگ هستند؟ بله
+pred prompt: آیا ماشین‌ها همرنگ هستند؟ خیابان
+Image: persian_images/ceremonies/ceremonies83.png
+true prompt: چند شخص در تصویر یقه اسکی پوشیده اند؟ یک
+pred prompt: چند شخص در تصویر یقه اسکی پوشیده اند؟ چیدن گل
+Image: persian_images/cars/cars94.jpg
+true prompt: جنسیت فردی که با لباس آبی سوار بر موتور است چیست؟ مرد
+pred prompt: جنسیت فردی که با لباس آبی سوار بر موتور است چیست؟ آینه ماشین
+Image: persian_images/outdoor/dasti/dasti60.jpg
+true prompt: فرش های روی تخت ها چه رنگی است؟ قرمز
+pred prompt: فرش های روی تخت ها چه رنگی است؟ کافه‌های خیابانی
+Image: persian_images/ashkhas/ashkhas28.jpg
+true prompt: صاحب مغازه پیرزن است؟ خیر
+pred prompt: صاحب مغازه پیرزن است؟ مرد
+Image: persian_images/indoor/indoor72.jpg
+true prompt: جنس زمین پاساژ از چیست؟ سنگ
+pred prompt: جنس زمین پاساژ از چیست؟ آینه‌کاری
+Image: persian_images/indoor/indoor87.jpg
+true prompt: افراد در تصویر چه جنسیتی دارند؟ مرد
+pred prompt: افراد در تصویر چه جنسیتی دارند؟ آماده کردن خمیر
+Image: persian_images/ashkhas/ashkhas7.jpg
+true prompt: رنگ لباس زن چیست؟ سیاه
+pred prompt: رنگ لباس زن چیست؟ درخت
+Image: persian_images/sport/sport26.jpg
+true prompt: شخص موجود در تصویر چه جنسیتی دارد؟ دختر
+pred prompt: شخص موجود در تصویر چه جنسیتی دارد؟ قایقرانی
+Image: persian_images/cars/cars95.jpg
+true prompt: آیا ماشین جلویی لاستیک دارد؟ خیر
+pred prompt: آیا ماشین جلویی لاستیک دارد؟ مقنعه
+Image: persian_images/food/food37.jpg
+true prompt: جنس سبد سبزی چیست؟ حصیری
+pred prompt: جنس سبد سبزی چیست؟ چیدن گل
+Image: persian_images/ceremonies/ceremonies84.png
+true prompt: زن ایستاده پشت میز چه کار می‌کند؟ پخش غذا
+pred prompt: زن ایستاده پشت میز چه کار می‌کند؟ پخش غذا
+Image: persian_images/ceremonies/ceremonies72.png
+true prompt: مردم مشغول چه کاری هستند؟ سینه زدن
+pred prompt: مردم مشغول چه کاری هستند؟ تی‌شرت
+Image: persian_images/ashkhas/ashkhas84.jpg
+true prompt: روسری دختری که در تصویر می بینید چه رنگ است؟ آبی
+pred prompt: روسری دختری که در تصویر می بینید چه رنگ است؟ حرم
+Image: persian_images/cars/cars78.jpg
+true prompt: نوار روی ماشین ها چه رنگی است؟ زرد
+pred prompt: نوار روی ماشین ها چه رنگی است؟ پارکینگ
+Image: persian_images/indoor/indoor84.jpg
+true prompt: چند عدد صندوقچه در تصویر می بینید؟ یک
+pred prompt: چند عدد صندوقچه در تصویر می بینید؟ لوستر
+Image: persian_images/outdoor/dasti/dasti23.jpg
+true prompt: آیا پلاستیکی که در سطل زباله وجود دارد زرد رنگ است؟ خیر
+pred prompt: آیا پلاستیکی که در سطل زباله وجود دارد زرد رنگ است؟ کافه‌های خیابانی
+Image: persian_images/food/food41.jpg
+true prompt: چند شمع در تصویر دیده می‌شود؟ دو
+pred prompt: چند شمع در تصویر دیده می‌شود؟ نان
+Image: persian_images/indoor/indoor100.jpg
+true prompt: دیوار از جنس سنگ است؟ خیر
+pred prompt: دیوار از جنس سنگ است؟ روزنامه خواندن
+ 42% 8/19 [03:32<04:55, 26.86s/it]
+Image: persian_images/food/food75.jpg
+true prompt: آیا در تصویر نان سنگک وجود دارد؟ بله
+pred prompt: آیا در تصویر نان سنگک وجود دارد؟ لوستر
+Image: persian_images/indoor/indoor11.jpg
+true prompt: آیا تصویر مربوط به یک آسمان است؟ خیر
+pred prompt: آیا تصویر مربوط به یک آسمان است؟ گنبدی
+Image: persian_images/food/food6.jpg
+true prompt: چند بشقاب غذا در تصویر وجود دارد؟ یک
+pred prompt: چند بشقاب غذا در تصویر وجود دارد؟ آفتابی
+Image: persian_images/cars/cars89.jpg
+true prompt: آیا ماشین پلاک شده است ؟ بله
+pred prompt: آیا ماشین پلاک شده است ؟ سرمه‌ای
+Image: persian_images/ashkhas/ashkhas33.jpg
+true prompt: جنسیت شخصی که ایستاده است چیست؟ زن
+pred prompt: جنسیت شخصی که ایستاده است چیست؟ زیر ظرف
+Image: persian_images/outdoor/dasti/dasti67.jpg
+true prompt: آیا این دشت فقط چمن دارد؟ خیر
+pred prompt: آیا این دشت فقط چمن دارد؟ چیدن گل
+Image: persian_images/outdoor/dasti/dasti54.jpg
+true prompt: این مکان چه جایی است؟ کوچه
+pred prompt: این مکان چه جایی است؟ مرد
+Image: persian_images/ashkhas/ashkhas63.jpg
+true prompt: آیا این فروشنده میوه می‌فروشد؟ خیر
+pred prompt: آیا این فروشنده میوه می‌فروشد؟ لباس محلی
+Image: persian_images/sport/sport18.jpg
+true prompt: زن در حال انجام چه ورزشی است؟ وزنه برداری
+pred prompt: زن در حال انجام چه ورزشی است؟ اسکی
+Image: persian_images/sport/sport1.jpg
+true prompt: زن سمت چپ تصویر چه حسی دارد؟ شادی
+pred prompt: زن سمت چپ تصویر چه حسی دارد؟ کوه
+Image: persian_images/sport/sport99.png
+true prompt: افراد قایقران چه جنسیتی دارند؟ مونث
+pred prompt: افراد قایقران چه جنسیتی دارند؟ پرتاب نیزه
+Image: persian_images/indoor/indoor35.jpg
+true prompt: آیا روی دیوارهای سفید آینه کاری شده است؟ بله
+pred prompt: آیا روی دیوارهای سفید آینه کاری شده است؟ حرم
+Image: persian_images/sport/sport38.jpg
+true prompt: ورزشکار با لباس آبی شلوارش چه رنگی‌ست؟ سیاه
+pred prompt: ورزشکار با لباس آبی شلوارش چه رنگی‌ست؟ کاراته
+Image: persian_images/sport/sport73.jpg
+true prompt: کفش مرد چه رنگی است؟ سفید
+pred prompt: کفش مرد چه رنگی است؟ کاراته
+Image: persian_images/sport/sport62.jpg
+true prompt: چند نفر در تصویر وجود دارد؟ یک
+pred prompt: چند نفر در تصویر وجود دارد؟ وزنه برداری
+Image: persian_images/outdoor/dasti/dasti69.jpg
+true prompt: دریا در کدام سمت تصویر وجود دارد؟ چپ
+pred prompt: دریا در کدام سمت تصویر وجود دارد؟ مرغ
+Image: persian_images/ashkhas/ashkhas80.jpg
+true prompt: آیا این نوازندگان سازشان متفاوت است؟ بله
+pred prompt: آیا این نوازندگان سازشان متفاوت است؟ مرد
+Image: persian_images/food/food40.jpg
+true prompt: آیا خورش سیب زمینی ندارد؟ خیر
+pred prompt: آیا خورش سیب زمینی ندارد؟ زیر ظرف
+Image: persian_images/cars/cars33.jpg
+true prompt: تصویر چه مکانی را نشان می‌دهد؟ خیابان
+pred prompt: تصویر چه مکانی را نشان می‌دهد؟ خیابان
+Image: persian_images/ceremonies/ceremonies40.jpg
+true prompt: افراد در تصویر چه جنسیتی دارند؟ مذکر
+pred prompt: افراد در تصویر چه جنسیتی دارند؟ طبل زدن
+Image: persian_images/ashkhas/ashkhas59.jpg
+true prompt: درون قوطی سمت چپ چیست؟ ترشی
+pred prompt: درون قوطی سمت چپ چیست؟ سبزی
+Image: persian_images/ashkhas/ashkhas48.jpg
+true prompt: آیا غذا در ظرف شیشه ای است؟ خیر
+pred prompt: آیا غذا در ظرف شیشه ای است؟ زن
+Image: persian_images/ceremonies/ceremonies68.jpg
+true prompt: آیا زنان در تصویر می‌رقصند؟ خیر
+pred prompt: آیا زنان در تصویر می‌رقصند؟ بازار
+Image: persian_images/food/food76.jpg
+true prompt: چند فلفل در ظرف وجود دارد؟ هفت
+pred prompt: چند فلفل در ظرف وجود دارد؟ بادبادک
+Image: persian_images/ashkhas/ashkhas1.jpg
+true prompt: زن جلوی کجا ایستاده است؟ در
+pred prompt: زن جلوی کجا ایستاده است؟ مقنعه
+Image: persian_images/food/food35.jpg
+true prompt: گلدان در کدام سمت تصویر قرار دارد؟ راست
+pred prompt: گلدان در کدام سمت تصویر قرار دارد؟ سبزی
+Image: persian_images/food/food22.jpg
+true prompt: غذا بیشتر از چه چیزی تشکیل شده است؟ برنج
+pred prompt: غذا بیشتر از چه چیزی تشکیل شده است؟ طلایی
+Image: persian_images/sport/sport90.png
+true prompt: زن ها چه بر سر دارند؟ روسری
+pred prompt: زن ها چه بر سر دارند؟ طبل زدن
+Image: persian_images/indoor/indoor24.jpg
+true prompt: سقف در تصویر چه مدلی است؟ گنبدی
+pred prompt: سقف در تصویر چه مدلی است؟ گنبدی
+Image: persian_images/ceremonies/ceremonies5.jpg
+true prompt: آیا در تصویر فرش وجود دارد؟ بله
+pred prompt: آیا در تصویر فرش وجود دارد؟ طبل زدن
+Image: persian_images/outdoor/dasti/dasti9.jpg
+true prompt: در دست چپ زن چه چیزی قرار دارد؟ کیف
+pred prompt: در دست چپ زن چه چیزی قرار دارد؟ چتر
+Image: persian_images/outdoor/dasti/dasti37.jpg
+true prompt: شخصی که در تصویر وجود دارد در حال انجام چه کاری است؟ جارو زدن
+pred prompt: شخصی که در تصویر وجود دارد در حال انجام چه کاری است؟ شیروانی
+Image: persian_images/ashkhas/ashkhas88.jpg
+true prompt: چند چرخ خیاطی در اتاق وجود دارد؟ یک
+pred prompt: چند چرخ خیاطی در اتاق وجود دارد؟ دختر
+Image: persian_images/ceremonies/ceremonies27.jpg
+true prompt: چند چراغ در تصویر وجود دارد؟ سه
+pred prompt: چند چراغ در تصویر وجود دارد؟ لباس محلی
+Image: persian_images/cars/cars36.jpg
+true prompt: رنگ غالب ماشین چه رنگی است؟ سفید
+pred prompt: رنگ غالب ماشین چه رنگی است؟ مرد
+Image: persian_images/cars/cars60.jpg
+true prompt: آیا در تصویر دریا وجود دارد؟ خیر
+pred prompt: آیا در تصویر دریا وجود دارد؟ خیابان
+Image: persian_images/ashkhas/ashkhas42.jpg
+true prompt: در تصویر چند زن وجود دارد؟ سه
+pred prompt: در تصویر چند زن وجود دارد؟ سنتی
+Image: persian_images/sport/sport84.jpg
+true prompt: شخص در تصویر در حال انجام چه ورزشی است؟ بسکتبال
+pred prompt: شخص در تصویر در حال انجام چه ورزشی است؟ بسکتبال
+Image: persian_images/ashkhas/ashkhas52.jpg
+true prompt: در دست پسری که سمت چپ ایستاده چه چیزی است؟ قلیان
+pred prompt: در دست پسری که سمت چپ ایستاده چه چیزی است؟ چوپانی
+Image: persian_images/cars/cars76.jpg
+true prompt: آیا چراغ ترمز همه ی ماشین ها در تصویر روشن است؟ خیر
+pred prompt: آیا چراغ ترمز همه ی ماشین ها در تصویر روشن است؟ دو
+ 47% 9/19 [03:59<04:28, 26.84s/it]
+Image: persian_images/outdoor/ethnic/ethnic5.jpg
+true prompt: آیا انعکاس قایق در آب افتاده است؟ بله
+pred prompt: آیا انعکاس قایق در آب افتاده است؟ چهار
+Image: persian_images/ceremonies/ceremonies32.jpg
+true prompt: زن ها و مردها در حال انجام چه کاری هستند؟ رقصیدن
+pred prompt: زن ها و مردها در حال انجام چه کاری هستند؟ پایکوبی
+Image: persian_images/food/food45.jpg
+true prompt: چند نان می‌بینید؟ سه
+pred prompt: چند نان می‌بینید؟ مشکی و آبی
+Image: persian_images/cars/cars31.jpg
+true prompt: آیا ماشین جلوی فروشگاه مشکی است؟ خیر
+pred prompt: آیا ماشین جلوی فروشگاه مشکی است؟ آفتابی
+Image: persian_images/sport/sport23.jpg
+true prompt: دو ورزشکار مشغول انجام چه ورزشی هستند؟ کاراته
+pred prompt: دو ورزشکار مشغول انجام چه ورزشی هستند؟ کاراته
+Image: persian_images/ceremonies/ceremonies77.png
+true prompt: رنگ لباس مردانی که در تصویر  وجود دارد چه رنگی است؟ سیاه
+pred prompt: رنگ لباس مردانی که در تصویر  وجود دارد چه رنگی است؟ نماز جماعت
+Image: persian_images/outdoor/dasti/dasti2.jpg
+true prompt: آیا تصویر در روز گرفته شده است؟ خیر
+pred prompt: آیا تصویر در روز گرفته شده است؟ کافه‌های خیابانی
+Image: persian_images/indoor/indoor10.jpg
+true prompt: صندلی های موجود در ایستگاه چه رنگی است؟ آبی
+pred prompt: صندلی های موجود در ایستگاه چه رنگی است؟ مرکز خرید
+Image: persian_images/sport/sport50.jpg
+true prompt: زن ورزشکار لباس زیری‌اش چه رنگی است؟ سیاه
+pred prompt: زن ورزشکار لباس زیری‌اش چه رنگی است؟ والیبال
+Image: persian_images/outdoor/dasti/dasti29.jpg
+true prompt: چندتا درب در تصویر وجود دارد؟ یک
+pred prompt: چندتا درب در تصویر وجود دارد؟ حوض
+Image: persian_images/indoor/indoor16.jpg
+true prompt: آیا اتاق فرش دارد؟ خیر
+pred prompt: آیا اتاق فرش دارد؟ گنبدی
+Image: persian_images/sport/sport81.jpg
+true prompt: دو ورزش کار چه مسابقه ای می دهند؟ کشتی
+pred prompt: دو ورزش کار چه مسابقه ای می دهند؟ کاراته
+Image: persian_images/ashkhas/ashkhas97.jpg
+true prompt: مرد روی چه چیزی نشسته است؟ قالیچه
+pred prompt: مرد روی چه چیزی نشسته است؟ قالی‌بافی
+Image: persian_images/ashkhas/ashkhas6.jpg
+true prompt: چند صورت آدم در تصویر است؟ چهار
+pred prompt: چند صورت آدم در تصویر است؟ مرد
+Image: persian_images/outdoor/dasti/dasti42.jpg
+true prompt: آیا هوا آفتابی است؟ بله
+pred prompt: آیا هوا آفتابی است؟ پارکینگ
+Image: persian_images/ashkhas/ashkhas101.jpg
+true prompt: لباسی که دختر به تن دارد چه رنگی است؟ سبز
+pred prompt: لباسی که دختر به تن دارد چه رنگی است؟ تپه
+Image: persian_images/ashkhas/ashkhas62.jpg
+true prompt: پیر مرد در پایین تصویر روی چه چیزی نشسته است؟ فرش
+pred prompt: پیر مرد در پایین تصویر روی چه چیزی نشسته است؟ پنج
+Image: persian_images/sport/sport48.jpg
+true prompt: آیا مرد با لباس آبی روی سر مرد با لباس قرمز نشسته است؟ خیر
+pred prompt: آیا مرد با لباس آبی روی سر مرد با لباس قرمز نشسته است؟ کاراته
+Image: persian_images/ashkhas/ashkhas35.jpg
+true prompt: شخص موجود در تصویر مشغول چه کاری است؟ قالی‌بافی
+pred prompt: شخص موجود در تصویر مشغول چه کاری است؟ عبادت
+Image: persian_images/sport/sport3.jpg
+true prompt: زانوبند ورزش کار چه رنگی است؟ مشکی
+pred prompt: زانوبند ورزش کار چه رنگی است؟ پرتاب نیزه
+Image: persian_images/ceremonies/ceremonies8.jpg
+true prompt: عروس چه لباسی پوشیده؟ چادر
+pred prompt: عروس چه لباسی پوشیده؟ چتر
+Image: persian_images/cars/cars37.jpg
+true prompt: آیا خیابان دو طرفه است؟ بله
+pred prompt: آیا خیابان دو طرفه است؟ برگ درختان
+Image: persian_images/ceremonies/ceremonies52.jpg
+true prompt: چند مرد در تصویر وجود دارد؟ سه
+pred prompt: چند مرد در تصویر وجود دارد؟ آماده کردن خمیر
+Image: persian_images/sport/sport77.jpg
+true prompt: زمین فوتبال از چه جنسی است؟ چمن
+pred prompt: زمین فوتبال از چه جنسی است؟ مرد
+Image: persian_images/cars/cars71.jpg
+true prompt: تصویر چه جایی را نشان می‌دهد؟ تعمیرگاه
+pred prompt: تصویر چه جایی را نشان می‌دهد؟ نمایشگاه ماشین
+Image: persian_images/ashkhas/ashkhas86.jpg
+true prompt: صندلی‌ها چه رنگی هستند؟ آبی
+pred prompt: صندلی‌ها چه رنگی هستند؟ کاراته
+Image: persian_images/food/food63.jpg
+true prompt: آیا کنار غذا ظرف سس است؟ بله
+pred prompt: آیا کنار غذا ظرف سس است؟ طلایی
+Image: persian_images/ceremonies/ceremonies64.jpg
+true prompt: چند مرد در تصویر وجود دارد؟ یک
+pred prompt: چند مرد در تصویر وجود دارد؟ چیدن گل
+Image: persian_images/indoor/indoor58.jpg
+true prompt: نورگیر روی سقف چه شکلی دارد؟ هشت ضلعی
+pred prompt: نورگیر روی سقف چه شکلی دارد؟ موزه
+Image: persian_images/cars/cars12.jpg
+true prompt: آیا ماشینی در حال عبور است؟ خیر
+pred prompt: آیا ماشینی در حال عبور است؟ پاییز
+Image: persian_images/ceremonies/ceremonies92.png
+true prompt: این دو زن با چرخ خیاطی کار می‌کنند؟ خیر
+pred prompt: این دو زن با چرخ خیاطی کار می‌کنند؟ نماز جماعت
+Image: persian_images/indoor/indoor32.jpg
+true prompt: آیا زن چادر سیاه به سر کرده است؟ خیر
+pred prompt: آیا زن چادر سیاه به سر کرده است؟ لوستر
+Image: persian_images/ceremonies/ceremonies54.jpg
+true prompt: لباس مرد حاضر در عزاداری چه رنگی است؟ مشکی
+pred prompt: لباس مرد حاضر در عزاداری چه رنگی است؟ بادبادک
+Image: persian_images/cars/cars4.jpg
+true prompt: چند تابلوی سبز رنگ می‌بینید؟ پنج
+pred prompt: چند تابلوی سبز رنگ می‌بینید؟ ماشین
+Image: persian_images/cars/cars54.jpg
+true prompt: چند پل در تصویر وجود دارد؟ یک
+pred prompt: چند پل در تصویر وجود دارد؟ ماشین
+Image: persian_images/food/food82.jpg
+true prompt: در تصویر چند قاشق دیده می‌شود؟ یک
+pred prompt: در تصویر چند قاشق دیده می‌شود؟ خورش کرفس
+Image: persian_images/outdoor/dasti/dasti31.jpg
+true prompt: از چه چیزی برای ایجاد سایه استفاده شده است؟ چتر
+pred prompt: از چه چیزی برای ایجاد سایه استفاده شده است؟ چتر
+Image: persian_images/food/food90.jpg
+true prompt: روی غذا چه چیزی وجود دارد؟ ته دیگ
+pred prompt: روی غذا چه چیزی وجود دارد؟ آتش
+Image: persian_images/cars/cars57.jpg
+true prompt: مرد روبروی جه جایی ایستاده است؟ نمایشگاه ماشین
+pred prompt: مرد روبروی جه جایی ایستاده است؟ آینه ماشین
+Image: persian_images/outdoor/dasti/dasti62.jpg
+true prompt: رنگ لباس شخصی که در تصویر میبینید چه رنگی است؟ سفید
+pred prompt: رنگ لباس شخصی که در تصویر میبینید چه رنگی است؟ کافه‌های خیابانی
+ 53% 10/19 [04:26<04:02, 26.93s/it]
+Image: persian_images/ceremonies/ceremonies10.jpg
+true prompt: در اتاق بخاری وجود دارد؟ خیر
+pred prompt: در اتاق بخاری وجود دارد؟ پایکوبی
+Image: persian_images/food/food49.jpg
+true prompt: آیا داخل ظرف سبزی تربچه است؟ بله
+pred prompt: آیا داخل ظرف سبزی تربچه است؟ نان
+Image: persian_images/outdoor/modern/modern9.jpg
+true prompt: در فضای مرکزی میدان چه چیزی دیده می شود؟ حوض
+pred prompt: در فضای مرکزی میدان چه چیزی دیده می شود؟ شهر
+Image: persian_images/ceremonies/ceremonies65.jpg
+true prompt: جنس تخم مرغ ها از چیست؟ سفال
+pred prompt: جنس تخم مرغ ها از چیست؟ دستکش
+Image: persian_images/outdoor/ethnic/ethnic1.jpg
+true prompt: چند مرد در تصویر وجود دارد؟ یک
+pred prompt: چند مرد در تصویر وجود دارد؟ کوچه
+Image: persian_images/food/food24.jpg
+true prompt: چند برش باقلوا در سینی است؟ دوازده
+pred prompt: چند برش باقلوا در سینی است؟ هویج
+Image: persian_images/sport/sport37.jpg
+true prompt: نوشته‌های پشت لباس بازیکنان چه رنگی است؟ سفید
+pred prompt: نوشته‌های پشت لباس بازیکنان چه رنگی است؟ نارنجی
+Image: persian_images/food/food25.jpg
+true prompt: چه غذایی در بشقاب است؟ دلمه ی بادمجان
+pred prompt: چه غذایی در بشقاب است؟ مشکی و آبی
+Image: persian_images/cars/cars86.jpg
+true prompt: نرده های روی دیوار چه رنگی است؟ سبز
+pred prompt: نرده های روی دیوار چه رنگی است؟ آینه ماشین
+Image: persian_images/food/food78.jpg
+true prompt: طرح پارچه زیر غذا چیست؟ راه راه
+pred prompt: طرح پارچه زیر غذا چیست؟ زیر ظرف
+Image: persian_images/ashkhas/ashkhas69.jpg
+true prompt: شخص درون تصویر چه جنسیتی دارد؟ زن
+pred prompt: شخص درون تصویر چه جنسیتی دارد؟ شیروانی
+Image: persian_images/outdoor/modern/modern15.jpg
+true prompt: بیشترین رنگ در تصویر چیست؟ سبز
+pred prompt: بیشترین رنگ در تصویر چیست؟ شهر
+Image: persian_images/sport/sport92.png
+true prompt: در تصویر چه وسیله نقلیه ای بجز دوچرخه وجود دارد؟ ماشین
+pred prompt: در تصویر چه وسیله نقلیه ای بجز دوچرخه وجود دارد؟ رقصیدن
+Image: persian_images/outdoor/dasti/dasti12.jpg
+true prompt: زنی که با توپ بازی می‌کند مانتو چه رنگی دارد؟ مشکی
+pred prompt: زنی که با توپ بازی می‌کند مانتو چه رنگی دارد؟ گاز پیک نیک
+Image: persian_images/ceremonies/ceremonies33.jpg
+true prompt: پشت فرد چیست؟ آتش
+pred prompt: پشت فرد چیست؟ آتش
+Image: persian_images/sport/sport27.jpg
+true prompt: از سمت راست چندمین نفر یک عینک دارد؟ اولین
+pred prompt: از سمت راست چندمین نفر یک عینک دارد؟ طبل زدن
+Image: persian_images/outdoor/dasti/dasti53.jpg
+true prompt: دستکش مردی که از روبرو می‌آید چه رنگی است؟ نارنجی
+pred prompt: دستکش مردی که از روبرو می‌آید چه رنگی است؟ بازار
+Image: persian_images/indoor/indoor36.jpg
+true prompt: در کدام طرف تصویر فرش می بینید؟ دو طرف
+pred prompt: در کدام طرف تصویر فرش می بینید؟ گنبدی
+Image: persian_images/cars/cars9.jpg
+true prompt: مرد در کنار چه چیزی ایستاده است؟ ماشین
+pred prompt: مرد در کنار چه چیزی ایستاده است؟ ماشین
+Image: persian_images/sport/sport39.jpg
+true prompt: آیا صندلی قرمز در تصویر وجود دارد؟ بله
+pred prompt: آیا صندلی قرمز در تصویر وجود دارد؟ بسکتبال
+Image: persian_images/ashkhas/ashkhas45.jpg
+true prompt: اشخاص در تصویر به چه چیزی نگاه می‌کنند؟ کفش
+pred prompt: اشخاص در تصویر به چه چیزی نگاه می‌کنند؟ آینه‌کاری
+Image: persian_images/indoor/indoor56.jpg
+true prompt: دیوارها نقاشی شده است؟ بله
+pred prompt: دیوارها نقاشی شده است؟ گنبدی
+Image: persian_images/sport/sport80.jpg
+true prompt: چه ورزشی است؟ تیراندازی
+pred prompt: چه ورزشی است؟ مرد
+Image: persian_images/ceremonies/ceremonies17.jpg
+true prompt: لباس های پیرمرد ها محلی است یا رسمی؟ محلی
+pred prompt: لباس های پیرمرد ها محلی است یا رسمی؟ پنج
+Image: persian_images/cars/cars28.jpg
+true prompt: آیا پارکینگ پر است؟ خیر
+pred prompt: آیا پارکینگ پر است؟ نمایشگاه ماشین
+Image: persian_images/outdoor/dasti/dasti20.jpg
+true prompt: تصویر چه زمانی از شبانه روز را نشان می دهد؟ شب
+pred prompt: تصویر چه زمانی از شبانه روز را نشان می دهد؟ نماز جماعت
+Image: persian_images/indoor/indoor44.jpg
+true prompt: آیا این رستوان گلدان دارد؟ بله
+pred prompt: آیا این رستوان گلدان دارد؟ گنبدی
+Image: persian_images/indoor/indoor75.jpg
+true prompt: شخصی که در تصویر است چه جنسیتی دارد؟ زن
+pred prompt: شخصی که در تصویر است چه جنسیتی دارد؟ گنبدی
+Image: persian_images/cars/cars83.jpg
+true prompt: مردم مشغول گشت و گذار در چه جایی هستند؟ کافه‌های خیابانی
+pred prompt: مردم مشغول گشت و گذار در چه جایی هستند؟ ماشین
+Image: persian_images/food/food48.jpg
+true prompt: سالاد با چه میوه‌ای تزیین شده است؟ هویج
+pred prompt: سالاد با چه میوه‌ای تزیین شده است؟ خورش کرفس
+Image: persian_images/food/food72.jpg
+true prompt: چند عدد قاشق تو تصویر می بینی؟ یک
+pred prompt: چند عدد قاشق تو تصویر می بینی؟ خورش کرفس
+Image: persian_images/ceremonies/ceremonies43.jpg
+true prompt: شخص موجود در تصویر از روی چه چیزی می پرد؟ آتش
+pred prompt: شخص موجود در تصویر از روی چه چیزی می پرد؟ آتش
+Image: persian_images/ashkhas/ashkhas36.jpg
+true prompt: آیا فردی که سینی بر سر گذاشته جوان است؟ خیر
+pred prompt: آیا فردی که سینی بر سر گذاشته جوان است؟ سبزه
+Image: persian_images/ceremonies/ceremonies11.jpg
+true prompt: چند قفس پر از گل در تصویر وجود دارد؟ دو
+pred prompt: چند قفس پر از گل در تصویر وجود دارد؟ کافه‌های خیابانی
+Image: persian_images/outdoor/dasti/dasti11.jpg
+true prompt: چه تعداد موتور سیکلت در خیابان است؟ زیاد
+pred prompt: چه تعداد موتور سیکلت در خیابان است؟ راه راه
+Image: persian_images/indoor/indoor91.jpg
+true prompt: ستون های سقف آهنی است؟ خیر
+pred prompt: ستون های سقف آهنی است؟ رستوران سنتی
+Image: persian_images/outdoor/dasti/dasti48.jpg
+true prompt: آیا این خانه‌ها نو هستند؟ خیر
+pred prompt: آیا این خانه‌ها نو هستند؟ سفال
+Image: persian_images/ceremonies/ceremonies87.png
+true prompt: گنبد چه رنگی است؟ طلایی
+pred prompt: گنبد چه رنگی است؟ عبادت
+Image: persian_images/ceremonies/ceremonies19.jpg
+true prompt: جنسیت افرادی که سینی در دست دارند چیست؟ مونث
+pred prompt: جنسیت افرادی که سینی در دست دارند چیست؟ لباس محلی
+Image: persian_images/cars/cars97.jpg
+true prompt: ماشین ها در یک جاده کوهستانی در حال حرکت هستند؟ خیر
+pred prompt: ماشین ها در یک جاده کوهستانی در حال حرکت هستند؟ مشکی و آبی
+ 58% 11/19 [04:53<03:35, 26.90s/it]
+Image: persian_images/indoor/indoor51.jpg
+true prompt: شکل سقف رستوران به چه صورت است؟ گنبدی
+pred prompt: شکل سقف رستوران به چه صورت است؟ نماز جماعت
+Image: persian_images/indoor/indoor99.jpg
+true prompt: ساعت کدام طرف تصویر است؟ وسط
+pred prompt: ساعت کدام طرف تصویر است؟ مرکز خرید
+Image: persian_images/food/food101.jpg
+true prompt: ظرف لپه در کدام سمت تصویر است؟ چپ
+pred prompt: ظرف لپه در کدام سمت تصویر است؟ خورش کرفس
+Image: persian_images/food/food73.jpg
+true prompt: بستنی ها چه رنگی هستند؟ زرد
+pred prompt: بستنی ها چه رنگی هستند؟ نان
+Image: persian_images/ashkhas/ashkhas30.jpg
+true prompt: شخصی که در تصویر میبینید چه جنسیتی دارد؟ دختر
+pred prompt: شخصی که در تصویر میبینید چه جنسیتی دارد؟ پخش غذا
+Image: persian_images/ashkhas/ashkhas89.jpg
+true prompt: چند زن با چادر مشکی در تصویر است؟ یک
+pred prompt: چند زن با چادر مشکی در تصویر است؟ هویج
+Image: persian_images/cars/cars30.jpg
+true prompt: چه فصلی از سال است؟ پاییز
+pred prompt: چه فصلی از سال است؟ برگ درختان
+Image: persian_images/cars/cars35.jpg
+true prompt: آیا هر دو ماشین در تصویر یک رنگ هستن؟ خیر
+pred prompt: آیا هر دو ماشین در تصویر یک رنگ هستن؟ پارکینگ
+Image: persian_images/ashkhas/ashkhas76.jpg
+true prompt: آیا این پیرمرد خوراکی می‌فروشد؟ خیر
+pred prompt: آیا این پیرمرد خوراکی می‌فروشد؟ گنبدی
+Image: persian_images/ceremonies/ceremonies69.jpg
+true prompt: زن‌ها چه لباسی بر تن دارند؟ لباس محلی
+pred prompt: زن‌ها چه لباسی بر تن دارند؟ چیدن گل
+Image: persian_images/ceremonies/ceremonies18.jpg
+true prompt: آیا مردان کلاه دارند؟ بله
+pred prompt: آیا مردان کلاه دارند؟ کوچه
+Image: persian_images/sport/sport93.png
+true prompt: چه چیزی در دست سوارکاران است ؟ چوب
+pred prompt: چه چیزی در دست سوارکاران است ؟ اسب
+Image: persian_images/cars/cars8.jpg
+true prompt: لباس پلیس راهنمایی و رانندگی چه رنگی است؟ مشکی
+pred prompt: لباس پلیس راهنمایی و رانندگی چه رنگی است؟ مرد
+Image: persian_images/sport/sport56.jpg
+true prompt: جنسیت هر دو شخصی که در تصویر وجود دارد چیست؟ مرد
+pred prompt: جنسیت هر دو شخصی که در تصویر وجود دارد چیست؟ وزنه برداری
+Image: persian_images/outdoor/dasti/dasti28.jpg
+true prompt: خانه ی سمت راست چند طبقه است؟ دو
+pred prompt: خانه ی سمت راست چند طبقه است؟ کوچه
+Image: persian_images/outdoor/modern/modern21.jpg
+true prompt: آیا کوه ها از برف پوشیده شده اند؟ خیر
+pred prompt: آیا کوه ها از برف پوشیده شده اند؟ شهر
+Image: persian_images/cars/cars48.jpg
+true prompt: ماشین هایی که در حال رفت هستند در کدام قسمت تصویر قرار دارند؟ راست
+pred prompt: ماشین هایی که در حال رفت هستند در کدام قسمت تصویر قرار دارند؟ پاییز
+Image: persian_images/food/food86.jpg
+true prompt: چند عدد قاشق روی میز است؟ دو
+pred prompt: چند عدد قاشق روی میز است؟ خورش کرفس
+Image: persian_images/indoor/indoor41.jpg
+true prompt: وسط مجتمع در طبقه پایین چه چیزی است؟ ماشین
+pred prompt: وسط مجتمع در طبقه پایین چه چیزی است؟ لوستر
+Image: persian_images/ceremonies/ceremonies98.png
+true prompt: چند مرد در تصویر در حال ساز زدن هستند؟ یک
+pred prompt: چند مرد در تصویر در حال ساز زدن هستند؟ پایکوبی
+Image: persian_images/ashkhas/ashkhas77.jpg
+true prompt: شخصی که قدش بلند تر است چه جنسیتی دارد؟ مرد
+pred prompt: شخصی که قدش بلند تر است چه جنسیتی دارد؟ چوپانی
+Image: persian_images/cars/cars17.jpg
+true prompt: آیا در تصویر پل عابر پیاده است؟ بله
+pred prompt: آیا در تصویر پل عابر پیاده است؟ نمایشگاه ماشین
+Image: persian_images/outdoor/dasti/dasti13.jpg
+true prompt: روی لبه ی حوض چه چیزی وجود دارد؟ گلدان
+pred prompt: روی لبه ی حوض چه چیزی وجود دارد؟ لوستر
+Image: persian_images/outdoor/modern/modern18.jpg
+true prompt: چند شخص چادری در تصویر می بینید؟ یک
+pred prompt: چند شخص چادری در تصویر می بینید؟ ورزشگاه
+Image: persian_images/food/food88.jpg
+true prompt: در ظرف چه غذایی‌ست؟ کباب
+pred prompt: در ظرف چه غذایی‌ست؟ سه
+Image: persian_images/food/food17.jpg
+true prompt: زیتون ها چه رنگی است؟ سبز
+pred prompt: زیتون ها چه رنگی است؟ خورش کرفس
+Image: persian_images/sport/sport14.jpg
+true prompt: اشخاص موجود در تصویر چه جنسیتی دارند؟ زن
+pred prompt: اشخاص موجود در تصویر چه جنسیتی دارند؟ کاراته
+Image: persian_images/ashkhas/ashkhas94.jpg
+true prompt: دختر کجای تصویر ایستاده است؟ مرکز
+pred prompt: دختر کجای تصویر ایستاده است؟ صورتی
+Image: persian_images/outdoor/modern/modern17.jpg
+true prompt: آیا روی کوه ها برف است؟ بله
+pred prompt: آیا روی کوه ها برف است؟ خیابان
+Image: persian_images/indoor/indoor6.jpg
+true prompt: آیا شیشه بالایی پنجره ها بی رنگ است؟ خیر
+pred prompt: آیا شیشه بالایی پنجره ها بی رنگ است؟ گلدان
+Image: persian_images/outdoor/dasti/dasti30.jpg
+true prompt: چه چیزی کنار مرد آبی پوش است؟ چادر مسافرتی
+pred prompt: چه چیزی کنار مرد آبی پوش است؟ چیدن گل
+Image: persian_images/indoor/indoor81.jpg
+true prompt: مردان در حال چه کاری هستند؟ عبادت
+pred prompt: مردان در حال چه کاری هستند؟ گنبدی
+Image: persian_images/ceremonies/ceremonies47.jpg
+true prompt: خانم چادر سرش است؟ بله
+pred prompt: خانم چادر سرش است؟ صورتی
+Image: persian_images/sport/sport34.jpg
+true prompt: دیسک‌های موجود روی میله وزنه برداری چند رنگ دارند؟ دو
+pred prompt: دیسک‌های موجود روی میله وزنه برداری چند رنگ دارند؟ مرد
+Image: persian_images/food/food50.jpg
+true prompt: آیا تنها یک ظرف در عکس است؟ خیر
+pred prompt: آیا تنها یک ظرف در عکس است؟ دلمه ی بادمجان
+Image: persian_images/indoor/indoor43.jpg
+true prompt: این مکان کجا است؟ گالری
+pred prompt: این مکان کجا است؟ نمایشگاه
+Image: persian_images/outdoor/dasti/dasti43.jpg
+true prompt: شخصی که کلاه پوشیده چه جنسیتی دارد؟ مونث
+pred prompt: شخصی که کلاه پوشیده چه جنسیتی دارد؟ کوچه
+Image: persian_images/indoor/indoor64.jpg
+true prompt: زن چه پوششی دارد؟ چادر
+pred prompt: زن چه پوششی دارد؟ گنبدی
+Image: persian_images/indoor/indoor62.jpg
+true prompt: آیا تصویر نشان دهنده یک مکان زیارتی است؟ بله
+pred prompt: آیا تصویر نشان دهنده یک مکان زیارتی است؟ لوستر
+Image: persian_images/sport/sport24.jpg
+true prompt: آیا این افراد در صف حرکت  می‌کنند؟ بله
+pred prompt: آیا این افراد در صف حرکت  می‌کنند؟ کوهنوردی
+ 63% 12/19 [05:20<03:08, 26.87s/it]
+Image: persian_images/food/food4.jpg
+true prompt: آیا در ظرف لیمو وجود دارد؟ بله
+pred prompt: آیا در ظرف لیمو وجود دارد؟ سبزی
+Image: persian_images/cars/cars18.jpg
+true prompt: جنسیت شخص چیست؟ مونث
+pred prompt: جنسیت شخص چیست؟ خیابان
+Image: persian_images/sport/sport40.jpg
+true prompt: بازیکنان چه چیزی در دست دارند؟ دستکش
+pred prompt: بازیکنان چه چیزی در دست دارند؟ کاراته
+Image: persian_images/ceremonies/ceremonies12.jpg
+true prompt: آیا در تصویر مردی دیده می‌شود؟ خیر
+pred prompt: آیا در تصویر مردی دیده می‌شود؟ پایکوبی
+Image: persian_images/ceremonies/ceremonies29.jpg
+true prompt: شرکت کنندگان زیادی در این جشن هستند؟ بله
+pred prompt: شرکت کنندگان زیادی در این جشن هستند؟ طبل زدن
+Image: persian_images/cars/cars84.jpg
+true prompt: چند تاکسی در تصویر است؟ یک
+pred prompt: چند تاکسی در تصویر است؟ پارک
+Image: persian_images/indoor/indoor8.jpg
+true prompt: این تصویر چه مکانی را نشان می‌دهد؟ بازار
+pred prompt: این تصویر چه مکانی را نشان می‌دهد؟ لوستر
+Image: persian_images/cars/cars105.jpeg
+true prompt: رنگ برگ درختان در تصویر چه رنگی است؟ سبز
+pred prompt: رنگ برگ درختان در تصویر چه رنگی است؟ آینه ماشین
+Image: persian_images/ceremonies/ceremonies97.png
+true prompt: شخصی که اسپند دود می‌کند چه جنسیتی دارد؟ زن
+pred prompt: شخصی که اسپند دود می‌کند چه جنسیتی دارد؟ پایکوبی
+Image: persian_images/food/food99.jpg
+true prompt: جنس قاشق از چیست؟ فلز
+pred prompt: جنس قاشق از چیست؟ خورش کرفس
+Image: persian_images/indoor/indoor37.jpg
+true prompt: اینجا چه مکانی است؟ موزه
+pred prompt: اینجا چه مکانی است؟ شیشه
+Image: persian_images/ashkhas/ashkhas26.jpg
+true prompt: مرد چه چیزی در دست دارد؟ نان
+pred prompt: مرد چه چیزی در دست دارد؟ نان
+Image: persian_images/ceremonies/ceremonies20.jpg
+true prompt: آیا کتاب کنار سیب است؟ خیر
+pred prompt: آیا کتاب کنار سیب است؟ چیدن گل
+Image: persian_images/indoor/indoor30.jpg
+true prompt: چند فرش داخل اتاق است؟ دو
+pred prompt: چند فرش داخل اتاق است؟ مشکی و آبی
+Image: persian_images/ashkhas/ashkhas49.jpg
+true prompt: جنس کلاه پیرمرد چیست؟ پشمی
+pred prompt: جنس کلاه پیرمرد چیست؟ گلدان
+Image: persian_images/ceremonies/ceremonies37.jpg
+true prompt: چه کاری در تصویر انجام می شود؟ گره زدن
+pred prompt: چه کاری در تصویر انجام می شود؟ چمن
+Image: persian_images/food/food46.jpg
+true prompt: ظرف درون تصویر چه جنسی دارد؟ مسی
+pred prompt: ظرف درون تصویر چه جنسی دارد؟ خورش کرفس
+Image: persian_images/outdoor/dasti/dasti59.jpg
+true prompt: آیا در تصویر پله وجود دارد؟ بله
+pred prompt: آیا در تصویر پله وجود دارد؟ بازار
+Image: persian_images/ceremonies/ceremonies21.jpg
+true prompt: این مراسم چیست؟ عروسی
+pred prompt: این مراسم چیست؟ جلوی عروس و داماد
+Image: persian_images/indoor/indoor96.jpg
+true prompt: آیا مردان لباس بر تن دارند؟ خیر
+pred prompt: آیا مردان لباس بر تن دارند؟ آب
+Image: persian_images/sport/sport10.jpg
+true prompt: جنسیت افرادی که درون تصویر می‌بینید چیست؟ مونث
+pred prompt: جنسیت افرادی که درون تصویر می‌بینید چیست؟ والیبال
+Image: persian_images/ashkhas/ashkhas38.jpg
+true prompt: پوشش خانم‌ها چگونه است؟ لباس محلی
+pred prompt: پوشش خانم‌ها چگونه است؟ پخش غذا
+Image: persian_images/ashkhas/ashkhas73.jpg
+true prompt: چند زن در تصویر است؟ یک
+pred prompt: چند زن در تصویر است؟ کباب
+Image: persian_images/food/food23.jpg
+true prompt: جنس کاسه از چیست؟ فلز
+pred prompt: جنس کاسه از چیست؟ دلمه ی بادمجان
+Image: persian_images/cars/cars77.jpg
+true prompt: آیا همه افراد درون اتوبوس‌ها هستند؟ خیر
+pred prompt: آیا همه افراد درون اتوبوس‌ها هستند؟ ذغال
+Image: persian_images/cars/cars27.jpg
+true prompt: آیا موتورسواران مرد هستند؟ بله
+pred prompt: آیا موتورسواران مرد هستند؟ آینه ماشین
+Image: persian_images/outdoor/modern/modern25.jpg
+true prompt: تاکسی در تصویر است؟ بله
+pred prompt: تاکسی در تصویر است؟ کوچه
+Image: persian_images/sport/sport74.jpg
+true prompt: آیا مرد کراوات دارد؟ بله
+pred prompt: آیا مرد کراوات دارد؟ کاراته
+Image: persian_images/ashkhas/ashkhas60.jpg
+true prompt: مرد داخل تصویر چه حسی دارد؟ خوشحال
+pred prompt: مرد داخل تصویر چه حسی دارد؟ چیدن گل
+Image: persian_images/food/food53.jpg
+true prompt: ظرف هایی که در تصویر هستند چه جنسی دارند؟ پلاستیک
+pred prompt: ظرف هایی که در تصویر هستند چه جنسی دارند؟ گنبدی
+Image: persian_images/sport/sport95.png
+true prompt: افراد در تصویر چه جنسیتی دارند؟ مذکر
+pred prompt: افراد در تصویر چه جنسیتی دارند؟ خیابان
+Image: persian_images/sport/sport58.jpg
+true prompt: زن‌ها در ورزشگاه تمرین وزنه برداری می‌کنند؟ خیر
+pred prompt: زن‌ها در ورزشگاه تمرین وزنه برداری می‌کنند؟ سیاه
+Image: persian_images/cars/cars25.jpg
+true prompt: چند ماشین در تصویر دیده می شود؟ شش
+pred prompt: چند ماشین در تصویر دیده می شود؟ زنجیر زنی
+Image: persian_images/outdoor/dasti/dasti55.jpg
+true prompt: چند ساختمان نیمه تمام در تصویر است؟ دو
+pred prompt: چند ساختمان نیمه تمام در تصویر است؟ نماز جماعت
+Image: persian_images/outdoor/dasti/dasti70.jpg
+true prompt: در طبقه دوم ساختمانی که در تصویر است  گیاه وجود دارد؟ بله
+pred prompt: در طبقه دوم ساختمانی که در تصویر است  گیاه وجود دارد؟ کوچه
+Image: persian_images/outdoor/dasti/dasti56.jpg
+true prompt: آیا زن‌ها سینی روی سر دارند؟ خیر
+pred prompt: آیا زن‌ها سینی روی سر دارند؟ چمن
+Image: persian_images/food/food18.jpg
+true prompt: آیا کنار غذا گوجه فرنگی ریز شده است؟ بله
+pred prompt: آیا کنار غذا گوجه فرنگی ریز شده است؟ رستوران سنتی
+Image: persian_images/indoor/indoor52.jpg
+true prompt: چند مبل دور میز قرار دارد؟ چهار
+pred prompt: چند مبل دور میز قرار دارد؟ گنبدی
+Image: persian_images/indoor/indoor88.jpg
+true prompt: چه چیزی روی زمین است؟ فرش
+pred prompt: چه چیزی روی زمین است؟ لوستر
+Image: persian_images/food/food38.jpg
+true prompt: چند ظرف سفید رنگ در تصویر موجود است؟ سه
+pred prompt: چند ظرف سفید رنگ در تصویر موجود است؟ دلمه ی بادمجان
+ 68% 13/19 [05:47<02:42, 27.02s/it]
+Image: persian_images/food/food58.jpg
+true prompt: چند بادمجان درون بشقاب جلوی عکس وجود دارد؟ دو
+pred prompt: چند بادمجان درون بشقاب جلوی عکس وجود دارد؟ گلدان
+Image: persian_images/ashkhas/ashkhas72.jpg
+true prompt: روسری زن چه رنگی است؟ سفید
+pred prompt: روسری زن چه رنگی است؟ سه
+Image: persian_images/sport/sport102.jpeg
+true prompt: جنسیت شخص موجود در تصویر چیست؟ مرد
+pred prompt: جنسیت شخص موجود در تصویر چیست؟ والیبال
+Image: persian_images/ceremonies/ceremonies50.jpg
+true prompt: آیا روسری کودک در سمت راست سفید و آبی است؟ خیر
+pred prompt: آیا روسری کودک در سمت راست سفید و آبی است؟ پخش غذا
+Image: persian_images/food/food84.jpg
+true prompt: چند عدد استکان کمر باریک در تصویر وجود دارد؟ دو
+pred prompt: چند عدد استکان کمر باریک در تصویر وجود دارد؟ هندوانه و خربزه
+Image: persian_images/indoor/indoor29.jpg
+true prompt: آیا در تصویر رو میزی وجود دارد؟ بله
+pred prompt: آیا در تصویر رو میزی وجود دارد؟ سبزی
+Image: persian_images/indoor/indoor95.jpg
+true prompt: آیا تماشاچیان در سالن پراکنده هستند؟ بله
+pred prompt: آیا تماشاچیان در سالن پراکنده هستند؟ هشت ضلعی
+Image: persian_images/ashkhas/ashkhas66.jpg
+true prompt: چند نفر در تصویر کلاه پوشیده اند؟ سه
+pred prompt: چند نفر در تصویر کلاه پوشیده اند؟ برفی
+Image: persian_images/indoor/indoor22.jpg
+true prompt: کاشی‌های دیوار طرحدار هستند؟ بله
+pred prompt: کاشی‌های دیوار طرحدار هستند؟ حرم
+Image: persian_images/ceremonies/ceremonies44.jpg
+true prompt: جنسیت افراد در تصویر چیست ؟ مرد
+pred prompt: جنسیت افراد در تصویر چیست ؟ تی‌شرت
+Image: persian_images/sport/sport87.jpg
+true prompt: خانم سوار چه چیزی شده است؟ قایق
+pred prompt: خانم سوار چه چیزی شده است؟ قایقرانی
+Image: persian_images/outdoor/dasti/dasti36.jpg
+true prompt: آیا اکثر افراد برای خوردن غذای خیابانی آمده‌اند؟ بله
+pred prompt: آیا اکثر افراد برای خوردن غذای خیابانی آمده‌اند؟ لامپ
+Image: persian_images/cars/cars103.jpeg
+true prompt: آیا اینجا یک نمایشگاه اتومبیل است؟ خیر
+pred prompt: آیا اینجا یک نمایشگاه اتومبیل است؟ مشکی و آبی
+Image: persian_images/indoor/indoor40.jpg
+true prompt: آیا لباس مردی که ایستاده قرمز است؟ خیر
+pred prompt: آیا لباس مردی که ایستاده قرمز است؟ مرکز خرید
+Image: persian_images/sport/sport101.png
+true prompt: چند کمان در تصویر می بینید؟ یک
+pred prompt: چند کمان در تصویر می بینید؟ مرد
+Image: persian_images/indoor/indoor61.jpg
+true prompt: چند پروژکتور در این تصویر وجود دارد؟ یک
+pred prompt: چند پروژکتور در این تصویر وجود دارد؟ چوبی
+Image: persian_images/indoor/indoor86.jpg
+true prompt: در تصویر کدام لوستر بزرگتر است؟ وسط
+pred prompt: در تصویر کدام لوستر بزرگتر است؟ گنبدی
+Image: persian_images/outdoor/modern/modern29.png
+true prompt: چند پیرمرد روی نیمکت نزدیک کالسکه نشسته‌اند؟ دو
+pred prompt: چند پیرمرد روی نیمکت نزدیک کالسکه نشسته‌اند؟ ورزشگاه
+Image: persian_images/ceremonies/ceremonies93.png
+true prompt: لباس های افراد درون تصویر محلی است یا رسمی؟ محلی
+pred prompt: لباس های افراد درون تصویر محلی است یا رسمی؟ طبل زدن
+Image: persian_images/food/food43.jpg
+true prompt: جنس لیوان از چیست؟ شیشه
+pred prompt: جنس لیوان از چیست؟ خورش کرفس
+Image: persian_images/ceremonies/ceremonies66.jpg
+true prompt: شخص موجود در تصویر سفیدپوست است؟ خیر
+pred prompt: شخص موجود در تصویر سفیدپوست است؟ روسری
+Image: persian_images/food/food62.jpg
+true prompt: جنس ظرف پارچ چیست؟ شیشه
+pred prompt: جنس ظرف پارچ چیست؟ سبزی
+Image: persian_images/outdoor/dasti/dasti49.jpg
+true prompt: زن با شال آبی در کدام قسمت تصویر است؟ پایین
+pred prompt: زن با شال آبی در کدام قسمت تصویر است؟ گنبدی
+Image: persian_images/outdoor/modern/modern6.jpg
+true prompt: چند شخص کنار کودک در حال راه رفتن هستند؟ دو
+pred prompt: چند شخص کنار کودک در حال راه رفتن هستند؟ گنبدی
+Image: persian_images/ceremonies/ceremonies99.png
+true prompt: افراد موجود در تصویر چه جنسیتی دارند؟ مرد
+pred prompt: افراد موجود در تصویر چه جنسیتی دارند؟ طبل زدن
+Image: persian_images/food/food93.jpg
+true prompt: بلال‌ها روی چه چیزی کباب می‌شوند؟ ذغال
+pred prompt: بلال‌ها روی چه چیزی کباب می‌شوند؟ ترشی
+Image: persian_images/cars/cars88.jpg
+true prompt: چند ماشین در تصویر است؟ دو
+pred prompt: چند ماشین در تصویر است؟ سرمه‌ای
+Image: persian_images/food/food34.jpg
+true prompt: آیا غذایی که داخل ظرف کشیده شده پلو دارد؟ بله
+pred prompt: آیا غذایی که داخل ظرف کشیده شده پلو دارد؟ دلمه
+Image: persian_images/outdoor/modern/modern12.jpg
+true prompt: تصویر چه جایی را نشان می دهد؟ پارک
+pred prompt: تصویر چه جایی را نشان می دهد؟ گنبدی
+Image: persian_images/indoor/indoor94.jpg
+true prompt: آیا نما دیوار ها سنگی است؟ بله
+pred prompt: آیا نما دیوار ها سنگی است؟ قایقرانی
+Image: persian_images/sport/sport82.jpg
+true prompt: اشخاص چه جنسیتی دارند؟ مونث
+pred prompt: اشخاص چه جنسیتی دارند؟ بسکتبال
+Image: persian_images/indoor/indoor98.jpg
+true prompt: آیا در تصویر حوض وجود دارد؟ بله
+pred prompt: آیا در تصویر حوض وجود دارد؟ مرکز خرید
+Image: persian_images/ceremonies/ceremonies95.png
+true prompt: جنسیت شخص موجود در تصویر چیست؟ مونث
+pred prompt: جنسیت شخص موجود در تصویر چیست؟ بادبادک
+Image: persian_images/sport/sport44.jpg
+true prompt: آیا ورزشکاران در تصویر لباس آستین بلند پوشیده‌اند؟ خیر
+pred prompt: آیا ورزشکاران در تصویر لباس آستین بلند پوشیده‌اند؟ والیبال
+Image: persian_images/sport/sport29.jpg
+true prompt: ورزشکار در کدام رقابت شرکت کرده؟ المپیک
+pred prompt: ورزشکار در کدام رقابت شرکت کرده؟ وزنه برداری
+Image: persian_images/ashkhas/ashkhas96.jpg
+true prompt: مرد کدام دست خود را بلند کرده‌است؟ راست
+pred prompt: مرد کدام دست خود را بلند کرده‌است؟ گنبدی
+Image: persian_images/ashkhas/ashkhas98.jpg
+true prompt: آیا پیرمرد لبخند زده است؟ بله
+pred prompt: آیا پیرمرد لبخند زده است؟ پارچه
+Image: persian_images/ashkhas/ashkhas100.jpg
+true prompt: آیا در تصویر پرچم وجود دارد؟ بله
+pred prompt: آیا در تصویر پرچم وجود دارد؟ مرد
+Image: persian_images/outdoor/modern/modern2.jpg
+true prompt: پشت تله‌کابین چه چیزی است؟ شهر
+pred prompt: پشت تله‌کابین چه چیزی است؟ تپه
+Image: persian_images/cars/cars14.jpg
+true prompt: سایه ماشین کدام سمت تصویر است؟ چپ
+pred prompt: سایه ماشین کدام سمت تصویر است؟ قهوه‌ای
+ 74% 14/19 [06:14<02:14, 26.97s/it]
+Image: persian_images/ashkhas/ashkhas85.jpg
+true prompt: آیا پیرمرد ترسیده است؟ خیر
+pred prompt: آیا پیرمرد ترسیده است؟ چیدن گل
+Image: persian_images/outdoor/dasti/dasti58.jpg
+true prompt: چه چیزی در تصویر روی زمین جاری است؟ آب
+pred prompt: چه چیزی در تصویر روی زمین جاری است؟ چوپانی
+Image: persian_images/sport/sport22.jpg
+true prompt: جنسیت شخصی که در تصویر است چیست؟ زن
+pred prompt: جنسیت شخصی که در تصویر است چیست؟ والیبال
+Image: persian_images/sport/sport78.jpg
+true prompt: جنسیت افراد تصویر چیست؟ زن
+pred prompt: جنسیت افراد تصویر چیست؟ کاراته
+Image: persian_images/sport/sport15.jpg
+true prompt: آیا بازیکنان زن بدون حجاب هستند؟ خیر
+pred prompt: آیا بازیکنان زن بدون حجاب هستند؟ پرتاب نیزه
+Image: persian_images/cars/cars58.jpg
+true prompt: آسمان موجود در تصویر آفتابی است؟ خیر
+pred prompt: آسمان موجود در تصویر آفتابی است؟ خیابان
+Image: persian_images/food/food74.jpg
+true prompt: چه نوع غذایی در تصویر وجود دارد؟ دلمه
+pred prompt: چه نوع غذایی در تصویر وجود دارد؟ سرمه‌ای
+Image: persian_images/ceremonies/ceremonies31.jpg
+true prompt: مرد از روی چه چیزی می‌پرد؟ آتش
+pred prompt: مرد از روی چه چیزی می‌پرد؟ آتش
+Image: persian_images/cars/cars59.jpg
+true prompt: ماشین سوار جرثقیل چه رنگی‌ست؟ سبز
+pred prompt: ماشین سوار جرثقیل چه رنگی‌ست؟ هندوانه
+Image: persian_images/food/food47.jpg
+true prompt: آیا در ظرف زیتون قاشق است؟ بله
+pred prompt: آیا در ظرف زیتون قاشق است؟ نان
+Image: persian_images/food/food11.jpg
+true prompt: آیا کباب‌ها به سیخ کشیده شده‌اند؟ بله
+pred prompt: آیا کباب‌ها به سیخ کشیده شده‌اند؟ هویج
+Image: persian_images/outdoor/dasti/dasti46.jpg
+true prompt: جنسیت افراد در تصویر چیست؟ زن
+pred prompt: جنسیت افراد در تصویر چیست؟ کوچه
+Image: persian_images/ashkhas/ashkhas68.jpg
+true prompt: جورابی که دختر با شال سبز پوشیده چه رنگی است؟ سبز
+pred prompt: جورابی که دختر با شال سبز پوشیده چه رنگی است؟ تی‌شرت
+Image: persian_images/indoor/indoor73.jpg
+true prompt: ظاهر زن حاضر در تصویر چگونه است؟ پوشیده
+pred prompt: ظاهر زن حاضر در تصویر چگونه است؟ نماز خواندن
+Image: persian_images/indoor/indoor77.jpg
+true prompt: آیا سقف و دیوارها آینه کاری شده است؟ بله
+pred prompt: آیا سقف و دیوارها آینه کاری شده است؟ کرسی
+Image: persian_images/ceremonies/ceremonies56.jpg
+true prompt: آیا تنها مردها در مراسم حضور دارند؟ خیر
+pred prompt: آیا تنها مردها در مراسم حضور دارند؟ نان
+Image: persian_images/ashkhas/ashkhas18.jpg
+true prompt: لباس محلی دختر چه رنگی است؟ زرد
+pred prompt: لباس محلی دختر چه رنگی است؟ نماز جماعت
+Image: persian_images/outdoor/dasti/dasti4.jpg
+true prompt: درخت چه میوه‌ای دارد؟ خیر
+pred prompt: درخت چه میوه‌ای دارد؟ کوچه
+Image: persian_images/cars/cars106.jpeg
+true prompt: درختان در کدام سمت ماشین سفید قرار دارند؟ راست
+pred prompt: درختان در کدام سمت ماشین سفید قرار دارند؟ کفاشی
+Image: persian_images/indoor/indoor4.jpg
+true prompt: چه چیزی در کف اتاق پهن شده است؟ فرش
+pred prompt: چه چیزی در کف اتاق پهن شده است؟ درخت
+Image: persian_images/food/food85.jpg
+true prompt: گوشت مرغ در تصویر خام است؟ خیر
+pred prompt: گوشت مرغ در تصویر خام است؟ گنبدی
+Image: persian_images/cars/cars72.jpg
+true prompt: آیا رنگ برگ درختان سبز است؟ خیر
+pred prompt: آیا رنگ برگ درختان سبز است؟ ماشین
+Image: persian_images/outdoor/modern/modern27.jpg
+true prompt: چند گنبد مسجد در تصویر وجود دارد؟ یک
+pred prompt: چند گنبد مسجد در تصویر وجود دارد؟ خیابان
+Image: persian_images/outdoor/dasti/dasti26.jpg
+true prompt: چند نیمکت در تصویر است؟ یک
+pred prompt: چند نیمکت در تصویر است؟ چتر
+Image: persian_images/ashkhas/ashkhas8.jpg
+true prompt: اشخاص در تصویر در حال انجام چه کاری هستند؟ نماز خواندن
+pred prompt: اشخاص در تصویر در حال انجام چه کاری هستند؟ نماز جماعت
+Image: persian_images/food/food13.jpg
+true prompt: آیا در تصویر ماست وجود دارد؟ بله
+pred prompt: آیا در تصویر ماست وجود دارد؟ زیر ظرف
+Image: persian_images/cars/cars70.jpg
+true prompt: کوچه باریک است؟ بله
+pred prompt: کوچه باریک است؟ ماشین
+Image: persian_images/food/food12.jpg
+true prompt: برنج‌ها چه رنگی هستند؟ زرد
+pred prompt: برنج‌ها چه رنگی هستند؟ دلمه ی بادمجان
+Image: persian_images/ashkhas/ashkhas99.jpg
+true prompt: آیا هم زن و هم مرد در تصویر هستند؟ بله
+pred prompt: آیا هم زن و هم مرد در تصویر هستند؟ پخش غذا
+Image: persian_images/cars/cars68.jpg
+true prompt: چند ماشین جلوی نمایشگاه ماشین است؟ چهار
+pred prompt: چند ماشین جلوی نمایشگاه ماشین است؟ چتر
+Image: persian_images/indoor/indoor45.jpg
+true prompt: این بازیکنان زن هستند؟ خیر
+pred prompt: این بازیکنان زن هستند؟ کاراته
+Image: persian_images/ashkhas/ashkhas51.jpg
+true prompt: کف پوش کتابخانه چه رنگی ست؟ قرمز
+pred prompt: کف پوش کتابخانه چه رنگی ست؟ زن
+Image: persian_images/food/food59.jpg
+true prompt: قاشق و چنگال در کدام سمت ظرف غذا قرار دارد؟ راست
+pred prompt: قاشق و چنگال در کدام سمت ظرف غذا قرار دارد؟ چیدن گل
+Image: persian_images/ashkhas/ashkhas32.jpg
+true prompt: آیا در تصویر درخت وجود دارد؟ بله
+pred prompt: آیا در تصویر درخت وجود دارد؟ اسب
+Image: persian_images/indoor/indoor49.jpg
+true prompt: آیا صندلی‌ها وسط اتاق قرار دارند؟ خیر
+pred prompt: آیا صندلی‌ها وسط اتاق قرار دارند؟ گنبدی
+Image: persian_images/outdoor/modern/modern23.jpg
+true prompt: چه زمانی از روز است؟ غروب
+pred prompt: چه زمانی از روز است؟ غروب
+Image: persian_images/sport/sport36.jpg
+true prompt: مرد چه ورزشی می‌کند؟ تیراندازی
+pred prompt: مرد چه ورزشی می‌کند؟ پرتاب نیزه
+Image: persian_images/outdoor/modern/modern31.png
+true prompt: خیابان پهن است یا باریک؟ پهن
+pred prompt: خیابان پهن است یا باریک؟ پارکینگ
+Image: persian_images/outdoor/dasti/dasti27.jpg
+true prompt: جنسیت شخصی که در تصویر می بینید چیست؟ زن
+pred prompt: جنسیت شخصی که در تصویر می بینید چیست؟ سفال
+Image: persian_images/cars/cars99.png
+true prompt: چند ماشین دیده می‌شود؟ شش
+pred prompt: چند ماشین دیده می‌شود؟ سرمه‌ای
+ 79% 15/19 [06:41<01:48, 27.05s/it]
+Image: persian_images/ashkhas/ashkhas5.jpg
+true prompt: دکتر با نوزاد خشن برخورد می‌کند؟ خیر
+pred prompt: دکتر با نوزاد خشن برخورد می‌کند؟ پوشیده
+Image: persian_images/sport/sport86.jpg
+true prompt: زن چه چیزی بر سر دارد؟ مقنعه
+pred prompt: زن چه چیزی بر سر دارد؟ کاراته
+Image: persian_images/ceremonies/ceremonies45.jpg
+true prompt: نمازگزاران زن هستند یا مرد؟ زن
+pred prompt: نمازگزاران زن هستند یا مرد؟ نارنجی
+Image: persian_images/ceremonies/ceremonies2.jpg
+true prompt: چه چیزی در دست دختران وجود دارد؟ سبزه
+pred prompt: چه چیزی در دست دختران وجود دارد؟ لباس محلی
+Image: persian_images/cars/cars66.jpg
+true prompt: آیا در این تصویر پرچم وجود دارد؟ بله
+pred prompt: آیا در این تصویر پرچم وجود دارد؟ آینه ماشین
+Image: persian_images/food/food28.jpg
+true prompt: آیا در تصویر زیتون سبز وجود دارد؟ بله
+pred prompt: آیا در تصویر زیتون سبز وجود دارد؟ خورش کرفس
+Image: persian_images/outdoor/dasti/dasti51.jpg
+true prompt: مردی که کلاه زرد روی سرش دارد کجای تصویر است ؟ چپ
+pred prompt: مردی که کلاه زرد روی سرش دارد کجای تصویر است ؟ چادر
+Image: persian_images/sport/sport63.jpg
+true prompt: شخص در حال انجام چه کاری است؟ پرتاب نیزه
+pred prompt: شخص در حال انجام چه کاری است؟ پرتاب نیزه
+Image: persian_images/sport/sport25.jpg
+true prompt: شخص در حال انجام چه کاری است؟ پرتاب تیر
+pred prompt: شخص در حال انجام چه کاری است؟ پرتاب نیزه
+Image: persian_images/outdoor/modern/modern19.jpg
+true prompt: آیا کسی از خیابان عبور می‌ کند؟ خیر
+pred prompt: آیا کسی از خیابان عبور می‌ کند؟ درخت
+Image: persian_images/indoor/indoor42.jpg
+true prompt: سقف این مکان چه شکلی هست؟ گنبدی
+pred prompt: سقف این مکان چه شکلی هست؟ لوستر
+Image: persian_images/food/food68.jpg
+true prompt: آیا آب غذا در ظرف غذا ریخته شده است؟ بله
+pred prompt: آیا آب غذا در ظرف غذا ریخته شده است؟ سرمه‌ای
+Image: persian_images/sport/sport91.png
+true prompt: لباس پسری که کنار دوچرخه  در جلوی تصویر راه می‌رود چه رنگی است؟ سفید
+pred prompt: لباس پسری که کنار دوچرخه  در جلوی تصویر راه می‌رود چه رنگی است؟ پنج
+Image: persian_images/ashkhas/ashkhas92.jpg
+true prompt: جنسیت شخص نشسته روی فرش‌ها چیست؟ مونث
+pred prompt: جنسیت شخص نشسته روی فرش‌ها چیست؟ مانتو
+Image: persian_images/cars/cars1.jpg
+true prompt: چند ماشین مشکی در سمت راست خیابان در حال حرکت هستند؟ سه
+pred prompt: چند ماشین مشکی در سمت راست خیابان در حال حرکت هستند؟ عبادت
+Image: persian_images/ashkhas/ashkhas65.jpg
+true prompt: کسی که نان گرفته مرد است؟ بله
+pred prompt: کسی که نان گرفته مرد است؟ قالی‌بافی
+Image: persian_images/ceremonies/ceremonies61.jpg
+true prompt: آیا شمع روشن است؟ بله
+pred prompt: آیا شمع روشن است؟ هویج
+Image: persian_images/ceremonies/ceremonies89.png
+true prompt: کتاب کجاست؟ جلوی عروس و داماد
+pred prompt: کتاب کجاست؟ جلوی عروس و داماد
+Image: persian_images/sport/sport89.png
+true prompt: آیا همه ی دوچرخه سواران در تصویر کلاه ایمنی بر سر دارند؟ بله
+pred prompt: آیا همه ی دوچرخه سواران در تصویر کلاه ایمنی بر سر دارند؟ پارک
+Image: persian_images/food/food83.jpg
+true prompt: آیا قاشق و چنگال کنار غذاست؟ بله
+pred prompt: آیا قاشق و چنگال کنار غذاست؟ خورش کرفس
+Image: persian_images/sport/sport31.jpg
+true prompt: آیا مرد درد احساس می‌کند؟ بله
+pred prompt: آیا مرد درد احساس می‌کند؟ والیبال
+Image: persian_images/outdoor/dasti/dasti18.jpg
+true prompt: چند قایق در تصویر وجود دارند؟ هفت
+pred prompt: چند قایق در تصویر وجود دارند؟ کوه
+Image: persian_images/indoor/indoor76.jpg
+true prompt: چیدمان رستوران سنتی است؟ خیر
+pred prompt: چیدمان رستوران سنتی است؟ عروسی
+Image: persian_images/ashkhas/ashkhas40.jpg
+true prompt: جنس پنجره‌ها چیست؟ چوبی
+pred prompt: جنس پنجره‌ها چیست؟ زن
+Image: persian_images/sport/sport100.png
+true prompt: دختر روی چه چیزی سوار شده است؟ اسب
+pred prompt: دختر روی چه چیزی سوار شده است؟ اسب
+Image: persian_images/food/food77.jpg
+true prompt: آیا این غذا عدس دارد؟ بله
+pred prompt: آیا این غذا عدس دارد؟ آینه‌کاری
+Image: persian_images/outdoor/dasti/dasti15.jpg
+true prompt: چند نفر در حال عبور از خط عابر پیاده هستند؟ دو
+pred prompt: چند نفر در حال عبور از خط عابر پیاده هستند؟ خیابان
+Image: persian_images/indoor/indoor97.jpg
+true prompt: آیا فردی که پشت پیشخوان ایستاده مرد است؟ خیر
+pred prompt: آیا فردی که پشت پیشخوان ایستاده مرد است؟ نمایشگاه
+Image: persian_images/cars/cars93.jpg
+true prompt: آیا در هر دو سمت بزرگراه ترافیک است؟ خیر
+pred prompt: آیا در هر دو سمت بزرگراه ترافیک است؟ نمایشگاه ماشین
+Image: persian_images/sport/sport57.jpg
+true prompt: اشخاص در کجا ایستاده‌اند؟ ورزشگاه
+pred prompt: اشخاص در کجا ایستاده‌اند؟ ورزشگاه
+Image: persian_images/ceremonies/ceremonies59.jpg
+true prompt: گل‌ها چه رنگی هستند؟ صورتی
+pred prompt: گل‌ها چه رنگی هستند؟ قالیچه
+Image: persian_images/indoor/indoor21.jpg
+true prompt: آیا دیوارها کاغذ دیواری دارند؟ خیر
+pred prompt: آیا دیوارها کاغذ دیواری دارند؟ گنبدی
+Image: persian_images/indoor/indoor65.jpg
+true prompt: چه شی آویزانی در عکس است؟ لوستر
+pred prompt: چه شی آویزانی در عکس است؟ گنبدی
+Image: persian_images/cars/cars34.jpg
+true prompt: چند موتور بدون سرنشین در تصویر است؟ دو
+pred prompt: چند موتور بدون سرنشین در تصویر است؟ خیابان
+Image: persian_images/indoor/indoor60.jpg
+true prompt: آیا اینجا یک مسجد است؟ خیر
+pred prompt: آیا اینجا یک مسجد است؟ بازار
+Image: persian_images/sport/sport61.jpg
+true prompt: این عکس چه ورزشی را نشان می دهد؟ بسکتبال
+pred prompt: این عکس چه ورزشی را نشان می دهد؟ والیبال
+Image: persian_images/outdoor/dasti/dasti66.jpg
+true prompt: چند تا پنجره در تصویر وجود دارد؟ چهار
+pred prompt: چند تا پنجره در تصویر وجود دارد؟ سبزه
+Image: persian_images/ashkhas/ashkhas17.jpg
+true prompt: چه چیزی درون سبد است؟ پرتقال
+pred prompt: چه چیزی درون سبد است؟ مرد
+Image: persian_images/ceremonies/ceremonies67.jpg
+true prompt: افراد دور چه چیزی جمع شده‌اند؟ کرسی
+pred prompt: افراد دور چه چیزی جمع شده‌اند؟ پخش غذا
+Image: persian_images/ceremonies/ceremonies23.jpg
+true prompt: چه چیزی روی سر مرد است؟ کلاه
+pred prompt: چه چیزی روی سر مرد است؟ پایکوبی
+ 84% 16/19 [07:08<01:21, 27.07s/it]
+Image: persian_images/food/food19.jpg
+true prompt: آیا در ظرف کوچک سالاد است؟ بله
+pred prompt: آیا در ظرف کوچک سالاد است؟ نان
+Image: persian_images/ceremonies/ceremonies60.jpg
+true prompt: مردم در حال انجام چه کاری هستند؟ زنجیر زنی
+pred prompt: مردم در حال انجام چه کاری هستند؟ پرچم
+Image: persian_images/ceremonies/ceremonies42.jpg
+true prompt: لباس مردان چه رنگی است؟ سیاه
+pred prompt: لباس مردان چه رنگی است؟ پایکوبی
+Image: persian_images/ceremonies/ceremonies70.png
+true prompt: چند دختر با لباس لیمویی در حال پایکوبی است؟ یک
+pred prompt: چند دختر با لباس لیمویی در حال پایکوبی است؟ پرچم
+Image: persian_images/outdoor/ethnic/ethnic6.png
+true prompt: چه چیزی روی زمین است؟ زرشک
+pred prompt: چه چیزی روی زمین است؟ چیدن گل
+Image: persian_images/ceremonies/ceremonies36.jpg
+true prompt: مرد در حال ریختن چه چیزی در لیوان‌هاست؟ چای
+pred prompt: مرد در حال ریختن چه چیزی در لیوان‌هاست؟ طبل زدن
+Image: persian_images/ashkhas/ashkhas24.jpg
+true prompt: آیا زن در تصویر ایستاده است؟ خیر
+pred prompt: آیا زن در تصویر ایستاده است؟ بازار
+Image: persian_images/ashkhas/ashkhas95.jpg
+true prompt: چند تا مرد در این تصویر می بینید؟ دو
+pred prompt: چند تا مرد در این تصویر می بینید؟ سبزی
+Image: persian_images/food/food97.jpg
+true prompt: آیا ظرف خورش از ظرف برنج کوچک‌تر است؟ خیر
+pred prompt: آیا ظرف خورش از ظرف برنج کوچک‌تر است؟ سبزی
+Image: persian_images/food/food69.jpg
+true prompt: ظرفی که کشک بادمجان داخلش ریخته شده چه شکلی داره؟ بیضی
+pred prompt: ظرفی که کشک بادمجان داخلش ریخته شده چه شکلی داره؟ رستوران سنتی
+Image: persian_images/ceremonies/ceremonies28.jpg
+true prompt: در تصویر چند مرد دیده می شود؟ صفر
+pred prompt: در تصویر چند مرد دیده می شود؟ چادر
+Image: persian_images/indoor/indoor85.jpg
+true prompt: آیا چراغ‌های این مکان خاموش است؟ خیر
+pred prompt: آیا چراغ‌های این مکان خاموش است؟ شیروانی
+Image: persian_images/ceremonies/ceremonies3.jpg
+true prompt: پشت دختر چه چیزی است؟ آتش
+pred prompt: پشت دختر چه چیزی است؟ آتش
+Image: persian_images/outdoor/modern/modern13.jpg
+true prompt: سقف ساختمانی که در سمت راست است چه رنگی است؟ زرد
+pred prompt: سقف ساختمانی که در سمت راست است چه رنگی است؟ چیدن گل
+Image: persian_images/indoor/indoor70.jpg
+true prompt: تابلو سفید با شکل و نوشته کدام سمت تصویر است؟ راست
+pred prompt: تابلو سفید با شکل و نوشته کدام سمت تصویر است؟ خیابان
+Image: persian_images/ashkhas/ashkhas67.jpg
+true prompt: زنان در حال چه کاری هستند؟ دست زدن
+pred prompt: زنان در حال چه کاری هستند؟ پایکوبی
+Image: persian_images/food/food8.jpg
+true prompt: آیا غذا برش خورده است؟ بله
+pred prompt: آیا غذا برش خورده است؟ مشکی و آبی
+Image: persian_images/ceremonies/ceremonies15.jpg
+true prompt: پسران در خیابان چه کاری انجام می‌دهند؟ طبل زدن
+pred prompt: پسران در خیابان چه کاری انجام می‌دهند؟ پایکوبی
+Image: persian_images/cars/cars42.jpg
+true prompt: آیا خودروها سالم مانده‌اند؟ خیر
+pred prompt: آیا خودروها سالم مانده‌اند؟ پارکینگ
+Image: persian_images/sport/sport67.jpg
+true prompt: آیا موهای ورزشکار معلوم است؟ خیر
+pred prompt: آیا موهای ورزشکار معلوم است؟ بادبادک
+Image: persian_images/ashkhas/ashkhas91.jpg
+true prompt: چند زن شال سبز سرشان است؟ پنج
+pred prompt: چند زن شال سبز سرشان است؟ شادی
+Image: persian_images/outdoor/dasti/dasti34.jpg
+true prompt: پوشش زن چیست؟ چادر
+pred prompt: پوشش زن چیست؟ برگ درختان
+Image: persian_images/sport/sport16.jpg
+true prompt: آیا زنان ورزشکار حجاب دارند؟ بله
+pred prompt: آیا زنان ورزشکار حجاب دارند؟ پرتاب نیزه
+Image: persian_images/ceremonies/ceremonies1.jpg
+true prompt: چند عروس در تصویر شنل دارند؟ دو
+pred prompt: چند عروس در تصویر شنل دارند؟ شیروانی
+Image: persian_images/ceremonies/ceremonies48.jpg
+true prompt: چه چیزی در آسمان دیده می شود؟ رنگین کمان
+pred prompt: چه چیزی در آسمان دیده می شود؟ پایکوبی
+Image: persian_images/cars/cars91.jpg
+true prompt: مرد کیف را در کدام دست نگه داشته است؟ راست
+pred prompt: مرد کیف را در کدام دست نگه داشته است؟ زمستان
+Image: persian_images/ashkhas/ashkhas82.jpg
+true prompt: چتر مشکی در تصویر می بینید؟ بله
+pred prompt: چتر مشکی در تصویر می بینید؟ چتر
+Image: persian_images/food/food64.jpg
+true prompt: غذای داخل ظرف چیست؟ آش
+pred prompt: غذای داخل ظرف چیست؟ مشکی و آبی
+Image: persian_images/outdoor/dasti/dasti19.jpg
+true prompt: چند گنبد در تصویر وجود دارد؟ یک
+pred prompt: چند گنبد در تصویر وجود دارد؟ تپه
+Image: persian_images/sport/sport45.jpg
+true prompt: جنسیت شخصی که  توپ در دست خود دارد چیست؟ مونث
+pred prompt: جنسیت شخصی که  توپ در دست خود دارد چیست؟ والیبال
+Image: persian_images/cars/cars52.jpg
+true prompt: غروب خورشید از کجای تصویر پیداست؟ آینه ماشین
+pred prompt: غروب خورشید از کجای تصویر پیداست؟ آینه ماشین
+Image: persian_images/ceremonies/ceremonies82.png
+true prompt: جنسیت شخصی که پشت میز است چیست؟ مرد
+pred prompt: جنسیت شخصی که پشت میز است چیست؟ بازار
+Image: persian_images/sport/sport19.jpg
+true prompt: شخص موجود در تصویر چه جنسیتی دارد؟ زن
+pred prompt: شخص موجود در تصویر چه جنسیتی دارد؟ اسب
+Image: persian_images/indoor/indoor23.jpg
+true prompt: چند گلدان بزرگ سفید وجود دارد؟ دو
+pred prompt: چند گلدان بزرگ سفید وجود دارد؟ مرکز خرید
+Image: persian_images/sport/sport7.jpg
+true prompt: آیا مرد سیاه پوست است؟ خیر
+pred prompt: آیا مرد سیاه پوست است؟ والیبال
+Image: persian_images/indoor/indoor25.jpg
+true prompt: شخص در تصویر چه جنسیتی دارد؟ زن
+pred prompt: شخص در تصویر چه جنسیتی دارد؟ گنبدی
+Image: persian_images/ashkhas/ashkhas41.jpg
+true prompt: چند دختر در تصویر است؟ دو
+pred prompt: چند دختر در تصویر است؟ چای
+Image: persian_images/ceremonies/ceremonies94.png
+true prompt: مرد جلوی تصویر چه چیزی را در هوا تکان می‌دهد؟ پارچه
+pred prompt: مرد جلوی تصویر چه چیزی را در هوا تکان می‌دهد؟ پنج
+Image: persian_images/food/food33.jpg
+true prompt: آیا بشقاب گرد است؟ بله
+pred prompt: آیا بشقاب گرد است؟ دلمه ی بادمجان
+Image: persian_images/outdoor/modern/modern1.jpg
+true prompt: چند تابلو ورود ممنوع در تصویر وجود دارد؟ یک
+pred prompt: چند تابلو ورود ممنوع در تصویر وجود دارد؟ کوچه
+ 89% 17/19 [07:35<00:54, 27.09s/it]
+Image: persian_images/outdoor/modern/modern32.png
+true prompt: آیا آسمان در تصویر آبی است؟ بله
+pred prompt: آیا آسمان در تصویر آبی است؟ پارکینگ
+Image: persian_images/cars/cars49.jpg
+true prompt: وضعیت جوی هوا چطوری است؟ برفی
+pred prompt: وضعیت جوی هوا چطوری است؟ برفی
+Image: persian_images/cars/cars69.jpg
+true prompt: آیا تیر چراغ برق وسط کوچه است؟ خیر
+pred prompt: آیا تیر چراغ برق وسط کوچه است؟ ماشین
+Image: persian_images/outdoor/ethnic/ethnic9.png
+true prompt: خانه ها روی چه چیزی ساخته شده‌اند؟ تپه
+pred prompt: خانه ها روی چه چیزی ساخته شده‌اند؟ چیدن گل
+Image: persian_images/ceremonies/ceremonies4.jpg
+true prompt: چند زن در تصویر وجود دارد؟ یک
+pred prompt: چند زن در تصویر وجود دارد؟ پخش غذا
+Image: persian_images/sport/sport55.jpg
+true prompt: بازیکن تیم ایران لباس چه رنگی پوشیده؟ سفید
+pred prompt: بازیکن تیم ایران لباس چه رنگی پوشیده؟ بسکتبال
+Image: persian_images/food/food26.jpg
+true prompt: آیا در عکس سبزی وجود دارد؟ بله
+pred prompt: آیا در عکس سبزی وجود دارد؟ نان
+Image: persian_images/indoor/indoor67.jpg
+true prompt: قسمت بالایی تخت چه رنگی است؟ قرمز
+pred prompt: قسمت بالایی تخت چه رنگی است؟ لوستر
+Image: persian_images/ceremonies/ceremonies49.jpg
+true prompt: افراد سربند چه رنگی دارند؟ قرمز
+pred prompt: افراد سربند چه رنگی دارند؟ ورزشگاه
+Image: persian_images/ashkhas/ashkhas44.jpg
+true prompt: جنسیت شخصی که روی صندلی چوبی نشسته چیست؟ دختر
+pred prompt: جنسیت شخصی که روی صندلی چوبی نشسته چیست؟ شهر
+Image: persian_images/sport/sport17.jpg
+true prompt: چند دختر در تصویر می بینید؟ دو
+pred prompt: چند دختر در تصویر می بینید؟ چوب
+Image: persian_images/indoor/indoor78.jpg
+true prompt: آیا پنجره‌ها پرده دارند؟ خیر
+pred prompt: آیا پنجره‌ها پرده دارند؟ زیر ظرف
+Image: persian_images/indoor/indoor3.jpg
+true prompt: چه تعداد چهارپایه در تصویر دیده می شود؟ دو
+pred prompt: چه تعداد چهارپایه در تصویر دیده می شود؟ آماده کردن خمیر
+Image: persian_images/ashkhas/ashkhas57.jpg
+true prompt: مرد درحال انجام چه کاری است؟ آماده کردن خمیر
+pred prompt: مرد درحال انجام چه کاری است؟ دختر
+Image: persian_images/cars/cars79.jpg
+true prompt: وضعیت هوا به چه صورت است؟ آفتابی
+pred prompt: وضعیت هوا به چه صورت است؟ ماشین
+Image: persian_images/cars/cars22.jpg
+true prompt: آیا در تصویر درخت وجود دارد؟ بله
+pred prompt: آیا در تصویر درخت وجود دارد؟ خیابان
+Image: persian_images/ashkhas/ashkhas34.jpg
+true prompt: شغل پیرمرد چیست؟ کفاشی
+pred prompt: شغل پیرمرد چیست؟ چوب
+Image: persian_images/outdoor/modern/modern16.jpg
+true prompt: آیا در تصویر قایق وجود دارد؟ بله
+pred prompt: آیا در تصویر قایق وجود دارد؟ پایکوبی
+Image: persian_images/sport/sport21.jpg
+true prompt: شخص در تصویر چه جنسیتی دارد؟ دختر
+pred prompt: شخص در تصویر چه جنسیتی دارد؟ وزنه برداری
+Image: persian_images/sport/sport42.jpg
+true prompt: مردان مشغول انجام چه ورزشی هستند؟ والیبال
+pred prompt: مردان مشغول انجام چه ورزشی هستند؟ المپیک
+Image: persian_images/food/food56.jpg
+true prompt: آیا بشقاب هر دو غذا همرنگ هستند؟ خیر
+pred prompt: آیا بشقاب هر دو غذا همرنگ هستند؟ پارچه
+Image: persian_images/cars/cars11.jpg
+true prompt: آیا ماشین‌ها پلاک دارند؟ خیر
+pred prompt: آیا ماشین‌ها پلاک دارند؟ نمایشگاه
+Image: persian_images/ceremonies/ceremonies41.jpg
+true prompt: جنسیت افراد در تصویر چیست؟ مذکر
+pred prompt: جنسیت افراد در تصویر چیست؟ رستوران سنتی
+Image: persian_images/ashkhas/ashkhas2.jpg
+true prompt: اشخاص موجود در تصویر چه جنسیتی دارند؟ مرد
+pred prompt: اشخاص موجود در تصویر چه جنسیتی دارند؟ لباس محلی
+Image: persian_images/cars/cars24.jpg
+true prompt: کاغذ سفید نصب شده کدام سمت شیشه ی خودرو سفید است؟ چپ
+pred prompt: کاغذ سفید نصب شده کدام سمت شیشه ی خودرو سفید است؟ خیابان
+Image: persian_images/outdoor/dasti/dasti24.jpg
+true prompt: سقف ساختمان رو برو چه رنگی است؟ قهوه ای
+pred prompt: سقف ساختمان رو برو چه رنگی است؟ مرغ
+Image: persian_images/indoor/indoor26.jpg
+true prompt: چند آینه در تصویر است؟ دو
+pred prompt: چند آینه در تصویر است؟ رستوران سنتی
+Image: persian_images/cars/cars41.jpg
+true prompt: چند نفر در تصویر وجود دارد؟ دو
+pred prompt: چند نفر در تصویر وجود دارد؟ پارکینگ
+Image: persian_images/food/food1.jpg
+true prompt: ظرف ماکارونی چه رنگی است؟ سورمه‌ای
+pred prompt: ظرف ماکارونی چه رنگی است؟ دلمه ی بادمجان
+Image: persian_images/ashkhas/ashkhas50.jpg
+true prompt: یقه لباس زن موجود در تصویر چه رنگی است؟ قهوه‌ای
+pred prompt: یقه لباس زن موجود در تصویر چه رنگی است؟ برفی
+Image: persian_images/outdoor/modern/modern20.jpg
+true prompt: آیا در تصویر درخت وجود دارد؟ بله
+pred prompt: آیا در تصویر درخت وجود دارد؟ شهر
+Image: persian_images/sport/sport35.jpg
+true prompt: چند قایق در تصویر مشاهده می‌شود؟ دو
+pred prompt: چند قایق در تصویر مشاهده می‌شود؟ مرد
+Image: persian_images/sport/sport60.jpg
+true prompt: چند مرد در تصویر کت پوشیده است؟ یک
+pred prompt: چند مرد در تصویر کت پوشیده است؟ والیبال
+Image: persian_images/ashkhas/ashkhas58.jpg
+true prompt: در تصویر سه مرد حضور دارند؟ خیر
+pred prompt: در تصویر سه مرد حضور دارند؟ گاز پیک نیک
+Image: persian_images/indoor/indoor92.jpg
+true prompt: رنگ غالب فرش‌ها چیست؟ قرمز
+pred prompt: رنگ غالب فرش‌ها چیست؟ نماز جماعت
+Image: persian_images/ashkhas/ashkhas20.jpg
+true prompt: گل در دست پسربچه چه رنگی است؟ سفید
+pred prompt: گل در دست پسربچه چه رنگی است؟ کلاه
+Image: persian_images/cars/cars87.jpg
+true prompt: چند سطل زباله است؟ یک
+pred prompt: چند سطل زباله است؟ خیابان
+Image: persian_images/ashkhas/ashkhas37.jpg
+true prompt: آیا فرد درون تصویر مرد است؟ خیر
+pred prompt: آیا فرد درون تصویر مرد است؟ لباس محلی
+Image: persian_images/indoor/indoor18.jpg
+true prompt: تمام افراد حاضر در تصویر مشکی پوشیده‌اند؟ خیر
+pred prompt: تمام افراد حاضر در تصویر مشکی پوشیده‌اند؟ رستوران سنتی
+Image: persian_images/indoor/indoor69.jpg
+true prompt: زنی که در تصویر است چه لباسی دارد؟ چادر
+pred prompt: زنی که در تصویر است چه لباسی دارد؟ گنبدی
+ 95% 18/19 [08:02<00:27, 27.04s/it]
+Image: persian_images/indoor/indoor59.jpg
+true prompt: آیا فردی از خیابان عبور می‌کند؟ خیر
+pred prompt: آیا فردی از خیابان عبور می‌کند؟ شهر
+Image: persian_images/ceremonies/ceremonies39.jpg
+true prompt: چند نفر در تصویر می‌بینید؟ زیاد
+pred prompt: چند نفر در تصویر می‌بینید؟ آتش
+Image: persian_images/ashkhas/ashkhas27.jpg
+true prompt: کدام یک از افراد درون تصویر سبیل ندارد؟ راست
+pred prompt: کدام یک از افراد درون تصویر سبیل ندارد؟ پارکینگ
+100% 19/19 [08:04<00:00, 25.51s/it]
+{'پنج': 0, 'دستکش': 1, 'بیضی': 2, 'هشت ضلعی': 3, 'سفید': 4, 'چتر': 5, 'شیروانی': 6, 'مشکی و آبی': 7, 'مرد': 8, 'مانتو': 9, 'برگ درختان': 10, 'حصیری': 11, 'پشمی': 12, 'گنبدی': 13, 'سه': 14, 'مس': 15, 'پخش غذا': 16, 'حوض': 17, 'صورتی': 18, 'دریا': 19, 'شتر': 20, 'خوشحال': 21, 'پلاستیک': 22, 'گلدان': 23, 'پرتاب تیر': 24, 'قایقرانی': 25, 'آتش': 26, 'کاراته': 27, 'مقنعه': 28, 'در': 29, 'دلمه': 30, 'مرغ': 31, 'دوغ': 32, 'آینه\u200cکاری': 33, 'هویج': 34, 'سبزه': 35, 'جلوی عروس و داماد': 36, 'درخت': 37, 'عبادت': 38, 'پارچه': 39, 'برفی': 40, 'گاز پیک نیک': 41, 'برنج': 42, 'کیف': 43, 'سیب\u200cزمینی': 44, 'چهار': 45, 'والیبال': 46, 'کوهنوردی': 47, 'قالیچه': 48, 'سنگ': 49, 'پارکینگ': 50, 'کفش': 51, 'تفریح کردن': 52, 'نان': 53, 'آبی': 54, 'کشتی': 55, 'هفت': 56, 'پایین': 57, 'مشکی': 58, 'مسی': 59, 'صفر': 60, 'آش': 61, 'زیاد': 62, 'چادر': 63, 'پرتقال': 64, 'تاج گذاری': 65, 'چپ': 66, 'چادر مسافرتی': 67, 'نارنجی': 68, 'محلی': 69, 'خورش کرفس': 70, 'اسب': 71, 'چوپانی': 72, 'کباب': 73, 'بسکتبال': 74, 'دوازده': 75, 'زرد': 76, 'آووکادو': 77, 'روسری': 78, 'کوچه': 79, 'بازار': 80, 'مذکر': 81, 'تیراندازی': 82, 'سبز': 83, 'کرسی': 84, 'پسر': 85, 'زنجیر زنی': 86, 'زمستان': 87, 'تی\u200cشرت': 88, 'خاکستری': 89, 'آماده کردن خمیر': 90, 'قایق': 91, 'روزنامه خواندن': 92, 'پارک': 93, 'لامپ': 94, 'ذغال': 95, 'آب': 96, 'سبزی': 97, 'شادی': 98, 'نمایشگاه ماشین': 99, 'نیم دایره': 100, 'پهن': 101, 'تپه': 102, 'بادبادک': 103, 'چوبی': 104, 'غروب': 105, 'پرچم': 106, 'لباس محلی': 107, 'حرم': 108, 'شیشه': 109, 'طبل زدن': 110, 'کفاشی': 111, 'هندوانه و خربزه': 112, 'قالی\u200cبافی': 113, 'یک': 114, 'چوب': 115, 'چیدن گل': 116, 'خیر': 117, 'زن': 118, 'سورمه\u200cای': 119, 'پایکوبی': 120, 'عروسی': 121, 'قلیان': 122, 'کافه\u200cهای خیابانی': 123, 'دو': 124, 'فلز': 125, 'ترشی': 126, 'سرمه\u200cای': 127, 'سینه زدن': 128, 'زرشک': 129, 'دختر': 130, 'شب': 131, 'شربت': 132, 'زیر ظرف': 133, 'جارو زدن': 134, 'مرکز': 135, 'نمایشگاه': 136, 'ماکارونی': 137, 'لوستر': 138, 'شهر': 139, 'ایران': 140, 'رستوران سنتی': 141, 'کوه': 142, 'خیابان': 143, 'رقصیدن': 144, 'آینه ماشین': 145, 'وسط': 146, 'کلاه': 147, 'اسکی': 148, 'موزه': 149, 'ماشین': 150, 'شش': 151, 'نماز خواندن': 152, 'قهوه ای': 153, 'دست زدن': 154, 'نقره\u200cای': 155, 'ورزشگاه': 156, 'راه راه': 157, 'زنجیر زدن': 158, 'قرمز': 159, 'گره زدن': 160, 'سنتی': 161, 'سیاه': 162, 'دو طرف': 163, 'گالری': 164, 'قهوه\u200cای': 165, 'مونث': 166, 'آفتابی': 167, 'پاییز': 168, 'فرش': 169, 'چای': 170, 'مرکز خرید': 171, 'الاغ': 172, 'چمن': 173, 'رقص': 174, 'راست': 175, 'شش ضلعی': 176, 'پوشیده': 177, 'هندوانه': 178, 'وزنه برداری': 179, 'سفال': 180, 'بله': 181, 'ته دیگ': 182, 'المپیک': 183, 'پرتاب نیزه': 184, 'رنگین کمان': 185, 'دلمه ی بادمجان': 186, 'بالا': 187, 'نماز جماعت': 188, 'طلایی': 189, 'اولین': 190, 'تعمیرگاه': 191}
+accuracy:  tensor(0.0456)

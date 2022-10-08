@@ -38,8 +38,8 @@ def main():
     model = get_model(args.model_weights_vision, args.model_weights_text)
     _ , _ , training_set = create_train_dataset(args.train_data, args.image_path, args.shots)
     model = train(model, training_set, args.epochs, args.prefix, args.lr, args.bs)
-    classes, label_to_index, test_generator = create_test_generator(args.test_data, args.image_path, args.bs)
-    test(model, test_generator, classes, label_to_index)
+    classes, label_to_index, test_generator, data = create_test_generator(args.test_data, args.image_path, args.bs)
+    test(model, test_generator, classes, data, label_to_index)
 
 
 if __name__ == '__main__':
